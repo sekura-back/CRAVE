@@ -6,10 +6,9 @@ VeriPro is a research artifact for reproducing multi-point coordinated vulnerabi
 
 ```mermaid
 flowchart TD
-    A["Stage 1<br/>Semantic extraction"] --> B["Stage 1<br/>Hazard-driving selection"]
-    B --> C["Stage 2<br/>Hazard-driving region search"]
-    C --> E["Stage 3<br/>Alarm-masking region subdivision"]
-    E --> F["Evaluation<br/>RQ1 / RQ2 / RQ3"]
+    A["Stage 1<br/>Hazard-driving selection"] --> B["Stage 2<br/>Hazard-driving region search"]
+    B --> C["Stage 3<br/>Alarm-masking region subdivision"]
+    C --> D["Evaluation<br/>RQ1 / RQ2 / RQ3"]
 
 ```
 
