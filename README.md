@@ -7,10 +7,10 @@ VeriPro is a research artifact for reproducing multi-point coordinated vulnerabi
 ```mermaid
 flowchart TD
     A["Stage 1<br/>Semantic extraction"] --> B["Stage 1<br/>Hazard-driving selection"]
-    B --> C["Stage 2<br/>Base-region search"]
-    C --> D["Stage 2<br/>Conditional extension"]
-    D --> E["Stage 3<br/>Alarm-masking region subdivision"]
+    B --> C["Stage 2<br/>Hazard-driving region search"]
+    C --> E["Stage 3<br/>Alarm-masking region subdivision"]
     E --> F["Evaluation<br/>RQ1 / RQ2 / RQ3"]
+
 ```
 
 ## Directory Structure
@@ -84,22 +84,11 @@ The smallest end-to-end command is the bundled RQ1 evaluation, which reads the r
 python evaluation/rq1_semantic_completeness.py
 ```
 
-## Reproduction Entry
-
-To reproduce the released evaluation outputs from the bundled artifact with 8 parallel workers:
-
-```bash
-python evaluation/run_all.py --workers 8
-```
-
-Results are written directly to `results/`.
-
 ## Configuration
 
 - `--workers` controls parallelism for simulation-heavy evaluation scripts.
 - Stage 1 target selection uses `--target boiler` or `--target TE`.
 - Stage 2 and Stage 3 scripts read platform settings from `simulators/*/system_manifest.json`.
-- The released experiments use ramp-plus-hold injections. Each sequence runs for `duration + 100` steps, where `duration` is the ramp horizon and the final `100` steps hold the last injected value.
 
 ## Step-by-Step Reproduction
 
@@ -136,12 +125,6 @@ python -m src.stage3_searching_alarm_masking_regions.subregion_subdivision --tar
 python -m src.stage3_searching_alarm_masking_regions.subregion_subdivision --target te
 ```
 
-The current artifact stage3 grid is unified to `duration=50` and
-`10` evenly spaced amplitude samples inside each stage2 base interval.
-
-The unified stage3 script consumes each platform's `results/stage2/*_base_boundary.json`
-and emits the corresponding `results/stage3/*_full.json` plus region outputs.
-
 Current stage3 canonical outputs:
 
 - `results/stage3/boiler_stage3_fuel_steam_full.json`
@@ -161,31 +144,13 @@ python evaluation/rq2_te_ablation.py
 python evaluation/rq3_region_quality.py
 ```
 
-`rq3_region_quality.py` currently evaluates the current boiler stage3 regions
-under `results/stage3/boiler_stage3_combined_regions.json`.
-
 ## Results Verification
 
 Pre-computed results are provided in the `results/` directory. Running the evaluation scripts refreshes the corresponding files in place. To verify reproducibility:
 
 1. **Compare JSON outputs**: Key metrics (boundary point counts, area ratios, pass rates) should match within numerical tolerance (< 1e-6 for deterministic computations).
 
-2. **Expected runtime** (on a machine with 8+ cores, 16 GB RAM):
-
-   | Component | Approximate Runtime |
-   |-----------|-------------------|
-   | Stage 1 (both platforms) | < 1 minute |
-   | Stage 2: Base region (Boiler CCS) | ~1 hour |
-   | Stage 2: Base region (TE) | ~45 minutes |
-   | Stage 2: Conditional extension (Boiler CCS) | ~30 minutes |
-   | Stage 3 (Boiler current chain) | < 1 minute |
-   | Stage 3 (TE current chain) | ~2-3 minutes |
-   | RQ1 evaluation | < 1 minute |
-   | RQ2 evaluation (incl. baselines) | ~2-3 hours |
-   | RQ3 evaluation | ~1-2 hours |
-   | **Total (sequential)** | **~7-8 hours** |
-
-3. **Parallel execution**: Use `--workers N` to parallelize simulation-heavy stages. With 16 workers, total runtime drops to approximately 3-4 hours.
+2. **Parallel execution**: Use `--workers N` to parallelize simulation-heavy stages. With 16 workers, total runtime drops to approximately 3-4 hours.
 
 ## Known Limitations
 
@@ -193,23 +158,6 @@ Pre-computed results are provided in the `results/` directory. Running the evalu
 - The bundled Stage 2 and Stage 3 outputs are release baselines. Re-running upstream stages may produce numerically different intermediate artifacts while preserving the same methodological flow.
 - The Tennessee Eastman simulator depends on bundled steady-state snapshot files for fast initialization.
 - The artifact does not ship proprietary DCS engineering files, deployment assets, or operator-facing HMIs.
-
-## Citation
-
-If you use VeriPro in academic work, please cite the associated paper entry for this artifact. Replace the placeholder below with the camera-ready bibliographic record before public release.
-
-```bibtex
-@inproceedings{veripro2026,
-  title     = {VeriPro},
-  author    = {Anonymous},
-  booktitle = {Conference Placeholder},
-  year      = {2026}
-}
-```
-
-## Safety and Ethics
-
-VeriPro is released for defensive security research, reproducibility, and evaluation of industrial-control alarm robustness. It must not be used to target real industrial systems, safety-critical operations, or production control networks. The repository intentionally excludes proprietary plant engineering assets, operator credentials, and deployment-specific DCS configuration.
 
 ## Case Study Description
 
