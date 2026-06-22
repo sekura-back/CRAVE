@@ -1,0 +1,38 @@
+[
+  {
+    "combo_id": "k1_001",
+    "S": [
+      "simulation_xmv_07"
+    ],
+    "core_points": [
+      "simulation_xmv_07"
+    ],
+    "frontier_points": [],
+    "score": 0.003538624975781871,
+    "rank": 1,
+    "layer": "actuator",
+    "top_hazards": [
+      {
+        "hazard": "H-TEP-SEPARATOR-LEVEL-LOW",
+        "value": 0.012569125795139748
+      },
+      {
+        "hazard": "H-TEP-STRIPPER-LEVEL-HIGH",
+        "value": 0.012487656317035968
+      },
+      {
+        "hazard": "H-TEP-STRIPPER-LEVEL-LOW",
+        "value": 0.004551667442603538
+      },
+      {
+        "hazard": "H-TEP-REACTOR-PRESSURE",
+        "value": 0.002239175227257582
+      },
+      {
+        "hazard": "H-TEP-REACTOR-LEVEL-HIGH",
+        "value": 0.0
+      }
+    ],
+    "source_matrix_file": "results/stage1/te_physical_sensitivity_matrix.json"
+  }
+]

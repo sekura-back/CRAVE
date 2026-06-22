@@ -1,0 +1,14 @@
+{
+  "platform": "te",
+  "metric": "alarm_mask_accuracy",
+  "source_stage3_regions": "results/stage3/te_stage3_subregion_2d_base.json",
+  "source_stage2_base": "results/stage2/te_base_boundary.json",
+  "n_samples": 1000,
+  "seed": 460,
+  "summary": {
+    "n": 1000,
+    "no_reach_avoid": 976,
+    "rate": 97.6,
+    "ci": [96.45, 98.38]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "platform": "te",
+  "source_stage3_regions": "results/stage3/te_stage3_subregion_2d_base.json",
+  "source_stage2_base": "results/stage2/te_base_boundary.json",
+  "coverage": {
+    "n": 5000,
+    "ra": 5000,
+    "rate": 100.0,
+    "ci": [99.92, 100.0]
+  },
+  "tightness": {
+    "n": 1000,
+    "mode": "base_below_boundary_hazard",
+    "no_hazard": 996,
+    "rate": 99.6,
+    "ci": [98.98, 99.84],
+    "elapsed_s": 386.4
+  },
+  "alarm_accuracy": {
+    "n": 1000,
+    "no_reach_avoid": 976,
+    "rate": 97.6,
+    "ci": [96.45, 98.38]
+  }
+}

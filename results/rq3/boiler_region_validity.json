@@ -1,0 +1,18 @@
+{
+  "platform": "boiler",
+  "metric": "region_validity",
+  "source_stage3_regions": "results/stage3/boiler_stage3_combined_regions.json",
+  "source_stage2_base": "results/stage2/boiler_base_boundary.json",
+  "n_samples": 500,
+  "seed": 460,
+  "summary": {
+    "n": 500,
+    "ra": 500,
+    "rate": 100.0,
+    "ci": [
+      99.24,
+      100.0
+    ],
+    "elapsed_s": 2.9
+  }
+}

@@ -1,0 +1,3540 @@
+{
+  "method": "artifact_current_chain_T_only_merge_base",
+  "config": {
+    "delta_T": 50,
+    "delta_K": 0.01,
+    "gamma_merge": 0.1
+  },
+  "thresholds": {
+    "W_median": 0.060999,
+    "delta_merge": 0.0061,
+    "D_median": 0.000157
+  },
+  "stats": {
+    "initial_reps": 150,
+    "n_regions": 82,
+    "n_pairs": 68,
+    "region_sizes_top10": [
+      14,
+      6,
+      6,
+      6,
+      6,
+      4,
+      3,
+      3,
+      3,
+      3
+    ]
+  },
+  "regions": [
+    {
+      "region_id": "R_001",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 14,
+      "n_fine_pts": 14,
+      "t_range": [
+        350,
+        1000
+      ],
+      "k_range": [
+        0.999939,
+        0.999939
+      ],
+      "amp_actual_range": [
+        0.999939,
+        0.999939
+      ],
+      "stable_amp_range": [
+        0.999939,
+        0.999939
+      ],
+      "extreme_amp_range": [
+        0.999939,
+        0.999939
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 350,
+          "amp": 0.999939,
+          "slope_min": -0.171988,
+          "slope_max": -0.094904
+        },
+        {
+          "dur": 1000,
+          "amp": 0.999939,
+          "slope_min": -0.171988,
+          "slope_max": -0.094904
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.171988,
+        "alpha_plus": -0.094904,
+        "width": 0.077084
+      }
+    },
+    {
+      "region_id": "R_002",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 6,
+      "n_fine_pts": 6,
+      "t_range": [
+        750,
+        1000
+      ],
+      "k_range": [
+        0.676393,
+        0.683979
+      ],
+      "amp_actual_range": [
+        0.676393,
+        0.683979
+      ],
+      "stable_amp_range": [
+        0.676393,
+        0.683979
+      ],
+      "extreme_amp_range": [
+        0.676393,
+        0.683979
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 750,
+          "amp": 0.683979,
+          "slope_min": -0.162845,
+          "slope_max": -0.090483
+        },
+        {
+          "dur": 1000,
+          "amp": 0.676393,
+          "slope_min": -0.162438,
+          "slope_max": -0.090225
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.162438,
+        "alpha_plus": -0.090483,
+        "width": 0.071955
+      }
+    },
+    {
+      "region_id": "R_003",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 6,
+      "n_fine_pts": 6,
+      "t_range": [
+        650,
+        900
+      ],
+      "k_range": [
+        0.785783,
+        0.79305
+      ],
+      "amp_actual_range": [
+        0.785783,
+        0.79305
+      ],
+      "stable_amp_range": [
+        0.785783,
+        0.79305
+      ],
+      "extreme_amp_range": [
+        0.785783,
+        0.79305
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 650,
+          "amp": 0.79305,
+          "slope_min": -0.166902,
+          "slope_max": -0.093681
+        },
+        {
+          "dur": 900,
+          "amp": 0.785783,
+          "slope_min": -0.166678,
+          "slope_max": -0.0935
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.166678,
+        "alpha_plus": -0.093681,
+        "width": 0.072997
+      }
+    },
+    {
+      "region_id": "R_004",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 6,
+      "n_fine_pts": 6,
+      "t_range": [
+        750,
+        1000
+      ],
+      "k_range": [
+        0.89209,
+        0.894619
+      ],
+      "amp_actual_range": [
+        0.89209,
+        0.894619
+      ],
+      "stable_amp_range": [
+        0.89209,
+        0.894619
+      ],
+      "extreme_amp_range": [
+        0.89209,
+        0.894619
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 750,
+          "amp": 0.894619,
+          "slope_min": -0.169679,
+          "slope_max": -0.093795
+        },
+        {
+          "dur": 1000,
+          "amp": 0.89209,
+          "slope_min": -0.169617,
+          "slope_max": -0.093744
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.169617,
+        "alpha_plus": -0.093795,
+        "width": 0.075822
+      }
+    },
+    {
+      "region_id": "R_005",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 6,
+      "n_fine_pts": 6,
+      "t_range": [
+        450,
+        700
+      ],
+      "k_range": [
+        0.895464,
+        0.904253
+      ],
+      "amp_actual_range": [
+        0.895464,
+        0.904253
+      ],
+      "stable_amp_range": [
+        0.895464,
+        0.904253
+      ],
+      "extreme_amp_range": [
+        0.895464,
+        0.904253
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 450,
+          "amp": 0.904253,
+          "slope_min": -0.16991,
+          "slope_max": -0.093984
+        },
+        {
+          "dur": 700,
+          "amp": 0.895464,
+          "slope_min": -0.169699,
+          "slope_max": -0.093811
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.169699,
+        "alpha_plus": -0.093984,
+        "width": 0.075715
+      }
+    },
+    {
+      "region_id": "R_006",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 4,
+      "n_fine_pts": 4,
+      "t_range": [
+        850,
+        1000
+      ],
+      "k_range": [
+        0.568544,
+        0.57361
+      ],
+      "amp_actual_range": [
+        0.568544,
+        0.57361
+      ],
+      "stable_amp_range": [
+        0.568544,
+        0.57361
+      ],
+      "extreme_amp_range": [
+        0.568544,
+        0.57361
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 850,
+          "amp": 0.57361,
+          "slope_min": -0.153866,
+          "slope_max": -0.088552
+        },
+        {
+          "dur": 1000,
+          "amp": 0.568544,
+          "slope_min": -0.153606,
+          "slope_max": -0.08832
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.153606,
+        "alpha_plus": -0.088552,
+        "width": 0.065054
+      }
+    },
+    {
+      "region_id": "R_007",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 3,
+      "n_fine_pts": 3,
+      "t_range": [
+        900,
+        1000
+      ],
+      "k_range": [
+        0.137149,
+        0.143314
+      ],
+      "amp_actual_range": [
+        0.137149,
+        0.143314
+      ],
+      "stable_amp_range": [
+        0.137149,
+        0.143314
+      ],
+      "extreme_amp_range": [
+        0.137149,
+        0.143314
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 900,
+          "amp": 0.143314,
+          "slope_min": -0.080865,
+          "slope_max": -0.061254
+        },
+        {
+          "dur": 1000,
+          "amp": 0.137149,
+          "slope_min": -0.07859,
+          "slope_max": -0.059721
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.07859,
+        "alpha_plus": -0.061254,
+        "width": 0.017336
+      }
+    },
+    {
+      "region_id": "R_008",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 3,
+      "n_fine_pts": 3,
+      "t_range": [
+        850,
+        950
+      ],
+      "k_range": [
+        0.24746,
+        0.253864
+      ],
+      "amp_actual_range": [
+        0.24746,
+        0.253864
+      ],
+      "stable_amp_range": [
+        0.24746,
+        0.253864
+      ],
+      "extreme_amp_range": [
+        0.24746,
+        0.253864
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 850,
+          "amp": 0.253864,
+          "slope_min": -0.108679,
+          "slope_max": -0.076769
+        },
+        {
+          "dur": 950,
+          "amp": 0.24746,
+          "slope_min": -0.107344,
+          "slope_max": -0.075521
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.107344,
+        "alpha_plus": -0.076769,
+        "width": 0.030575
+      }
+    },
+    {
+      "region_id": "R_009",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 3,
+      "n_fine_pts": 3,
+      "t_range": [
+        800,
+        900
+      ],
+      "k_range": [
+        0.35747,
+        0.363874
+      ],
+      "amp_actual_range": [
+        0.35747,
+        0.363874
+      ],
+      "stable_amp_range": [
+        0.35747,
+        0.363874
+      ],
+      "extreme_amp_range": [
+        0.35747,
+        0.363874
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 800,
+          "amp": 0.363874,
+          "slope_min": -0.131304,
+          "slope_max": -0.08269
+        },
+        {
+          "dur": 900,
+          "amp": 0.35747,
+          "slope_min": -0.130111,
+          "slope_max": -0.085365
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.130111,
+        "alpha_plus": -0.085365,
+        "width": 0.044746
+      }
+    },
+    {
+      "region_id": "R_010",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 3,
+      "n_fine_pts": 3,
+      "t_range": [
+        900,
+        1000
+      ],
+      "k_range": [
+        0.460696,
+        0.464548
+      ],
+      "amp_actual_range": [
+        0.460696,
+        0.464548
+      ],
+      "stable_amp_range": [
+        0.460696,
+        0.464548
+      ],
+      "extreme_amp_range": [
+        0.460696,
+        0.464548
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 900,
+          "amp": 0.464548,
+          "slope_min": -0.145825,
+          "slope_max": -0.086479
+        },
+        {
+          "dur": 1000,
+          "amp": 0.460696,
+          "slope_min": -0.145383,
+          "slope_max": -0.086209
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.145383,
+        "alpha_plus": -0.086479,
+        "width": 0.058904
+      }
+    },
+    {
+      "region_id": "R_011",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 3,
+      "n_fine_pts": 3,
+      "t_range": [
+        750,
+        850
+      ],
+      "k_range": [
+        0.467028,
+        0.47334
+      ],
+      "amp_actual_range": [
+        0.467028,
+        0.47334
+      ],
+      "stable_amp_range": [
+        0.467028,
+        0.47334
+      ],
+      "extreme_amp_range": [
+        0.467028,
+        0.47334
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 750,
+          "amp": 0.47334,
+          "slope_min": -0.146807,
+          "slope_max": -0.08708
+        },
+        {
+          "dur": 850,
+          "amp": 0.467028,
+          "slope_min": -0.146105,
+          "slope_max": -0.08665
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.146105,
+        "alpha_plus": -0.08708,
+        "width": 0.059025
+      }
+    },
+    {
+      "region_id": "R_012",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 3,
+      "n_fine_pts": 3,
+      "t_range": [
+        700,
+        800
+      ],
+      "k_range": [
+        0.575896,
+        0.582038
+      ],
+      "amp_actual_range": [
+        0.575896,
+        0.582038
+      ],
+      "stable_amp_range": [
+        0.575896,
+        0.582038
+      ],
+      "extreme_amp_range": [
+        0.575896,
+        0.582038
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 700,
+          "amp": 0.582038,
+          "slope_min": -0.154289,
+          "slope_max": -0.086625
+        },
+        {
+          "dur": 800,
+          "amp": 0.575896,
+          "slope_min": -0.153982,
+          "slope_max": -0.088656
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.153982,
+        "alpha_plus": -0.08878,
+        "width": 0.065202
+      }
+    },
+    {
+      "region_id": "R_013",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 3,
+      "n_fine_pts": 3,
+      "t_range": [
+        600,
+        700
+      ],
+      "k_range": [
+        0.686513,
+        0.693458
+      ],
+      "amp_actual_range": [
+        0.686513,
+        0.693458
+      ],
+      "stable_amp_range": [
+        0.686513,
+        0.693458
+      ],
+      "extreme_amp_range": [
+        0.686513,
+        0.693458
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 600,
+          "amp": 0.693458,
+          "slope_min": -0.163344,
+          "slope_max": -0.090799
+        },
+        {
+          "dur": 700,
+          "amp": 0.686513,
+          "slope_min": -0.16298,
+          "slope_max": -0.090568
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.16298,
+        "alpha_plus": -0.090799,
+        "width": 0.072181
+      }
+    },
+    {
+      "region_id": "R_014",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 3,
+      "n_fine_pts": 3,
+      "t_range": [
+        500,
+        600
+      ],
+      "k_range": [
+        0.795618,
+        0.80308
+      ],
+      "amp_actual_range": [
+        0.795618,
+        0.80308
+      ],
+      "stable_amp_range": [
+        0.795618,
+        0.80308
+      ],
+      "extreme_amp_range": [
+        0.795618,
+        0.80308
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 500,
+          "amp": 0.80308,
+          "slope_min": -0.167205,
+          "slope_max": -0.093926
+        },
+        {
+          "dur": 600,
+          "amp": 0.795618,
+          "slope_min": -0.16698,
+          "slope_max": -0.093745
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.16698,
+        "alpha_plus": -0.093926,
+        "width": 0.073054
+      }
+    },
+    {
+      "region_id": "R_015",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 2,
+      "n_fine_pts": 2,
+      "t_range": [
+        800,
+        850
+      ],
+      "k_range": [
+        0.147282,
+        0.151853
+      ],
+      "amp_actual_range": [
+        0.147282,
+        0.151853
+      ],
+      "stable_amp_range": [
+        0.147282,
+        0.151853
+      ],
+      "extreme_amp_range": [
+        0.147282,
+        0.151853
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 800,
+          "amp": 0.151853,
+          "slope_min": -0.08401,
+          "slope_max": -0.061897
+        },
+        {
+          "dur": 850,
+          "amp": 0.147282,
+          "slope_min": -0.082329,
+          "slope_max": -0.063204
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.082329,
+        "alpha_plus": -0.063204,
+        "width": 0.019125
+      }
+    },
+    {
+      "region_id": "R_016",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 2,
+      "n_fine_pts": 2,
+      "t_range": [
+        700,
+        750
+      ],
+      "k_range": [
+        0.15738,
+        0.164137
+      ],
+      "amp_actual_range": [
+        0.15738,
+        0.164137
+      ],
+      "stable_amp_range": [
+        0.15738,
+        0.164137
+      ],
+      "extreme_amp_range": [
+        0.15738,
+        0.164137
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 700,
+          "amp": 0.164137,
+          "slope_min": -0.08852,
+          "slope_max": -0.066415
+        },
+        {
+          "dur": 750,
+          "amp": 0.15738,
+          "slope_min": -0.086039,
+          "slope_max": -0.063605
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.086039,
+        "alpha_plus": -0.066415,
+        "width": 0.019624
+      }
+    },
+    {
+      "region_id": "R_017",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 2,
+      "n_fine_pts": 2,
+      "t_range": [
+        750,
+        800
+      ],
+      "k_range": [
+        0.257863,
+        0.2627
+      ],
+      "amp_actual_range": [
+        0.257863,
+        0.2627
+      ],
+      "stable_amp_range": [
+        0.257863,
+        0.2627
+      ],
+      "extreme_amp_range": [
+        0.257863,
+        0.2627
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 750,
+          "amp": 0.2627,
+          "slope_min": -0.110522,
+          "slope_max": -0.078397
+        },
+        {
+          "dur": 800,
+          "amp": 0.257863,
+          "slope_min": -0.109513,
+          "slope_max": -0.07752
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.109513,
+        "alpha_plus": -0.078397,
+        "width": 0.031116
+      }
+    },
+    {
+      "region_id": "R_018",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 2,
+      "n_fine_pts": 2,
+      "t_range": [
+        600,
+        650
+      ],
+      "k_range": [
+        0.275826,
+        0.284817
+      ],
+      "amp_actual_range": [
+        0.275826,
+        0.284817
+      ],
+      "stable_amp_range": [
+        0.275826,
+        0.284817
+      ],
+      "extreme_amp_range": [
+        0.275826,
+        0.284817
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 600,
+          "amp": 0.284817,
+          "slope_min": -0.115137,
+          "slope_max": -0.076524
+        },
+        {
+          "dur": 650,
+          "amp": 0.275826,
+          "slope_min": -0.11326,
+          "slope_max": -0.075841
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.11326,
+        "alpha_plus": -0.076524,
+        "width": 0.036737
+      }
+    },
+    {
+      "region_id": "R_019",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 2,
+      "n_fine_pts": 2,
+      "t_range": [
+        950,
+        1000
+      ],
+      "k_range": [
+        0.352847,
+        0.354957
+      ],
+      "amp_actual_range": [
+        0.352847,
+        0.354957
+      ],
+      "stable_amp_range": [
+        0.352847,
+        0.354957
+      ],
+      "extreme_amp_range": [
+        0.352847,
+        0.354957
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 950,
+          "amp": 0.354957,
+          "slope_min": -0.129632,
+          "slope_max": -0.085097
+        },
+        {
+          "dur": 1000,
+          "amp": 0.352847,
+          "slope_min": -0.129226,
+          "slope_max": -0.084869
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.129226,
+        "alpha_plus": -0.085097,
+        "width": 0.044129
+      }
+    },
+    {
+      "region_id": "R_020",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 2,
+      "n_fine_pts": 2,
+      "t_range": [
+        700,
+        750
+      ],
+      "k_range": [
+        0.36802,
+        0.373088
+      ],
+      "amp_actual_range": [
+        0.36802,
+        0.373088
+      ],
+      "stable_amp_range": [
+        0.36802,
+        0.373088
+      ],
+      "extreme_amp_range": [
+        0.36802,
+        0.373088
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 700,
+          "amp": 0.373088,
+          "slope_min": -0.132949,
+          "slope_max": -0.083623
+        },
+        {
+          "dur": 750,
+          "amp": 0.36802,
+          "slope_min": -0.132054,
+          "slope_max": -0.083115
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.132054,
+        "alpha_plus": -0.083623,
+        "width": 0.048432
+      }
+    },
+    {
+      "region_id": "R_021",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 2,
+      "n_fine_pts": 2,
+      "t_range": [
+        650,
+        700
+      ],
+      "k_range": [
+        0.477563,
+        0.482716
+      ],
+      "amp_actual_range": [
+        0.477563,
+        0.482716
+      ],
+      "stable_amp_range": [
+        0.477563,
+        0.482716
+      ],
+      "extreme_amp_range": [
+        0.477563,
+        0.482716
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 650,
+          "amp": 0.482716,
+          "slope_min": -0.147817,
+          "slope_max": -0.087696
+        },
+        {
+          "dur": 700,
+          "amp": 0.477563,
+          "slope_min": -0.147266,
+          "slope_max": -0.087362
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.147266,
+        "alpha_plus": -0.087696,
+        "width": 0.059571
+      }
+    },
+    {
+      "region_id": "R_022",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 2,
+      "n_fine_pts": 2,
+      "t_range": [
+        600,
+        650
+      ],
+      "k_range": [
+        0.58616,
+        0.591298
+      ],
+      "amp_actual_range": [
+        0.58616,
+        0.591298
+      ],
+      "stable_amp_range": [
+        0.58616,
+        0.591298
+      ],
+      "extreme_amp_range": [
+        0.58616,
+        0.591298
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 600,
+          "amp": 0.591298,
+          "slope_min": -0.154742,
+          "slope_max": -0.087031
+        },
+        {
+          "dur": 650,
+          "amp": 0.58616,
+          "slope_min": -0.154492,
+          "slope_max": -0.086807
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.154492,
+        "alpha_plus": -0.087031,
+        "width": 0.067461
+      }
+    },
+    {
+      "region_id": "R_023",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 2,
+      "n_fine_pts": 2,
+      "t_range": [
+        500,
+        550
+      ],
+      "k_range": [
+        0.698358,
+        0.704651
+      ],
+      "amp_actual_range": [
+        0.698358,
+        0.704651
+      ],
+      "stable_amp_range": [
+        0.698358,
+        0.704651
+      ],
+      "extreme_amp_range": [
+        0.698358,
+        0.704651
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 500,
+          "amp": 0.704651,
+          "slope_min": -0.163825,
+          "slope_max": -0.091162
+        },
+        {
+          "dur": 550,
+          "amp": 0.698358,
+          "slope_min": -0.163577,
+          "slope_max": -0.090959
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.163577,
+        "alpha_plus": -0.091162,
+        "width": 0.072415
+      }
+    },
+    {
+      "region_id": "R_024",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 2,
+      "n_fine_pts": 2,
+      "t_range": [
+        950,
+        1000
+      ],
+      "k_range": [
+        0.784242,
+        0.784945
+      ],
+      "amp_actual_range": [
+        0.784242,
+        0.784945
+      ],
+      "stable_amp_range": [
+        0.784242,
+        0.784945
+      ],
+      "extreme_amp_range": [
+        0.784242,
+        0.784945
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 950,
+          "amp": 0.784945,
+          "slope_min": -0.166652,
+          "slope_max": -0.093479
+        },
+        {
+          "dur": 1000,
+          "amp": 0.784242,
+          "slope_min": -0.16663,
+          "slope_max": -0.093462
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.16663,
+        "alpha_plus": -0.093479,
+        "width": 0.073151
+      }
+    },
+    {
+      "region_id": "R_025",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        700,
+        700
+      ],
+      "k_range": [
+        0.059662,
+        0.059662
+      ],
+      "amp_actual_range": [
+        0.059662,
+        0.059662
+      ],
+      "stable_amp_range": [
+        0.059662,
+        0.059662
+      ],
+      "extreme_amp_range": [
+        0.059662,
+        0.059662
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 700,
+          "amp": 0.059662,
+          "slope_min": -0.049563,
+          "slope_max": -0.047407
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.049563,
+        "alpha_plus": -0.047407,
+        "width": 0.002155
+      }
+    },
+    {
+      "region_id": "R_026",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        650,
+        650
+      ],
+      "k_range": [
+        0.068937,
+        0.068937
+      ],
+      "amp_actual_range": [
+        0.068937,
+        0.068937
+      ],
+      "stable_amp_range": [
+        0.068937,
+        0.068937
+      ],
+      "extreme_amp_range": [
+        0.068937,
+        0.068937
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 650,
+          "amp": 0.068937,
+          "slope_min": -0.053551,
+          "slope_max": -0.05122
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.053551,
+        "alpha_plus": -0.05122,
+        "width": 0.002331
+      }
+    },
+    {
+      "region_id": "R_027",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        600,
+        600
+      ],
+      "k_range": [
+        0.080496,
+        0.080496
+      ],
+      "amp_actual_range": [
+        0.080496,
+        0.080496
+      ],
+      "stable_amp_range": [
+        0.080496,
+        0.080496
+      ],
+      "extreme_amp_range": [
+        0.080496,
+        0.080496
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 600,
+          "amp": 0.080496,
+          "slope_min": -0.057764,
+          "slope_max": -0.054623
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.057764,
+        "alpha_plus": -0.054623,
+        "width": 0.003141
+      }
+    },
+    {
+      "region_id": "R_028",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        550,
+        550
+      ],
+      "k_range": [
+        0.095196,
+        0.095196
+      ],
+      "amp_actual_range": [
+        0.095196,
+        0.095196
+      ],
+      "stable_amp_range": [
+        0.095196,
+        0.095196
+      ],
+      "extreme_amp_range": [
+        0.095196,
+        0.095196
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 550,
+          "amp": 0.095196,
+          "slope_min": -0.063145,
+          "slope_max": -0.059011
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.063145,
+        "alpha_plus": -0.059011,
+        "width": 0.004134
+      }
+    },
+    {
+      "region_id": "R_029",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        500,
+        500
+      ],
+      "k_range": [
+        0.114075,
+        0.114075
+      ],
+      "amp_actual_range": [
+        0.114075,
+        0.114075
+      ],
+      "stable_amp_range": [
+        0.114075,
+        0.114075
+      ],
+      "extreme_amp_range": [
+        0.114075,
+        0.114075
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 500,
+          "amp": 0.114075,
+          "slope_min": -0.070086,
+          "slope_max": -0.067226
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.070086,
+        "alpha_plus": -0.067226,
+        "width": 0.00286
+      }
+    },
+    {
+      "region_id": "R_030",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        450,
+        450
+      ],
+      "k_range": [
+        0.13877,
+        0.13877
+      ],
+      "amp_actual_range": [
+        0.13877,
+        0.13877
+      ],
+      "stable_amp_range": [
+        0.13877,
+        0.13877
+      ],
+      "extreme_amp_range": [
+        0.13877,
+        0.13877
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 450,
+          "amp": 0.13877,
+          "slope_min": -0.079188,
+          "slope_max": -0.072356
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.079188,
+        "alpha_plus": -0.072356,
+        "width": 0.006832
+      }
+    },
+    {
+      "region_id": "R_031",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        650,
+        650
+      ],
+      "k_range": [
+        0.172382,
+        0.172382
+      ],
+      "amp_actual_range": [
+        0.172382,
+        0.172382
+      ],
+      "stable_amp_range": [
+        0.172382,
+        0.172382
+      ],
+      "extreme_amp_range": [
+        0.172382,
+        0.172382
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 650,
+          "amp": 0.172382,
+          "slope_min": -0.091552,
+          "slope_max": -0.066167
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.091552,
+        "alpha_plus": -0.066167,
+        "width": 0.025385
+      }
+    },
+    {
+      "region_id": "R_032",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        400,
+        400
+      ],
+      "k_range": [
+        0.176514,
+        0.176514
+      ],
+      "amp_actual_range": [
+        0.176514,
+        0.176514
+      ],
+      "stable_amp_range": [
+        0.176514,
+        0.176514
+      ],
+      "extreme_amp_range": [
+        0.176514,
+        0.176514
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 0.176514,
+          "slope_min": -0.092583,
+          "slope_max": -0.080994
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.092583,
+        "alpha_plus": -0.080994,
+        "width": 0.011589
+      }
+    },
+    {
+      "region_id": "R_033",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        600,
+        600
+      ],
+      "k_range": [
+        0.182657,
+        0.182657
+      ],
+      "amp_actual_range": [
+        0.182657,
+        0.182657
+      ],
+      "stable_amp_range": [
+        0.182657,
+        0.182657
+      ],
+      "extreme_amp_range": [
+        0.182657,
+        0.182657
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 600,
+          "amp": 0.182657,
+          "slope_min": -0.093859,
+          "slope_max": -0.066836
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.093859,
+        "alpha_plus": -0.066836,
+        "width": 0.027023
+      }
+    },
+    {
+      "region_id": "R_034",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        550,
+        550
+      ],
+      "k_range": [
+        0.195723,
+        0.195723
+      ],
+      "amp_actual_range": [
+        0.195723,
+        0.195723
+      ],
+      "stable_amp_range": [
+        0.195723,
+        0.195723
+      ],
+      "extreme_amp_range": [
+        0.195723,
+        0.195723
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 550,
+          "amp": 0.195723,
+          "slope_min": -0.096574,
+          "slope_max": -0.068665
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.096574,
+        "alpha_plus": -0.068665,
+        "width": 0.027909
+      }
+    },
+    {
+      "region_id": "R_035",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        500,
+        500
+      ],
+      "k_range": [
+        0.212504,
+        0.212504
+      ],
+      "amp_actual_range": [
+        0.212504,
+        0.212504
+      ],
+      "stable_amp_range": [
+        0.212504,
+        0.212504
+      ],
+      "extreme_amp_range": [
+        0.212504,
+        0.212504
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 500,
+          "amp": 0.212504,
+          "slope_min": -0.100064,
+          "slope_max": -0.07194
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.100064,
+        "alpha_plus": -0.07194,
+        "width": 0.028124
+      }
+    },
+    {
+      "region_id": "R_036",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        450,
+        450
+      ],
+      "k_range": [
+        0.234455,
+        0.234455
+      ],
+      "amp_actual_range": [
+        0.234455,
+        0.234455
+      ],
+      "stable_amp_range": [
+        0.234455,
+        0.234455
+      ],
+      "extreme_amp_range": [
+        0.234455,
+        0.234455
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 450,
+          "amp": 0.234455,
+          "slope_min": -0.104634,
+          "slope_max": -0.076525
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.104634,
+        "alpha_plus": -0.076525,
+        "width": 0.028109
+      }
+    },
+    {
+      "region_id": "R_037",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        1000,
+        1000
+      ],
+      "k_range": [
+        0.244998,
+        0.244998
+      ],
+      "amp_actual_range": [
+        0.244998,
+        0.244998
+      ],
+      "stable_amp_range": [
+        0.244998,
+        0.244998
+      ],
+      "extreme_amp_range": [
+        0.244998,
+        0.244998
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 1000,
+          "amp": 0.244998,
+          "slope_min": -0.106831,
+          "slope_max": -0.075025
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.106831,
+        "alpha_plus": -0.075025,
+        "width": 0.031806
+      }
+    },
+    {
+      "region_id": "R_038",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        350,
+        350
+      ],
+      "k_range": [
+        0.246837,
+        0.246837
+      ],
+      "amp_actual_range": [
+        0.246837,
+        0.246837
+      ],
+      "stable_amp_range": [
+        0.246837,
+        0.246837
+      ],
+      "extreme_amp_range": [
+        0.246837,
+        0.246837
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 350,
+          "amp": 0.246837,
+          "slope_min": -0.107214,
+          "slope_max": -0.095272
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.107214,
+        "alpha_plus": -0.095272,
+        "width": 0.011942
+      }
+    },
+    {
+      "region_id": "R_039",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        400,
+        400
+      ],
+      "k_range": [
+        0.268005,
+        0.268005
+      ],
+      "amp_actual_range": [
+        0.268005,
+        0.268005
+      ],
+      "stable_amp_range": [
+        0.268005,
+        0.268005
+      ],
+      "extreme_amp_range": [
+        0.268005,
+        0.268005
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 0.268005,
+          "slope_min": -0.111628,
+          "slope_max": -0.082391
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.111628,
+        "alpha_plus": -0.082391,
+        "width": 0.029237
+      }
+    },
+    {
+      "region_id": "R_040",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        700,
+        700
+      ],
+      "k_range": [
+        0.268612,
+        0.268612
+      ],
+      "amp_actual_range": [
+        0.268612,
+        0.268612
+      ],
+      "stable_amp_range": [
+        0.268612,
+        0.268612
+      ],
+      "extreme_amp_range": [
+        0.268612,
+        0.268612
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 700,
+          "amp": 0.268612,
+          "slope_min": -0.111755,
+          "slope_max": -0.074987
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.111755,
+        "alpha_plus": -0.074987,
+        "width": 0.036768
+      }
+    },
+    {
+      "region_id": "R_041",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        550,
+        550
+      ],
+      "k_range": [
+        0.29625,
+        0.29625
+      ],
+      "amp_actual_range": [
+        0.29625,
+        0.29625
+      ],
+      "stable_amp_range": [
+        0.29625,
+        0.29625
+      ],
+      "extreme_amp_range": [
+        0.29625,
+        0.29625
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 550,
+          "amp": 0.29625,
+          "slope_min": -0.117525,
+          "slope_max": -0.07814
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.117525,
+        "alpha_plus": -0.07814,
+        "width": 0.039384
+      }
+    },
+    {
+      "region_id": "R_042",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        500,
+        500
+      ],
+      "k_range": [
+        0.310933,
+        0.310933
+      ],
+      "amp_actual_range": [
+        0.310933,
+        0.310933
+      ],
+      "stable_amp_range": [
+        0.310933,
+        0.310933
+      ],
+      "extreme_amp_range": [
+        0.310933,
+        0.310933
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 500,
+          "amp": 0.310933,
+          "slope_min": -0.120592,
+          "slope_max": -0.079738
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.120592,
+        "alpha_plus": -0.079738,
+        "width": 0.040854
+      }
+    },
+    {
+      "region_id": "R_043",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        350,
+        350
+      ],
+      "k_range": [
+        0.330515,
+        0.330515
+      ],
+      "amp_actual_range": [
+        0.330515,
+        0.330515
+      ],
+      "stable_amp_range": [
+        0.330515,
+        0.330515
+      ],
+      "extreme_amp_range": [
+        0.330515,
+        0.330515
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 350,
+          "amp": 0.330515,
+          "slope_min": -0.124683,
+          "slope_max": -0.096685
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.124683,
+        "alpha_plus": -0.096685,
+        "width": 0.027998
+      }
+    },
+    {
+      "region_id": "R_044",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        450,
+        450
+      ],
+      "k_range": [
+        0.330141,
+        0.330141
+      ],
+      "amp_actual_range": [
+        0.330141,
+        0.330141
+      ],
+      "stable_amp_range": [
+        0.330141,
+        0.330141
+      ],
+      "extreme_amp_range": [
+        0.330141,
+        0.330141
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 450,
+          "amp": 0.330141,
+          "slope_min": -0.124605,
+          "slope_max": -0.082254
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.124605,
+        "alpha_plus": -0.082254,
+        "width": 0.042351
+      }
+    },
+    {
+      "region_id": "R_045",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        400,
+        400
+      ],
+      "k_range": [
+        0.359497,
+        0.359497
+      ],
+      "amp_actual_range": [
+        0.359497,
+        0.359497
+      ],
+      "stable_amp_range": [
+        0.359497,
+        0.359497
+      ],
+      "extreme_amp_range": [
+        0.359497,
+        0.359497
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 0.359497,
+          "slope_min": -0.130493,
+          "slope_max": -0.083094
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.130493,
+        "alpha_plus": -0.083094,
+        "width": 0.047399
+      }
+    },
+    {
+      "region_id": "R_046",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        650,
+        650
+      ],
+      "k_range": [
+        0.379271,
+        0.379271
+      ],
+      "amp_actual_range": [
+        0.379271,
+        0.379271
+      ],
+      "stable_amp_range": [
+        0.379271,
+        0.379271
+      ],
+      "extreme_amp_range": [
+        0.379271,
+        0.379271
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 650,
+          "amp": 0.379271,
+          "slope_min": -0.134011,
+          "slope_max": -0.084231
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.134011,
+        "alpha_plus": -0.084231,
+        "width": 0.04978
+      }
+    },
+    {
+      "region_id": "R_047",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        600,
+        600
+      ],
+      "k_range": [
+        0.386977,
+        0.386977
+      ],
+      "amp_actual_range": [
+        0.386977,
+        0.386977
+      ],
+      "stable_amp_range": [
+        0.386977,
+        0.386977
+      ],
+      "extreme_amp_range": [
+        0.386977,
+        0.386977
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 600,
+          "amp": 0.386977,
+          "slope_min": -0.135287,
+          "slope_max": -0.084966
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.135287,
+        "alpha_plus": -0.084966,
+        "width": 0.050322
+      }
+    },
+    {
+      "region_id": "R_048",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        550,
+        550
+      ],
+      "k_range": [
+        0.396777,
+        0.396777
+      ],
+      "amp_actual_range": [
+        0.396777,
+        0.396777
+      ],
+      "stable_amp_range": [
+        0.396777,
+        0.396777
+      ],
+      "extreme_amp_range": [
+        0.396777,
+        0.396777
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 550,
+          "amp": 0.396777,
+          "slope_min": -0.136841,
+          "slope_max": -0.083436
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.136841,
+        "alpha_plus": -0.083436,
+        "width": 0.053405
+      }
+    },
+    {
+      "region_id": "R_049",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        0.408447,
+        0.408447
+      ],
+      "amp_actual_range": [
+        0.408447,
+        0.408447
+      ],
+      "stable_amp_range": [
+        0.408447,
+        0.408447
+      ],
+      "extreme_amp_range": [
+        0.408447,
+        0.408447
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 0.408447,
+          "slope_min": -0.138596,
+          "slope_max": -0.108048
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.138596,
+        "alpha_plus": -0.108048,
+        "width": 0.030547
+      }
+    },
+    {
+      "region_id": "R_050",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        350,
+        350
+      ],
+      "k_range": [
+        0.414193,
+        0.414193
+      ],
+      "amp_actual_range": [
+        0.414193,
+        0.414193
+      ],
+      "stable_amp_range": [
+        0.414193,
+        0.414193
+      ],
+      "extreme_amp_range": [
+        0.414193,
+        0.414193
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 350,
+          "amp": 0.414193,
+          "slope_min": -0.139424,
+          "slope_max": -0.092614
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.139424,
+        "alpha_plus": -0.092614,
+        "width": 0.046811
+      }
+    },
+    {
+      "region_id": "R_051",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        500,
+        500
+      ],
+      "k_range": [
+        0.409363,
+        0.409363
+      ],
+      "amp_actual_range": [
+        0.409363,
+        0.409363
+      ],
+      "stable_amp_range": [
+        0.409363,
+        0.409363
+      ],
+      "extreme_amp_range": [
+        0.409363,
+        0.409363
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 500,
+          "amp": 0.409363,
+          "slope_min": -0.13873,
+          "slope_max": -0.082198
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.13873,
+        "alpha_plus": -0.082198,
+        "width": 0.056532
+      }
+    },
+    {
+      "region_id": "R_052",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        450,
+        450
+      ],
+      "k_range": [
+        0.425826,
+        0.425826
+      ],
+      "amp_actual_range": [
+        0.425826,
+        0.425826
+      ],
+      "stable_amp_range": [
+        0.425826,
+        0.425826
+      ],
+      "extreme_amp_range": [
+        0.425826,
+        0.425826
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 450,
+          "amp": 0.425826,
+          "slope_min": -0.141034,
+          "slope_max": -0.083583
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.141034,
+        "alpha_plus": -0.083583,
+        "width": 0.057451
+      }
+    },
+    {
+      "region_id": "R_053",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        400,
+        400
+      ],
+      "k_range": [
+        0.450989,
+        0.450989
+      ],
+      "amp_actual_range": [
+        0.450989,
+        0.450989
+      ],
+      "stable_amp_range": [
+        0.450989,
+        0.450989
+      ],
+      "extreme_amp_range": [
+        0.450989,
+        0.450989
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 0.450989,
+          "slope_min": -0.144238,
+          "slope_max": -0.085513
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.144238,
+        "alpha_plus": -0.085513,
+        "width": 0.058725
+      }
+    },
+    {
+      "region_id": "R_054",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        0.474169,
+        0.474169
+      ],
+      "amp_actual_range": [
+        0.474169,
+        0.474169
+      ],
+      "stable_amp_range": [
+        0.474169,
+        0.474169
+      ],
+      "extreme_amp_range": [
+        0.474169,
+        0.474169
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 0.474169,
+          "slope_min": -0.146898,
+          "slope_max": -0.110868
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.146898,
+        "alpha_plus": -0.110868,
+        "width": 0.03603
+      }
+    },
+    {
+      "region_id": "R_055",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        600,
+        600
+      ],
+      "k_range": [
+        0.489137,
+        0.489137
+      ],
+      "amp_actual_range": [
+        0.489137,
+        0.489137
+      ],
+      "stable_amp_range": [
+        0.489137,
+        0.489137
+      ],
+      "extreme_amp_range": [
+        0.489137,
+        0.489137
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 600,
+          "amp": 0.489137,
+          "slope_min": -0.148484,
+          "slope_max": -0.088093
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.148484,
+        "alpha_plus": -0.088093,
+        "width": 0.06039
+      }
+    },
+    {
+      "region_id": "R_056",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        350,
+        350
+      ],
+      "k_range": [
+        0.497871,
+        0.497871
+      ],
+      "amp_actual_range": [
+        0.497871,
+        0.497871
+      ],
+      "stable_amp_range": [
+        0.497871,
+        0.497871
+      ],
+      "extreme_amp_range": [
+        0.497871,
+        0.497871
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 350,
+          "amp": 0.497871,
+          "slope_min": -0.149362,
+          "slope_max": -0.095976
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.149362,
+        "alpha_plus": -0.095976,
+        "width": 0.053386
+      }
+    },
+    {
+      "region_id": "R_057",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        550,
+        550
+      ],
+      "k_range": [
+        0.497304,
+        0.497304
+      ],
+      "amp_actual_range": [
+        0.497304,
+        0.497304
+      ],
+      "stable_amp_range": [
+        0.497304,
+        0.497304
+      ],
+      "extreme_amp_range": [
+        0.497304,
+        0.497304
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 550,
+          "amp": 0.497304,
+          "slope_min": -0.149306,
+          "slope_max": -0.08858
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.149306,
+        "alpha_plus": -0.08858,
+        "width": 0.060726
+      }
+    },
+    {
+      "region_id": "R_058",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        500,
+        500
+      ],
+      "k_range": [
+        0.507792,
+        0.507792
+      ],
+      "amp_actual_range": [
+        0.507792,
+        0.507792
+      ],
+      "stable_amp_range": [
+        0.507792,
+        0.507792
+      ],
+      "extreme_amp_range": [
+        0.507792,
+        0.507792
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 500,
+          "amp": 0.507792,
+          "slope_min": -0.150127,
+          "slope_max": -0.089179
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.150127,
+        "alpha_plus": -0.089179,
+        "width": 0.060948
+      }
+    },
+    {
+      "region_id": "R_059",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        450,
+        450
+      ],
+      "k_range": [
+        0.521512,
+        0.521512
+      ],
+      "amp_actual_range": [
+        0.521512,
+        0.521512
+      ],
+      "stable_amp_range": [
+        0.521512,
+        0.521512
+      ],
+      "extreme_amp_range": [
+        0.521512,
+        0.521512
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 450,
+          "amp": 0.521512,
+          "slope_min": -0.150979,
+          "slope_max": -0.089929
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.150979,
+        "alpha_plus": -0.089929,
+        "width": 0.06105
+      }
+    },
+    {
+      "region_id": "R_060",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        0.53989,
+        0.53989
+      ],
+      "amp_actual_range": [
+        0.53989,
+        0.53989
+      ],
+      "stable_amp_range": [
+        0.53989,
+        0.53989
+      ],
+      "extreme_amp_range": [
+        0.53989,
+        0.53989
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 0.53989,
+          "slope_min": -0.153196,
+          "slope_max": -0.114889
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.153196,
+        "alpha_plus": -0.114889,
+        "width": 0.038307
+      }
+    },
+    {
+      "region_id": "R_061",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        400,
+        400
+      ],
+      "k_range": [
+        0.54248,
+        0.54248
+      ],
+      "amp_actual_range": [
+        0.54248,
+        0.54248
+      ],
+      "stable_amp_range": [
+        0.54248,
+        0.54248
+      ],
+      "extreme_amp_range": [
+        0.54248,
+        0.54248
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 0.54248,
+          "slope_min": -0.152203,
+          "slope_max": -0.091007
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.152203,
+        "alpha_plus": -0.091007,
+        "width": 0.061197
+      }
+    },
+    {
+      "region_id": "R_062",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        350,
+        350
+      ],
+      "k_range": [
+        0.581549,
+        0.581549
+      ],
+      "amp_actual_range": [
+        0.581549,
+        0.581549
+      ],
+      "stable_amp_range": [
+        0.581549,
+        0.581549
+      ],
+      "extreme_amp_range": [
+        0.581549,
+        0.581549
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 350,
+          "amp": 0.581549,
+          "slope_min": -0.154265,
+          "slope_max": -0.092807
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.154265,
+        "alpha_plus": -0.092807,
+        "width": 0.061458
+      }
+    },
+    {
+      "region_id": "R_063",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        550,
+        550
+      ],
+      "k_range": [
+        0.597831,
+        0.597831
+      ],
+      "amp_actual_range": [
+        0.597831,
+        0.597831
+      ],
+      "stable_amp_range": [
+        0.597831,
+        0.597831
+      ],
+      "extreme_amp_range": [
+        0.597831,
+        0.597831
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 550,
+          "amp": 0.597831,
+          "slope_min": -0.155054,
+          "slope_max": -0.087312
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.155054,
+        "alpha_plus": -0.087312,
+        "width": 0.067742
+      }
+    },
+    {
+      "region_id": "R_064",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        0.605611,
+        0.605611
+      ],
+      "amp_actual_range": [
+        0.605611,
+        0.605611
+      ],
+      "stable_amp_range": [
+        0.605611,
+        0.605611
+      ],
+      "extreme_amp_range": [
+        0.605611,
+        0.605611
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 0.605611,
+          "slope_min": -0.158155,
+          "slope_max": -0.108328
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.158155,
+        "alpha_plus": -0.108328,
+        "width": 0.049828
+      }
+    },
+    {
+      "region_id": "R_065",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        500,
+        500
+      ],
+      "k_range": [
+        0.606222,
+        0.606222
+      ],
+      "amp_actual_range": [
+        0.606222,
+        0.606222
+      ],
+      "stable_amp_range": [
+        0.606222,
+        0.606222
+      ],
+      "extreme_amp_range": [
+        0.606222,
+        0.606222
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 500,
+          "amp": 0.606222,
+          "slope_min": -0.158196,
+          "slope_max": -0.087547
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.158196,
+        "alpha_plus": -0.087547,
+        "width": 0.070649
+      }
+    },
+    {
+      "region_id": "R_066",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        450,
+        450
+      ],
+      "k_range": [
+        0.617197,
+        0.617197
+      ],
+      "amp_actual_range": [
+        0.617197,
+        0.617197
+      ],
+      "stable_amp_range": [
+        0.617197,
+        0.617197
+      ],
+      "extreme_amp_range": [
+        0.617197,
+        0.617197
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 450,
+          "amp": 0.617197,
+          "slope_min": -0.158923,
+          "slope_max": -0.088006
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.158923,
+        "alpha_plus": -0.088006,
+        "width": 0.070917
+      }
+    },
+    {
+      "region_id": "R_067",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        400,
+        400
+      ],
+      "k_range": [
+        0.633972,
+        0.633972
+      ],
+      "amp_actual_range": [
+        0.633972,
+        0.633972
+      ],
+      "stable_amp_range": [
+        0.633972,
+        0.633972
+      ],
+      "extreme_amp_range": [
+        0.633972,
+        0.633972
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 0.633972,
+          "slope_min": -0.159985,
+          "slope_max": -0.088677
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.159985,
+        "alpha_plus": -0.088677,
+        "width": 0.071308
+      }
+    },
+    {
+      "region_id": "R_068",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        0.671332,
+        0.671332
+      ],
+      "amp_actual_range": [
+        0.671332,
+        0.671332
+      ],
+      "stable_amp_range": [
+        0.671332,
+        0.671332
+      ],
+      "extreme_amp_range": [
+        0.671332,
+        0.671332
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 0.671332,
+          "slope_min": -0.162161,
+          "slope_max": -0.108877
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.162161,
+        "alpha_plus": -0.108877,
+        "width": 0.053285
+      }
+    },
+    {
+      "region_id": "R_069",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        350,
+        350
+      ],
+      "k_range": [
+        0.665227,
+        0.665227
+      ],
+      "amp_actual_range": [
+        0.665227,
+        0.665227
+      ],
+      "stable_amp_range": [
+        0.665227,
+        0.665227
+      ],
+      "extreme_amp_range": [
+        0.665227,
+        0.665227
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 350,
+          "amp": 0.665227,
+          "slope_min": -0.161822,
+          "slope_max": -0.093058
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.161822,
+        "alpha_plus": -0.093058,
+        "width": 0.068765
+      }
+    },
+    {
+      "region_id": "R_070",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        450,
+        450
+      ],
+      "k_range": [
+        0.712883,
+        0.712883
+      ],
+      "amp_actual_range": [
+        0.712883,
+        0.712883
+      ],
+      "stable_amp_range": [
+        0.712883,
+        0.712883
+      ],
+      "extreme_amp_range": [
+        0.712883,
+        0.712883
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 450,
+          "amp": 0.712883,
+          "slope_min": -0.164143,
+          "slope_max": -0.091423
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.164143,
+        "alpha_plus": -0.091423,
+        "width": 0.07272
+      }
+    },
+    {
+      "region_id": "R_071",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        400,
+        400
+      ],
+      "k_range": [
+        0.725464,
+        0.725464
+      ],
+      "amp_actual_range": [
+        0.725464,
+        0.725464
+      ],
+      "stable_amp_range": [
+        0.725464,
+        0.725464
+      ],
+      "extreme_amp_range": [
+        0.725464,
+        0.725464
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 0.725464,
+          "slope_min": -0.164617,
+          "slope_max": -0.091812
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.164617,
+        "alpha_plus": -0.091812,
+        "width": 0.072805
+      }
+    },
+    {
+      "region_id": "R_072",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        0.737054,
+        0.737054
+      ],
+      "amp_actual_range": [
+        0.737054,
+        0.737054
+      ],
+      "stable_amp_range": [
+        0.737054,
+        0.737054
+      ],
+      "extreme_amp_range": [
+        0.737054,
+        0.737054
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 0.737054,
+          "slope_min": -0.165038,
+          "slope_max": -0.110033
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.165038,
+        "alpha_plus": -0.110033,
+        "width": 0.055005
+      }
+    },
+    {
+      "region_id": "R_073",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        350,
+        350
+      ],
+      "k_range": [
+        0.748905,
+        0.748905
+      ],
+      "amp_actual_range": [
+        0.748905,
+        0.748905
+      ],
+      "stable_amp_range": [
+        0.748905,
+        0.748905
+      ],
+      "extreme_amp_range": [
+        0.748905,
+        0.748905
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 350,
+          "amp": 0.748905,
+          "slope_min": -0.165456,
+          "slope_max": -0.094619
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.165456,
+        "alpha_plus": -0.094619,
+        "width": 0.070837
+      }
+    },
+    {
+      "region_id": "R_074",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        0.802775,
+        0.802775
+      ],
+      "amp_actual_range": [
+        0.802775,
+        0.802775
+      ],
+      "stable_amp_range": [
+        0.802775,
+        0.802775
+      ],
+      "extreme_amp_range": [
+        0.802775,
+        0.802775
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 0.802775,
+          "slope_min": -0.167196,
+          "slope_max": -0.112137
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.167196,
+        "alpha_plus": -0.112137,
+        "width": 0.055058
+      }
+    },
+    {
+      "region_id": "R_075",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        450,
+        450
+      ],
+      "k_range": [
+        0.808568,
+        0.808568
+      ],
+      "amp_actual_range": [
+        0.808568,
+        0.808568
+      ],
+      "stable_amp_range": [
+        0.808568,
+        0.808568
+      ],
+      "extreme_amp_range": [
+        0.808568,
+        0.808568
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 450,
+          "amp": 0.808568,
+          "slope_min": -0.167367,
+          "slope_max": -0.094058
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.167367,
+        "alpha_plus": -0.094058,
+        "width": 0.073309
+      }
+    },
+    {
+      "region_id": "R_076",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        400,
+        400
+      ],
+      "k_range": [
+        0.816956,
+        0.816956
+      ],
+      "amp_actual_range": [
+        0.816956,
+        0.816956
+      ],
+      "stable_amp_range": [
+        0.816956,
+        0.816956
+      ],
+      "extreme_amp_range": [
+        0.816956,
+        0.816956
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 0.816956,
+          "slope_min": -0.167612,
+          "slope_max": -0.094256
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.167612,
+        "alpha_plus": -0.094256,
+        "width": 0.073356
+      }
+    },
+    {
+      "region_id": "R_077",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        350,
+        350
+      ],
+      "k_range": [
+        0.832583,
+        0.832583
+      ],
+      "amp_actual_range": [
+        0.832583,
+        0.832583
+      ],
+      "stable_amp_range": [
+        0.832583,
+        0.832583
+      ],
+      "extreme_amp_range": [
+        0.832583,
+        0.832583
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 350,
+          "amp": 0.832583,
+          "slope_min": -0.168056,
+          "slope_max": -0.096785
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.168056,
+        "alpha_plus": -0.096785,
+        "width": 0.071271
+      }
+    },
+    {
+      "region_id": "R_078",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        0.868496,
+        0.868496
+      ],
+      "amp_actual_range": [
+        0.868496,
+        0.868496
+      ],
+      "stable_amp_range": [
+        0.868496,
+        0.868496
+      ],
+      "extreme_amp_range": [
+        0.868496,
+        0.868496
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 0.868496,
+          "slope_min": -0.169022,
+          "slope_max": -0.113907
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.169022,
+        "alpha_plus": -0.113907,
+        "width": 0.055115
+      }
+    },
+    {
+      "region_id": "R_079",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        400,
+        400
+      ],
+      "k_range": [
+        0.908447,
+        0.908447
+      ],
+      "amp_actual_range": [
+        0.908447,
+        0.908447
+      ],
+      "stable_amp_range": [
+        0.908447,
+        0.908447
+      ],
+      "extreme_amp_range": [
+        0.908447,
+        0.908447
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 0.908447,
+          "slope_min": -0.170009,
+          "slope_max": -0.094064
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.170009,
+        "alpha_plus": -0.094064,
+        "width": 0.075945
+      }
+    },
+    {
+      "region_id": "R_080",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        350,
+        350
+      ],
+      "k_range": [
+        0.916261,
+        0.916261
+      ],
+      "amp_actual_range": [
+        0.916261,
+        0.916261
+      ],
+      "stable_amp_range": [
+        0.916261,
+        0.916261
+      ],
+      "extreme_amp_range": [
+        0.916261,
+        0.916261
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 350,
+          "amp": 0.916261,
+          "slope_min": -0.170193,
+          "slope_max": -0.095834
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.170193,
+        "alpha_plus": -0.095834,
+        "width": 0.074359
+      }
+    },
+    {
+      "region_id": "R_081",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        0.934218,
+        0.934218
+      ],
+      "amp_actual_range": [
+        0.934218,
+        0.934218
+      ],
+      "stable_amp_range": [
+        0.934218,
+        0.934218
+      ],
+      "extreme_amp_range": [
+        0.934218,
+        0.934218
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 0.934218,
+          "slope_min": -0.170602,
+          "slope_max": -0.108802
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.170602,
+        "alpha_plus": -0.108802,
+        "width": 0.061801
+      }
+    },
+    {
+      "region_id": "R_082",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        0.999939,
+        0.999939
+      ],
+      "amp_actual_range": [
+        0.999939,
+        0.999939
+      ],
+      "stable_amp_range": [
+        0.999939,
+        0.999939
+      ],
+      "extreme_amp_range": [
+        0.999939,
+        0.999939
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 0.999939,
+          "slope_min": -0.171988,
+          "slope_max": -0.110139
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": -0.171988,
+        "alpha_plus": -0.110139,
+        "width": 0.061848
+      }
+    }
+  ],
+  "source_stage3_full": "results/stage3/te_stage3_xmv07_sp3_full.json",
+  "source_stage2_base": "results/stage2/te_base_boundary.json"
+}

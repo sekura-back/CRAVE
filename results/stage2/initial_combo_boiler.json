@@ -1,0 +1,30 @@
+[
+  {
+    "combo_id": "k1_001",
+    "S": [
+      "simulation_fuel_command"
+    ],
+    "core_points": [
+      "simulation_fuel_command"
+    ],
+    "frontier_points": [],
+    "score": 0.648347801011808,
+    "rank": 1,
+    "layer": "actuator",
+    "top_hazards": [
+      {
+        "hazard": "H-WATERWALL",
+        "value": 0.9758813845343912
+      },
+      {
+        "hazard": "H-PRESSURE",
+        "value": 0.9691620185010328
+      },
+      {
+        "hazard": "H-FEEDWATER",
+        "value": 0.0
+      }
+    ],
+    "source_matrix_file": "."
+  }
+]

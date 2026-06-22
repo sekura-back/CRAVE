@@ -1,0 +1,1832 @@
+{
+  "point": "simulation_xmv_07",
+  "backend": "physics",
+  "method": "cegis_duration_refine",
+  "total_simulations": 935,
+  "total_time_s": 429.18,
+  "domain": {
+    "amp_max": 1.0,
+    "default_value": 38.1,
+    "value_range": [
+      0.0,
+      100.0
+    ],
+    "duration_min": 100,
+    "duration_max": 1000,
+    "duration_step_coarse": 100,
+    "duration_step_fine": 5,
+    "duration_step": 5
+  },
+  "boundaries": [
+    {
+      "direction": "pos",
+      "duration": 100,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 105,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 110,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 115,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 120,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 125,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 130,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 135,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 140,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 145,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 150,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 155,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 160,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 165,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 170,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 175,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 180,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 185,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 190,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 195,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 200,
+      "lower_safe_amp": 0.875,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 205,
+      "lower_safe_amp": 0.4086752081026119,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": false,
+      "rounds_used": 10
+    },
+    {
+      "direction": "pos",
+      "duration": 210,
+      "lower_safe_amp": 0.4087207253991153,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": false,
+      "rounds_used": 10
+    },
+    {
+      "direction": "pos",
+      "duration": 215,
+      "lower_safe_amp": 0.40851183560173754,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 3
+    },
+    {
+      "direction": "pos",
+      "duration": 220,
+      "lower_safe_amp": 0.40852038816233927,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 2
+    },
+    {
+      "direction": "pos",
+      "duration": 225,
+      "lower_safe_amp": 0.40867518579761963,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": false,
+      "rounds_used": 10
+    },
+    {
+      "direction": "pos",
+      "duration": 230,
+      "lower_safe_amp": 0.40851848715337835,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 2
+    },
+    {
+      "direction": "pos",
+      "duration": 235,
+      "lower_safe_amp": 0.4085042315658939,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 3
+    },
+    {
+      "direction": "pos",
+      "duration": 240,
+      "lower_safe_amp": 0.40850421746363286,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 2
+    },
+    {
+      "direction": "pos",
+      "duration": 245,
+      "lower_safe_amp": 0.4085184483721605,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 2
+    },
+    {
+      "direction": "pos",
+      "duration": 250,
+      "lower_safe_amp": 0.40867504477500916,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": false,
+      "rounds_used": 10
+    },
+    {
+      "direction": "pos",
+      "duration": 255,
+      "lower_safe_amp": 0.40852546244859694,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 2
+    },
+    {
+      "direction": "pos",
+      "duration": 260,
+      "lower_safe_amp": 0.4085322737693787,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 2
+    },
+    {
+      "direction": "pos",
+      "duration": 265,
+      "lower_safe_amp": 0.40853172838687896,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 270,
+      "lower_safe_amp": 0.4085311830043793,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 275,
+      "lower_safe_amp": 0.4085306376218796,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 280,
+      "lower_safe_amp": 0.4085017561912537,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 285,
+      "lower_safe_amp": 0.40847287476062777,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 290,
+      "lower_safe_amp": 0.40844399333000186,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 295,
+      "lower_safe_amp": 0.40841511189937596,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 300,
+      "lower_safe_amp": 0.40838623046875,
+      "lower_target_amp": 0.408447265625,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 305,
+      "lower_safe_amp": 0.38392614121709556,
+      "lower_target_amp": 0.38401673414024984,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 310,
+      "lower_safe_amp": 0.36200265381376084,
+      "lower_target_amp": 0.3620610959515034,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 315,
+      "lower_safe_amp": 0.3422714314445727,
+      "lower_target_amp": 0.3423409075796755,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 320,
+      "lower_safe_amp": 0.3245387335242004,
+      "lower_target_amp": 0.3246044101831647,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 325,
+      "lower_safe_amp": 0.3086449820548296,
+      "lower_target_amp": 0.30872389127034694,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 330,
+      "lower_safe_amp": 0.2942444374483131,
+      "lower_target_amp": 0.29429857483405186,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 335,
+      "lower_safe_amp": 0.28092664055657224,
+      "lower_target_amp": 0.2809991383983288,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 340,
+      "lower_safe_amp": 0.2685663249264678,
+      "lower_target_amp": 0.26865524806049734,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 345,
+      "lower_safe_amp": 0.2571626276991654,
+      "lower_target_amp": 0.2572477299172796,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 350,
+      "lower_safe_amp": 0.2467801570892334,
+      "lower_target_amp": 0.24683678150177002,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 355,
+      "lower_safe_amp": 0.2371894512251913,
+      "lower_target_amp": 0.23726102365701252,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 360,
+      "lower_safe_amp": 0.22845761454300373,
+      "lower_target_amp": 0.22855371179412032,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 365,
+      "lower_safe_amp": 0.2203664262015934,
+      "lower_target_amp": 0.22042548597050882,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 370,
+      "lower_safe_amp": 0.21284461094488316,
+      "lower_target_amp": 0.21290159439379763,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 375,
+      "lower_safe_amp": 0.20577866327948868,
+      "lower_target_amp": 0.20584734249860048,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 380,
+      "lower_safe_amp": 0.1991985644731784,
+      "lower_target_amp": 0.19929826293994068,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 385,
+      "lower_safe_amp": 0.19301725953391724,
+      "lower_target_amp": 0.19308599240866897,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 390,
+      "lower_safe_amp": 0.18715062228687884,
+      "lower_target_amp": 0.18723689636404117,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 395,
+      "lower_safe_amp": 0.1816344734783124,
+      "lower_target_amp": 0.18171805149056341,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 400,
+      "lower_safe_amp": 0.17645263671875,
+      "lower_target_amp": 0.176513671875,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 405,
+      "lower_safe_amp": 0.17153803957959324,
+      "lower_target_amp": 0.1716125031726108,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 410,
+      "lower_safe_amp": 0.16692129681250661,
+      "lower_target_amp": 0.1669734756806065,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 415,
+      "lower_safe_amp": 0.16247848360575287,
+      "lower_target_amp": 0.1625447942506298,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 420,
+      "lower_safe_amp": 0.1582693118118077,
+      "lower_target_amp": 0.15833406830094532,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 425,
+      "lower_safe_amp": 0.15418965299613774,
+      "lower_target_amp": 0.15426337148528546,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 430,
+      "lower_safe_amp": 0.15077221789937312,
+      "lower_target_amp": 0.15082399721902107,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 435,
+      "lower_safe_amp": 0.1475619000812003,
+      "lower_target_amp": 0.14763446671895508,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 440,
+      "lower_safe_amp": 0.1445186367103588,
+      "lower_target_amp": 0.14461085681250552,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 445,
+      "lower_safe_amp": 0.14152292432968672,
+      "lower_target_amp": 0.14161370349273739,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 450,
+      "lower_safe_amp": 0.13870877027511597,
+      "lower_target_amp": 0.1387697458267212,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 455,
+      "lower_safe_amp": 0.1358871976790681,
+      "lower_target_amp": 0.13597269987894833,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 460,
+      "lower_safe_amp": 0.1332366294827807,
+      "lower_target_amp": 0.13329857824646751,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 465,
+      "lower_safe_amp": 0.1305747685431129,
+      "lower_target_amp": 0.1306554309958301,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 470,
+      "lower_safe_amp": 0.1280339012825209,
+      "lower_target_amp": 0.12812246512294223,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 475,
+      "lower_safe_amp": 0.1254930340219289,
+      "lower_target_amp": 0.12558949925005436,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 480,
+      "lower_safe_amp": 0.12311644732744753,
+      "lower_target_amp": 0.12319158469654212,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 485,
+      "lower_safe_amp": 0.12073986063296616,
+      "lower_target_amp": 0.12079367014302989,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 490,
+      "lower_safe_amp": 0.11842773324741529,
+      "lower_target_amp": 0.1184977977136441,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 495,
+      "lower_safe_amp": 0.11615173285226366,
+      "lower_target_amp": 0.11622070256120764,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 500,
+      "lower_safe_amp": 0.114013671875,
+      "lower_target_amp": 0.11407470703125,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 505,
+      "lower_safe_amp": 0.11189789092168212,
+      "lower_target_amp": 0.11197577673010528,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 510,
+      "lower_safe_amp": 0.10978210996836424,
+      "lower_target_amp": 0.10987684642896056,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 515,
+      "lower_safe_amp": 0.10782422311604023,
+      "lower_target_amp": 0.10791196767240763,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 520,
+      "lower_safe_amp": 0.10586633626371622,
+      "lower_target_amp": 0.10594708891585469,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 525,
+      "lower_safe_amp": 0.10390844941139221,
+      "lower_target_amp": 0.10398221015930176,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 530,
+      "lower_safe_amp": 0.10201322317880113,
+      "lower_target_amp": 0.10207065427675843,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 535,
+      "lower_safe_amp": 0.10023285914212465,
+      "lower_target_amp": 0.10031514847651124,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 540,
+      "lower_safe_amp": 0.09853221289813519,
+      "lower_target_amp": 0.09860892749081056,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 545,
+      "lower_safe_amp": 0.09683156665414572,
+      "lower_target_amp": 0.09690270650510988,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 550,
+      "lower_safe_amp": 0.09513092041015625,
+      "lower_target_amp": 0.09519648551940918,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 555,
+      "lower_safe_amp": 0.09351984673412517,
+      "lower_target_amp": 0.09358869810239412,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 560,
+      "lower_safe_amp": 0.09190877305809408,
+      "lower_target_amp": 0.09198091068537906,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 565,
+      "lower_safe_amp": 0.09041792876087129,
+      "lower_target_amp": 0.09048275327465187,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 570,
+      "lower_safe_amp": 0.08883390669507207,
+      "lower_target_amp": 0.0889270844636485,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 575,
+      "lower_safe_amp": 0.0874362401664257,
+      "lower_target_amp": 0.08748643845319748,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 4
+    },
+    {
+      "direction": "pos",
+      "duration": 580,
+      "lower_safe_amp": 0.08597231021849439,
+      "lower_target_amp": 0.08603018391295336,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 585,
+      "lower_safe_amp": 0.08450838027056307,
+      "lower_target_amp": 0.08457392937270924,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 2
+    },
+    {
+      "direction": "pos",
+      "duration": 590,
+      "lower_safe_amp": 0.08315369882620871,
+      "lower_target_amp": 0.08321472331105421,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 595,
+      "lower_safe_amp": 0.08179901738185436,
+      "lower_target_amp": 0.08185551724939918,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 600,
+      "lower_safe_amp": 0.0804443359375,
+      "lower_target_amp": 0.08049631118774414,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 9
+    },
+    {
+      "direction": "pos",
+      "duration": 605,
+      "lower_safe_amp": 0.07915644729509949,
+      "lower_target_amp": 0.07921126824803651,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 610,
+      "lower_safe_amp": 0.077868558652699,
+      "lower_target_amp": 0.07792622530832888,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 2
+    },
+    {
+      "direction": "pos",
+      "duration": 615,
+      "lower_safe_amp": 0.07667678110301494,
+      "lower_target_amp": 0.07674537803977728,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 620,
+      "lower_safe_amp": 0.0754850035533309,
+      "lower_target_amp": 0.07556453077122569,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 625,
+      "lower_safe_amp": 0.07429322600364685,
+      "lower_target_amp": 0.0743836835026741,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 630,
+      "lower_safe_amp": 0.07320773601531982,
+      "lower_target_amp": 0.07329437136650085,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 635,
+      "lower_safe_amp": 0.0721222460269928,
+      "lower_target_amp": 0.0722050592303276,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 640,
+      "lower_safe_amp": 0.07103675603866577,
+      "lower_target_amp": 0.07111574709415436,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 645,
+      "lower_safe_amp": 0.06995126605033875,
+      "lower_target_amp": 0.07002643495798111,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 650,
+      "lower_safe_amp": 0.06886577606201172,
+      "lower_target_amp": 0.06893712282180786,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 5
+    },
+    {
+      "direction": "pos",
+      "duration": 655,
+      "lower_safe_amp": 0.06784704227466136,
+      "lower_target_amp": 0.06792833060026168,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 660,
+      "lower_safe_amp": 0.066828308487311,
+      "lower_target_amp": 0.06691953837871552,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 665,
+      "lower_safe_amp": 0.0658855996094644,
+      "lower_target_amp": 0.06597062647342682,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 670,
+      "lower_safe_amp": 0.0649428907316178,
+      "lower_target_amp": 0.06502171456813813,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 675,
+      "lower_safe_amp": 0.06400018185377121,
+      "lower_target_amp": 0.06407280266284943,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 680,
+      "lower_safe_amp": 0.06307267795782537,
+      "lower_target_amp": 0.06315051838755607,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 685,
+      "lower_safe_amp": 0.06214517406187951,
+      "lower_target_amp": 0.06222823411226273,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 690,
+      "lower_safe_amp": 0.06128688687458634,
+      "lower_target_amp": 0.06137277781963348,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 695,
+      "lower_safe_amp": 0.06037495673808734,
+      "lower_target_amp": 0.060428599687293166,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 700,
+      "lower_safe_amp": 0.0595703125,
+      "lower_target_amp": 0.059661865234375,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 6
+    },
+    {
+      "direction": "pos",
+      "duration": 705,
+      "lower_safe_amp": 0.058725244970992206,
+      "lower_target_amp": 0.05880886018276214,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 710,
+      "lower_safe_amp": 0.05788017744198441,
+      "lower_target_amp": 0.05795585513114929,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 715,
+      "lower_safe_amp": 0.05709817465394735,
+      "lower_target_amp": 0.05716841146349907,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 720,
+      "lower_safe_amp": 0.056316171865910286,
+      "lower_target_amp": 0.05638096779584885,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 725,
+      "lower_safe_amp": 0.05553416907787323,
+      "lower_target_amp": 0.055593524128198624,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 3
+    },
+    {
+      "direction": "pos",
+      "duration": 730,
+      "lower_safe_amp": 0.054821908473968506,
+      "lower_target_amp": 0.05488690435886383,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 735,
+      "lower_safe_amp": 0.05410964787006378,
+      "lower_target_amp": 0.05418028458952904,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 740,
+      "lower_safe_amp": 0.05330835469067097,
+      "lower_target_amp": 0.05339738726615906,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 745,
+      "lower_safe_amp": 0.05264061037451029,
+      "lower_target_amp": 0.05272890627384186,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 750,
+      "lower_safe_amp": 0.05197286605834961,
+      "lower_target_amp": 0.05206042528152466,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 4
+    },
+    {
+      "direction": "pos",
+      "duration": 755,
+      "lower_safe_amp": 0.05131448805332184,
+      "lower_target_amp": 0.05140389949083328,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 760,
+      "lower_safe_amp": 0.05065611004829407,
+      "lower_target_amp": 0.05074737370014191,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 765,
+      "lower_safe_amp": 0.049997732043266296,
+      "lower_target_amp": 0.05009084790945053,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 770,
+      "lower_safe_amp": 0.049339354038238525,
+      "lower_target_amp": 0.04943432211875916,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 775,
+      "lower_safe_amp": 0.048680976033210754,
+      "lower_target_amp": 0.04877779632806778,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 2
+    },
+    {
+      "direction": "pos",
+      "duration": 780,
+      "lower_safe_amp": 0.048100054264068604,
+      "lower_target_amp": 0.048190575838088986,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 785,
+      "lower_safe_amp": 0.04751913249492645,
+      "lower_target_amp": 0.0476033553481102,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 790,
+      "lower_safe_amp": 0.0469382107257843,
+      "lower_target_amp": 0.04701613485813141,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 795,
+      "lower_safe_amp": 0.04635728895664215,
+      "lower_target_amp": 0.04642891436815262,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 800,
+      "lower_safe_amp": 0.0457763671875,
+      "lower_target_amp": 0.04584169387817383,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 9
+    },
+    {
+      "direction": "pos",
+      "duration": 805,
+      "lower_safe_amp": 0.04524313691072166,
+      "lower_target_amp": 0.04531155675649643,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 810,
+      "lower_safe_amp": 0.04470990663394332,
+      "lower_target_amp": 0.044781419634819034,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 815,
+      "lower_safe_amp": 0.04417667635716498,
+      "lower_target_amp": 0.044251282513141636,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 820,
+      "lower_safe_amp": 0.043643446080386644,
+      "lower_target_amp": 0.04372114539146424,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 825,
+      "lower_safe_amp": 0.0431102158036083,
+      "lower_target_amp": 0.043191008269786835,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 830,
+      "lower_safe_amp": 0.042609302513301375,
+      "lower_target_amp": 0.042692670971155165,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 835,
+      "lower_safe_amp": 0.042108389222994445,
+      "lower_target_amp": 0.042194333672523496,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 840,
+      "lower_safe_amp": 0.04160747593268752,
+      "lower_target_amp": 0.041695996373891826,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 845,
+      "lower_safe_amp": 0.04110656264238059,
+      "lower_target_amp": 0.04119765907526016,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 850,
+      "lower_safe_amp": 0.04060564935207367,
+      "lower_target_amp": 0.040699321776628494,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 3
+    },
+    {
+      "direction": "pos",
+      "duration": 855,
+      "lower_safe_amp": 0.04013588214293122,
+      "lower_target_amp": 0.04022463676519692,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 860,
+      "lower_safe_amp": 0.03966611493378878,
+      "lower_target_amp": 0.03974995175376535,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 865,
+      "lower_safe_amp": 0.03919634772464633,
+      "lower_target_amp": 0.039275266742333774,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 870,
+      "lower_safe_amp": 0.038726580515503886,
+      "lower_target_amp": 0.0388005817309022,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 875,
+      "lower_safe_amp": 0.03825681330636144,
+      "lower_target_amp": 0.03832589671947062,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 2
+    },
+    {
+      "direction": "pos",
+      "duration": 880,
+      "lower_safe_amp": 0.03784231282770634,
+      "lower_target_amp": 0.03790787924081087,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 885,
+      "lower_safe_amp": 0.03742781234905124,
+      "lower_target_amp": 0.03748986176215112,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 890,
+      "lower_safe_amp": 0.03701331187039614,
+      "lower_target_amp": 0.03707184428349137,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 895,
+      "lower_safe_amp": 0.03654699883190915,
+      "lower_target_amp": 0.03659881139174104,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 900,
+      "lower_safe_amp": 0.03618431091308594,
+      "lower_target_amp": 0.036235809326171875,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 10
+    },
+    {
+      "direction": "pos",
+      "duration": 905,
+      "lower_safe_amp": 0.035755703822360374,
+      "lower_target_amp": 0.03581819077953696,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 910,
+      "lower_safe_amp": 0.03532709673163481,
+      "lower_target_amp": 0.03540057223290205,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 915,
+      "lower_safe_amp": 0.03495971922529861,
+      "lower_target_amp": 0.03502849427362283,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 920,
+      "lower_safe_amp": 0.034592341718962416,
+      "lower_target_amp": 0.034656416314343616,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 925,
+      "lower_safe_amp": 0.03422496421262622,
+      "lower_target_amp": 0.03428433835506439,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 930,
+      "lower_safe_amp": 0.033822333309217356,
+      "lower_target_amp": 0.03388653160072863,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 935,
+      "lower_safe_amp": 0.033419702405808493,
+      "lower_target_amp": 0.03348872484639287,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 940,
+      "lower_safe_amp": 0.03307459020288661,
+      "lower_target_amp": 0.03314774762839079,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 945,
+      "lower_safe_amp": 0.03272947799996473,
+      "lower_target_amp": 0.03280677041038871,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 950,
+      "lower_safe_amp": 0.03238436579704285,
+      "lower_target_amp": 0.03246579319238663,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 3
+    },
+    {
+      "direction": "pos",
+      "duration": 955,
+      "lower_safe_amp": 0.032049834914505484,
+      "lower_target_amp": 0.03213465511798859,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 960,
+      "lower_safe_amp": 0.031715304031968115,
+      "lower_target_amp": 0.031803517043590544,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 965,
+      "lower_safe_amp": 0.03138077314943075,
+      "lower_target_amp": 0.031472378969192506,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 970,
+      "lower_safe_amp": 0.031046242266893388,
+      "lower_target_amp": 0.031141240894794465,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 975,
+      "lower_safe_amp": 0.030711711384356022,
+      "lower_target_amp": 0.030810102820396423,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 980,
+      "lower_safe_amp": 0.030416537076234818,
+      "lower_target_amp": 0.030508244037628175,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 985,
+      "lower_safe_amp": 0.030121362768113613,
+      "lower_target_amp": 0.030206385254859924,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 990,
+      "lower_safe_amp": 0.02982618845999241,
+      "lower_target_amp": 0.029904526472091675,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 995,
+      "lower_safe_amp": 0.029531014151871204,
+      "lower_target_amp": 0.029602667689323424,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 1000,
+      "lower_safe_amp": 0.02923583984375,
+      "lower_target_amp": 0.029300808906555176,
+      "upper_target_amp": 0.99993896484375,
+      "upper_unsafe_amp": null,
+      "converged": true,
+      "rounds_used": 10
+    }
+  ]
+}

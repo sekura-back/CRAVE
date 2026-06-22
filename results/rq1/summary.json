@@ -1,0 +1,74 @@
+{
+  "boiler": {
+    "system": "boiler",
+    "source_policy": "artifact_internal_only",
+    "expert_baseline_policy": "published_counts_embedded_in_script",
+    "program_counts": {
+      "variables_count": 203,
+      "edges_count": 359,
+      "writable_points_count": 21,
+      "alarm_predicates_count": 3,
+      "hazard_predicates_count": 3
+    },
+    "expert_counts": {
+      "variables_count": 227,
+      "edges_count": 383,
+      "writable_points_count": 21,
+      "alarm_predicates_count": 3,
+      "hazard_predicates_count": 3
+    },
+    "semantic_completeness_pct": 96.63,
+    "semantic_completeness_components": {
+      "variables_count": 89.43,
+      "edges_count": 93.73,
+      "writable_points_count": 100.0,
+      "alarm_predicates_count": 100.0,
+      "hazard_predicates_count": 100.0
+    },
+    "attack_surface": {
+      "injection_points_count": 6,
+      "injection_points_actuator": 2,
+      "injection_points_setpoint": 4,
+      "selected_hazard_driver": "simulation_fuel_command",
+      "selected_hazard_driver_rank": 1,
+      "selected_hazard_driver_score": 0.648347801011808,
+      "attack_surface_reduction_pct": 83.33
+    }
+  },
+  "te": {
+    "system": "te",
+    "source_policy": "artifact_internal_only",
+    "expert_baseline_policy": "published_counts_embedded_in_script",
+    "program_counts": {
+      "variables_count": 1066,
+      "edges_count": 1693,
+      "writable_points_count": 21,
+      "alarm_predicates_count": 7,
+      "hazard_predicates_count": 8
+    },
+    "expert_counts": {
+      "variables_count": 1273,
+      "edges_count": 1917,
+      "writable_points_count": 63,
+      "alarm_predicates_count": 7,
+      "hazard_predicates_count": 8
+    },
+    "semantic_completeness_pct": 81.08,
+    "semantic_completeness_components": {
+      "variables_count": 83.74,
+      "edges_count": 88.32,
+      "writable_points_count": 33.33,
+      "alarm_predicates_count": 100.0,
+      "hazard_predicates_count": 100.0
+    },
+    "attack_surface": {
+      "injection_points_count": 21,
+      "injection_points_actuator": 12,
+      "injection_points_setpoint": 9,
+      "selected_hazard_driver": "simulation_xmv_07",
+      "selected_hazard_driver_rank": 1,
+      "selected_hazard_driver_score": 0.003538624975781871,
+      "attack_surface_reduction_pct": 95.24
+    }
+  }
+}
