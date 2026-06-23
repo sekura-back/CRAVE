@@ -1,6 +1,6 @@
-# VeriPro
+# CRAVE
 
-VeriPro is a research artifact for reproducing multi-point coordinated vulnerability discovery in DCS (Distributed Control System) process alarm logic through offline closed-loop Reach-Avoid analysis. Given a target control program and an executable closed-loop environment, VeriPro identifies parameter regions where coordinated injection on a hazard-driving variable and an alarm-masking variable can drive the process to a hazardous state without triggering process alarms.
+CRAVE is a research artifact for reproducing multi-point coordinated vulnerability discovery in DCS (Distributed Control System) process alarm logic through offline closed-loop Reach-Avoid analysis. Given a target control program and an executable closed-loop environment, CRAVE identifies parameter regions where coordinated injection on a hazard-driving variable and an alarm-masking variable can drive the process to a hazardous state without triggering process alarms.
 
 ## Method Workflow
 
@@ -15,7 +15,7 @@ flowchart TD
 ## Directory Structure
 
 ```
-veripro-artifact/
+CRAVE-artifact/
 ├── README.md                    This file
 ├── LICENSE                      MIT License
 ├── requirements.txt             Python dependencies
@@ -158,30 +158,3 @@ Pre-computed results are provided in the `results/` directory. Running the evalu
 - The Tennessee Eastman simulator depends on bundled steady-state snapshot files for fast initialization.
 - The artifact does not ship proprietary DCS engineering files, deployment assets, or operator-facing HMIs.
 
-## Case Study Description
-
-### Boiler-Side Coordinated Control System (Boiler CCS)
-
-A thermal power unit's boiler-side coordinated control system managing the energy-conversion path including fuel supply, combustion, steam generation, and feedwater compensation. The system contains tightly coupled PID controllers for fuel flow, feedwater flow, and main-steam pressure. Process alarms monitor deviations between setpoints and measurements for key thermal-control variables. Hazard predicates define threshold violations over steam temperature, feedwater flow, and main-steam pressure.
-
-| Property | Value |
-|----------|-------|
-| Hazard-driving variable | `fuel_command` |
-| Alarm-masking variable | `steam_setpoint` |
-| Control period | 0.1 s |
-| Writable variables | 21 |
-| Alarm predicates | 3 |
-| Hazard predicates | 3 |
-
-### Tennessee Eastman Process (TE)
-
-A continuous chemical-production benchmark with reaction, separation, recycle, and refining stages. The system contains decentralized PI/PID controllers across multiple process units. Process alarms monitor observable deviations between measurements and setpoints across reactor, separator, and recycle loops. Hazard predicates define threshold violations over reactor temperature, liquid level, and separator pressure.
-
-| Property | Value |
-|----------|-------|
-| Hazard-driving variable | `xmv_07` |
-| Alarm-masking variable | `setpoint_3` (reactor temperature SP) |
-| Control period | 1.0 s |
-| Writable variables | 63 |
-| Alarm predicates | 7 |
-| Hazard predicates | 8 |
