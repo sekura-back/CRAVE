@@ -1,0 +1,39 @@
+{
+  "boiler": {
+    "fuel_command__steam_setpoint": {
+      "full_path": "results/stage3/boiler_fuel_command__steam_setpoint_full.json",
+      "base_regions_path": "results/stage3/boiler_fuel_command__steam_setpoint_base_regions.json",
+      "combined_regions_path": "results/stage3/boiler_fuel_command__steam_setpoint_regions.json",
+      "total_regions": 125,
+      "base_regions": 105,
+      "cond_regions": 20
+    },
+    "water_pump_speed__steam_setpoint": {
+      "full_path": "results/stage3/boiler_water_pump_speed__steam_setpoint_full.json",
+      "base_regions_path": "results/stage3/boiler_water_pump_speed__steam_setpoint_base_regions.json",
+      "combined_regions_path": "results/stage3/boiler_water_pump_speed__steam_setpoint_regions.json",
+      "total_regions": 95,
+      "base_regions": 78,
+      "cond_regions": 17
+    }
+  },
+  "te": {
+    "formal_pos_only": {
+      "total_regions": 119,
+      "breakdown": {
+        "xmv04": 6,
+        "xmv07": 53,
+        "xmv08": 60
+      },
+      "files": {
+        "xmv04_full": "results/stage3/te_xmv04__ac_feed_setpoint_full.json",
+        "xmv04_regions": "results/stage3/te_xmv04__ac_feed_setpoint_regions.json",
+        "xmv07_full": "results/stage3/te_xmv07__separator_level_setpoint_full.json",
+        "xmv07_regions": "results/stage3/te_xmv07__separator_level_setpoint_regions.json",
+        "xmv08_full": "results/stage3/te_xmv08__stripper_level_setpoint_full.json",
+        "xmv08_regions": "results/stage3/te_xmv08__stripper_level_setpoint_regions.json"
+      },
+      "notes": "Formal TE stage3 count to preserve in current artifact summary."
+    }
+  }
+}

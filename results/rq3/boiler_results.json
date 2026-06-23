@@ -1,7 +1,7 @@
 {
   "platform": "boiler",
-  "source_stage3_regions": "results/stage3/boiler_stage3_combined_regions.json",
-  "source_stage2_base": "results/stage2/boiler_base_boundary.json",
+  "source_stage3_regions": "results/stage3/boiler_fuel_command__steam_setpoint_regions.json",
+  "source_stage2_base": "results/stage2/BOILER/boiler_base_boundary.json",
   "coverage": {
     "n": 500,
     "ra": 500,

@@ -1,0 +1,31 @@
+{
+  "boiler": {
+    "fuel_command__steam_setpoint": {
+      "regions_path": "results/stage3/boiler_fuel_command__steam_setpoint_regions.json",
+      "total_regions": 125
+    },
+    "water_pump_speed__steam_setpoint": {
+      "regions_path": "results/stage3/boiler_water_pump_speed__steam_setpoint_regions.json",
+      "total_regions": 95
+    }
+  },
+  "te": {
+    "formal_pos_only": {
+      "total_regions": 119,
+      "breakdown": {
+        "xmv04__ac_feed_setpoint": {
+          "regions_path": "results/stage3/te_xmv04__ac_feed_setpoint_regions.json",
+          "total_regions": 6
+        },
+        "xmv07__separator_level_setpoint": {
+          "regions_path": "results/stage3/te_xmv07__separator_level_setpoint_regions.json",
+          "total_regions": 53
+        },
+        "xmv08__stripper_level_setpoint": {
+          "regions_path": "results/stage3/te_xmv08__stripper_level_setpoint_regions.json",
+          "total_regions": 60
+        }
+      }
+    }
+  }
+}

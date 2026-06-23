@@ -1,6 +1,6 @@
 {
   "source": {
-    "base_boundary": "results\\stage2\\te_base_boundary.json"
+    "base_boundary": "results/stage2/TE/xmv07/boundary_results.json"
   },
   "parameter_space": {
     "duration_range": [

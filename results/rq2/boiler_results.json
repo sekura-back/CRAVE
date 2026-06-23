@@ -1,7 +1,7 @@
 {
   "source": {
-    "base_boundary": "results\\stage2\\boiler_base_boundary.json",
-    "conditional_expansion": "results\\stage2\\boiler_conditional_expansion.json"
+    "base_boundary": "results/stage2/BOILER/boiler_base_boundary.json",
+    "conditional_expansion": "results/stage2/BOILER/boiler_conditional_expansion.json"
   },
   "parameter_space": {
     "duration_range": [

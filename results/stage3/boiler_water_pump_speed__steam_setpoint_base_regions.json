@@ -1,0 +1,5584 @@
+{
+  "method": "artifact_current_chain_T_only_merge_base",
+  "config": {
+    "delta_T": 50,
+    "merge_max_delta_T": 1000,
+    "delta_K": 0.01,
+    "gamma_merge": 0.1
+  },
+  "thresholds": {
+    "W_median": 0.040523,
+    "delta_merge": 0.004052,
+    "D_median": 6.6e-05
+  },
+  "stats": {
+    "initial_reps": 100,
+    "n_regions": 78,
+    "n_pairs": 22,
+    "region_sizes_top10": [
+      10,
+      5,
+      3,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "regions": [
+    {
+      "region_id": "R_001",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 10,
+      "n_fine_pts": 10,
+      "t_range": [
+        100,
+        1000
+      ],
+      "k_range": [
+        4.02298,
+        4.02298
+      ],
+      "amp_actual_range": [
+        4.02298,
+        4.02298
+      ],
+      "stable_amp_range": [
+        4.02298,
+        4.02298
+      ],
+      "extreme_amp_range": [
+        4.02298,
+        4.02298
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 100,
+          "amp": 4.02298,
+          "slope_min": 0.063094,
+          "slope_max": 0.112875
+        },
+        {
+          "dur": 1000,
+          "amp": 4.02298,
+          "slope_min": 0.063094,
+          "slope_max": 0.112875
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.063094,
+        "alpha_plus": 0.112875,
+        "width": 0.049781
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_002",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 5,
+      "n_fine_pts": 5,
+      "t_range": [
+        600,
+        1000
+      ],
+      "k_range": [
+        3.587658,
+        3.594515
+      ],
+      "amp_actual_range": [
+        3.587658,
+        3.594515
+      ],
+      "stable_amp_range": [
+        3.587658,
+        3.594515
+      ],
+      "extreme_amp_range": [
+        3.587658,
+        3.594515
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 600,
+          "amp": 3.594515,
+          "slope_min": 0.058945,
+          "slope_max": 0.107141
+        },
+        {
+          "dur": 1000,
+          "amp": 3.587658,
+          "slope_min": 0.058773,
+          "slope_max": 0.107047
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.058945,
+        "alpha_plus": 0.107047,
+        "width": 0.048102
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_003",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 3,
+      "n_fine_pts": 3,
+      "t_range": [
+        800,
+        1000
+      ],
+      "k_range": [
+        2.717016,
+        2.724701
+      ],
+      "amp_actual_range": [
+        2.717016,
+        2.724701
+      ],
+      "stable_amp_range": [
+        2.717016,
+        2.724701
+      ],
+      "extreme_amp_range": [
+        2.717016,
+        2.724701
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 800,
+          "amp": 2.724701,
+          "slope_min": 0.050305,
+          "slope_max": 0.093945
+        },
+        {
+          "dur": 1000,
+          "amp": 2.717016,
+          "slope_min": 0.050086,
+          "slope_max": 0.09382
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.050305,
+        "alpha_plus": 0.09382,
+        "width": 0.043516
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_004",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 2,
+      "n_fine_pts": 2,
+      "t_range": [
+        900,
+        1000
+      ],
+      "k_range": [
+        0.97573,
+        0.98372
+      ],
+      "amp_actual_range": [
+        0.97573,
+        0.98372
+      ],
+      "stable_amp_range": [
+        0.97573,
+        0.98372
+      ],
+      "extreme_amp_range": [
+        0.97573,
+        0.98372
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 900,
+          "amp": 0.98372,
+          "slope_min": 0.025664,
+          "slope_max": 0.053969
+        },
+        {
+          "dur": 1000,
+          "amp": 0.97573,
+          "slope_min": 0.025563,
+          "slope_max": 0.053672
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.025664,
+        "alpha_plus": 0.053672,
+        "width": 0.028008
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_005",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 2,
+      "n_fine_pts": 2,
+      "t_range": [
+        900,
+        1000
+      ],
+      "k_range": [
+        1.846373,
+        1.85208
+      ],
+      "amp_actual_range": [
+        1.846373,
+        1.85208
+      ],
+      "stable_amp_range": [
+        1.846373,
+        1.85208
+      ],
+      "extreme_amp_range": [
+        1.846373,
+        1.85208
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 900,
+          "amp": 1.85208,
+          "slope_min": 0.04018,
+          "slope_max": 0.077547
+        },
+        {
+          "dur": 1000,
+          "amp": 1.846373,
+          "slope_min": 0.039992,
+          "slope_max": 0.077422
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.04018,
+        "alpha_plus": 0.077422,
+        "width": 0.037242
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_006",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 2,
+      "n_fine_pts": 2,
+      "t_range": [
+        800,
+        900
+      ],
+      "k_range": [
+        2.28626,
+        2.291942
+      ],
+      "amp_actual_range": [
+        2.28626,
+        2.291942
+      ],
+      "stable_amp_range": [
+        2.28626,
+        2.291942
+      ],
+      "extreme_amp_range": [
+        2.28626,
+        2.291942
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 800,
+          "amp": 2.291942,
+          "slope_min": 0.045672,
+          "slope_max": 0.086344
+        },
+        {
+          "dur": 900,
+          "amp": 2.28626,
+          "slope_min": 0.0455,
+          "slope_max": 0.086242
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.045672,
+        "alpha_plus": 0.086242,
+        "width": 0.04057
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_007",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 2,
+      "n_fine_pts": 2,
+      "t_range": [
+        900,
+        1000
+      ],
+      "k_range": [
+        3.152337,
+        3.15462
+      ],
+      "amp_actual_range": [
+        3.152337,
+        3.15462
+      ],
+      "stable_amp_range": [
+        3.152337,
+        3.15462
+      ],
+      "extreme_amp_range": [
+        3.152337,
+        3.15462
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 900,
+          "amp": 3.15462,
+          "slope_min": 0.05475,
+          "slope_max": 0.100789
+        },
+        {
+          "dur": 1000,
+          "amp": 3.152337,
+          "slope_min": 0.054688,
+          "slope_max": 0.100758
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.05475,
+        "alpha_plus": 0.100758,
+        "width": 0.046008
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_008",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 2,
+      "n_fine_pts": 2,
+      "t_range": [
+        700,
+        800
+      ],
+      "k_range": [
+        3.157461,
+        3.161134
+      ],
+      "amp_actual_range": [
+        3.157461,
+        3.161134
+      ],
+      "stable_amp_range": [
+        3.157461,
+        3.161134
+      ],
+      "extreme_amp_range": [
+        3.157461,
+        3.161134
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 700,
+          "amp": 3.161134,
+          "slope_min": 0.054922,
+          "slope_max": 0.100883
+        },
+        {
+          "dur": 800,
+          "amp": 3.157461,
+          "slope_min": 0.054828,
+          "slope_max": 0.100828
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.054922,
+        "alpha_plus": 0.100828,
+        "width": 0.045906
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_009",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 2,
+      "n_fine_pts": 2,
+      "t_range": [
+        500,
+        600
+      ],
+      "k_range": [
+        3.16605,
+        3.17298
+      ],
+      "amp_actual_range": [
+        3.16605,
+        3.17298
+      ],
+      "stable_amp_range": [
+        3.16605,
+        3.17298
+      ],
+      "extreme_amp_range": [
+        3.16605,
+        3.17298
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 500,
+          "amp": 3.17298,
+          "slope_min": 0.055234,
+          "slope_max": 0.101062
+        },
+        {
+          "dur": 600,
+          "amp": 3.16605,
+          "slope_min": 0.055055,
+          "slope_max": 0.100961
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.055234,
+        "alpha_plus": 0.100961,
+        "width": 0.045727
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_010",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 2,
+      "n_fine_pts": 2,
+      "t_range": [
+        400,
+        500
+      ],
+      "k_range": [
+        3.59798,
+        3.603204
+      ],
+      "amp_actual_range": [
+        3.59798,
+        3.603204
+      ],
+      "stable_amp_range": [
+        3.59798,
+        3.603204
+      ],
+      "extreme_amp_range": [
+        3.59798,
+        3.603204
+      ],
+      "n_corners": 2,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 3.603204,
+          "slope_min": 0.059164,
+          "slope_max": 0.107266
+        },
+        {
+          "dur": 500,
+          "amp": 3.59798,
+          "slope_min": 0.059031,
+          "slope_max": 0.107187
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.059164,
+        "alpha_plus": 0.107187,
+        "width": 0.048023
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_011",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        1000,
+        1000
+      ],
+      "k_range": [
+        0.105088,
+        0.105088
+      ],
+      "amp_actual_range": [
+        0.105088,
+        0.105088
+      ],
+      "stable_amp_range": [
+        0.105088,
+        0.105088
+      ],
+      "extreme_amp_range": [
+        0.105088,
+        0.105088
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 1000,
+          "amp": 0.105088,
+          "slope_min": 0.0035,
+          "slope_max": 0.0085
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.0035,
+        "alpha_plus": 0.0085,
+        "width": 0.005
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_012",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        900,
+        900
+      ],
+      "k_range": [
+        0.11536,
+        0.11536
+      ],
+      "amp_actual_range": [
+        0.11536,
+        0.11536
+      ],
+      "stable_amp_range": [
+        0.11536,
+        0.11536
+      ],
+      "extreme_amp_range": [
+        0.11536,
+        0.11536
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 900,
+          "amp": 0.11536,
+          "slope_min": 0.003844,
+          "slope_max": 0.00925
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.003844,
+        "alpha_plus": 0.00925,
+        "width": 0.005406
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_013",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        800,
+        800
+      ],
+      "k_range": [
+        0.128144,
+        0.128144
+      ],
+      "amp_actual_range": [
+        0.128144,
+        0.128144
+      ],
+      "stable_amp_range": [
+        0.128144,
+        0.128144
+      ],
+      "extreme_amp_range": [
+        0.128144,
+        0.128144
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 800,
+          "amp": 0.128144,
+          "slope_min": 0.004266,
+          "slope_max": 0.010164
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.004266,
+        "alpha_plus": 0.010164,
+        "width": 0.005898
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_014",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        700,
+        700
+      ],
+      "k_range": [
+        0.144676,
+        0.144676
+      ],
+      "amp_actual_range": [
+        0.144676,
+        0.144676
+      ],
+      "stable_amp_range": [
+        0.144676,
+        0.144676
+      ],
+      "extreme_amp_range": [
+        0.144676,
+        0.144676
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 700,
+          "amp": 0.144676,
+          "slope_min": 0.004805,
+          "slope_max": 0.011336
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.004805,
+        "alpha_plus": 0.011336,
+        "width": 0.006531
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_015",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        600,
+        600
+      ],
+      "k_range": [
+        0.166798,
+        0.166798
+      ],
+      "amp_actual_range": [
+        0.166798,
+        0.166798
+      ],
+      "stable_amp_range": [
+        0.166798,
+        0.166798
+      ],
+      "extreme_amp_range": [
+        0.166798,
+        0.166798
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 600,
+          "amp": 0.166798,
+          "slope_min": 0.005516,
+          "slope_max": 0.012875
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.005516,
+        "alpha_plus": 0.012875,
+        "width": 0.007359
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_016",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        500,
+        500
+      ],
+      "k_range": [
+        0.197983,
+        0.197983
+      ],
+      "amp_actual_range": [
+        0.197983,
+        0.197983
+      ],
+      "stable_amp_range": [
+        0.197983,
+        0.197983
+      ],
+      "extreme_amp_range": [
+        0.197983,
+        0.197983
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 500,
+          "amp": 0.197983,
+          "slope_min": 0.006508,
+          "slope_max": 0.014992
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.006508,
+        "alpha_plus": 0.014992,
+        "width": 0.008484
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_017",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        400,
+        400
+      ],
+      "k_range": [
+        0.244999,
+        0.244999
+      ],
+      "amp_actual_range": [
+        0.244999,
+        0.244999
+      ],
+      "stable_amp_range": [
+        0.244999,
+        0.244999
+      ],
+      "extreme_amp_range": [
+        0.244999,
+        0.244999
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 0.244999,
+          "slope_min": 0.007945,
+          "slope_max": 0.018063
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.007945,
+        "alpha_plus": 0.018063,
+        "width": 0.010117
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_018",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        0.323772,
+        0.323772
+      ],
+      "amp_actual_range": [
+        0.323772,
+        0.323772
+      ],
+      "stable_amp_range": [
+        0.323772,
+        0.323772
+      ],
+      "extreme_amp_range": [
+        0.323772,
+        0.323772
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 0.323772,
+          "slope_min": 0.010336,
+          "slope_max": 0.022922
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.010336,
+        "alpha_plus": 0.022922,
+        "width": 0.012586
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_019",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        200,
+        200
+      ],
+      "k_range": [
+        0.482941,
+        0.482941
+      ],
+      "amp_actual_range": [
+        0.482941,
+        0.482941
+      ],
+      "stable_amp_range": [
+        0.482941,
+        0.482941
+      ],
+      "extreme_amp_range": [
+        0.482941,
+        0.482941
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 200,
+          "amp": 0.482941,
+          "slope_min": 0.015555,
+          "slope_max": 0.031844
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.015555,
+        "alpha_plus": 0.031844,
+        "width": 0.016289
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_020",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        1000,
+        1000
+      ],
+      "k_range": [
+        0.540409,
+        0.540409
+      ],
+      "amp_actual_range": [
+        0.540409,
+        0.540409
+      ],
+      "stable_amp_range": [
+        0.540409,
+        0.540409
+      ],
+      "extreme_amp_range": [
+        0.540409,
+        0.540409
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 1000,
+          "amp": 0.540409,
+          "slope_min": 0.016063,
+          "slope_max": 0.034797
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.016063,
+        "alpha_plus": 0.034797,
+        "width": 0.018734
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_021",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        900,
+        900
+      ],
+      "k_range": [
+        0.54954,
+        0.54954
+      ],
+      "amp_actual_range": [
+        0.54954,
+        0.54954
+      ],
+      "stable_amp_range": [
+        0.54954,
+        0.54954
+      ],
+      "extreme_amp_range": [
+        0.54954,
+        0.54954
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 900,
+          "amp": 0.54954,
+          "slope_min": 0.016273,
+          "slope_max": 0.03525
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.016273,
+        "alpha_plus": 0.03525,
+        "width": 0.018977
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_022",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        800,
+        800
+      ],
+      "k_range": [
+        0.560904,
+        0.560904
+      ],
+      "amp_actual_range": [
+        0.560904,
+        0.560904
+      ],
+      "stable_amp_range": [
+        0.560904,
+        0.560904
+      ],
+      "extreme_amp_range": [
+        0.560904,
+        0.560904
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 800,
+          "amp": 0.560904,
+          "slope_min": 0.01657,
+          "slope_max": 0.035836
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.01657,
+        "alpha_plus": 0.035836,
+        "width": 0.019266
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_023",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        700,
+        700
+      ],
+      "k_range": [
+        0.575599,
+        0.575599
+      ],
+      "amp_actual_range": [
+        0.575599,
+        0.575599
+      ],
+      "stable_amp_range": [
+        0.575599,
+        0.575599
+      ],
+      "extreme_amp_range": [
+        0.575599,
+        0.575599
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 700,
+          "amp": 0.575599,
+          "slope_min": 0.01693,
+          "slope_max": 0.036531
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.01693,
+        "alpha_plus": 0.036531,
+        "width": 0.019602
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_024",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        600,
+        600
+      ],
+      "k_range": [
+        0.595262,
+        0.595262
+      ],
+      "amp_actual_range": [
+        0.595262,
+        0.595262
+      ],
+      "stable_amp_range": [
+        0.595262,
+        0.595262
+      ],
+      "extreme_amp_range": [
+        0.595262,
+        0.595262
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 600,
+          "amp": 0.595262,
+          "slope_min": 0.017406,
+          "slope_max": 0.0375
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.017406,
+        "alpha_plus": 0.0375,
+        "width": 0.020094
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_025",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        500,
+        500
+      ],
+      "k_range": [
+        0.622982,
+        0.622982
+      ],
+      "amp_actual_range": [
+        0.622982,
+        0.622982
+      ],
+      "stable_amp_range": [
+        0.622982,
+        0.622982
+      ],
+      "extreme_amp_range": [
+        0.622982,
+        0.622982
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 500,
+          "amp": 0.622982,
+          "slope_min": 0.018125,
+          "slope_max": 0.038828
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.018125,
+        "alpha_plus": 0.038828,
+        "width": 0.020703
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_026",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        400,
+        400
+      ],
+      "k_range": [
+        0.664775,
+        0.664775
+      ],
+      "amp_actual_range": [
+        0.664775,
+        0.664775
+      ],
+      "stable_amp_range": [
+        0.664775,
+        0.664775
+      ],
+      "extreme_amp_range": [
+        0.664775,
+        0.664775
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 0.664775,
+          "slope_min": 0.019078,
+          "slope_max": 0.040758
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.019078,
+        "alpha_plus": 0.040758,
+        "width": 0.02168
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_027",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        0.734795,
+        0.734795
+      ],
+      "amp_actual_range": [
+        0.734795,
+        0.734795
+      ],
+      "stable_amp_range": [
+        0.734795,
+        0.734795
+      ],
+      "extreme_amp_range": [
+        0.734795,
+        0.734795
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 0.734795,
+          "slope_min": 0.02057,
+          "slope_max": 0.043922
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.02057,
+        "alpha_plus": 0.043922,
+        "width": 0.023352
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_028",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        200,
+        200
+      ],
+      "k_range": [
+        0.876278,
+        0.876278
+      ],
+      "amp_actual_range": [
+        0.876278,
+        0.876278
+      ],
+      "stable_amp_range": [
+        0.876278,
+        0.876278
+      ],
+      "extreme_amp_range": [
+        0.876278,
+        0.876278
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 200,
+          "amp": 0.876278,
+          "slope_min": 0.023539,
+          "slope_max": 0.04982
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.023539,
+        "alpha_plus": 0.04982,
+        "width": 0.026281
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_029",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        100,
+        100
+      ],
+      "k_range": [
+        0.969315,
+        0.969315
+      ],
+      "amp_actual_range": [
+        0.969315,
+        0.969315
+      ],
+      "stable_amp_range": [
+        0.969315,
+        0.969315
+      ],
+      "extreme_amp_range": [
+        0.969315,
+        0.969315
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 100,
+          "amp": 0.969315,
+          "slope_min": 0.031195,
+          "slope_max": 0.05343
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.031195,
+        "alpha_plus": 0.05343,
+        "width": 0.022234
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_030",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        800,
+        800
+      ],
+      "k_range": [
+        0.993663,
+        0.993663
+      ],
+      "amp_actual_range": [
+        0.993663,
+        0.993663
+      ],
+      "stable_amp_range": [
+        0.993663,
+        0.993663
+      ],
+      "extreme_amp_range": [
+        0.993663,
+        0.993663
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 800,
+          "amp": 0.993663,
+          "slope_min": 0.025977,
+          "slope_max": 0.054344
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.025977,
+        "alpha_plus": 0.054344,
+        "width": 0.028367
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_031",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        700,
+        700
+      ],
+      "k_range": [
+        1.006521,
+        1.006521
+      ],
+      "amp_actual_range": [
+        1.006521,
+        1.006521
+      ],
+      "stable_amp_range": [
+        1.006521,
+        1.006521
+      ],
+      "extreme_amp_range": [
+        1.006521,
+        1.006521
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 700,
+          "amp": 1.006521,
+          "slope_min": 0.026109,
+          "slope_max": 0.05482
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.026109,
+        "alpha_plus": 0.05482,
+        "width": 0.028711
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_032",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        600,
+        600
+      ],
+      "k_range": [
+        1.023727,
+        1.023727
+      ],
+      "amp_actual_range": [
+        1.023727,
+        1.023727
+      ],
+      "stable_amp_range": [
+        1.023727,
+        1.023727
+      ],
+      "extreme_amp_range": [
+        1.023727,
+        1.023727
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 600,
+          "amp": 1.023727,
+          "slope_min": 0.02657,
+          "slope_max": 0.055438
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.02657,
+        "alpha_plus": 0.055438,
+        "width": 0.028867
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_033",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        500,
+        500
+      ],
+      "k_range": [
+        1.047982,
+        1.047982
+      ],
+      "amp_actual_range": [
+        1.047982,
+        1.047982
+      ],
+      "stable_amp_range": [
+        1.047982,
+        1.047982
+      ],
+      "extreme_amp_range": [
+        1.047982,
+        1.047982
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 500,
+          "amp": 1.047982,
+          "slope_min": 0.027031,
+          "slope_max": 0.056289
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.027031,
+        "alpha_plus": 0.056289,
+        "width": 0.029258
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_034",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        400,
+        400
+      ],
+      "k_range": [
+        1.08455,
+        1.08455
+      ],
+      "amp_actual_range": [
+        1.08455,
+        1.08455
+      ],
+      "stable_amp_range": [
+        1.08455,
+        1.08455
+      ],
+      "extreme_amp_range": [
+        1.08455,
+        1.08455
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 1.08455,
+          "slope_min": 0.027695,
+          "slope_max": 0.057531
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.027695,
+        "alpha_plus": 0.057531,
+        "width": 0.029836
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_035",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        1.145818,
+        1.145818
+      ],
+      "amp_actual_range": [
+        1.145818,
+        1.145818
+      ],
+      "stable_amp_range": [
+        1.145818,
+        1.145818
+      ],
+      "extreme_amp_range": [
+        1.145818,
+        1.145818
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 1.145818,
+          "slope_min": 0.028945,
+          "slope_max": 0.059508
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.028945,
+        "alpha_plus": 0.059508,
+        "width": 0.030562
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_036",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        200,
+        200
+      ],
+      "k_range": [
+        1.269616,
+        1.269616
+      ],
+      "amp_actual_range": [
+        1.269616,
+        1.269616
+      ],
+      "stable_amp_range": [
+        1.269616,
+        1.269616
+      ],
+      "extreme_amp_range": [
+        1.269616,
+        1.269616
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 200,
+          "amp": 1.269616,
+          "slope_min": 0.031008,
+          "slope_max": 0.063211
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.031008,
+        "alpha_plus": 0.063211,
+        "width": 0.032203
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_037",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        100,
+        100
+      ],
+      "k_range": [
+        1.308611,
+        1.308611
+      ],
+      "amp_actual_range": [
+        1.308611,
+        1.308611
+      ],
+      "stable_amp_range": [
+        1.308611,
+        1.308611
+      ],
+      "extreme_amp_range": [
+        1.308611,
+        1.308611
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 100,
+          "amp": 1.308611,
+          "slope_min": 0.031711,
+          "slope_max": 0.064312
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.031711,
+        "alpha_plus": 0.064312,
+        "width": 0.032602
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_038",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        1000,
+        1000
+      ],
+      "k_range": [
+        1.411052,
+        1.411052
+      ],
+      "amp_actual_range": [
+        1.411052,
+        1.411052
+      ],
+      "stable_amp_range": [
+        1.411052,
+        1.411052
+      ],
+      "extreme_amp_range": [
+        1.411052,
+        1.411052
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 1000,
+          "amp": 1.411052,
+          "slope_min": 0.033383,
+          "slope_max": 0.067086
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.033383,
+        "alpha_plus": 0.067086,
+        "width": 0.033703
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_039",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        900,
+        900
+      ],
+      "k_range": [
+        1.4179,
+        1.4179
+      ],
+      "amp_actual_range": [
+        1.4179,
+        1.4179
+      ],
+      "stable_amp_range": [
+        1.4179,
+        1.4179
+      ],
+      "extreme_amp_range": [
+        1.4179,
+        1.4179
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 900,
+          "amp": 1.4179,
+          "slope_min": 0.033633,
+          "slope_max": 0.067266
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.033633,
+        "alpha_plus": 0.067266,
+        "width": 0.033633
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_040",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        800,
+        800
+      ],
+      "k_range": [
+        1.426423,
+        1.426423
+      ],
+      "amp_actual_range": [
+        1.426423,
+        1.426423
+      ],
+      "stable_amp_range": [
+        1.426423,
+        1.426423
+      ],
+      "extreme_amp_range": [
+        1.426423,
+        1.426423
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 800,
+          "amp": 1.426423,
+          "slope_min": 0.033484,
+          "slope_max": 0.067492
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.033484,
+        "alpha_plus": 0.067492,
+        "width": 0.034008
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_041",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        700,
+        700
+      ],
+      "k_range": [
+        1.437444,
+        1.437444
+      ],
+      "amp_actual_range": [
+        1.437444,
+        1.437444
+      ],
+      "stable_amp_range": [
+        1.437444,
+        1.437444
+      ],
+      "extreme_amp_range": [
+        1.437444,
+        1.437444
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 700,
+          "amp": 1.437444,
+          "slope_min": 0.033883,
+          "slope_max": 0.067773
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.033883,
+        "alpha_plus": 0.067773,
+        "width": 0.033891
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_042",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        600,
+        600
+      ],
+      "k_range": [
+        1.452192,
+        1.452192
+      ],
+      "amp_actual_range": [
+        1.452192,
+        1.452192
+      ],
+      "stable_amp_range": [
+        1.452192,
+        1.452192
+      ],
+      "extreme_amp_range": [
+        1.452192,
+        1.452192
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 600,
+          "amp": 1.452192,
+          "slope_min": 0.033945,
+          "slope_max": 0.068156
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.033945,
+        "alpha_plus": 0.068156,
+        "width": 0.034211
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_043",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        500,
+        500
+      ],
+      "k_range": [
+        1.472982,
+        1.472982
+      ],
+      "amp_actual_range": [
+        1.472982,
+        1.472982
+      ],
+      "stable_amp_range": [
+        1.472982,
+        1.472982
+      ],
+      "extreme_amp_range": [
+        1.472982,
+        1.472982
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 500,
+          "amp": 1.472982,
+          "slope_min": 0.034211,
+          "slope_max": 0.068688
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.034211,
+        "alpha_plus": 0.068688,
+        "width": 0.034477
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_044",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        400,
+        400
+      ],
+      "k_range": [
+        1.504326,
+        1.504326
+      ],
+      "amp_actual_range": [
+        1.504326,
+        1.504326
+      ],
+      "stable_amp_range": [
+        1.504326,
+        1.504326
+      ],
+      "extreme_amp_range": [
+        1.504326,
+        1.504326
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 1.504326,
+          "slope_min": 0.034836,
+          "slope_max": 0.069477
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.034836,
+        "alpha_plus": 0.069477,
+        "width": 0.034641
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_045",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        1.556842,
+        1.556842
+      ],
+      "amp_actual_range": [
+        1.556842,
+        1.556842
+      ],
+      "stable_amp_range": [
+        1.556842,
+        1.556842
+      ],
+      "extreme_amp_range": [
+        1.556842,
+        1.556842
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 1.556842,
+          "slope_min": 0.035656,
+          "slope_max": 0.070781
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.035656,
+        "alpha_plus": 0.070781,
+        "width": 0.035125
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_046",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        100,
+        100
+      ],
+      "k_range": [
+        1.647907,
+        1.647907
+      ],
+      "amp_actual_range": [
+        1.647907,
+        1.647907
+      ],
+      "stable_amp_range": [
+        1.647907,
+        1.647907
+      ],
+      "extreme_amp_range": [
+        1.647907,
+        1.647907
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 100,
+          "amp": 1.647907,
+          "slope_min": 0.037148,
+          "slope_max": 0.072953
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.037148,
+        "alpha_plus": 0.072953,
+        "width": 0.035805
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_047",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        200,
+        200
+      ],
+      "k_range": [
+        1.662954,
+        1.662954
+      ],
+      "amp_actual_range": [
+        1.662954,
+        1.662954
+      ],
+      "stable_amp_range": [
+        1.662954,
+        1.662954
+      ],
+      "extreme_amp_range": [
+        1.662954,
+        1.662954
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 200,
+          "amp": 1.662954,
+          "slope_min": 0.037078,
+          "slope_max": 0.073305
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.037078,
+        "alpha_plus": 0.073305,
+        "width": 0.036227
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_048",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        800,
+        800
+      ],
+      "k_range": [
+        1.859182,
+        1.859182
+      ],
+      "amp_actual_range": [
+        1.859182,
+        1.859182
+      ],
+      "stable_amp_range": [
+        1.859182,
+        1.859182
+      ],
+      "extreme_amp_range": [
+        1.859182,
+        1.859182
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 800,
+          "amp": 1.859182,
+          "slope_min": 0.039695,
+          "slope_max": 0.077703
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.039695,
+        "alpha_plus": 0.077703,
+        "width": 0.038008
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_049",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        700,
+        700
+      ],
+      "k_range": [
+        1.868367,
+        1.868367
+      ],
+      "amp_actual_range": [
+        1.868367,
+        1.868367
+      ],
+      "stable_amp_range": [
+        1.868367,
+        1.868367
+      ],
+      "extreme_amp_range": [
+        1.868367,
+        1.868367
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 700,
+          "amp": 1.868367,
+          "slope_min": 0.04,
+          "slope_max": 0.077898
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.04,
+        "alpha_plus": 0.077898,
+        "width": 0.037898
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_050",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        600,
+        600
+      ],
+      "k_range": [
+        1.880656,
+        1.880656
+      ],
+      "amp_actual_range": [
+        1.880656,
+        1.880656
+      ],
+      "stable_amp_range": [
+        1.880656,
+        1.880656
+      ],
+      "extreme_amp_range": [
+        1.880656,
+        1.880656
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 600,
+          "amp": 1.880656,
+          "slope_min": 0.040398,
+          "slope_max": 0.078156
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.040398,
+        "alpha_plus": 0.078156,
+        "width": 0.037758
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_051",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        500,
+        500
+      ],
+      "k_range": [
+        1.897981,
+        1.897981
+      ],
+      "amp_actual_range": [
+        1.897981,
+        1.897981
+      ],
+      "stable_amp_range": [
+        1.897981,
+        1.897981
+      ],
+      "extreme_amp_range": [
+        1.897981,
+        1.897981
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 500,
+          "amp": 1.897981,
+          "slope_min": 0.040227,
+          "slope_max": 0.078531
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.040227,
+        "alpha_plus": 0.078531,
+        "width": 0.038305
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_052",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        400,
+        400
+      ],
+      "k_range": [
+        1.924102,
+        1.924102
+      ],
+      "amp_actual_range": [
+        1.924102,
+        1.924102
+      ],
+      "stable_amp_range": [
+        1.924102,
+        1.924102
+      ],
+      "extreme_amp_range": [
+        1.924102,
+        1.924102
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 1.924102,
+          "slope_min": 0.041078,
+          "slope_max": 0.079078
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.041078,
+        "alpha_plus": 0.079078,
+        "width": 0.038
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_053",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        1.967865,
+        1.967865
+      ],
+      "amp_actual_range": [
+        1.967865,
+        1.967865
+      ],
+      "stable_amp_range": [
+        1.967865,
+        1.967865
+      ],
+      "extreme_amp_range": [
+        1.967865,
+        1.967865
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 1.967865,
+          "slope_min": 0.041727,
+          "slope_max": 0.079992
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.041727,
+        "alpha_plus": 0.079992,
+        "width": 0.038266
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_054",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        100,
+        100
+      ],
+      "k_range": [
+        1.987203,
+        1.987203
+      ],
+      "amp_actual_range": [
+        1.987203,
+        1.987203
+      ],
+      "stable_amp_range": [
+        1.987203,
+        1.987203
+      ],
+      "extreme_amp_range": [
+        1.987203,
+        1.987203
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 100,
+          "amp": 1.987203,
+          "slope_min": 0.041555,
+          "slope_max": 0.080391
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.041555,
+        "alpha_plus": 0.080391,
+        "width": 0.038836
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_055",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        200,
+        200
+      ],
+      "k_range": [
+        2.056291,
+        2.056291
+      ],
+      "amp_actual_range": [
+        2.056291,
+        2.056291
+      ],
+      "stable_amp_range": [
+        2.056291,
+        2.056291
+      ],
+      "extreme_amp_range": [
+        2.056291,
+        2.056291
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 200,
+          "amp": 2.056291,
+          "slope_min": 0.042937,
+          "slope_max": 0.081789
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.042937,
+        "alpha_plus": 0.081789,
+        "width": 0.038852
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_056",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        1000,
+        1000
+      ],
+      "k_range": [
+        2.281694,
+        2.281694
+      ],
+      "amp_actual_range": [
+        2.281694,
+        2.281694
+      ],
+      "stable_amp_range": [
+        2.281694,
+        2.281694
+      ],
+      "extreme_amp_range": [
+        2.281694,
+        2.281694
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 1000,
+          "amp": 2.281694,
+          "slope_min": 0.045359,
+          "slope_max": 0.086156
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.045359,
+        "alpha_plus": 0.086156,
+        "width": 0.040797
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_057",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        700,
+        700
+      ],
+      "k_range": [
+        2.299289,
+        2.299289
+      ],
+      "amp_actual_range": [
+        2.299289,
+        2.299289
+      ],
+      "stable_amp_range": [
+        2.299289,
+        2.299289
+      ],
+      "extreme_amp_range": [
+        2.299289,
+        2.299289
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 700,
+          "amp": 2.299289,
+          "slope_min": 0.045898,
+          "slope_max": 0.086477
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.045898,
+        "alpha_plus": 0.086477,
+        "width": 0.040578
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_058",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        600,
+        600
+      ],
+      "k_range": [
+        2.309121,
+        2.309121
+      ],
+      "amp_actual_range": [
+        2.309121,
+        2.309121
+      ],
+      "stable_amp_range": [
+        2.309121,
+        2.309121
+      ],
+      "extreme_amp_range": [
+        2.309121,
+        2.309121
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 600,
+          "amp": 2.309121,
+          "slope_min": 0.046195,
+          "slope_max": 0.086664
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.046195,
+        "alpha_plus": 0.086664,
+        "width": 0.040469
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_059",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        500,
+        500
+      ],
+      "k_range": [
+        2.322981,
+        2.322981
+      ],
+      "amp_actual_range": [
+        2.322981,
+        2.322981
+      ],
+      "stable_amp_range": [
+        2.322981,
+        2.322981
+      ],
+      "extreme_amp_range": [
+        2.322981,
+        2.322981
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 500,
+          "amp": 2.322981,
+          "slope_min": 0.045594,
+          "slope_max": 0.086922
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.045594,
+        "alpha_plus": 0.086922,
+        "width": 0.041328
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_060",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        100,
+        100
+      ],
+      "k_range": [
+        2.326499,
+        2.326499
+      ],
+      "amp_actual_range": [
+        2.326499,
+        2.326499
+      ],
+      "stable_amp_range": [
+        2.326499,
+        2.326499
+      ],
+      "extreme_amp_range": [
+        2.326499,
+        2.326499
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 100,
+          "amp": 2.326499,
+          "slope_min": 0.045695,
+          "slope_max": 0.086984
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.045695,
+        "alpha_plus": 0.086984,
+        "width": 0.041289
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_061",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        400,
+        400
+      ],
+      "k_range": [
+        2.343877,
+        2.343877
+      ],
+      "amp_actual_range": [
+        2.343877,
+        2.343877
+      ],
+      "stable_amp_range": [
+        2.343877,
+        2.343877
+      ],
+      "extreme_amp_range": [
+        2.343877,
+        2.343877
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 2.343877,
+          "slope_min": 0.046219,
+          "slope_max": 0.087305
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.046219,
+        "alpha_plus": 0.087305,
+        "width": 0.041086
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_062",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        2.378888,
+        2.378888
+      ],
+      "amp_actual_range": [
+        2.378888,
+        2.378888
+      ],
+      "stable_amp_range": [
+        2.378888,
+        2.378888
+      ],
+      "extreme_amp_range": [
+        2.378888,
+        2.378888
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 2.378888,
+          "slope_min": 0.046211,
+          "slope_max": 0.087945
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.046211,
+        "alpha_plus": 0.087945,
+        "width": 0.041734
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_063",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        200,
+        200
+      ],
+      "k_range": [
+        2.449629,
+        2.449629
+      ],
+      "amp_actual_range": [
+        2.449629,
+        2.449629
+      ],
+      "stable_amp_range": [
+        2.449629,
+        2.449629
+      ],
+      "extreme_amp_range": [
+        2.449629,
+        2.449629
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 200,
+          "amp": 2.449629,
+          "slope_min": 0.047211,
+          "slope_max": 0.089219
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.047211,
+        "alpha_plus": 0.089219,
+        "width": 0.042008
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_064",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        100,
+        100
+      ],
+      "k_range": [
+        2.665795,
+        2.665795
+      ],
+      "amp_actual_range": [
+        2.665795,
+        2.665795
+      ],
+      "stable_amp_range": [
+        2.665795,
+        2.665795
+      ],
+      "extreme_amp_range": [
+        2.665795,
+        2.665795
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 100,
+          "amp": 2.665795,
+          "slope_min": 0.049914,
+          "slope_max": 0.092961
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.049914,
+        "alpha_plus": 0.092961,
+        "width": 0.043047
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_065",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        700,
+        700
+      ],
+      "k_range": [
+        2.730212,
+        2.730212
+      ],
+      "amp_actual_range": [
+        2.730212,
+        2.730212
+      ],
+      "stable_amp_range": [
+        2.730212,
+        2.730212
+      ],
+      "extreme_amp_range": [
+        2.730212,
+        2.730212
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 700,
+          "amp": 2.730212,
+          "slope_min": 0.050461,
+          "slope_max": 0.094039
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.050461,
+        "alpha_plus": 0.094039,
+        "width": 0.043578
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_066",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        600,
+        600
+      ],
+      "k_range": [
+        2.737586,
+        2.737586
+      ],
+      "amp_actual_range": [
+        2.737586,
+        2.737586
+      ],
+      "stable_amp_range": [
+        2.737586,
+        2.737586
+      ],
+      "extreme_amp_range": [
+        2.737586,
+        2.737586
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 600,
+          "amp": 2.737586,
+          "slope_min": 0.050672,
+          "slope_max": 0.094156
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.050672,
+        "alpha_plus": 0.094156,
+        "width": 0.043484
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_067",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        500,
+        500
+      ],
+      "k_range": [
+        2.747981,
+        2.747981
+      ],
+      "amp_actual_range": [
+        2.747981,
+        2.747981
+      ],
+      "stable_amp_range": [
+        2.747981,
+        2.747981
+      ],
+      "extreme_amp_range": [
+        2.747981,
+        2.747981
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 500,
+          "amp": 2.747981,
+          "slope_min": 0.050961,
+          "slope_max": 0.094328
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.050961,
+        "alpha_plus": 0.094328,
+        "width": 0.043367
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_068",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        400,
+        400
+      ],
+      "k_range": [
+        2.763653,
+        2.763653
+      ],
+      "amp_actual_range": [
+        2.763653,
+        2.763653
+      ],
+      "stable_amp_range": [
+        2.763653,
+        2.763653
+      ],
+      "extreme_amp_range": [
+        2.763653,
+        2.763653
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 2.763653,
+          "slope_min": 0.051406,
+          "slope_max": 0.094586
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.051406,
+        "alpha_plus": 0.094586,
+        "width": 0.04318
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_069",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        2.789911,
+        2.789911
+      ],
+      "amp_actual_range": [
+        2.789911,
+        2.789911
+      ],
+      "stable_amp_range": [
+        2.789911,
+        2.789911
+      ],
+      "extreme_amp_range": [
+        2.789911,
+        2.789911
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 2.789911,
+          "slope_min": 0.050797,
+          "slope_max": 0.095023
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.050797,
+        "alpha_plus": 0.095023,
+        "width": 0.044227
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_070",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        200,
+        200
+      ],
+      "k_range": [
+        2.842967,
+        2.842967
+      ],
+      "amp_actual_range": [
+        2.842967,
+        2.842967
+      ],
+      "stable_amp_range": [
+        2.842967,
+        2.842967
+      ],
+      "extreme_amp_range": [
+        2.842967,
+        2.842967
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 200,
+          "amp": 2.842967,
+          "slope_min": 0.052273,
+          "slope_max": 0.095891
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.052273,
+        "alpha_plus": 0.095891,
+        "width": 0.043617
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_071",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        100,
+        100
+      ],
+      "k_range": [
+        3.005091,
+        3.005091
+      ],
+      "amp_actual_range": [
+        3.005091,
+        3.005091
+      ],
+      "stable_amp_range": [
+        3.005091,
+        3.005091
+      ],
+      "extreme_amp_range": [
+        3.005091,
+        3.005091
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 100,
+          "amp": 3.005091,
+          "slope_min": 0.053859,
+          "slope_max": 0.098453
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.053859,
+        "alpha_plus": 0.098453,
+        "width": 0.044594
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_072",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        400,
+        400
+      ],
+      "k_range": [
+        3.183428,
+        3.183428
+      ],
+      "amp_actual_range": [
+        3.183428,
+        3.183428
+      ],
+      "stable_amp_range": [
+        3.183428,
+        3.183428
+      ],
+      "extreme_amp_range": [
+        3.183428,
+        3.183428
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 400,
+          "amp": 3.183428,
+          "slope_min": 0.055516,
+          "slope_max": 0.101219
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.055516,
+        "alpha_plus": 0.101219,
+        "width": 0.045703
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_073",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        3.200934,
+        3.200934
+      ],
+      "amp_actual_range": [
+        3.200934,
+        3.200934
+      ],
+      "stable_amp_range": [
+        3.200934,
+        3.200934
+      ],
+      "extreme_amp_range": [
+        3.200934,
+        3.200934
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 3.200934,
+          "slope_min": 0.055977,
+          "slope_max": 0.101477
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.055977,
+        "alpha_plus": 0.101477,
+        "width": 0.0455
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_074",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        200,
+        200
+      ],
+      "k_range": [
+        3.236304,
+        3.236304
+      ],
+      "amp_actual_range": [
+        3.236304,
+        3.236304
+      ],
+      "stable_amp_range": [
+        3.236304,
+        3.236304
+      ],
+      "extreme_amp_range": [
+        3.236304,
+        3.236304
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 200,
+          "amp": 3.236304,
+          "slope_min": 0.055242,
+          "slope_max": 0.102008
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.055242,
+        "alpha_plus": 0.102008,
+        "width": 0.046766
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_075",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        100,
+        100
+      ],
+      "k_range": [
+        3.344387,
+        3.344387
+      ],
+      "amp_actual_range": [
+        3.344387,
+        3.344387
+      ],
+      "stable_amp_range": [
+        3.344387,
+        3.344387
+      ],
+      "extreme_amp_range": [
+        3.344387,
+        3.344387
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 100,
+          "amp": 3.344387,
+          "slope_min": 0.056313,
+          "slope_max": 0.103602
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.056313,
+        "alpha_plus": 0.103602,
+        "width": 0.047289
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_076",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        300,
+        300
+      ],
+      "k_range": [
+        3.611957,
+        3.611957
+      ],
+      "amp_actual_range": [
+        3.611957,
+        3.611957
+      ],
+      "stable_amp_range": [
+        3.611957,
+        3.611957
+      ],
+      "extreme_amp_range": [
+        3.611957,
+        3.611957
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 300,
+          "amp": 3.611957,
+          "slope_min": 0.059383,
+          "slope_max": 0.107383
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.059383,
+        "alpha_plus": 0.107383,
+        "width": 0.048
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_077",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        200,
+        200
+      ],
+      "k_range": [
+        3.629642,
+        3.629642
+      ],
+      "amp_actual_range": [
+        3.629642,
+        3.629642
+      ],
+      "stable_amp_range": [
+        3.629642,
+        3.629642
+      ],
+      "extreme_amp_range": [
+        3.629642,
+        3.629642
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 200,
+          "amp": 3.629642,
+          "slope_min": 0.05982,
+          "slope_max": 0.107625
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.05982,
+        "alpha_plus": 0.107625,
+        "width": 0.047805
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "region_id": "R_078",
+      "region_type": "base",
+      "boundary_role": "default",
+      "n_members": 1,
+      "n_fine_pts": 1,
+      "t_range": [
+        100,
+        100
+      ],
+      "k_range": [
+        3.683684,
+        3.683684
+      ],
+      "amp_actual_range": [
+        3.683684,
+        3.683684
+      ],
+      "stable_amp_range": [
+        3.683684,
+        3.683684
+      ],
+      "extreme_amp_range": [
+        3.683684,
+        3.683684
+      ],
+      "n_corners": 1,
+      "corner_points": [
+        {
+          "dur": 100,
+          "amp": 3.683684,
+          "slope_min": 0.059164,
+          "slope_max": 0.108375
+        }
+      ],
+      "B_omega": {
+        "alpha_minus": 0.059164,
+        "alpha_plus": 0.108375,
+        "width": 0.049211
+      },
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    }
+  ],
+  "selected_variable": "simulation_water_pump_speed",
+  "canonical_alarm_id": "P-BOILER-CUT-001",
+  "ref_var": "simulation_steam_setpoint",
+  "coordinated_variable_pair": {
+    "selected_variable": "simulation_water_pump_speed",
+    "ref_var": "simulation_steam_setpoint",
+    "selected_runtime": {
+      "point": "simulation_water_pump_speed",
+      "phase": "controller_water_pump",
+      "field": "water_pump_speed",
+      "default_value": 2500.0,
+      "range": [
+        2000.0,
+        3000.0
+      ],
+      "rate": 50.0
+    },
+    "ref_runtime": {
+      "point": "simulation_steam_setpoint",
+      "phase": "controller_steam_hslim",
+      "field": "steam_setpoint",
+      "default_value": 23.74,
+      "range": [
+        18.0,
+        29.0
+      ],
+      "rate": 0.5
+    }
+  },
+  "source_stage3_full": "results/stage3/boiler_water_pump_speed__steam_setpoint_full.json",
+  "source_stage2_base": "results/stage2/boiler_base_water_pump_speed_cond_input_step10_pos.json"
+}

@@ -1,0 +1,1578 @@
+{
+  "point": "simulation_xmv_08",
+  "backend": "physics",
+  "method": "target_intervals",
+  "domain": {
+    "amp_max": 1.0,
+    "default_value": 46.53,
+    "value_range": [
+      0.0,
+      100.0
+    ],
+    "duration_min": 50,
+    "duration_max": 1000,
+    "duration_step": 20,
+    "coarse_span": 0.03125,
+    "amp_tol": 0.001,
+    "workers": 2
+  },
+  "semantic_filters": {
+    "forbidden_alarm_ids": [],
+    "required_alarm_ids": []
+  },
+  "boundaries": [
+    {
+      "direction": "neg",
+      "duration": 50,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 70,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 90,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 110,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 130,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 150,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 170,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 190,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 210,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 230,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 250,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 270,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 290,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 310,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 330,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 350,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 370,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 390,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 410,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "neg",
+      "duration": 430,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.771484375,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.771484375,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 450,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.466796875,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.466796875,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 470,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.3369140625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.3369140625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 490,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.26171875,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.26171875,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 510,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.212890625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.212890625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 530,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.1806640625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.1806640625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 550,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.15625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.15625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 570,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.13671875,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.13671875,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 590,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.123046875,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.123046875,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 610,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.1103515625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.1103515625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 630,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.1005859375,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.1005859375,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 650,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0927734375,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0927734375,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 670,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0849609375,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0849609375,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 690,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0791015625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0791015625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 710,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.07421875,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.07421875,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 730,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0693359375,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0693359375,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 750,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0654296875,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0654296875,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 770,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0615234375,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0615234375,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 790,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.05859375,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.05859375,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 810,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0556640625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0556640625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 830,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.052734375,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.052734375,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 850,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.05078125,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.05078125,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 870,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0478515625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0478515625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 890,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0458984375,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0458984375,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 910,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0439453125,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0439453125,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 930,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0419921875,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0419921875,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 950,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0400390625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0400390625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 970,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0390625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0390625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "neg",
+      "duration": 990,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.037109375,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.037109375,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 50,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "pos",
+      "duration": 70,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "pos",
+      "duration": 90,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "pos",
+      "duration": 110,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "pos",
+      "duration": 130,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "pos",
+      "duration": 150,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "pos",
+      "duration": 170,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "pos",
+      "duration": 190,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "pos",
+      "duration": 210,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "pos",
+      "duration": 230,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "pos",
+      "duration": 250,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "pos",
+      "duration": 270,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "pos",
+      "duration": 290,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "pos",
+      "duration": 310,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "pos",
+      "duration": 330,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "pos",
+      "duration": 350,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": null,
+      "target_intervals": [],
+      "target_interval_count": 0,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 33
+    },
+    {
+      "direction": "pos",
+      "duration": 370,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.7353515625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.7353515625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 390,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.4404296875,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.4404296875,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 410,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.3134765625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.3134765625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 430,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.2431640625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.2431640625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 450,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.1982421875,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.1982421875,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 470,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.1669921875,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.1669921875,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 490,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.14453125,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.14453125,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 510,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.126953125,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.126953125,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 530,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.11328125,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.11328125,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 550,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.1025390625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.1025390625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 570,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.09375,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.09375,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 590,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0859375,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0859375,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 610,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.080078125,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.080078125,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 630,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0751953125,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0751953125,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 650,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0693359375,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0693359375,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 670,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.064453125,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.064453125,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 690,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.060546875,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.060546875,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 710,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.056640625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.056640625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 730,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.052734375,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.052734375,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 750,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0498046875,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0498046875,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 770,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.046875,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.046875,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 790,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0439453125,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0439453125,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 810,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0419921875,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0419921875,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 830,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0390625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0390625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 850,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.037109375,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.037109375,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 870,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.03515625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.03515625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 890,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.033203125,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.033203125,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 910,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.03125,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.03125,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 930,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.029296875,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.029296875,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 950,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0283203125,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0283203125,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 970,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.0263671875,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.0263671875,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    },
+    {
+      "direction": "pos",
+      "duration": 990,
+      "lower_safe_amp": null,
+      "lower_target_amp": 0.025390625,
+      "upper_target_amp": 1.0,
+      "upper_unsafe_amp": null,
+      "target_intervals": [
+        {
+          "rate_lo": 0.025390625,
+          "rate_hi": 1.0
+        }
+      ],
+      "target_interval_count": 1,
+      "converged": true,
+      "rounds_used": 0,
+      "n_simulations": 38
+    }
+  ]
+}

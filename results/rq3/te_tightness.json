@@ -1,8 +1,8 @@
 {
   "platform": "te",
   "metric": "tightness",
-  "source_stage3_regions": "results/stage3/te_stage3_subregion_2d_base.json",
-  "source_stage2_base": "results/stage2/te_base_boundary.json",
+  "source_stage3_regions": "results/stage3/te_xmv07__separator_level_setpoint_regions.json",
+  "source_stage2_base": "results/stage2/TE/xmv07/boundary_results.json",
   "n_samples": 1000,
   "seed": 460,
   "abs_eps": 0.01,
@@ -11,7 +11,10 @@
     "mode": "base_below_boundary_hazard",
     "no_hazard": 996,
     "rate": 99.6,
-    "ci": [98.98, 99.84],
+    "ci": [
+      98.98,
+      99.84
+    ],
     "elapsed_s": 386.4
   }
 }
