@@ -124,6 +124,11 @@ class BoundaryResult:
 
 _WORKER_CTX: Dict[str, Any] = {}
 PRIMARY_SEARCH_METHOD = "target_intervals"
+POINT_CANONICAL_ALARM_SCOPE: Dict[str, List[str]] = {
+    "simulation_xmv_04": ["P-TEP-ACFEED-TRACK"],
+    "simulation_xmv_07": ["P-TEP-SEP-LEVEL-TRACK"],
+    "simulation_xmv_08": ["P-TEP-STRIPPER-LEVEL-TRACK"],
+}
 
 
 
@@ -236,6 +241,29 @@ def classify_result(
             if fid in triggered_set:
                 return "unsafe"
     return "target"
+
+
+def scoped_alarm_view(
+    *,
+    point_name: str,
+    score: Mapping[str, Any],
+) -> Dict[str, Any]:
+    required = POINT_CANONICAL_ALARM_SCOPE.get(str(point_name), [])
+    ids = [str(x) for x in score.get("prehazard_alarm_rule_ids", [])]
+    if not required:
+        return {
+            "first_hazard_step": score.get("first_hazard_step"),
+            "prehazard_alarm_rule_ids": ids,
+            "prehazard_alarm_rule_ids_count": len(set(ids)),
+            "required_alarm_ids": [],
+        }
+    scoped_ids = [aid for aid in ids if aid in required]
+    return {
+        "first_hazard_step": score.get("first_hazard_step"),
+        "prehazard_alarm_rule_ids": sorted(set(scoped_ids)),
+        "prehazard_alarm_rule_ids_count": len(set(scoped_ids)),
+        "required_alarm_ids": list(required),
+    }
 
 
 def _build_scan_points(amp_max: float, coarse_span: float) -> List[float]:
@@ -757,25 +785,29 @@ def _classify_point_worker(payload: Dict[str, Any]) -> Dict[str, Any]:
         )
         rows = result.get("rows", [])
         scored = result.get("score", {})
+        score_view = scoped_alarm_view(
+            point_name=str(payload["point_name"]),
+            score=scored,
+        )
         cls = classify_result(
             {
                 "status": result.get("status", "ok"),
-                "first_hazard_step": scored.get("first_hazard_step"),
-                "prehazard_alarm_rule_ids_count": scored.get("prehazard_alarm_rule_ids_count", 0),
-                "alarm_rule_ids": scored.get("prehazard_alarm_rule_ids", []),
+                "first_hazard_step": score_view.get("first_hazard_step"),
+                "prehazard_alarm_rule_ids_count": score_view.get("prehazard_alarm_rule_ids_count", 0),
+                "alarm_rule_ids": score_view.get("prehazard_alarm_rule_ids", []),
             },
             alarm_cols=ctx["alarm_cols"],
             alarm_cap=alarm_cap,
             forbidden_alarm_ids=forbidden_alarm_ids,
-            required_alarm_ids=required_alarm_ids,
+            required_alarm_ids=score_view.get("required_alarm_ids") or required_alarm_ids,
         )
         probes.append({
             "amp_abs": float(amp_abs),
             "direction": str(payload.get("direction", "pos")),
             "class": cls,
-            "first_hazard_step": scored.get("first_hazard_step"),
-            "prehazard_alarm_count": scored.get("prehazard_alarm_rule_ids_count", 0),
-            "alarm_rule_ids": "|".join(scored.get("prehazard_alarm_rule_ids", [])),
+            "first_hazard_step": score_view.get("first_hazard_step"),
+            "prehazard_alarm_count": score_view.get("prehazard_alarm_rule_ids_count", 0),
+            "alarm_rule_ids": "|".join(score_view.get("prehazard_alarm_rule_ids", [])),
             "duration": duration,
             "phase": "target_interval",
         })
