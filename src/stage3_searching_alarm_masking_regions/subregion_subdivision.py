@@ -59,17 +59,18 @@ COND_DIRECT_GRID_SAMPLES = 61
 REGION_DELTA_T = 50
 REGION_DELTA_K = 0.01
 REGION_GAMMA_MERGE = 0.10
-TE_SEP_LEVEL_SP = 50.0
-TE_SEP_LEVEL_ALARM_ABS = 15.0
-TE_SEP_LEVEL_RANGE = (0.0, 100.0)
-TE_SEP_LEVEL_RATE_LIMIT = 2.0
+TE_DEFAULT_RATE_LIMIT = 2.0
 
-BASE_STAGE3_FULL_PATH = _ROOT / "results" / "stage3" / "boiler_stage3_fuel_steam_full.json"
-BASE_STAGE3_REGION_PATH = _ROOT / "results" / "stage3" / "boiler_stage3_subregion_2d_base.json"
-COND_STAGE3_REFINE_PATH = _ROOT / "results" / "stage3" / "boiler_stage3_cond_slope_refine.json"
-COMBINED_STAGE3_REGION_PATH = _ROOT / "results" / "stage3" / "boiler_stage3_combined_regions.json"
-TE_STAGE3_FULL_PATH = _ROOT / "results" / "stage3" / "te_stage3_xmv07_sp3_full.json"
-TE_STAGE3_REGION_PATH = _ROOT / "results" / "stage3" / "te_stage3_subregion_2d_base.json"
+BASE_STAGE3_FULL_PATH = _ROOT / "results" / "stage3" / "boiler_fuel_command__steam_setpoint_full.json"
+BASE_STAGE3_REGION_PATH = _ROOT / "results" / "stage3" / "boiler_fuel_command__steam_setpoint_base_regions.json"
+COND_STAGE3_REFINE_PATH = _ROOT / "results" / "stage3" / "boiler_fuel_command__steam_setpoint_conditional_refine.json"
+COMBINED_STAGE3_REGION_PATH = _ROOT / "results" / "stage3" / "boiler_fuel_command__steam_setpoint_regions.json"
+BOILER_WATER_PUMP_STAGE3_FULL_PATH = _ROOT / "results" / "stage3" / "boiler_water_pump_speed__steam_setpoint_full.json"
+BOILER_WATER_PUMP_STAGE3_REGION_PATH = _ROOT / "results" / "stage3" / "boiler_water_pump_speed__steam_setpoint_base_regions.json"
+BOILER_WATER_PUMP_COND_STAGE3_REFINE_PATH = _ROOT / "results" / "stage3" / "boiler_water_pump_speed__steam_setpoint_conditional_refine.json"
+BOILER_WATER_PUMP_COMBINED_STAGE3_REGION_PATH = _ROOT / "results" / "stage3" / "boiler_water_pump_speed__steam_setpoint_regions.json"
+TE_STAGE3_FULL_PATH = _ROOT / "results" / "stage3" / "te_xmv07__separator_level_setpoint_full.json"
+TE_STAGE3_REGION_PATH = _ROOT / "results" / "stage3" / "te_xmv07__separator_level_setpoint_regions.json"
 
 
 def get_stage3_platform_config(target: str) -> Dict:
@@ -77,10 +78,11 @@ def get_stage3_platform_config(target: str) -> Dict:
     if key in {"boiler", "boiler_ccs"}:
         return {
             "target": "boiler",
+            "target_family": "boiler",
             "system_id": "boiler_ccs",
             "manifest_path": _ROOT / "simulators" / "boiler_ccs" / "system_manifest.json",
-            "base_results_path": _ROOT / "results" / "stage2" / "boiler_base_boundary.json",
-            "conditional_results_path": _ROOT / "results" / "stage2" / "boiler_conditional_expansion.json",
+            "base_results_path": _ROOT / "results" / "stage2" / "BOILER" / "boiler_base_boundary.json",
+            "conditional_results_path": _ROOT / "results" / "stage2" / "BOILER" / "boiler_conditional_expansion.json",
             "stage3_full_path": BASE_STAGE3_FULL_PATH,
             "stage3_base_region_path": BASE_STAGE3_REGION_PATH,
             "stage3_cond_refine_path": COND_STAGE3_REFINE_PATH,
@@ -92,12 +94,32 @@ def get_stage3_platform_config(target: str) -> Dict:
             "sample_duration_mod": 50,
             "supports_conditional": True,
         }
-    if key in {"te", "tennessee_eastman", "tep"}:
+    if key in {"boiler_water_pump", "boiler_pump", "boiler_water_pump_speed"}:
         return {
-            "target": "te",
+            "target": "boiler_water_pump",
+            "target_family": "boiler",
+            "system_id": "boiler_ccs",
+            "manifest_path": _ROOT / "simulators" / "boiler_ccs" / "system_manifest.json",
+            "base_results_path": _ROOT / "results" / "stage2" / "boiler_base_water_pump_speed_cond_input_step10_pos.json",
+            "conditional_results_path": _ROOT / "results" / "stage2" / "boiler_cond_water_pump_speed_step100_probe.json",
+            "stage3_full_path": BOILER_WATER_PUMP_STAGE3_FULL_PATH,
+            "stage3_base_region_path": BOILER_WATER_PUMP_STAGE3_REGION_PATH,
+            "stage3_cond_refine_path": BOILER_WATER_PUMP_COND_STAGE3_REFINE_PATH,
+            "stage3_combined_region_path": BOILER_WATER_PUMP_COMBINED_STAGE3_REGION_PATH,
+            "manip_point": "simulation_water_pump_speed",
+            "mask_point": "simulation_steam_setpoint",
+            "spoof_field": "steam_setpoint",
+            "alarm_id": "P-BOILER-CUT-001",
+            "sample_duration_mod": 50,
+            "supports_conditional": True,
+        }
+    if key in {"te", "te_xmv07", "tennessee_eastman", "tep"}:
+        return {
+            "target": "te_xmv07",
+            "target_family": "te",
             "system_id": "tep_downs_vogel_1993",
             "manifest_path": _ROOT / "simulators" / "tennessee_eastman" / "system_manifest.json",
-            "base_results_path": _ROOT / "results" / "stage2" / "te_base_boundary.json",
+            "base_results_path": _ROOT / "results" / "stage2" / "TE" / "xmv07" / "boundary_results.json",
             "conditional_results_path": None,
             "stage3_full_path": TE_STAGE3_FULL_PATH,
             "stage3_base_region_path": TE_STAGE3_REGION_PATH,
@@ -107,6 +129,68 @@ def get_stage3_platform_config(target: str) -> Dict:
             "mask_point": "simulation_sp_separator_level",
             "spoof_field": "setpoints_6",
             "alarm_id": "P-TEP-SEP-LEVEL-TRACK",
+            "measured_var": "xmeas_12",
+            "measurement_label": "sep_level",
+            "anchor_field": "separator_level_sp",
+            "anchor_value": 50.0,
+            "alarm_margin_col": "alarm_sep_level_track_margin",
+            "value_range": (0.0, 100.0),
+            "rate_limit": TE_DEFAULT_RATE_LIMIT,
+            "accepted_directions": ["pos"],
+            "sample_duration_mod": 50,
+            "supports_conditional": False,
+        }
+    if key in {"te_xmv04", "xmv04"}:
+        return {
+            "target": "te_xmv04",
+            "target_family": "te",
+            "system_id": "tep_downs_vogel_1993",
+            "manifest_path": _ROOT / "simulators" / "tennessee_eastman" / "system_manifest.json",
+            "base_results_path": _ROOT / "results" / "stage2" / "TE" / "xmv04" / "boundary_results.json",
+            "conditional_results_path": None,
+            "stage3_full_path": _ROOT / "results" / "stage3" / "te_xmv04__ac_feed_setpoint_full.json",
+            "stage3_base_region_path": _ROOT / "results" / "stage3" / "te_xmv04__ac_feed_setpoint_regions.json",
+            "stage3_cond_refine_path": None,
+            "stage3_combined_region_path": None,
+            "manip_point": "simulation_xmv_04",
+            "mask_point": "simulation_sp_ac_feed",
+            "spoof_field": "setpoints_3",
+            "alarm_id": "P-TEP-ACFEED-TRACK",
+            "measured_var": "xmeas_04",
+            "measurement_label": "ac_feed",
+            "anchor_field": "sp_ac_feed",
+            "anchor_value": 9.3477,
+            "alarm_margin_col": "alarm_ac_feed_track_margin",
+            "value_range": (0.0, 30.0),
+            "rate_limit": 0.1,
+            "accepted_directions": ["pos"],
+            "sample_duration_mod": 50,
+            "supports_conditional": False,
+        }
+    if key in {"te_xmv08", "xmv08"}:
+        return {
+            "target": "te_xmv08",
+            "target_family": "te",
+            "system_id": "tep_downs_vogel_1993",
+            "manifest_path": _ROOT / "simulators" / "tennessee_eastman" / "system_manifest.json",
+            "base_results_path": _ROOT / "results" / "stage2" / "TE" / "xmv08" / "boundary_results.json",
+            "conditional_results_path": None,
+            "stage3_full_path": _ROOT / "results" / "stage3" / "te_xmv08__stripper_level_setpoint_full.json",
+            "stage3_base_region_path": _ROOT / "results" / "stage3" / "te_xmv08__stripper_level_setpoint_regions.json",
+            "stage3_cond_refine_path": None,
+            "stage3_combined_region_path": None,
+            "manip_point": "simulation_xmv_08",
+            "mask_point": "simulation_sp_stripper_level",
+            "spoof_field": "setpoints_7",
+            "alarm_id": "P-TEP-STRIPPER-LEVEL-TRACK",
+            "measured_var": "xmeas_15",
+            "measurement_label": "stripper_level",
+            "anchor_field": "stripper_level_sp",
+            "anchor_value": 50.0,
+            "alarm_margin_col": "alarm_stripper_level_track_margin",
+            "value_range": (0.0, 100.0),
+            "rate_limit": TE_DEFAULT_RATE_LIMIT,
+            "accepted_directions": ["pos"],
             "sample_duration_mod": 50,
             "supports_conditional": False,
         }
@@ -125,6 +209,15 @@ def _load_boiler_sim():
     return ClosedLoopSim
 
 
+def _load_te_sim():
+
+    """Lazy-load the TE ClosedLoopSim."""
+
+    from simulators.tennessee_eastman.simulation import ClosedLoopSim
+
+    return ClosedLoopSim
+
+
 
 
 
@@ -137,20 +230,30 @@ def _build_hook(point_specs, registry, runtime_args):
                                 runtime_args=runtime_args)
 
 
+def _load_te_alarm_abs(cfg: Dict) -> float:
+    manifest = json.loads(cfg["manifest_path"].read_text(encoding="utf-8"))
+    for rule in manifest.get("alarm_rules", []):
+        if rule.get("id") == cfg["alarm_id"]:
+            return float(rule["threshold_abs"])
+    raise KeyError(f"alarm threshold not found for {cfg['alarm_id']}")
 
 
 
-def run_fuel_only(rate: float, duration: int, sim_steps: int,
 
-                  registry) -> Tuple[List[float], Optional[int]]:
 
-    """Run fuel_command-only attack, return (pressure trajectory, haz_step)."""
+def run_boiler_manip_only(rate: float, duration: int, sim_steps: int,
+
+                          registry, cfg: Optional[Dict] = None) -> Tuple[List[float], Optional[int]]:
+
+    """Run one boiler manipulated variable and return pressure plus hazard step."""
 
     ClosedLoopSim = _load_boiler_sim()
+    platform_cfg = cfg or get_stage3_platform_config("boiler")
+    manip_point = platform_cfg.get("manip_point", "simulation_fuel_command")
 
     hook = _build_hook(
 
-        point_specs=[{"point": "simulation_fuel_command", "amp": rate,
+        point_specs=[{"point": manip_point, "amp": rate,
 
                       "duration": duration, "t_start": 0, "role": "manip"}],
 
@@ -208,23 +311,36 @@ def run_fuel_only(rate: float, duration: int, sim_steps: int,
     return pressure, haz
 
 
-def run_fuel_with_steam(rate: float, duration: int, steam_slope: float,
+def run_fuel_only(rate: float, duration: int, sim_steps: int,
 
-                        registry, sim_steps: Optional[int] = None) -> Dict:
+                  registry) -> Tuple[List[float], Optional[int]]:
 
-    """Run fuel + steam_setpoint ramp/hold and report reach-avoid outcome."""
+    """Backward-compatible fuel_command wrapper."""
+
+    return run_boiler_manip_only(rate, duration, sim_steps, registry)
+
+
+def run_boiler_with_mask(rate: float, duration: int, mask_slope: float,
+
+                         registry, sim_steps: Optional[int] = None,
+                         cfg: Optional[Dict] = None) -> Dict:
+
+    """Run configured boiler manip + mask ramp/hold and report reach-avoid."""
 
     ClosedLoopSim = _load_boiler_sim()
+    platform_cfg = cfg or get_stage3_platform_config("boiler")
+    manip_point = platform_cfg.get("manip_point", "simulation_fuel_command")
+    mask_point = platform_cfg.get("mask_point", "simulation_steam_setpoint")
 
-    steps = int(sim_steps if sim_steps is not None else duration + 100)
+    steps = int(sim_steps if sim_steps is not None else duration + HOLD)
 
     hook = _build_hook(
 
-        point_specs=[{"point": "simulation_fuel_command", "amp": rate,
+        point_specs=[{"point": manip_point, "amp": rate,
 
                       "duration": duration, "t_start": 0, "role": "manip"},
 
-                     {"point": "simulation_steam_setpoint", "amp": steam_slope,
+                     {"point": mask_point, "amp": mask_slope,
 
                       "duration": duration, "t_start": 0, "role": "mask"}],
 
@@ -303,9 +419,18 @@ def run_fuel_with_steam(rate: float, duration: int, steam_slope: float,
     }
 
 
+def run_fuel_with_steam(rate: float, duration: int, steam_slope: float,
+
+                        registry, sim_steps: Optional[int] = None) -> Dict:
+
+    """Backward-compatible fuel + steam_setpoint wrapper."""
+
+    return run_boiler_with_mask(rate, duration, steam_slope, registry, sim_steps=sim_steps)
+
+
 def _dynamic_refine_band(rate: float, duration: int, static_band: Tuple[float, float],
 
-                         registry) -> Optional[Tuple[float, float]]:
+                         registry, cfg: Optional[Dict] = None) -> Optional[Tuple[float, float]]:
 
     """Shrink a static slope band using real dual-injection reach-avoid checks."""
 
@@ -325,7 +450,7 @@ def _dynamic_refine_band(rate: float, duration: int, static_band: Tuple[float, f
 
                   for i in range(DYNAMIC_GRID_SAMPLES)]
 
-    outcomes = [run_fuel_with_steam(rate, duration, slope, registry)["reach_avoid"]
+    outcomes = [run_boiler_with_mask(rate, duration, slope, registry, cfg=cfg)["reach_avoid"]
 
                 for slope in probes]
 
@@ -369,7 +494,7 @@ def _dynamic_refine_band(rate: float, duration: int, static_band: Tuple[float, f
 
             mid = 0.5 * (left_fail + left_ok)
 
-            if run_fuel_with_steam(rate, duration, mid, registry)["reach_avoid"]:
+            if run_boiler_with_mask(rate, duration, mid, registry, cfg=cfg)["reach_avoid"]:
 
                 left_ok = mid
 
@@ -389,7 +514,7 @@ def _dynamic_refine_band(rate: float, duration: int, static_band: Tuple[float, f
 
             mid = 0.5 * (right_ok + right_fail)
 
-            if run_fuel_with_steam(rate, duration, mid, registry)["reach_avoid"]:
+            if run_boiler_with_mask(rate, duration, mid, registry, cfg=cfg)["reach_avoid"]:
 
                 right_ok = mid
 
@@ -410,7 +535,8 @@ def _direct_dynamic_band(rate: float, duration: int, registry,
 
                          slope_lo: float = 0.0,
 
-                         slope_hi: float = COND_DIRECT_SLOPE_MAX) -> Optional[Tuple[float, float]]:
+                         slope_hi: float = COND_DIRECT_SLOPE_MAX,
+                         cfg: Optional[Dict] = None) -> Optional[Tuple[float, float]]:
 
     """Directly scan ramp+hold slopes and keep the widest RA-feasible interval."""
 
@@ -423,7 +549,7 @@ def _direct_dynamic_band(rate: float, duration: int, registry,
         for i in range(COND_DIRECT_GRID_SAMPLES)
     ]
 
-    outcomes = [run_fuel_with_steam(rate, duration, slope, registry)["reach_avoid"]
+    outcomes = [run_boiler_with_mask(rate, duration, slope, registry, cfg=cfg)["reach_avoid"]
                 for slope in probes]
 
     best_start = None
@@ -466,7 +592,7 @@ def _direct_dynamic_band(rate: float, duration: int, registry,
 
             mid = 0.5 * (left_fail + left_ok)
 
-            if run_fuel_with_steam(rate, duration, mid, registry)["reach_avoid"]:
+            if run_boiler_with_mask(rate, duration, mid, registry, cfg=cfg)["reach_avoid"]:
 
                 left_ok = mid
 
@@ -486,7 +612,7 @@ def _direct_dynamic_band(rate: float, duration: int, registry,
 
             mid = 0.5 * (right_ok + right_fail)
 
-            if run_fuel_with_steam(rate, duration, mid, registry)["reach_avoid"]:
+            if run_boiler_with_mask(rate, duration, mid, registry, cfg=cfg)["reach_avoid"]:
 
                 right_ok = mid
 
@@ -512,6 +638,7 @@ def solve_dynamic_point_bomega(
     slope_hi: float = COND_DIRECT_SLOPE_MAX,
     grid_samples: int = COND_DIRECT_GRID_SAMPLES,
     bisect_rounds: int = DYNAMIC_BISECT_ROUNDS,
+    cfg: Optional[Dict] = None,
 ) -> Dict:
     """Solve dynamic feasible slope segments for one fixed representative point."""
 
@@ -538,7 +665,7 @@ def solve_dynamic_point_bomega(
     for slope in probes:
         probe_count += 1
         outcomes.append(
-            bool(run_fuel_with_steam(rate, duration, slope, registry, sim_steps=runtime_steps)["reach_avoid"])
+            bool(run_boiler_with_mask(rate, duration, slope, registry, sim_steps=runtime_steps, cfg=cfg)["reach_avoid"])
         )
 
     coarse_segments = []
@@ -561,7 +688,7 @@ def solve_dynamic_point_bomega(
             for _ in range(bisect_rounds):
                 mid = 0.5 * (left_fail + left_ok)
                 probe_count += 1
-                if run_fuel_with_steam(rate, duration, mid, registry, sim_steps=runtime_steps)["reach_avoid"]:
+                if run_boiler_with_mask(rate, duration, mid, registry, sim_steps=runtime_steps, cfg=cfg)["reach_avoid"]:
                     left_ok = mid
                 else:
                     left_fail = mid
@@ -572,7 +699,7 @@ def solve_dynamic_point_bomega(
             for _ in range(bisect_rounds):
                 mid = 0.5 * (right_ok + right_fail)
                 probe_count += 1
-                if run_fuel_with_steam(rate, duration, mid, registry, sim_steps=runtime_steps)["reach_avoid"]:
+                if run_boiler_with_mask(rate, duration, mid, registry, sim_steps=runtime_steps, cfg=cfg)["reach_avoid"]:
                     right_ok = mid
                 else:
                     right_fail = mid
@@ -681,11 +808,13 @@ def static_solve_steam_sp_rate(pressure: List[float], horizon: int,
 
 def solve_steam_sp_at_point(rate: float, duration: int, registry,
 
-                             sim_steps: int = SIM) -> Dict:
+                             sim_steps: int = SIM,
+                             cfg: Optional[Dict] = None) -> Dict:
 
     """Compute steam_setpoint feasibility band at one (fuel_rate, fuel_dur) probe."""
 
-    pressure, haz0 = run_fuel_only(rate, duration, sim_steps, registry)
+    platform_cfg = cfg or get_stage3_platform_config("boiler")
+    pressure, haz0 = run_boiler_manip_only(rate, duration, sim_steps, registry, platform_cfg)
 
     horizon = haz0 if haz0 is not None else len(pressure)
 
@@ -702,6 +831,7 @@ def solve_steam_sp_at_point(rate: float, duration: int, registry,
         rate=rate,
         duration=duration,
         registry=registry,
+        cfg=platform_cfg,
     )
     dyn_band = dyn_payload.get("dynamic_primary_band")
 
@@ -763,12 +893,74 @@ def solve_steam_sp_at_point(rate: float, duration: int, registry,
     }
 
 
-def solve_cond_steam_sp_at_point(rate: float, duration: int, registry) -> Dict:
+def _te_rate_is_static_feasible(
+    rate: float,
+    measured_values: List[float],
+    horizon: int,
+    spoof_dur: int,
+    anchor: float,
+    alarm_abs: float,
+    value_range: Tuple[float, float],
+) -> bool:
+    lo_value, hi_value = value_range
+    for t in range(1, horizon):
+        eff = min(t, spoof_dur - 1)
+        if eff <= 0:
+            continue
+        spoof_value = min(hi_value, max(lo_value, anchor + rate * eff))
+        if abs(float(measured_values[t]) - spoof_value) > alarm_abs:
+            return False
+    return True
+
+
+def _te_clamped_static_band(
+    measured_values: List[float],
+    horizon: int,
+    spoof_dur: int,
+    anchor: float,
+    alarm_abs: float,
+    value_range: Tuple[float, float],
+    rate_limit: float,
+) -> Optional[Tuple[float, float]]:
+    lo_value, hi_value = value_range
+    candidates = {-float(rate_limit), float(rate_limit)}
+    for t in range(1, horizon):
+        eff = min(t, spoof_dur - 1)
+        if eff <= 0:
+            continue
+        band_lo = float(measured_values[t]) - alarm_abs
+        band_hi = float(measured_values[t]) + alarm_abs
+        for boundary in (lo_value, hi_value, band_lo, band_hi):
+            candidates.add((boundary - anchor) / eff)
+
+    sorted_candidates = sorted(c for c in candidates if -rate_limit <= c <= rate_limit)
+    intervals: List[Tuple[float, float]] = []
+    for left, right in zip(sorted_candidates, sorted_candidates[1:]):
+        mid = (left + right) / 2.0
+        if _te_rate_is_static_feasible(
+            mid, measured_values, horizon, spoof_dur, anchor, alarm_abs, value_range
+        ):
+            intervals.append((left, right))
+
+    for point in sorted_candidates:
+        if _te_rate_is_static_feasible(
+            point, measured_values, horizon, spoof_dur, anchor, alarm_abs, value_range
+        ):
+            intervals.append((point, point))
+
+    if not intervals:
+        return None
+    return min(left for left, _ in intervals), max(right for _, right in intervals)
+
+
+def solve_cond_steam_sp_at_point(rate: float, duration: int, registry,
+                                 cfg: Optional[Dict] = None) -> Dict:
 
     """Compute a cond-point slope band over the artifact runtime window."""
     sim_steps = int(duration) + HOLD
 
-    pressure, haz0 = run_fuel_only(rate, duration, sim_steps, registry)
+    platform_cfg = cfg or get_stage3_platform_config("boiler")
+    pressure, haz0 = run_boiler_manip_only(rate, duration, sim_steps, registry, platform_cfg)
 
     horizon = haz0 if haz0 is not None else len(pressure)
 
@@ -786,7 +978,7 @@ def solve_cond_steam_sp_at_point(rate: float, duration: int, registry) -> Dict:
 
     if static_band is not None:
 
-        dyn = _dynamic_refine_band(rate, duration, static_band, registry)
+        dyn = _dynamic_refine_band(rate, duration, static_band, registry, cfg=platform_cfg)
 
         if dyn is not None:
 
@@ -794,7 +986,7 @@ def solve_cond_steam_sp_at_point(rate: float, duration: int, registry) -> Dict:
 
     if dyn is None:
 
-        dyn = _direct_dynamic_band(rate, duration, registry)
+        dyn = _direct_dynamic_band(rate, duration, registry, cfg=platform_cfg)
 
     if dyn is None:
 
@@ -973,81 +1165,23 @@ def _process_one_duration_task(task: Tuple[int, float, float, Dict]) -> Dict:
     return process_one_duration(d, rate_lo, rate_hi, registry, cfg)
 
 
-def _sep_level_rate_is_static_feasible(
-    rate: float,
-    xmeas12: List[float],
-    horizon: int,
-    spoof_dur: int,
-    anchor: float,
-    alarm_abs: float,
-    value_range: Tuple[float, float],
-) -> bool:
-    lo_value, hi_value = value_range
-    for t in range(1, horizon):
-        eff = min(t, spoof_dur - 1)
-        if eff <= 0:
-            continue
-        sp = min(hi_value, max(lo_value, anchor + rate * eff))
-        if abs(float(xmeas12[t]) - sp) > alarm_abs:
-            return False
-    return True
-
-
-def _sep_level_clamped_static_band(
-    xmeas12: List[float],
-    horizon: int,
-    spoof_dur: int,
-    anchor: float,
-    alarm_abs: float,
-    value_range: Tuple[float, float] = TE_SEP_LEVEL_RANGE,
-    rate_limit: float = TE_SEP_LEVEL_RATE_LIMIT,
-) -> Optional[Tuple[float, float]]:
-    lo_value, hi_value = value_range
-    candidates = {-float(rate_limit), float(rate_limit)}
-    for t in range(1, horizon):
-        eff = min(t, spoof_dur - 1)
-        if eff <= 0:
-            continue
-        band_lo = float(xmeas12[t]) - alarm_abs
-        band_hi = float(xmeas12[t]) + alarm_abs
-        for boundary in (lo_value, hi_value, band_lo, band_hi):
-            candidates.add((boundary - anchor) / eff)
-
-    sorted_candidates = sorted(c for c in candidates if -rate_limit <= c <= rate_limit)
-    intervals: List[Tuple[float, float]] = []
-    for left, right in zip(sorted_candidates, sorted_candidates[1:]):
-        mid = (left + right) / 2.0
-        if _sep_level_rate_is_static_feasible(
-            mid, xmeas12, horizon, spoof_dur, anchor, alarm_abs, value_range
-        ):
-            intervals.append((left, right))
-
-    for point in sorted_candidates:
-        if _sep_level_rate_is_static_feasible(
-            point, xmeas12, horizon, spoof_dur, anchor, alarm_abs, value_range
-        ):
-            intervals.append((point, point))
-
-    if not intervals:
-        return None
-    return min(left for left, _ in intervals), max(right for _, right in intervals)
-
-
-def solve_te_sp3_at_point(rate: float, duration: int, registry,
+def solve_te_sp3_at_point(cfg: Dict, rate: float, duration: int, registry,
                           sim_steps: int = 1500) -> Dict:
-    from simulators.tennessee_eastman.simulation import ClosedLoopSim
-    from generic_runtime_executor import build_injection_hook
-
     sim_steps = int(duration) + HOLD
-    anchor_sep_level_sp = TE_SEP_LEVEL_SP
-    alarm_abs = TE_SEP_LEVEL_ALARM_ABS
+    alarm_abs = _load_te_alarm_abs(cfg)
+    anchor_value = float(cfg["anchor_value"])
+    measured_var = str(cfg["measured_var"])
+    measurement_label = str(cfg["measurement_label"])
+    value_range = tuple(cfg.get("value_range", (0.0, 100.0)))
+    rate_limit = float(cfg.get("rate_limit", TE_DEFAULT_RATE_LIMIT))
 
-    hook = build_injection_hook(
-        point_specs=[{"point": "simulation_xmv_07", "amp": rate,
+    hook = _build_hook(
+        point_specs=[{"point": cfg["manip_point"], "amp": rate,
                       "duration": duration, "t_start": 0, "role": "manip"}],
         registry=registry,
         runtime_args={"steps": sim_steps},
     )
+    ClosedLoopSim = _load_te_sim()
     sim = ClosedLoopSim(Ts=1.0, mode=1, random_seed=0)
     try:
         trace, meta = sim.run(
@@ -1059,76 +1193,78 @@ def solve_te_sp3_at_point(rate: float, duration: int, registry,
     finally:
         sim.close()
 
-    xmeas12 = [float(row["xmeas_12"]) for row in trace]
+    measured_values = [float(row[measured_var]) for row in trace]
     haz0 = meta.get("stop_step")
-    horizon = min(int(haz0), len(xmeas12)) if haz0 is not None else len(xmeas12)
+    horizon = min(int(haz0), len(measured_values)) if haz0 is not None else len(measured_values)
     spoof_dur = max(2, int(duration))
 
     if haz0 is None or horizon <= 1 or spoof_dur < 2:
         static_band = None
     else:
-        band_lo0 = xmeas12[0] - alarm_abs
-        band_hi0 = xmeas12[0] + alarm_abs
-        if not (band_lo0 <= anchor_sep_level_sp <= band_hi0):
+        band_lo0 = measured_values[0] - alarm_abs
+        band_hi0 = measured_values[0] + alarm_abs
+        if not (band_lo0 <= anchor_value <= band_hi0):
             static_band = None
         else:
-            static_band = _sep_level_clamped_static_band(
-                xmeas12,
+            static_band = _te_clamped_static_band(
+                measured_values,
                 horizon,
                 spoof_dur,
-                anchor_sep_level_sp,
+                anchor_value,
                 alarm_abs,
+                value_range,
+                rate_limit,
             )
 
     dynamic_band = static_band
-
+    rate_prefix = measurement_label
     bands_per_sd: List[Dict] = []
     if dynamic_band is None:
         bands_per_sd.append({
             "spoof_dur": spoof_dur,
             "feasible": False,
-            "sep_level_rate_lo": None,
-            "sep_level_rate_hi": None,
-            "sep_level_band_width": None,
+            f"{rate_prefix}_rate_lo": None,
+            f"{rate_prefix}_rate_hi": None,
+            f"{rate_prefix}_band_width": None,
             "hold_steps": horizon - spoof_dur,
             "static_rate_lo": None if static_band is None else static_band[0],
             "static_rate_hi": None if static_band is None else static_band[1],
             "static_band_width": None if static_band is None else static_band[1] - static_band[0],
-            "band_source": "sep_level_static_same_duration",
+            "band_source": f"{measurement_label}_static_same_duration",
         })
     else:
         bands_per_sd.append({
             "spoof_dur": spoof_dur,
             "feasible": True,
-            "sep_level_rate_lo": dynamic_band[0],
-            "sep_level_rate_hi": dynamic_band[1],
-            "sep_level_band_width": dynamic_band[1] - dynamic_band[0],
+            f"{rate_prefix}_rate_lo": dynamic_band[0],
+            f"{rate_prefix}_rate_hi": dynamic_band[1],
+            f"{rate_prefix}_band_width": dynamic_band[1] - dynamic_band[0],
             "hold_steps": horizon - spoof_dur,
             "static_rate_lo": None if static_band is None else static_band[0],
             "static_rate_hi": None if static_band is None else static_band[1],
             "static_band_width": None if static_band is None else static_band[1] - static_band[0],
-            "band_source": "sep_level_static_same_duration",
+            "band_source": f"{measurement_label}_static_same_duration",
         })
 
     return {
-        "xmv07_rate": rate,
-        "xmv07_dur": duration,
-        "haz_step_xmv07_only": haz0,
+        "manip_rate": rate,
+        "manip_dur": duration,
+        "haz_step_manip_only": haz0,
         "horizon": horizon,
-        "xmeas12_min": min(xmeas12),
-        "xmeas12_max": max(xmeas12),
+        f"{measured_var}_min": min(measured_values),
+        f"{measured_var}_max": max(measured_values),
         "feasible": dynamic_band is not None,
         "bands": bands_per_sd,
-        "anchor_sep_level_sp": anchor_sep_level_sp,
+        f"anchor_{cfg['spoof_field']}": anchor_value,
         "alarm_threshold_abs": alarm_abs,
-        "measured_var": "xmeas_12",
+        "measured_var": measured_var,
     }
 
 
 def solve_stage3_point_at_platform(cfg: Dict, rate: float, duration: int, registry,
                                    sim_steps: int = SIM) -> Dict:
-    if cfg["target"] == "te":
-        return solve_te_sp3_at_point(rate, duration, registry)
+    if cfg.get("target_family") == "te":
+        return solve_te_sp3_at_point(cfg, rate, duration, registry)
     return solve_steam_sp_at_point(rate, duration, registry, sim_steps)
 
 
@@ -1171,15 +1307,23 @@ def _pick_slope_interval(bands: List[Dict]) -> Optional[Tuple[float, float]]:
     def _band_lo(b: Dict) -> float:
         if b.get("steam_rate_lo") is not None:
             return float(b["steam_rate_lo"])
+        if b.get("ac_feed_rate_lo") is not None:
+            return float(b["ac_feed_rate_lo"])
         if b.get("sep_level_rate_lo") is not None:
             return float(b["sep_level_rate_lo"])
+        if b.get("stripper_level_rate_lo") is not None:
+            return float(b["stripper_level_rate_lo"])
         return float(b["sp3_rate_lo"])
 
     def _band_hi(b: Dict) -> float:
         if b.get("steam_rate_hi") is not None:
             return float(b["steam_rate_hi"])
+        if b.get("ac_feed_rate_hi") is not None:
+            return float(b["ac_feed_rate_hi"])
         if b.get("sep_level_rate_hi") is not None:
             return float(b["sep_level_rate_hi"])
+        if b.get("stripper_level_rate_hi") is not None:
+            return float(b["stripper_level_rate_hi"])
         return float(b["sp3_rate_hi"])
 
     lo = min(_band_lo(b) for b in feasible)
@@ -1237,6 +1381,8 @@ def _build_base_probe_records(full_data: Dict) -> List[Dict]:
                 continue
             if sample.get("fuel_rate") is not None:
                 amp_actual = float(sample["fuel_rate"])
+            elif sample.get("manip_rate") is not None:
+                amp_actual = float(sample["manip_rate"])
             else:
                 amp_actual = float(sample["xmv07_rate"])
             k_int = _bucket_key(amp_actual)
@@ -1255,7 +1401,7 @@ def _build_base_probe_records(full_data: Dict) -> List[Dict]:
     return _aggregate_probe_records(records)
 
 
-def _build_cond_probe_records(cond_data: Dict, registry) -> List[Dict]:
+def _build_cond_probe_records(cond_data: Dict, registry, cfg: Optional[Dict] = None) -> List[Dict]:
     records: List[Dict] = []
     refine_records: List[Dict] = []
     for row in cond_data["expanded_boundary"]:
@@ -1277,7 +1423,7 @@ def _build_cond_probe_records(cond_data: Dict, registry) -> List[Dict]:
                 "bands": [],
             }
         else:
-            result = solve_cond_steam_sp_at_point(cond_amp, duration, registry)
+            result = solve_cond_steam_sp_at_point(cond_amp, duration, registry, cfg=cfg)
             band = _pick_slope_interval(result["bands"])
             feasible = band is not None
         refine_records.append({
@@ -1318,7 +1464,7 @@ def _build_cond_probe_records(cond_data: Dict, registry) -> List[Dict]:
         })
         if extreme_amp is not None:
             extreme_amp_value = float(extreme_amp)
-            extreme_result = solve_cond_steam_sp_at_point(extreme_amp_value, duration, registry)
+            extreme_result = solve_cond_steam_sp_at_point(extreme_amp_value, duration, registry, cfg=cfg)
             extreme_band = _pick_slope_interval(extreme_result["bands"])
             if extreme_band is None:
                 continue
@@ -1491,7 +1637,7 @@ def _write_combined_regions(full_data: Dict, base_payload: Dict, registry, cfg: 
         return None
     cond_data = json.loads(cond_path.read_text(encoding="utf-8"))
     cond_payload = _build_region_payload(
-        _build_cond_probe_records(cond_data, registry),
+        _build_cond_probe_records(cond_data, registry, cfg=cfg),
         region_type="cond",
         method="artifact_current_chain_T_only_merge_cond",
     )
@@ -1538,7 +1684,11 @@ def main(argv: Optional[List[str]] = None):
 
     """Unified Stage 3 main chain for boiler/TE-like platforms."""
     parser = argparse.ArgumentParser()
-    parser.add_argument("--target", default="boiler", choices=["boiler", "te"])
+    parser.add_argument(
+        "--target",
+        default="boiler",
+        choices=["boiler", "boiler_water_pump", "te", "te_xmv04", "te_xmv07", "te_xmv08"],
+    )
     parser.add_argument("--workers", type=int, default=1)
     args = parser.parse_args(argv)
     cfg = get_stage3_platform_config(args.target)
@@ -1557,7 +1707,8 @@ def main(argv: Optional[List[str]] = None):
 
     for b in base["boundaries"]:
 
-        if b.get("direction") != "pos":
+        accepted_directions = cfg.get("accepted_directions", ["pos"])
+        if b.get("direction") not in accepted_directions:
 
             continue
 
@@ -1591,7 +1742,7 @@ def main(argv: Optional[List[str]] = None):
     all_results = []
     workers = max(1, int(args.workers))
 
-    if cfg["target"] == "te" and workers > 1:
+    if cfg.get("target_family") == "te" and workers > 1:
         tasks = [(d, rl, rh, cfg) for d, rl, rh in rows]
         with ProcessPoolExecutor(max_workers=workers) as pool:
             mapped = pool.map(_process_one_duration_task, tasks)
@@ -1604,7 +1755,7 @@ def main(argv: Optional[List[str]] = None):
             f0 = samples[0]["feasible"] if samples else None
             f1 = samples[-1]["feasible"] if samples else None
             if rmf:
-                rmf_rate_key = "fuel_rate" if "fuel_rate" in rmf else "xmv07_rate"
+                rmf_rate_key = "fuel_rate" if "fuel_rate" in rmf else "manip_rate"
                 rmf_str = f"rmf={rmf[rmf_rate_key]:.5f} (rounds={rmf['bisect_rounds']})"
             else:
                 rmf_str = "rmf=None"
@@ -1629,7 +1780,7 @@ def main(argv: Optional[List[str]] = None):
             f1 = out["samples"][-1]["feasible"]
 
             if rmf:
-                rmf_rate_key = "fuel_rate" if "fuel_rate" in rmf else "xmv07_rate"
+                rmf_rate_key = "fuel_rate" if "fuel_rate" in rmf else "manip_rate"
                 rmf_str = f"rmf={rmf[rmf_rate_key]:.5f} (rounds={rmf['bisect_rounds']})"
             else:
                 rmf_str = "rmf=None"
@@ -1664,7 +1815,7 @@ def main(argv: Optional[List[str]] = None):
 
     }
 
-    if cfg["target"] == "boiler":
+    if cfg.get("target_family") == "boiler":
         out_data["anchor_steam_sp"] = ANCHOR_STEAM_SP
         out_data["boiler_cut_threshold"] = BOILER_CUT_TH
 
@@ -1673,7 +1824,7 @@ def main(argv: Optional[List[str]] = None):
                         + "\n", encoding="utf-8")
 
     print(f"\n[stage3-{cfg['target']}] saved {out_path}")
-    if cfg["target"] == "te" and workers > 1:
+    if cfg.get("target_family") == "te" and workers > 1:
         print(f"[stage3-{cfg['target']}] skipped region writes for workers={workers} point-only validation")
     else:
         base_regions = _write_base_regions(out_data, cfg)
