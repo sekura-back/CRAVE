@@ -1,0 +1,9651 @@
+{
+  "method": "uniform_grid",
+  "budget": 935,
+  "elapsed_s": 312.68,
+  "alarm_settings": {
+    "ALARM_ACFEED_ABS": "1.0",
+    "alarm_cap": 1,
+    "required_alarm_ids": [
+      "P-TEP-SEP-LEVEL-TRACK"
+    ],
+    "forbidden_alarm_ids": []
+  },
+  "domain": {
+    "duration_range": [
+      100,
+      1000
+    ],
+    "duration_step": 5,
+    "amp_range": [
+      0.0,
+      1.0
+    ],
+    "hold_steps": 100,
+    "seed": null
+  },
+  "counts": {
+    "hazard_triggered": 685,
+    "target": 0,
+    "unsafe": 685,
+    "safe": 250
+  },
+  "rates": {
+    "hazard_rate": 0.7326,
+    "target_rate": 0.0
+  },
+  "raw": [
+    {
+      "duration": 205,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 205,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 205,
+      "rate": 0.5,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 205,
+      "rate": 0.75,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 205,
+      "rate": 1.0,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 210,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 210,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 210,
+      "rate": 0.5,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 210,
+      "rate": 0.75,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 210,
+      "rate": 1.0,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 215,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 215,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 215,
+      "rate": 0.5,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 215,
+      "rate": 0.75,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 215,
+      "rate": 1.0,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 220,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 220,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 220,
+      "rate": 0.5,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 220,
+      "rate": 0.75,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 220,
+      "rate": 1.0,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 225,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 225,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 225,
+      "rate": 0.5,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 225,
+      "rate": 0.75,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 225,
+      "rate": 1.0,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 230,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 230,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 230,
+      "rate": 0.5,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 230,
+      "rate": 0.75,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 230,
+      "rate": 1.0,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 235,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 235,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 235,
+      "rate": 0.5,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 235,
+      "rate": 0.75,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 235,
+      "rate": 1.0,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 240,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 240,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 240,
+      "rate": 0.5,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 240,
+      "rate": 0.75,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 240,
+      "rate": 1.0,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 245,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 245,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 245,
+      "rate": 0.5,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 245,
+      "rate": 0.75,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 245,
+      "rate": 1.0,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 250,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 250,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 250,
+      "rate": 0.5,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 250,
+      "rate": 0.75,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 250,
+      "rate": 1.0,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 255,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 255,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 255,
+      "rate": 0.5,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 255,
+      "rate": 0.75,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 255,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 260,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 260,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 260,
+      "rate": 0.5,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 260,
+      "rate": 0.75,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 260,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 265,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 265,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 265,
+      "rate": 0.5,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 265,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 265,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 270,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 270,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 270,
+      "rate": 0.5,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 270,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 270,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 275,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 275,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 275,
+      "rate": 0.5,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 275,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 275,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 280,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 280,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 280,
+      "rate": 0.5,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 280,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 280,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 285,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 285,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 285,
+      "rate": 0.5,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 285,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 285,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 290,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 290,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 290,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 290,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 290,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 295,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 295,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 295,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 295,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 295,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 300,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 300,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 300,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 300,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 300,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 305,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 305,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 305,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 305,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 305,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 310,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 310,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 310,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 310,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 310,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 315,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 315,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 315,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 315,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 315,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 320,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 320,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 320,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 320,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 320,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 325,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 325,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 325,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 325,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 325,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 330,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 330,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 330,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 330,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 330,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 335,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 335,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 335,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 335,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 335,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 340,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 340,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 340,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 340,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 340,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 345,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 345,
+      "rate": 0.25,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 345,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 345,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 345,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 350,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 350,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 350,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 350,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 350,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 355,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 355,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 355,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 355,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 355,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 360,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 360,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 360,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 360,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 360,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 365,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 365,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 365,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 365,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 365,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 370,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 370,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 370,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 370,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 370,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 375,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 375,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 375,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 375,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 375,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 380,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 380,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 380,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 380,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 380,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 385,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 385,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 385,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 385,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 385,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 390,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 390,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 390,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 390,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 390,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 395,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 395,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 395,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 395,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 395,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 400,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 400,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 400,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 400,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 400,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 405,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 405,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 405,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 405,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 405,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 410,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 410,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 410,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 410,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 410,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 415,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 415,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 415,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 415,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 415,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 420,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 420,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 420,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 420,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 420,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 425,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 425,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 425,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 425,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 425,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 430,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 430,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 430,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 430,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 430,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 435,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 435,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 435,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 435,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 435,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 440,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 440,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 440,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 440,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 440,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 445,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 445,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 445,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 445,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 445,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 450,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 450,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 450,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 450,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 450,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 455,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 455,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 455,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 455,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 455,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 460,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 460,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 460,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 460,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 460,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 465,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 465,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 465,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 465,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 465,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 470,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 470,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 470,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 470,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 470,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 475,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 475,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 475,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 475,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 475,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 480,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 480,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 480,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 480,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 480,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 485,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 485,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 485,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 485,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 485,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 490,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 490,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 490,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 490,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 490,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 495,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 495,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 495,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 495,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 495,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 500,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 500,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 500,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 500,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 500,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 505,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 505,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 505,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 505,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 505,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 510,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 510,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 510,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 510,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 510,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 515,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 515,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 515,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 515,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 515,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 520,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 520,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 520,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 520,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 520,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 525,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 525,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 525,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 525,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 525,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 530,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 530,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 530,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 530,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 530,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 535,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 535,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 535,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 535,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 535,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 540,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 540,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 540,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 540,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 540,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 545,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 545,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 545,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 545,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 545,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 550,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 550,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 550,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 550,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 550,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 555,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 555,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 555,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 555,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 555,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 560,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 560,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 560,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 560,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 560,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 565,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 565,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 565,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 565,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 565,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 570,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 570,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 570,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 570,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 570,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 575,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 575,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 575,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 575,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 575,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 580,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 580,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 580,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 580,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 580,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 585,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 585,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 585,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 585,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 585,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 590,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 590,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 590,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 590,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 590,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 595,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 595,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 595,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 595,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 595,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 600,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 600,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 600,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 600,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 600,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 605,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 605,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 605,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 605,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 605,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 610,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 610,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 610,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 610,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 610,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 615,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 615,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 615,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 615,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 615,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 620,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 620,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 620,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 620,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 620,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 625,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 625,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 625,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 625,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 625,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 630,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 630,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 630,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 630,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 630,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 635,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 635,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 635,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 635,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 635,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 640,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 640,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 640,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 640,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 640,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 645,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 645,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 645,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 645,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 645,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 650,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 650,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 650,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 650,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 650,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 655,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 655,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 655,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 655,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 655,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 660,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 660,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 660,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 660,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 660,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 665,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 665,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 665,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 665,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 665,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 670,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 670,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 670,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 670,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 670,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 675,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 675,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 675,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 675,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 675,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 680,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 680,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 680,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 680,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 680,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 685,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 685,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 685,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 685,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 685,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 690,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 690,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 690,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 690,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 690,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 695,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 695,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 695,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 695,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 695,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 700,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 700,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 700,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 700,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 700,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 705,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 705,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 705,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 705,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 705,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 710,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 710,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 710,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 710,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 710,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 715,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 715,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 715,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 715,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 715,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 720,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 720,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 720,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 720,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 720,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 725,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 725,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 725,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 725,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 725,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 730,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 730,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 730,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 730,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 730,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 735,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 735,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 735,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 735,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 735,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 740,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 740,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 740,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 740,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 740,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 745,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 745,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 745,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 745,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 745,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 750,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 750,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 750,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 750,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 750,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 755,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 755,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 755,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 755,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 755,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 760,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 760,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 760,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 760,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 760,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 765,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 765,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 765,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 765,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 765,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 770,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 770,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 770,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 770,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 770,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 775,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 775,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 775,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 775,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 775,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 780,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 780,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 780,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 780,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 780,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 785,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 785,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 785,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 785,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 785,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 790,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 790,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 790,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 790,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 790,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 795,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 795,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 795,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 795,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 795,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 800,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 800,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 800,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 800,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 800,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 805,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 805,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 805,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 805,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 805,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 810,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 810,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 810,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 810,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 810,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 815,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 815,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 815,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 815,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 815,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 820,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 820,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 820,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 820,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 820,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 825,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 825,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 825,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 825,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 825,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 830,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 830,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 830,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 830,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 830,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 835,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 835,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 835,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 835,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 835,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 840,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 840,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 840,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 840,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 840,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 845,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 845,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 845,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 845,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 845,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 850,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 850,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 850,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 850,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 850,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 855,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 855,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 855,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 855,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 855,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 860,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 860,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 860,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 860,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 860,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 865,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 865,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 865,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 865,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 865,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 870,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 870,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 870,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 870,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 870,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 875,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 875,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 875,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 875,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 875,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 880,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 880,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 880,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 880,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 880,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 885,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 885,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 885,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 885,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 885,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 890,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 890,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 890,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 890,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 890,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 895,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 895,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 895,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 895,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 895,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 900,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 900,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 900,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 900,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 900,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 905,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 905,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 905,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 905,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 905,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 910,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 910,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 910,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 910,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 910,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 915,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 915,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 915,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 915,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 915,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 920,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 920,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 920,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 920,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 920,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 925,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 925,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 925,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 925,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 925,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 930,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 930,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 930,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 930,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 930,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 935,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 935,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 935,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 935,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 935,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 940,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 940,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 940,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 940,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 940,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 945,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 945,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 945,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 945,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 945,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 950,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 950,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 950,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 950,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 950,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 955,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 955,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 955,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 955,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 955,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 960,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 960,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 960,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 960,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 960,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 965,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 965,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 965,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 965,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 965,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 970,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 970,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 970,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 970,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 970,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 975,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 975,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 975,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 975,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 975,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 980,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 980,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 980,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 980,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 980,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 985,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 985,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 985,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 985,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 985,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 990,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 990,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 990,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 990,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 990,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 995,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 995,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 995,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 995,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 995,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 1000,
+      "rate": 0.0,
+      "first_hazard_step": null,
+      "pre_count": 0,
+      "pre_ids": [],
+      "verdict": "safe"
+    },
+    {
+      "duration": 1000,
+      "rate": 0.25,
+      "first_hazard_step": 448,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 1000,
+      "rate": 0.5,
+      "first_hazard_step": 385,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 1000,
+      "rate": 0.75,
+      "first_hazard_step": 364,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 1000,
+      "rate": 1.0,
+      "first_hazard_step": 353,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 205,
+      "rate": 0.125,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 210,
+      "rate": 0.375,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 215,
+      "rate": 0.625,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 225,
+      "rate": 0.875,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 230,
+      "rate": 0.125,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 235,
+      "rate": 0.375,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 240,
+      "rate": 0.625,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 245,
+      "rate": 0.875,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 250,
+      "rate": 0.125,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 260,
+      "rate": 0.375,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 265,
+      "rate": 0.625,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 270,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 275,
+      "rate": 0.125,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 280,
+      "rate": 0.375,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 290,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 295,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 300,
+      "rate": 0.125,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 305,
+      "rate": 0.375,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 310,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 320,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 325,
+      "rate": 0.125,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 330,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 335,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 340,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 345,
+      "rate": 0.125,
+      "first_hazard_step": null,
+      "pre_count": 1,
+      "pre_ids": [
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 355,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 360,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 365,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 370,
+      "rate": 0.125,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 375,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 385,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 390,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 395,
+      "rate": 0.125,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 400,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 405,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 415,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 420,
+      "rate": 0.125,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 425,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 430,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 435,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 440,
+      "rate": 0.125,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 450,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 455,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 460,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 465,
+      "rate": 0.125,
+      "first_hazard_step": null,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "safe"
+    },
+    {
+      "duration": 470,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 480,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 485,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 490,
+      "rate": 0.125,
+      "first_hazard_step": 574,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 495,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 500,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 510,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 515,
+      "rate": 0.125,
+      "first_hazard_step": 571,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 520,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 525,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 530,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 535,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 545,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 550,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 555,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 560,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 565,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 575,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 580,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 585,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 590,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 595,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 605,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 610,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 615,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 620,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 625,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 630,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 640,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 645,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 650,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 655,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 660,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 670,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 675,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 680,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 685,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 690,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 695,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 705,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 710,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 715,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 720,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 725,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 735,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 740,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 745,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 750,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 755,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 765,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 770,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 775,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 780,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 785,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 790,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 800,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 805,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 810,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 815,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 820,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 830,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 835,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 840,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 845,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 850,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 860,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 865,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 870,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 875,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 880,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 885,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 895,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 900,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 905,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 910,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 915,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 925,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 930,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 935,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 940,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 945,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 955,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 960,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 965,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 970,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 975,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 980,
+      "rate": 0.875,
+      "first_hazard_step": 358,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 990,
+      "rate": 0.125,
+      "first_hazard_step": 570,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 995,
+      "rate": 0.375,
+      "first_hazard_step": 406,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    },
+    {
+      "duration": 1000,
+      "rate": 0.625,
+      "first_hazard_step": 372,
+      "pre_count": 2,
+      "pre_ids": [
+        "P-TEP-ACFEED-TRACK",
+        "P-TEP-CW-TRACK"
+      ],
+      "verdict": "unsafe"
+    }
+  ]
+}

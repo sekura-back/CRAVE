@@ -1,0 +1,30 @@
+{
+  "source": {
+    "base_boundary": "results/stage2/TE/xmv07/boundary_results.json"
+  },
+  "parameter_space": {
+    "duration_range": [
+      100,
+      1000
+    ],
+    "duration_step": 5,
+    "k_phys": 1.0,
+    "total_area": 900.0
+  },
+  "rq2_table": {
+    "total_sims": 935,
+    "base_boundary_points": 160,
+    "cond_boundary_points": 0,
+    "base_area": 690.7475,
+    "cond_area": 0.0,
+    "base_area_pct": 76.7497,
+    "cond_area_pct": 0.0,
+    "hazard_region_pct": 76.7497
+  },
+  "search_stats": {
+    "base_total_simulations": 935,
+    "base_null_points": 21,
+    "first_valid_duration": 205,
+    "last_valid_duration": 1000
+  }
+}

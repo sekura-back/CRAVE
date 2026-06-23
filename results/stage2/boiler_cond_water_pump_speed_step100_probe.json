@@ -1,0 +1,933 @@
+{
+  "point": "simulation_water_pump_speed",
+  "selected_variable": "simulation_water_pump_speed",
+  "direction": "pos",
+  "method": "cooperative_dual_ramp_hold_boundary",
+  "status": "ok",
+  "canonical_alarm_id": "P-BOILER-CUT-001",
+  "ref_var": "simulation_steam_setpoint",
+  "coordinated_variable_pair": {
+    "selected_variable": "simulation_water_pump_speed",
+    "ref_var": "simulation_steam_setpoint",
+    "selected_runtime": {
+      "point": "simulation_water_pump_speed",
+      "phase": "controller_water_pump",
+      "field": "water_pump_speed",
+      "default_value": 2500.0,
+      "range": [
+        2000.0,
+        3000.0
+      ],
+      "rate": 50.0
+    },
+    "ref_runtime": {
+      "point": "simulation_steam_setpoint",
+      "phase": "controller_steam_hslim",
+      "field": "steam_setpoint",
+      "default_value": 23.74,
+      "range": [
+        18.0,
+        29.0
+      ],
+      "rate": 0.5
+    }
+  },
+  "base_boundary": [
+    {
+      "direction": "pos",
+      "duration": 100,
+      "lower_target_amp": 0.9693145751953125
+    },
+    {
+      "direction": "pos",
+      "duration": 110,
+      "lower_target_amp": 0.8801460266113281
+    },
+    {
+      "direction": "pos",
+      "duration": 120,
+      "lower_target_amp": 0.8060455322265625
+    },
+    {
+      "direction": "pos",
+      "duration": 130,
+      "lower_target_amp": 0.7434844970703125
+    },
+    {
+      "direction": "pos",
+      "duration": 140,
+      "lower_target_amp": 0.6900787353515625
+    },
+    {
+      "direction": "pos",
+      "duration": 150,
+      "lower_target_amp": 0.6438255310058594
+    },
+    {
+      "direction": "pos",
+      "duration": 160,
+      "lower_target_amp": 0.603485107421875
+    },
+    {
+      "direction": "pos",
+      "duration": 170,
+      "lower_target_amp": 0.5679130554199219
+    },
+    {
+      "direction": "pos",
+      "duration": 180,
+      "lower_target_amp": 0.5364418029785156
+    },
+    {
+      "direction": "pos",
+      "duration": 190,
+      "lower_target_amp": 0.5082130432128906
+    },
+    {
+      "direction": "pos",
+      "duration": 200,
+      "lower_target_amp": 0.482940673828125
+    },
+    {
+      "direction": "pos",
+      "duration": 210,
+      "lower_target_amp": 0.4601478576660156
+    },
+    {
+      "direction": "pos",
+      "duration": 220,
+      "lower_target_amp": 0.439453125
+    },
+    {
+      "direction": "pos",
+      "duration": 230,
+      "lower_target_amp": 0.4204750061035156
+    },
+    {
+      "direction": "pos",
+      "duration": 240,
+      "lower_target_amp": 0.4032135009765625
+    },
+    {
+      "direction": "pos",
+      "duration": 250,
+      "lower_target_amp": 0.3872871398925781
+    },
+    {
+      "direction": "pos",
+      "duration": 260,
+      "lower_target_amp": 0.3726005554199219
+    },
+    {
+      "direction": "pos",
+      "duration": 270,
+      "lower_target_amp": 0.3590583801269531
+    },
+    {
+      "direction": "pos",
+      "duration": 280,
+      "lower_target_amp": 0.3464698791503906
+    },
+    {
+      "direction": "pos",
+      "duration": 290,
+      "lower_target_amp": 0.33473968505859375
+    },
+    {
+      "direction": "pos",
+      "duration": 300,
+      "lower_target_amp": 0.3237724304199219
+    },
+    {
+      "direction": "pos",
+      "duration": 310,
+      "lower_target_amp": 0.313568115234375
+    },
+    {
+      "direction": "pos",
+      "duration": 320,
+      "lower_target_amp": 0.3040313720703125
+    },
+    {
+      "direction": "pos",
+      "duration": 330,
+      "lower_target_amp": 0.29506683349609375
+    },
+    {
+      "direction": "pos",
+      "duration": 340,
+      "lower_target_amp": 0.28667449951171875
+    },
+    {
+      "direction": "pos",
+      "duration": 350,
+      "lower_target_amp": 0.27866363525390625
+    },
+    {
+      "direction": "pos",
+      "duration": 360,
+      "lower_target_amp": 0.2711296081542969
+    },
+    {
+      "direction": "pos",
+      "duration": 370,
+      "lower_target_amp": 0.2640724182128906
+    },
+    {
+      "direction": "pos",
+      "duration": 380,
+      "lower_target_amp": 0.2573966979980469
+    },
+    {
+      "direction": "pos",
+      "duration": 390,
+      "lower_target_amp": 0.251007080078125
+    },
+    {
+      "direction": "pos",
+      "duration": 400,
+      "lower_target_amp": 0.24499893188476562
+    },
+    {
+      "direction": "pos",
+      "duration": 410,
+      "lower_target_amp": 0.2391815185546875
+    },
+    {
+      "direction": "pos",
+      "duration": 420,
+      "lower_target_amp": 0.23374557495117188
+    },
+    {
+      "direction": "pos",
+      "duration": 430,
+      "lower_target_amp": 0.2285003662109375
+    },
+    {
+      "direction": "pos",
+      "duration": 440,
+      "lower_target_amp": 0.223541259765625
+    },
+    {
+      "direction": "pos",
+      "duration": 450,
+      "lower_target_amp": 0.21886825561523438
+    },
+    {
+      "direction": "pos",
+      "duration": 460,
+      "lower_target_amp": 0.21429061889648438
+    },
+    {
+      "direction": "pos",
+      "duration": 470,
+      "lower_target_amp": 0.20990371704101562
+    },
+    {
+      "direction": "pos",
+      "duration": 480,
+      "lower_target_amp": 0.20580291748046875
+    },
+    {
+      "direction": "pos",
+      "duration": 490,
+      "lower_target_amp": 0.2017974853515625
+    },
+    {
+      "direction": "pos",
+      "duration": 500,
+      "lower_target_amp": 0.1979827880859375
+    },
+    {
+      "direction": "pos",
+      "duration": 510,
+      "lower_target_amp": 0.19426345825195312
+    },
+    {
+      "direction": "pos",
+      "duration": 520,
+      "lower_target_amp": 0.19073486328125
+    },
+    {
+      "direction": "pos",
+      "duration": 530,
+      "lower_target_amp": 0.18739700317382812
+    },
+    {
+      "direction": "pos",
+      "duration": 540,
+      "lower_target_amp": 0.18415451049804688
+    },
+    {
+      "direction": "pos",
+      "duration": 550,
+      "lower_target_amp": 0.18100738525390625
+    },
+    {
+      "direction": "pos",
+      "duration": 560,
+      "lower_target_amp": 0.17795562744140625
+    },
+    {
+      "direction": "pos",
+      "duration": 570,
+      "lower_target_amp": 0.17499923706054688
+    },
+    {
+      "direction": "pos",
+      "duration": 580,
+      "lower_target_amp": 0.17223358154296875
+    },
+    {
+      "direction": "pos",
+      "duration": 590,
+      "lower_target_amp": 0.16946792602539062
+    },
+    {
+      "direction": "pos",
+      "duration": 600,
+      "lower_target_amp": 0.16679763793945312
+    },
+    {
+      "direction": "pos",
+      "duration": 610,
+      "lower_target_amp": 0.16431808471679688
+    },
+    {
+      "direction": "pos",
+      "duration": 620,
+      "lower_target_amp": 0.16183853149414062
+    },
+    {
+      "direction": "pos",
+      "duration": 630,
+      "lower_target_amp": 0.15941262245178223
+    },
+    {
+      "direction": "pos",
+      "duration": 640,
+      "lower_target_amp": 0.15712082386016846
+    },
+    {
+      "direction": "pos",
+      "duration": 650,
+      "lower_target_amp": 0.15490353107452393
+    },
+    {
+      "direction": "pos",
+      "duration": 660,
+      "lower_target_amp": 0.15273094177246094
+    },
+    {
+      "direction": "pos",
+      "duration": 670,
+      "lower_target_amp": 0.15064924955368042
+    },
+    {
+      "direction": "pos",
+      "duration": 680,
+      "lower_target_amp": 0.14857463538646698
+    },
+    {
+      "direction": "pos",
+      "duration": 690,
+      "lower_target_amp": 0.14657974243164062
+    },
+    {
+      "direction": "pos",
+      "duration": 700,
+      "lower_target_amp": 0.1446761190891266
+    },
+    {
+      "direction": "pos",
+      "duration": 710,
+      "lower_target_amp": 0.14281636103987694
+    },
+    {
+      "direction": "pos",
+      "duration": 720,
+      "lower_target_amp": 0.14100614935159683
+    },
+    {
+      "direction": "pos",
+      "duration": 730,
+      "lower_target_amp": 0.13919593766331673
+    },
+    {
+      "direction": "pos",
+      "duration": 740,
+      "lower_target_amp": 0.13748100027441978
+    },
+    {
+      "direction": "pos",
+      "duration": 750,
+      "lower_target_amp": 0.135861337184906
+    },
+    {
+      "direction": "pos",
+      "duration": 760,
+      "lower_target_amp": 0.13424167409539223
+    },
+    {
+      "direction": "pos",
+      "duration": 770,
+      "lower_target_amp": 0.13262201100587845
+    },
+    {
+      "direction": "pos",
+      "duration": 780,
+      "lower_target_amp": 0.13109762221574783
+    },
+    {
+      "direction": "pos",
+      "duration": 790,
+      "lower_target_amp": 0.12957323342561722
+    },
+    {
+      "direction": "pos",
+      "duration": 800,
+      "lower_target_amp": 0.12814411893486977
+    },
+    {
+      "direction": "pos",
+      "duration": 810,
+      "lower_target_amp": 0.12671500444412231
+    },
+    {
+      "direction": "pos",
+      "duration": 820,
+      "lower_target_amp": 0.12528588995337486
+    },
+    {
+      "direction": "pos",
+      "duration": 830,
+      "lower_target_amp": 0.12395204976201057
+    },
+    {
+      "direction": "pos",
+      "duration": 840,
+      "lower_target_amp": 0.12261820957064629
+    },
+    {
+      "direction": "pos",
+      "duration": 850,
+      "lower_target_amp": 0.12137964367866516
+    },
+    {
+      "direction": "pos",
+      "duration": 860,
+      "lower_target_amp": 0.1201193779706955
+    },
+    {
+      "direction": "pos",
+      "duration": 870,
+      "lower_target_amp": 0.11888202279806137
+    },
+    {
+      "direction": "pos",
+      "duration": 880,
+      "lower_target_amp": 0.11766394600272179
+    },
+    {
+      "direction": "pos",
+      "duration": 890,
+      "lower_target_amp": 0.11650249361991882
+    },
+    {
+      "direction": "pos",
+      "duration": 900,
+      "lower_target_amp": 0.1153603196144104
+    },
+    {
+      "direction": "pos",
+      "duration": 910,
+      "lower_target_amp": 0.1142340712249279
+    },
+    {
+      "direction": "pos",
+      "duration": 920,
+      "lower_target_amp": 0.11309077963232994
+    },
+    {
+      "direction": "pos",
+      "duration": 930,
+      "lower_target_amp": 0.11204276233911514
+    },
+    {
+      "direction": "pos",
+      "duration": 940,
+      "lower_target_amp": 0.11099474504590034
+    },
+    {
+      "direction": "pos",
+      "duration": 950,
+      "lower_target_amp": 0.10994672775268555
+    },
+    {
+      "direction": "pos",
+      "duration": 960,
+      "lower_target_amp": 0.10898318141698837
+    },
+    {
+      "direction": "pos",
+      "duration": 970,
+      "lower_target_amp": 0.10794596746563911
+    },
+    {
+      "direction": "pos",
+      "duration": 980,
+      "lower_target_amp": 0.10699322447180748
+    },
+    {
+      "direction": "pos",
+      "duration": 990,
+      "lower_target_amp": 0.10604048147797585
+    },
+    {
+      "direction": "pos",
+      "duration": 1000,
+      "lower_target_amp": 0.10508773848414421
+    }
+  ],
+  "expanded_boundary": [
+    {
+      "direction": "pos",
+      "duration": 100,
+      "lower_target_amp": 0.831490159034729,
+      "regular_amp": 0.9693145751953125,
+      "expansion_ratio": 0.8578125,
+      "stable_amp": 0.831490159034729,
+      "stable_slope_min": 0.047625,
+      "stable_slope_max": 0.04825,
+      "slope_min": 0.047625,
+      "slope_max": 0.04825,
+      "extreme_amp": 0.831490159034729,
+      "extreme_slope": 0.047625,
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "direction": "pos",
+      "duration": 200,
+      "lower_target_amp": 0.4142725467681885,
+      "regular_amp": 0.482940673828125,
+      "expansion_ratio": 0.8578125,
+      "stable_amp": 0.4142725467681885,
+      "stable_slope_min": 0.02346875,
+      "stable_slope_max": 0.028124999999999997,
+      "slope_min": 0.02346875,
+      "slope_max": 0.028124999999999997,
+      "extreme_amp": 0.40585409849882126,
+      "extreme_slope": 0.025796874999999997,
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "direction": "pos",
+      "duration": 300,
+      "lower_target_amp": 0.27419477701187134,
+      "regular_amp": 0.3237724304199219,
+      "expansion_ratio": 0.846875,
+      "stable_amp": 0.27419477701187134,
+      "stable_slope_min": 0.01584375,
+      "stable_slope_max": 0.019890625000000002,
+      "slope_min": 0.01584375,
+      "slope_max": 0.019890625000000002,
+      "extreme_amp": 0.26589494664222,
+      "extreme_slope": 0.018271875,
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "direction": "pos",
+      "duration": 400,
+      "lower_target_amp": 0.2074834704399109,
+      "regular_amp": 0.24499893188476562,
+      "expansion_ratio": 0.846875,
+      "stable_amp": 0.2074834704399109,
+      "stable_slope_min": 0.010875,
+      "stable_slope_max": 0.015609375,
+      "slope_min": 0.010875,
+      "slope_max": 0.015609375,
+      "extreme_amp": 0.1991094835102558,
+      "extreme_slope": 0.013242187499999999,
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "direction": "pos",
+      "duration": 500,
+      "lower_target_amp": 0.15900492668151855,
+      "regular_amp": 0.1979827880859375,
+      "expansion_ratio": 0.803125,
+      "stable_amp": 0.15900492668151855,
+      "stable_slope_min": 0.010468749999999999,
+      "stable_slope_max": 0.012328125,
+      "slope_min": 0.010468749999999999,
+      "slope_max": 0.012328125,
+      "extreme_amp": 0.15900492668151855,
+      "extreme_slope": 0.010468749999999999,
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "direction": "pos",
+      "duration": 600,
+      "lower_target_amp": 0.13840620405972004,
+      "regular_amp": 0.16679763793945312,
+      "expansion_ratio": 0.82978515625,
+      "stable_amp": 0.13840620405972004,
+      "stable_slope_min": 0.006843750000000001,
+      "stable_slope_max": 0.01109375,
+      "slope_min": 0.006843750000000001,
+      "slope_max": 0.01109375,
+      "extreme_amp": 0.1301218059961684,
+      "extreme_slope": 0.009818750000000001,
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "direction": "pos",
+      "duration": 700,
+      "lower_target_amp": 0.11302821803838015,
+      "regular_amp": 0.1446761190891266,
+      "expansion_ratio": 0.78125,
+      "stable_amp": 0.11302821803838015,
+      "stable_slope_min": 0.0074375,
+      "stable_slope_max": 0.009078125000000001,
+      "slope_min": 0.0074375,
+      "slope_max": 0.009078125000000001,
+      "extreme_amp": 0.11302821803838015,
+      "extreme_slope": 0.0074375,
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "direction": "pos",
+      "duration": 800,
+      "lower_target_amp": 0.10151416921871714,
+      "regular_amp": 0.12814411893486977,
+      "expansion_ratio": 0.7921875,
+      "stable_amp": 0.10151416921871714,
+      "stable_slope_min": 0.005218749999999999,
+      "stable_slope_max": 0.008546875,
+      "slope_min": 0.005218749999999999,
+      "slope_max": 0.008546875,
+      "extreme_amp": 0.09757223587257613,
+      "extreme_slope": 0.0068828125,
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "direction": "pos",
+      "duration": 900,
+      "lower_target_amp": 0.09769577067345381,
+      "regular_amp": 0.1153603196144104,
+      "expansion_ratio": 0.846875,
+      "stable_amp": 0.09769577067345381,
+      "stable_slope_min": 0.003953125,
+      "stable_slope_max": 0.007953125,
+      "slope_min": 0.003953125,
+      "slope_max": 0.007953125,
+      "extreme_amp": 0.0858668316504918,
+      "extreme_slope": 0.006353125,
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    },
+    {
+      "direction": "pos",
+      "duration": 1000,
+      "lower_target_amp": 0.08755943210417172,
+      "regular_amp": 0.10508773848414421,
+      "expansion_ratio": 0.833203125,
+      "stable_amp": 0.08755943210417172,
+      "stable_slope_min": 0.003109375,
+      "stable_slope_max": 0.007484375,
+      "slope_min": 0.003109375,
+      "slope_max": 0.007484375,
+      "extreme_amp": 0.07705322387437263,
+      "extreme_slope": 0.005734375,
+      "selected_variable": "simulation_water_pump_speed",
+      "canonical_alarm_id": "P-BOILER-CUT-001",
+      "ref_var": "simulation_steam_setpoint",
+      "coordinated_variable_pair": {
+        "selected_variable": "simulation_water_pump_speed",
+        "ref_var": "simulation_steam_setpoint",
+        "selected_runtime": {
+          "point": "simulation_water_pump_speed",
+          "phase": "controller_water_pump",
+          "field": "water_pump_speed",
+          "default_value": 2500.0,
+          "range": [
+            2000.0,
+            3000.0
+          ],
+          "rate": 50.0
+        },
+        "ref_runtime": {
+          "point": "simulation_steam_setpoint",
+          "phase": "controller_steam_hslim",
+          "field": "steam_setpoint",
+          "default_value": 23.74,
+          "range": [
+            18.0,
+            29.0
+          ],
+          "rate": 0.5
+        }
+      }
+    }
+  ],
+  "summary": {
+    "total_processed": 10,
+    "expanded_ok": 10,
+    "failed": 0,
+    "cond_points_found": 10,
+    "dual_probe_calls": 4366,
+    "total_simulations": 4366,
+    "time_s": 135.5
+  }
+}

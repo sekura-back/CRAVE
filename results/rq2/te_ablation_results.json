@@ -1,0 +1,33 @@
+{
+  "reference": {
+    "budget": 935,
+    "base_area": 690.7475,
+    "base_area_pct": 76.7497,
+    "boundary_precision": 0.0001
+  },
+  "uniform_grid": {
+    "budget": 935,
+    "discovered_area": 0,
+    "discovered_area_pct": 0.0,
+    "discovered_duration_count": 0,
+    "boundary_mae": null,
+    "boundary_max_error": null,
+    "target_hits": 0,
+    "elapsed_s": 312.68
+  },
+  "random_search": {
+    "budget": 935,
+    "seed": 43,
+    "discovered_area": 0,
+    "discovered_area_pct": 0.0,
+    "discovered_duration_count": 0,
+    "boundary_mae": null,
+    "boundary_max_error": null,
+    "target_hits": 0,
+    "elapsed_s": 290.95
+  },
+  "evaluation_policy": {
+    "region_model": "upward_union_per_duration_from_min_target_rate",
+    "outside_truth_not_counted_by_reference_comparison": true
+  }
+}

@@ -1,0 +1,952 @@
+{
+  "platform": "boiler",
+  "failure_summary": {
+    "cat1": 6,
+    "cat2": 43,
+    "cat3": 17,
+    "total": 66
+  },
+  "before": {
+    "cat1": 6,
+    "cat2": 43,
+    "cat3": 17,
+    "total": 66
+  },
+  "after": {
+    "cat1_resolved": 6,
+    "cat1_remaining": 0,
+    "cat2_resolved": 43,
+    "cat2_remaining": 0,
+    "cat3_resolved": 16,
+    "cat3_remaining": 1,
+    "total_remaining": 1
+  },
+  "cat12_repairs": [
+    {
+      "failure_category": 1,
+      "dur": 600,
+      "fuel_amp": 0.09102605199025829,
+      "steam_slope": 0.006806094269422293,
+      "region_id": "R_117",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.007079716406250001,
+        "alpha_plus": 0.014119583593749999,
+        "width": 0.007039867187499997
+      },
+      "segment_count": 1,
+      "verdict": "cat1_excluded"
+    },
+    {
+      "failure_category": 1,
+      "dur": 600,
+      "fuel_amp": 0.08964908663570231,
+      "steam_slope": 0.00647623582187662,
+      "region_id": "R_117",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.007420085937500001,
+        "alpha_plus": 0.0139651953125,
+        "width": 0.006545109374999998
+      },
+      "segment_count": 1,
+      "verdict": "cat1_excluded"
+    },
+    {
+      "failure_category": 1,
+      "dur": 750,
+      "fuel_amp": 0.07150918895424428,
+      "steam_slope": 0.005292715465892525,
+      "region_id": "R_020",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.006099572916666667,
+        "alpha_plus": 0.011892906249999998,
+        "width": 0.005793333333333331
+      },
+      "segment_count": 1,
+      "verdict": "cat1_excluded"
+    },
+    {
+      "failure_category": 1,
+      "dur": 750,
+      "fuel_amp": 0.07259706463193764,
+      "steam_slope": 0.0058846675061377095,
+      "region_id": "R_020",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.006060072916666666,
+        "alpha_plus": 0.012013052083333333,
+        "width": 0.005952979166666667
+      },
+      "segment_count": 1,
+      "verdict": "cat1_excluded"
+    },
+    {
+      "failure_category": 1,
+      "dur": 750,
+      "fuel_amp": 0.06979967786782829,
+      "steam_slope": 0.005793646067408711,
+      "region_id": "R_020",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0060855833333333335,
+        "alpha_plus": 0.0116929375,
+        "width": 0.005607354166666667
+      },
+      "segment_count": 1,
+      "verdict": "cat1_excluded"
+    },
+    {
+      "failure_category": 1,
+      "dur": 450,
+      "fuel_amp": 1.0887004639062108,
+      "steam_slope": 0.03943155848157108,
+      "region_id": "R_027",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.03950367057291666,
+        "alpha_plus": 0.06766782083333334,
+        "width": 0.028164150260416673
+      },
+      "segment_count": 1,
+      "verdict": "cat1_excluded"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021552922350627012,
+      "steam_slope": 0.006086516524710351,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.005987089062500001,
+        "alpha_plus": 0.0060949234375,
+        "width": 0.00010783437499999916
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021704583795018786,
+      "steam_slope": 0.006010409532726816,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0059724453125,
+        "alpha_plus": 0.006111715624999999,
+        "width": 0.00013927031249999933
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021709650060709795,
+      "steam_slope": 0.00605346404955311,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.005971946874999999,
+        "alpha_plus": 0.006112162499999999,
+        "width": 0.00014021562499999963
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021620515697885475,
+      "steam_slope": 0.005980850991992056,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.005980626562499999,
+        "alpha_plus": 0.00610260625,
+        "width": 0.00012197968750000086
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021318888785670634,
+      "steam_slope": 0.0060307980388041955,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.006010275,
+        "alpha_plus": 0.006067234375,
+        "width": 5.6959375000000326e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021542867463395954,
+      "steam_slope": 0.006090483073615203,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.005988068749999999,
+        "alpha_plus": 0.0060940640625,
+        "width": 0.00010599531250000092
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021280413463055394,
+      "steam_slope": 0.006050711666921474,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0060141421875,
+        "alpha_plus": 0.0060620953125,
+        "width": 4.795312499999982e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.02145024675606856,
+      "steam_slope": 0.005998005731017357,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0059972125,
+        "alpha_plus": 0.006082410937499999,
+        "width": 8.519843749999964e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021547684423035656,
+      "steam_slope": 0.006071678881621076,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0059876046875,
+        "alpha_plus": 0.006094476562499999,
+        "width": 0.00010687187499999924
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.0213600572344034,
+      "steam_slope": 0.006047451954536415,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0060061671875,
+        "alpha_plus": 0.0060727859375,
+        "width": 6.661875000000053e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021289776698630962,
+      "steam_slope": 0.006032225751261775,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.006013196874999999,
+        "alpha_plus": 0.006062920312500001,
+        "width": 4.972343750000215e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021700774918744257,
+      "steam_slope": 0.006064469272016647,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0059728062500000005,
+        "alpha_plus": 0.0061113890625,
+        "width": 0.00013858281249999951
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021582023644948403,
+      "steam_slope": 0.005998328502477775,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.005984235937499999,
+        "alpha_plus": 0.006097450000000001,
+        "width": 0.00011321406250000207
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021375817509005624,
+      "steam_slope": 0.006023272771755719,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.006004603125,
+        "alpha_plus": 0.00607414375,
+        "width": 6.954062500000042e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.0213743721282638,
+      "steam_slope": 0.006060663415018508,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.006004740624999999,
+        "alpha_plus": 0.006074023437499999,
+        "width": 6.928281249999994e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.02135538757683344,
+      "steam_slope": 0.006043921290682644,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.00600663125,
+        "alpha_plus": 0.0060723734375000005,
+        "width": 6.574218750000048e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021328135835306555,
+      "steam_slope": 0.006049430359033612,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.006009346874999999,
+        "alpha_plus": 0.0060682140625000006,
+        "width": 5.886718750000141e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021470288785818144,
+      "steam_slope": 0.006014223078183859,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.00599521875,
+        "alpha_plus": 0.006084146874999999,
+        "width": 8.892812499999934e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021187589927676224,
+      "steam_slope": 0.006046287032230534,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0060234749999999995,
+        "alpha_plus": 0.0060522640625,
+        "width": 2.8789062500000386e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.02143837932960799,
+      "steam_slope": 0.006010592857343566,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.00599838125,
+        "alpha_plus": 0.006081379687499999,
+        "width": 8.299843749999883e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.02142125590399477,
+      "steam_slope": 0.00607152013209192,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0060000828125,
+        "alpha_plus": 0.006079884375,
+        "width": 7.980156249999971e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.0216099515339988,
+      "steam_slope": 0.005990554472746973,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.005981657812499999,
+        "alpha_plus": 0.0061016953125000006,
+        "width": 0.00012003750000000139
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021221029875454656,
+      "steam_slope": 0.0060308377700892205,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.006020106250000001,
+        "alpha_plus": 0.0060551515625,
+        "width": 3.504531249999901e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.02173248498294361,
+      "steam_slope": 0.006002773432438951,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.005969746875,
+        "alpha_plus": 0.0061159609375,
+        "width": 0.0001462140624999995
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021369287859137415,
+      "steam_slope": 0.006017133147057629,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.00600525625,
+        "alpha_plus": 0.0060735765625,
+        "width": 6.832031250000002e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021563481173802686,
+      "steam_slope": 0.006029009640424537,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.005986057812499999,
+        "alpha_plus": 0.006095851562500001,
+        "width": 0.00010979375000000173
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.02125641235362085,
+      "steam_slope": 0.006032128152353022,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0060165484375,
+        "alpha_plus": 0.006060015625000001,
+        "width": 4.346718750000093e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021532656747441217,
+      "steam_slope": 0.005995756179643754,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.005989082812499999,
+        "alpha_plus": 0.006091365624999999,
+        "width": 0.00010228281249999999
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021704975283609502,
+      "steam_slope": 0.006099162189766496,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.005972410937499999,
+        "alpha_plus": 0.006111749999999999,
+        "width": 0.00013933906250000044
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021680309036280716,
+      "steam_slope": 0.006028219145668339,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0059748,
+        "alpha_plus": 0.00610961875,
+        "width": 0.00013481875000000056
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.02125445193662155,
+      "steam_slope": 0.0060485606249934265,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.006016737499999999,
+        "alpha_plus": 0.00605984375,
+        "width": 4.3106250000000956e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021513330863079445,
+      "steam_slope": 0.006089347405489723,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0059909906249999995,
+        "alpha_plus": 0.0060896812499999994,
+        "width": 9.869062499999991e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021504011478524293,
+      "steam_slope": 0.0060261795972088245,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.005991901562500001,
+        "alpha_plus": 0.0060888734375,
+        "width": 9.697187499999906e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021716986575202775,
+      "steam_slope": 0.0061035842107028905,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0059712421875,
+        "alpha_plus": 0.006114620312500001,
+        "width": 0.00014337812500000123
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021343171887492917,
+      "steam_slope": 0.006019536839040762,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0060078515624999995,
+        "alpha_plus": 0.0060695203125,
+        "width": 6.166875000000044e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021140728037406704,
+      "steam_slope": 0.00603639275641566,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.006028235937499999,
+        "alpha_plus": 0.006046403125,
+        "width": 1.8167187500000258e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021667964448530804,
+      "steam_slope": 0.006084663309336951,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.005976003125,
+        "alpha_plus": 0.0061085359374999995,
+        "width": 0.00013253281249999988
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.02153305660556954,
+      "steam_slope": 0.006066098870947719,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.005989031249999999,
+        "alpha_plus": 0.006093204687499999,
+        "width": 0.00010417343750000058
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.02154581347229629,
+      "steam_slope": 0.006081802143160722,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0059877937499999995,
+        "alpha_plus": 0.006094321875,
+        "width": 0.00010652812500000063
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021559736284835745,
+      "steam_slope": 0.006059585252221619,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.00598641875,
+        "alpha_plus": 0.006095525,
+        "width": 0.00010910625000000018
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.021617073507409573,
+      "steam_slope": 0.006051578378329208,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.005980953125,
+        "alpha_plus": 0.006102314062500001,
+        "width": 0.00012136093750000129
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.02158168699437061,
+      "steam_slope": 0.005989635859926381,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0059842703125,
+        "alpha_plus": 0.006097432812500001,
+        "width": 0.00011316250000000146
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    },
+    {
+      "failure_category": 2,
+      "dur": 1000,
+      "fuel_amp": 0.02160755962250069,
+      "steam_slope": 0.006064951405237223,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0059818812499999995,
+        "alpha_plus": 0.006101489062500002,
+        "width": 0.00011960781250000205
+      },
+      "segment_count": 1,
+      "verdict": "cat2_boundary_conservative"
+    }
+  ],
+  "cat3_repairs": [
+    {
+      "failure_category": 3,
+      "dur": 650,
+      "fuel_amp": 0.09193678044430877,
+      "steam_slope": 0.0061001874300356355,
+      "region_id": "R_021",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.002943917643229167,
+        "alpha_plus": 0.014225117838541666,
+        "width": 0.011281200195312499
+      },
+      "segment_count": 1,
+      "verdict": "cat3_resolved_by_dynamic_intersection"
+    },
+    {
+      "failure_category": 3,
+      "dur": 1000,
+      "fuel_amp": 0.021734044422330137,
+      "steam_slope": 0.005970615484974764,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.005969600781249999,
+        "alpha_plus": 0.00611608984375,
+        "width": 0.00014648906250000135
+      },
+      "segment_count": 1,
+      "verdict": "cat3_resolved_by_dynamic_intersection"
+    },
+    {
+      "failure_category": 3,
+      "dur": 950,
+      "fuel_amp": 0.06327882012598163,
+      "steam_slope": 0.010579758665947871,
+      "region_id": "R_113",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.001327,
+        "alpha_plus": 0.010943030468749997,
+        "width": 0.009616030468749997
+      },
+      "segment_count": 1,
+      "verdict": "cat3_resolved_by_dynamic_intersection"
+    },
+    {
+      "failure_category": 3,
+      "dur": 350,
+      "fuel_amp": 0.10808802637112142,
+      "steam_slope": 0.01599785492656445,
+      "region_id": "R_119",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.015995795703125003,
+        "alpha_plus": 0.016047330468749996,
+        "width": 5.153476562499287e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat3_resolved_by_dynamic_intersection"
+    },
+    {
+      "failure_category": 3,
+      "dur": 1000,
+      "fuel_amp": 0.021734781480554192,
+      "steam_slope": 0.00596988039033642,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0059695234375,
+        "alpha_plus": 0.0061161671875,
+        "width": 0.0001466437500000006
+      },
+      "segment_count": 1,
+      "verdict": "cat3_resolved_by_dynamic_intersection"
+    },
+    {
+      "failure_category": 3,
+      "dur": 950,
+      "fuel_amp": 0.05952839729686106,
+      "steam_slope": 0.005121644705121731,
+      "region_id": "R_113",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.001327,
+        "alpha_plus": 0.010510907421875,
+        "width": 0.009183907421875
+      },
+      "segment_count": 1,
+      "verdict": "cat3_resolved_by_dynamic_intersection"
+    },
+    {
+      "failure_category": 3,
+      "dur": 1000,
+      "fuel_amp": 0.02173408267940485,
+      "steam_slope": 0.006114703875749975,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.005969600781249999,
+        "alpha_plus": 0.00611608984375,
+        "width": 0.00014648906250000135
+      },
+      "segment_count": 1,
+      "verdict": "cat3_resolved_by_dynamic_intersection"
+    },
+    {
+      "failure_category": 3,
+      "dur": 1000,
+      "fuel_amp": 0.021734044687215886,
+      "steam_slope": 0.005971040735910944,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.005969600781249999,
+        "alpha_plus": 0.00611608984375,
+        "width": 0.00014648906250000135
+      },
+      "segment_count": 1,
+      "verdict": "cat3_resolved_by_dynamic_intersection"
+    },
+    {
+      "failure_category": 3,
+      "dur": 350,
+      "fuel_amp": 0.10808878239142516,
+      "steam_slope": 0.015997327358802334,
+      "region_id": "R_119",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0159956671875,
+        "alpha_plus": 0.0160473947265625,
+        "width": 5.172753906250091e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat3_resolved_by_dynamic_intersection"
+    },
+    {
+      "failure_category": 3,
+      "dur": 600,
+      "fuel_amp": 0.09366979486380299,
+      "steam_slope": 0.013899281868740645,
+      "region_id": "R_117",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.006462163281250002,
+        "alpha_plus": 0.014420908984375001,
+        "width": 0.007958745703124999
+      },
+      "segment_count": 1,
+      "verdict": "cat3_resolved_by_dynamic_intersection"
+    },
+    {
+      "failure_category": 3,
+      "dur": 600,
+      "fuel_amp": 0.09238886010365939,
+      "steam_slope": 0.013978783059120878,
+      "region_id": "R_117",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.006459480859375002,
+        "alpha_plus": 0.014273375781250002,
+        "width": 0.007813894921875
+      },
+      "segment_count": 1,
+      "verdict": "cat3_resolved_by_dynamic_intersection"
+    },
+    {
+      "failure_category": 3,
+      "dur": 350,
+      "fuel_amp": 0.10808853022629067,
+      "steam_slope": 0.015997998322519563,
+      "region_id": "R_119",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0159957130859375,
+        "alpha_plus": 0.016047376367187498,
+        "width": 5.166328124999939e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat3_resolved_by_dynamic_intersection"
+    },
+    {
+      "failure_category": 3,
+      "dur": 650,
+      "fuel_amp": 0.09029796856597759,
+      "steam_slope": 0.0061462177344594636,
+      "region_id": "R_021",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0027862799479166666,
+        "alpha_plus": 0.014037838867187498,
+        "width": 0.011251558919270831
+      },
+      "segment_count": 1,
+      "verdict": "cat3_resolved_by_dynamic_intersection"
+    },
+    {
+      "failure_category": 3,
+      "dur": 850,
+      "fuel_amp": 0.06310460911820867,
+      "steam_slope": 0.01049792730296479,
+      "region_id": "R_109",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.00540040625,
+        "alpha_plus": 0.010249000000000001,
+        "width": 0.004848593750000001
+      },
+      "segment_count": 1,
+      "verdict": "cat3_remaining"
+    },
+    {
+      "failure_category": 3,
+      "dur": 350,
+      "fuel_amp": 0.10808809170604095,
+      "steam_slope": 0.015997220565613743,
+      "region_id": "R_119",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.015995786523437503,
+        "alpha_plus": 0.016047339648437495,
+        "width": 5.155312499999232e-05
+      },
+      "segment_count": 1,
+      "verdict": "cat3_resolved_by_dynamic_intersection"
+    },
+    {
+      "failure_category": 3,
+      "dur": 650,
+      "fuel_amp": 0.08799372673789607,
+      "steam_slope": 0.006077005446815746,
+      "region_id": "R_021",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.0025666650390625,
+        "alpha_plus": 0.01377780403645833,
+        "width": 0.011211138997395832
+      },
+      "segment_count": 1,
+      "verdict": "cat3_resolved_by_dynamic_intersection"
+    },
+    {
+      "failure_category": 3,
+      "dur": 1000,
+      "fuel_amp": 0.021734421589664512,
+      "steam_slope": 0.005970827563081025,
+      "region_id": "R_106",
+      "dynamic_primary_band": {
+        "alpha_minus": 0.00596954921875,
+        "alpha_plus": 0.006116115625,
+        "width": 0.00014656640624999967
+      },
+      "segment_count": 1,
+      "verdict": "cat3_resolved_by_dynamic_intersection"
+    }
+  ]
+}

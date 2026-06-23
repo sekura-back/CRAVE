@@ -1,0 +1,1959 @@
+{
+  "system_id": "tep_downs_vogel_1993",
+  "manip_point": "simulation_xmv_04",
+  "alarm_id": "P-TEP-ACFEED-TRACK",
+  "spoof_field": "setpoints_3",
+  "sim_steps": 2200,
+  "n_rate_samples": 10,
+  "method": "static_then_dynamic_ra_shrink_same_duration",
+  "base_results_path": "results/stage2/TE/xmv04/boundary_results.json",
+  "elapsed_s": 36.0,
+  "by_duration": [
+    {
+      "duration": 350,
+      "base_rate_lo": 0.490234375,
+      "base_rate_hi": 1.0,
+      "samples": [
+        {
+          "manip_rate": 0.490234375,
+          "manip_dur": 350,
+          "haz_step_manip_only": 13131,
+          "horizon": 450,
+          "xmeas_04_min": 9.22627928102014,
+          "xmeas_04_max": 15.379733532165675,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 350,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": 100,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.0
+        },
+        {
+          "manip_rate": 0.546875,
+          "manip_dur": 350,
+          "haz_step_manip_only": 13127,
+          "horizon": 446,
+          "xmeas_04_min": 9.227238942744313,
+          "xmeas_04_max": 15.379733532165869,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 350,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": 96,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.1111111111111111
+        },
+        {
+          "manip_rate": 0.603515625,
+          "manip_dur": 350,
+          "haz_step_manip_only": 13124,
+          "horizon": 443,
+          "xmeas_04_min": 9.228198604468487,
+          "xmeas_04_max": 15.379733532165943,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 350,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": 93,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.2222222222222222
+        },
+        {
+          "manip_rate": 0.66015625,
+          "manip_dur": 350,
+          "haz_step_manip_only": 13121,
+          "horizon": 440,
+          "xmeas_04_min": 9.22915826619266,
+          "xmeas_04_max": 15.379733532165972,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 350,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": 90,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.3333333333333333
+        },
+        {
+          "manip_rate": 0.716796875,
+          "manip_dur": 350,
+          "haz_step_manip_only": 13119,
+          "horizon": 438,
+          "xmeas_04_min": 9.230117927916835,
+          "xmeas_04_max": 15.379733532165988,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 350,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": 88,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.4444444444444444
+        },
+        {
+          "manip_rate": 0.7734375,
+          "manip_dur": 350,
+          "haz_step_manip_only": 13116,
+          "horizon": 435,
+          "xmeas_04_min": 9.23107758964101,
+          "xmeas_04_max": 15.379733532165991,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 350,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": 85,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.5555555555555556
+        },
+        {
+          "manip_rate": 0.830078125,
+          "manip_dur": 350,
+          "haz_step_manip_only": 13114,
+          "horizon": 433,
+          "xmeas_04_min": 9.232037251365183,
+          "xmeas_04_max": 15.379733532165996,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 350,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": 83,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.6666666666666666
+        },
+        {
+          "manip_rate": 0.88671875,
+          "manip_dur": 350,
+          "haz_step_manip_only": 13113,
+          "horizon": 432,
+          "xmeas_04_min": 9.232996913089357,
+          "xmeas_04_max": 15.379733532166,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 350,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": 82,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.7777777777777778
+        },
+        {
+          "manip_rate": 0.943359375,
+          "manip_dur": 350,
+          "haz_step_manip_only": 13112,
+          "horizon": 431,
+          "xmeas_04_min": 9.233956574813531,
+          "xmeas_04_max": 15.379733532166,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 350,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": 81,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.8888888888888888
+        },
+        {
+          "manip_rate": 1.0,
+          "manip_dur": 350,
+          "haz_step_manip_only": 13111,
+          "horizon": 430,
+          "xmeas_04_min": 9.234916236537703,
+          "xmeas_04_max": 15.379733532166,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 350,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": 80,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 1.0
+        }
+      ],
+      "rate_min_feasible": null
+    },
+    {
+      "duration": 450,
+      "base_rate_lo": 0.1455078125,
+      "base_rate_hi": 1.0,
+      "samples": [
+        {
+          "manip_rate": 0.1455078125,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13231,
+          "horizon": 550,
+          "xmeas_04_min": 9.220438581216118,
+          "xmeas_04_max": 15.399161426966835,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": true,
+              "ac_feed_rate_lo": 0.01579824966831097,
+              "ac_feed_rate_hi": 0.016198217374430463,
+              "ac_feed_band_width": 0.0003999677061194938,
+              "hold_steps": 100,
+              "static_rate_lo": 0.01579824966831097,
+              "static_rate_hi": 0.016198217374430463,
+              "static_band_width": 0.0003999677061194938,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.0
+        },
+        {
+          "manip_rate": 0.2404513888888889,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13174,
+          "horizon": 493,
+          "xmeas_04_min": 9.222047209585181,
+          "xmeas_04_max": 15.379733529083143,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": 43,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.1111111111111111
+        },
+        {
+          "manip_rate": 0.3353949652777778,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13150,
+          "horizon": 469,
+          "xmeas_04_min": 9.223655837954247,
+          "xmeas_04_max": 15.379733532147853,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": 19,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.2222222222222222
+        },
+        {
+          "manip_rate": 0.43033854166666663,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13137,
+          "horizon": 456,
+          "xmeas_04_min": 9.225264466323312,
+          "xmeas_04_max": 15.37973353216491,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": 6,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.3333333333333333
+        },
+        {
+          "manip_rate": 0.5252821180555556,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13128,
+          "horizon": 447,
+          "xmeas_04_min": 9.226873094692378,
+          "xmeas_04_max": 15.37973353216582,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -3,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.4444444444444444
+        },
+        {
+          "manip_rate": 0.6202256944444444,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13123,
+          "horizon": 442,
+          "xmeas_04_min": 9.228481723061442,
+          "xmeas_04_max": 15.379733532165956,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -8,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.5555555555555556
+        },
+        {
+          "manip_rate": 0.7151692708333333,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13119,
+          "horizon": 438,
+          "xmeas_04_min": 9.230090351430508,
+          "xmeas_04_max": 15.379733532165988,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -12,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.6666666666666666
+        },
+        {
+          "manip_rate": 0.8101128472222222,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13115,
+          "horizon": 434,
+          "xmeas_04_min": 9.231698979799573,
+          "xmeas_04_max": 15.379733532165996,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -16,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.7777777777777778
+        },
+        {
+          "manip_rate": 0.905056423611111,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13113,
+          "horizon": 432,
+          "xmeas_04_min": 9.233307608168639,
+          "xmeas_04_max": 15.379733532166,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -18,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.8888888888888888
+        },
+        {
+          "manip_rate": 1.0,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13111,
+          "horizon": 430,
+          "xmeas_04_min": 9.234916236537703,
+          "xmeas_04_max": 15.379733532166,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -20,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 1.0
+        }
+      ],
+      "rate_min_feasible": null
+    },
+    {
+      "duration": 550,
+      "base_rate_lo": 0.0859375,
+      "base_rate_hi": 1.0,
+      "samples": [
+        {
+          "manip_rate": 0.0859375,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13330,
+          "horizon": 649,
+          "xmeas_04_min": 9.219429281816556,
+          "xmeas_04_max": 15.39898137146234,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": true,
+              "ac_feed_rate_lo": 0.009518118469536692,
+              "ac_feed_rate_hi": 0.01315754070891004,
+              "ac_feed_band_width": 0.003639422239373349,
+              "hold_steps": 99,
+              "static_rate_lo": 0.009518118469536692,
+              "static_rate_hi": 0.01315754070891004,
+              "static_band_width": 0.003639422239373349,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.0
+        },
+        {
+          "manip_rate": 0.1875,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13198,
+          "horizon": 517,
+          "xmeas_04_min": 9.221150054563351,
+          "xmeas_04_max": 15.399161426966902,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -33,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.1111111111111111
+        },
+        {
+          "manip_rate": 0.2890625,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13160,
+          "horizon": 479,
+          "xmeas_04_min": 9.222870827310144,
+          "xmeas_04_max": 15.379733532021932,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -71,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.2222222222222222
+        },
+        {
+          "manip_rate": 0.390625,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13142,
+          "horizon": 461,
+          "xmeas_04_min": 9.224591600056938,
+          "xmeas_04_max": 15.37973353216303,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -89,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.3333333333333333
+        },
+        {
+          "manip_rate": 0.4921875,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13131,
+          "horizon": 450,
+          "xmeas_04_min": 9.226312372803733,
+          "xmeas_04_max": 15.379733532165691,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -100,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.4444444444444444
+        },
+        {
+          "manip_rate": 0.59375,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13124,
+          "horizon": 443,
+          "xmeas_04_min": 9.228033145550528,
+          "xmeas_04_max": 15.379733532165933,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -107,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.5555555555555556
+        },
+        {
+          "manip_rate": 0.6953125,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13120,
+          "horizon": 439,
+          "xmeas_04_min": 9.229753918297321,
+          "xmeas_04_max": 15.379733532165979,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -111,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.6666666666666666
+        },
+        {
+          "manip_rate": 0.796875,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13116,
+          "horizon": 435,
+          "xmeas_04_min": 9.231474691044117,
+          "xmeas_04_max": 15.379733532165996,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -115,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.7777777777777778
+        },
+        {
+          "manip_rate": 0.8984375,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13113,
+          "horizon": 432,
+          "xmeas_04_min": 9.233195463790908,
+          "xmeas_04_max": 15.379733532166,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -118,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.8888888888888888
+        },
+        {
+          "manip_rate": 1.0,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13111,
+          "horizon": 430,
+          "xmeas_04_min": 9.234916236537703,
+          "xmeas_04_max": 15.379733532166,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -120,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 1.0
+        }
+      ],
+      "rate_min_feasible": null
+    },
+    {
+      "duration": 650,
+      "base_rate_lo": 0.0615234375,
+      "base_rate_hi": 1.0,
+      "samples": [
+        {
+          "manip_rate": 0.0615234375,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13430,
+          "horizon": 749,
+          "xmeas_04_min": 9.219015634521652,
+          "xmeas_04_max": 15.360218467412379,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": true,
+              "ac_feed_rate_lo": 0.00695303307767701,
+              "ac_feed_rate_hi": 0.011155867764739112,
+              "ac_feed_band_width": 0.0042028346870621024,
+              "hold_steps": 99,
+              "static_rate_lo": 0.00695303307767701,
+              "static_rate_hi": 0.011155867764739112,
+              "static_band_width": 0.0042028346870621024,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.0
+        },
+        {
+          "manip_rate": 0.1657986111111111,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13213,
+          "horizon": 532,
+          "xmeas_04_min": 9.220782368078991,
+          "xmeas_04_max": 15.399161426966902,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -118,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.1111111111111111
+        },
+        {
+          "manip_rate": 0.2700737847222222,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13164,
+          "horizon": 483,
+          "xmeas_04_min": 9.222549101636332,
+          "xmeas_04_max": 15.379733531749942,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -167,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.2222222222222222
+        },
+        {
+          "manip_rate": 0.3743489583333333,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13144,
+          "horizon": 463,
+          "xmeas_04_min": 9.22431583519367,
+          "xmeas_04_max": 15.379733532161216,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -187,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.3333333333333333
+        },
+        {
+          "manip_rate": 0.4786241319444444,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13132,
+          "horizon": 451,
+          "xmeas_04_min": 9.226082568751009,
+          "xmeas_04_max": 15.379733532165602,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -199,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.4444444444444444
+        },
+        {
+          "manip_rate": 0.5828993055555556,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13124,
+          "horizon": 443,
+          "xmeas_04_min": 9.227849302308348,
+          "xmeas_04_max": 15.37973353216592,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -207,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.5555555555555556
+        },
+        {
+          "manip_rate": 0.6871744791666666,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13120,
+          "horizon": 439,
+          "xmeas_04_min": 9.229616035865687,
+          "xmeas_04_max": 15.379733532165979,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -211,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.6666666666666666
+        },
+        {
+          "manip_rate": 0.7914496527777778,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13116,
+          "horizon": 435,
+          "xmeas_04_min": 9.231382769423025,
+          "xmeas_04_max": 15.379733532165995,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -215,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.7777777777777778
+        },
+        {
+          "manip_rate": 0.8957248263888888,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13113,
+          "horizon": 432,
+          "xmeas_04_min": 9.233149502980364,
+          "xmeas_04_max": 15.379733532166,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -218,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.8888888888888888
+        },
+        {
+          "manip_rate": 1.0,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13111,
+          "horizon": 430,
+          "xmeas_04_min": 9.234916236537703,
+          "xmeas_04_max": 15.379733532166,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -220,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 1.0
+        }
+      ],
+      "rate_min_feasible": null
+    },
+    {
+      "duration": 750,
+      "base_rate_lo": 0.048828125,
+      "base_rate_hi": 1.0,
+      "samples": [
+        {
+          "manip_rate": 0.048828125,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13526,
+          "horizon": 845,
+          "xmeas_04_min": 9.218800537928304,
+          "xmeas_04_max": 14.915308347920917,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": true,
+              "ac_feed_rate_lo": 0.005430718755568648,
+              "ac_feed_rate_hi": 0.009062832811876018,
+              "ac_feed_band_width": 0.00363211405630737,
+              "hold_steps": 95,
+              "static_rate_lo": 0.005430718755568648,
+              "static_rate_hi": 0.009062832811876018,
+              "static_band_width": 0.00363211405630737,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.0
+        },
+        {
+          "manip_rate": 0.1545138888888889,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13223,
+          "horizon": 542,
+          "xmeas_04_min": 9.220591171107126,
+          "xmeas_04_max": 15.399161426966899,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -208,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.1111111111111111
+        },
+        {
+          "manip_rate": 0.2601996527777778,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13167,
+          "horizon": 486,
+          "xmeas_04_min": 9.222381804285947,
+          "xmeas_04_max": 15.379733531394951,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -264,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.2222222222222222
+        },
+        {
+          "manip_rate": 0.36588541666666663,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13145,
+          "horizon": 464,
+          "xmeas_04_min": 9.22417243746477,
+          "xmeas_04_max": 15.379733532159769,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -286,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.3333333333333333
+        },
+        {
+          "manip_rate": 0.4715711805555555,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13133,
+          "horizon": 452,
+          "xmeas_04_min": 9.225963070643592,
+          "xmeas_04_max": 15.379733532165544,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -298,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.4444444444444444
+        },
+        {
+          "manip_rate": 0.5772569444444444,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13125,
+          "horizon": 444,
+          "xmeas_04_min": 9.227753703822414,
+          "xmeas_04_max": 15.379733532165913,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -306,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.5555555555555556
+        },
+        {
+          "manip_rate": 0.6829427083333333,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13120,
+          "horizon": 439,
+          "xmeas_04_min": 9.229544337001238,
+          "xmeas_04_max": 15.379733532165979,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -311,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.6666666666666666
+        },
+        {
+          "manip_rate": 0.7886284722222222,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13116,
+          "horizon": 435,
+          "xmeas_04_min": 9.23133497018006,
+          "xmeas_04_max": 15.379733532165995,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -315,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.7777777777777778
+        },
+        {
+          "manip_rate": 0.894314236111111,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13113,
+          "horizon": 432,
+          "xmeas_04_min": 9.233125603358884,
+          "xmeas_04_max": 15.379733532166,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -318,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.8888888888888888
+        },
+        {
+          "manip_rate": 1.0,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13111,
+          "horizon": 430,
+          "xmeas_04_min": 9.234916236537703,
+          "xmeas_04_max": 15.379733532166,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -320,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 1.0
+        }
+      ],
+      "rate_min_feasible": null
+    },
+    {
+      "duration": 850,
+      "base_rate_lo": 0.0400390625,
+      "base_rate_hi": 1.0,
+      "samples": [
+        {
+          "manip_rate": 0.0400390625,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13625,
+          "horizon": 944,
+          "xmeas_04_min": 9.216065698076529,
+          "xmeas_04_max": 14.555679131423267,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": true,
+              "ac_feed_rate_lo": 0.0043674665858931296,
+              "ac_feed_rate_hi": 0.007565539817381924,
+              "ac_feed_band_width": 0.0031980732314887943,
+              "hold_steps": 94,
+              "static_rate_lo": 0.0043674665858931296,
+              "static_rate_hi": 0.007565539817381924,
+              "static_band_width": 0.0031980732314887943,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.0
+        },
+        {
+          "manip_rate": 0.1467013888888889,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13230,
+          "horizon": 549,
+          "xmeas_04_min": 9.220458803972758,
+          "xmeas_04_max": 15.399161426966858,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -301,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.1111111111111111
+        },
+        {
+          "manip_rate": 0.2533637152777778,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13169,
+          "horizon": 488,
+          "xmeas_04_min": 9.222265983043377,
+          "xmeas_04_max": 15.379733530950801,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -362,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.2222222222222222
+        },
+        {
+          "manip_rate": 0.36002604166666663,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13146,
+          "horizon": 465,
+          "xmeas_04_min": 9.224073162113994,
+          "xmeas_04_max": 15.379733532158454,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -385,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.3333333333333333
+        },
+        {
+          "manip_rate": 0.4666883680555555,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13133,
+          "horizon": 452,
+          "xmeas_04_min": 9.225880341184611,
+          "xmeas_04_max": 15.379733532165496,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -398,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.4444444444444444
+        },
+        {
+          "manip_rate": 0.5733506944444444,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13126,
+          "horizon": 445,
+          "xmeas_04_min": 9.22768752025523,
+          "xmeas_04_max": 15.379733532165908,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -405,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.5555555555555556
+        },
+        {
+          "manip_rate": 0.6800130208333333,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13120,
+          "horizon": 439,
+          "xmeas_04_min": 9.22949469932585,
+          "xmeas_04_max": 15.379733532165975,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -411,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.6666666666666666
+        },
+        {
+          "manip_rate": 0.7866753472222222,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13116,
+          "horizon": 435,
+          "xmeas_04_min": 9.231301878396467,
+          "xmeas_04_max": 15.379733532165995,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -415,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.7777777777777778
+        },
+        {
+          "manip_rate": 0.893337673611111,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13113,
+          "horizon": 432,
+          "xmeas_04_min": 9.233109057467084,
+          "xmeas_04_max": 15.379733532166,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -418,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.8888888888888888
+        },
+        {
+          "manip_rate": 1.0,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13111,
+          "horizon": 430,
+          "xmeas_04_min": 9.234916236537703,
+          "xmeas_04_max": 15.379733532166,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -420,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 1.0
+        }
+      ],
+      "rate_min_feasible": null
+    },
+    {
+      "duration": 950,
+      "base_rate_lo": 0.033203125,
+      "base_rate_hi": 1.0,
+      "samples": [
+        {
+          "manip_rate": 0.033203125,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13729,
+          "horizon": 1048,
+          "xmeas_04_min": 9.203709737673424,
+          "xmeas_04_max": 14.138013595704882,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": true,
+              "ac_feed_rate_lo": 0.003467137614019897,
+              "ac_feed_rate_hi": 0.006366267128144555,
+              "ac_feed_band_width": 0.002899129514124658,
+              "hold_steps": 98,
+              "static_rate_lo": 0.003467137614019897,
+              "static_rate_hi": 0.006366267128144555,
+              "static_band_width": 0.002899129514124658,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.0
+        },
+        {
+          "manip_rate": 0.140625,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13236,
+          "horizon": 555,
+          "xmeas_04_min": 9.220355851757137,
+          "xmeas_04_max": 15.399161426966693,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -395,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.1111111111111111
+        },
+        {
+          "manip_rate": 0.248046875,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13172,
+          "horizon": 491,
+          "xmeas_04_min": 9.222175899854708,
+          "xmeas_04_max": 15.379733530406181,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -459,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.2222222222222222
+        },
+        {
+          "manip_rate": 0.35546875,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13147,
+          "horizon": 466,
+          "xmeas_04_min": 9.223995947952277,
+          "xmeas_04_max": 15.379733532157218,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -484,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.3333333333333333
+        },
+        {
+          "manip_rate": 0.462890625,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13134,
+          "horizon": 453,
+          "xmeas_04_min": 9.22581599604985,
+          "xmeas_04_max": 15.379733532165456,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -497,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.4444444444444444
+        },
+        {
+          "manip_rate": 0.5703125,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13126,
+          "horizon": 445,
+          "xmeas_04_min": 9.22763604414742,
+          "xmeas_04_max": 15.379733532165908,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -505,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.5555555555555556
+        },
+        {
+          "manip_rate": 0.677734375,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13120,
+          "horizon": 439,
+          "xmeas_04_min": 9.229456092244991,
+          "xmeas_04_max": 15.379733532165975,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -511,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.6666666666666666
+        },
+        {
+          "manip_rate": 0.78515625,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13116,
+          "horizon": 435,
+          "xmeas_04_min": 9.231276140342564,
+          "xmeas_04_max": 15.379733532165995,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -515,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.7777777777777778
+        },
+        {
+          "manip_rate": 0.892578125,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13113,
+          "horizon": 432,
+          "xmeas_04_min": 9.233096188440133,
+          "xmeas_04_max": 15.379733532166,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -518,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 0.8888888888888888
+        },
+        {
+          "manip_rate": 1.0,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13111,
+          "horizon": 430,
+          "xmeas_04_min": 9.234916236537703,
+          "xmeas_04_max": 15.379733532166,
+          "feasible": false,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": false,
+              "ac_feed_rate_lo": null,
+              "ac_feed_rate_hi": null,
+              "ac_feed_band_width": null,
+              "hold_steps": -520,
+              "static_rate_lo": null,
+              "static_rate_hi": null,
+              "static_band_width": null,
+              "band_source": "ac_feed_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_3": 9.3477,
+          "alarm_threshold_abs": 1.5,
+          "measured_var": "xmeas_04",
+          "sample_q": 1.0
+        }
+      ],
+      "rate_min_feasible": null
+    }
+  ]
+}

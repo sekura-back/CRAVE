@@ -1,0 +1,931 @@
+{
+  "point": "simulation_water_pump_speed",
+  "backend": "physics",
+  "method": "cegis_duration_refine",
+  "total_simulations": 455,
+  "total_time_s": 14.86,
+  "domain": {
+    "amp_max": 50.0,
+    "default_value": 2500.0,
+    "value_range": [
+      2000.0,
+      3000.0
+    ],
+    "duration_min": 100,
+    "duration_max": 1000,
+    "duration_step_coarse": 10,
+    "duration_step_fine": 10
+  },
+  "boundaries": [
+    {
+      "direction": "pos",
+      "duration": 100,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 110,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 120,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 130,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 140,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 150,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 160,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 170,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 180,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 190,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 200,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 210,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 220,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 230,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 240,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 250,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 260,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 270,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 280,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 290,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 300,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 310,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 320,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 330,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 340,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 350,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 360,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 370,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 380,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 390,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 400,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 410,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 420,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 430,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 440,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 450,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 460,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 470,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 480,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 490,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 500,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 510,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 520,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 530,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 540,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 550,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 560,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 570,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 580,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 590,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 600,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 610,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 620,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 630,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 640,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 650,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 660,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 670,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 680,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 690,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 700,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 710,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 720,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 730,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 740,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 750,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 760,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 770,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 780,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 790,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 800,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 810,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 820,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 830,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 840,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 850,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 860,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 870,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 880,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 890,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 900,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 910,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 920,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 930,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 940,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 950,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 960,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 970,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 980,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 990,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    },
+    {
+      "direction": "pos",
+      "duration": 1000,
+      "lower_safe_amp": null,
+      "lower_target_amp": null,
+      "upper_target_amp": null,
+      "upper_unsafe_amp": 6.25,
+      "converged": true,
+      "rounds_used": 1
+    }
+  ]
+}

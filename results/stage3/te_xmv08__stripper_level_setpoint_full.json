@@ -1,0 +1,1867 @@
+{
+  "system_id": "tep_downs_vogel_1993",
+  "manip_point": "simulation_xmv_08",
+  "alarm_id": "P-TEP-STRIPPER-LEVEL-TRACK",
+  "spoof_field": "setpoints_7",
+  "sim_steps": 2200,
+  "n_rate_samples": 10,
+  "method": "static_then_dynamic_ra_shrink_same_duration",
+  "base_results_path": "results/stage2/TE/xmv08/boundary_results.json",
+  "elapsed_s": 59.9,
+  "by_duration": [
+    {
+      "duration": 450,
+      "base_rate_lo": 0.1982421875,
+      "base_rate_hi": 1.0,
+      "samples": [
+        {
+          "manip_rate": 0.1982421875,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13231,
+          "horizon": 550,
+          "xmeas_15_min": -27.99499702873468,
+          "xmeas_15_max": 51.6930046108289,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.2690234337946943,
+              "stripper_level_rate_hi": -0.08462137422880775,
+              "stripper_level_band_width": 0.18440205956588654,
+              "hold_steps": 100,
+              "static_rate_lo": -0.2690234337946943,
+              "static_rate_hi": -0.08462137422880775,
+              "static_band_width": 0.18440205956588654,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.0
+        },
+        {
+          "manip_rate": 0.2873263888888889,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13198,
+          "horizon": 517,
+          "xmeas_15_min": -27.867416059263213,
+          "xmeas_15_max": 51.637922331496135,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.32906366688494454,
+              "stripper_level_rate_hi": -0.08433722953065304,
+              "stripper_level_band_width": 0.2447264373542915,
+              "hold_steps": 67,
+              "static_rate_lo": -0.32906366688494454,
+              "static_rate_hi": -0.08433722953065304,
+              "static_band_width": 0.2447264373542915,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.1111111111111111
+        },
+        {
+          "manip_rate": 0.3764105902777778,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13180,
+          "horizon": 499,
+          "xmeas_15_min": -27.87190114949142,
+          "xmeas_15_max": 51.582840051911475,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.3588116794900656,
+              "stripper_level_rate_hi": -0.08434721859574927,
+              "stripper_level_band_width": 0.2744644608943163,
+              "hold_steps": 49,
+              "static_rate_lo": -0.3588116794900656,
+              "static_rate_hi": -0.08434721859574927,
+              "static_band_width": 0.2744644608943163,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.2222222222222222
+        },
+        {
+          "manip_rate": 0.46549479166666663,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13169,
+          "horizon": 488,
+          "xmeas_15_min": -28.711356758967508,
+          "xmeas_15_max": 51.52775777207395,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.3925040496542065,
+              "stripper_level_rate_hi": -0.08621683019814591,
+              "stripper_level_band_width": 0.3062872194560606,
+              "hold_steps": 38,
+              "static_rate_lo": -0.3925040496542065,
+              "static_rate_hi": -0.08621683019814591,
+              "static_band_width": 0.3062872194560606,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.3333333333333333
+        },
+        {
+          "manip_rate": 0.5545789930555556,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13161,
+          "horizon": 480,
+          "xmeas_15_min": -28.502221958637243,
+          "xmeas_15_max": 51.47267549198253,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.4181830886100517,
+              "stripper_level_rate_hi": -0.08575105113282237,
+              "stripper_level_band_width": 0.3324320374772293,
+              "hold_steps": 30,
+              "static_rate_lo": -0.4181830886100517,
+              "static_rate_hi": -0.08575105113282237,
+              "static_band_width": 0.3324320374772293,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.4444444444444444
+        },
+        {
+          "manip_rate": 0.6436631944444444,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13156,
+          "horizon": 475,
+          "xmeas_15_min": -28.077335369092182,
+          "xmeas_15_max": 51.41759321163622,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.45396337222953786,
+              "stripper_level_rate_hi": -0.08480475583316745,
+              "stripper_level_band_width": 0.36915861639637043,
+              "hold_steps": 25,
+              "static_rate_lo": -0.45396337222953786,
+              "static_rate_hi": -0.08480475583316745,
+              "static_band_width": 0.36915861639637043,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.5555555555555556
+        },
+        {
+          "manip_rate": 0.7327473958333333,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13152,
+          "horizon": 471,
+          "xmeas_15_min": -28.05373112169917,
+          "xmeas_15_max": 51.362510931033974,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.47545286720958035,
+              "stripper_level_rate_hi": -0.08475218512627879,
+              "stripper_level_band_width": 0.39070068208330155,
+              "hold_steps": 21,
+              "static_rate_lo": -0.47545286720958035,
+              "static_rate_hi": -0.08475218512627879,
+              "static_band_width": 0.39070068208330155,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.6666666666666666
+        },
+        {
+          "manip_rate": 0.8218315972222222,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13148,
+          "horizon": 467,
+          "xmeas_15_min": -28.399379274557138,
+          "xmeas_15_max": 51.30742865017474,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.5051751394930332,
+              "stripper_level_rate_hi": -0.08552200283865731,
+              "stripper_level_band_width": 0.41965313665437587,
+              "hold_steps": 17,
+              "static_rate_lo": -0.5051751394930332,
+              "static_rate_hi": -0.08552200283865731,
+              "static_band_width": 0.41965313665437587,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.7777777777777778
+        },
+        {
+          "manip_rate": 0.910915798611111,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13146,
+          "horizon": 465,
+          "xmeas_15_min": -28.71790797865266,
+          "xmeas_15_max": 51.252346369057484,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.5145241505058535,
+              "stripper_level_rate_hi": -0.08623142088786784,
+              "stripper_level_band_width": 0.4282927296179857,
+              "hold_steps": 15,
+              "static_rate_lo": -0.5145241505058535,
+              "static_rate_hi": -0.08623142088786784,
+              "static_band_width": 0.4282927296179857,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.8888888888888888
+        },
+        {
+          "manip_rate": 1.0,
+          "manip_dur": 450,
+          "haz_step_manip_only": 13143,
+          "horizon": 462,
+          "xmeas_15_min": -28.9912188197842,
+          "xmeas_15_max": 51.19726408768128,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 450,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.5276743584074752,
+              "stripper_level_rate_hi": -0.08684013100174655,
+              "stripper_level_band_width": 0.4408342274057287,
+              "hold_steps": 12,
+              "static_rate_lo": -0.5276743584074752,
+              "static_rate_hi": -0.08684013100174655,
+              "static_band_width": 0.4408342274057287,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 1.0
+        }
+      ],
+      "rate_min_feasible": {
+        "manip_rate": 0.1982421875,
+        "manip_dur": 450,
+        "haz_step_manip_only": 13231,
+        "horizon": 550,
+        "xmeas_15_min": -27.99499702873468,
+        "xmeas_15_max": 51.6930046108289,
+        "feasible": true,
+        "bands": [
+          {
+            "spoof_dur": 450,
+            "feasible": true,
+            "stripper_level_rate_lo": -0.2690234337946943,
+            "stripper_level_rate_hi": -0.08462137422880775,
+            "stripper_level_band_width": 0.18440205956588654,
+            "hold_steps": 100,
+            "static_rate_lo": -0.2690234337946943,
+            "static_rate_hi": -0.08462137422880775,
+            "static_band_width": 0.18440205956588654,
+            "band_source": "stripper_level_static_same_duration"
+          }
+        ],
+        "anchor_setpoints_7": 50.0,
+        "alarm_threshold_abs": 40.0,
+        "measured_var": "xmeas_15",
+        "is_rate_min_feasible": true,
+        "bisect_rounds": 0,
+        "search_range": [
+          0.1982421875,
+          1.0
+        ]
+      }
+    },
+    {
+      "duration": 550,
+      "base_rate_lo": 0.1025390625,
+      "base_rate_hi": 1.0,
+      "samples": [
+        {
+          "manip_rate": 0.1025390625,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13330,
+          "horizon": 649,
+          "xmeas_15_min": -27.965955217501357,
+          "xmeas_15_max": 51.75217948310916,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.19773994874963877,
+              "stripper_level_rate_hi": -0.06915474538706987,
+              "stripper_level_band_width": 0.1285852033625689,
+              "hold_steps": 99,
+              "static_rate_lo": -0.19773994874963877,
+              "static_rate_hi": -0.06915474538706987,
+              "static_band_width": 0.1285852033625689,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.0
+        },
+        {
+          "manip_rate": 0.20225694444444442,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13229,
+          "horizon": 548,
+          "xmeas_15_min": -27.60604333659631,
+          "xmeas_15_max": 51.690522218221275,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.27009308374805335,
+              "stripper_level_rate_hi": -0.06900191437907581,
+              "stripper_level_band_width": 0.20109116936897753,
+              "hold_steps": -2,
+              "static_rate_lo": -0.27009308374805335,
+              "static_rate_hi": -0.06900191437907581,
+              "static_band_width": 0.20109116936897753,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.1111111111111111
+        },
+        {
+          "manip_rate": 0.30197482638888884,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13194,
+          "horizon": 513,
+          "xmeas_15_min": -28.52759049782434,
+          "xmeas_15_max": 51.628864953019,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.3387911869542832,
+              "stripper_level_rate_hi": -0.07539645889985194,
+              "stripper_level_band_width": 0.2633947280544312,
+              "hold_steps": -37,
+              "static_rate_lo": -0.3387911869542832,
+              "static_rate_hi": -0.07539645889985194,
+              "static_band_width": 0.2633947280544312,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.2222222222222222
+        },
+        {
+          "manip_rate": 0.4016927083333333,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13176,
+          "horizon": 495,
+          "xmeas_15_min": -28.314353860320505,
+          "xmeas_15_max": 51.567207687500975,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.38154220559312196,
+              "stripper_level_rate_hi": -0.07835246188204603,
+              "stripper_level_band_width": 0.30318974371107593,
+              "hold_steps": -55,
+              "static_rate_lo": -0.38154220559312196,
+              "static_rate_hi": -0.07835246188204603,
+              "static_band_width": 0.30318974371107593,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.3333333333333333
+        },
+        {
+          "manip_rate": 0.5014105902777777,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13165,
+          "horizon": 484,
+          "xmeas_15_min": -27.622180637648203,
+          "xmeas_15_max": 51.50555042166577,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.41134307872218856,
+              "stripper_level_rate_hi": -0.07920459081610147,
+              "stripper_level_band_width": 0.3321384879060871,
+              "hold_steps": -66,
+              "static_rate_lo": -0.41134307872218856,
+              "static_rate_hi": -0.07920459081610147,
+              "static_band_width": 0.3321384879060871,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.4444444444444444
+        },
+        {
+          "manip_rate": 0.6011284722222223,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13158,
+          "horizon": 477,
+          "xmeas_15_min": -29.144341844772633,
+          "xmeas_15_max": 51.443893155511915,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.4497048504096458,
+              "stripper_level_rate_hi": -0.08240914072583712,
+              "stripper_level_band_width": 0.3672957096838087,
+              "hold_steps": -73,
+              "static_rate_lo": -0.4497048504096458,
+              "static_rate_hi": -0.08240914072583712,
+              "static_band_width": 0.3672957096838087,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.5555555555555556
+        },
+        {
+          "manip_rate": 0.7008463541666666,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13153,
+          "horizon": 472,
+          "xmeas_15_min": -28.44069271917533,
+          "xmeas_15_max": 51.38223588903796,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.47084896716594454,
+              "stripper_level_rate_hi": -0.081788707913139,
+              "stripper_level_band_width": 0.3890602592528055,
+              "hold_steps": -78,
+              "static_rate_lo": -0.47084896716594454,
+              "static_rate_hi": -0.081788707913139,
+              "static_band_width": 0.3890602592528055,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.6666666666666666
+        },
+        {
+          "manip_rate": 0.8005642361111112,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13149,
+          "horizon": 468,
+          "xmeas_15_min": -28.58618899262683,
+          "xmeas_15_max": 51.320578622242515,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.5037676498737804,
+              "stripper_level_rate_hi": -0.08280298067087302,
+              "stripper_level_band_width": 0.4209646692029074,
+              "hold_steps": -82,
+              "static_rate_lo": -0.5037676498737804,
+              "static_rate_hi": -0.08280298067087302,
+              "static_band_width": 0.4209646692029074,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.7777777777777778
+        },
+        {
+          "manip_rate": 0.9002821180555555,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13146,
+          "horizon": 465,
+          "xmeas_15_min": -28.658481033642325,
+          "xmeas_15_max": 51.258921355124066,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.50978534638329,
+              "stripper_level_rate_hi": -0.08383694466384597,
+              "stripper_level_band_width": 0.42594840171944404,
+              "hold_steps": -85,
+              "static_rate_lo": -0.50978534638329,
+              "static_rate_hi": -0.08383694466384597,
+              "static_band_width": 0.42594840171944404,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.8888888888888888
+        },
+        {
+          "manip_rate": 1.0,
+          "manip_dur": 550,
+          "haz_step_manip_only": 13143,
+          "horizon": 462,
+          "xmeas_15_min": -28.9912188197842,
+          "xmeas_15_max": 51.19726408768128,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 550,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.5276743584074752,
+              "stripper_level_rate_hi": -0.08494818914985665,
+              "stripper_level_band_width": 0.4427261692576186,
+              "hold_steps": -88,
+              "static_rate_lo": -0.5276743584074752,
+              "static_rate_hi": -0.08494818914985665,
+              "static_band_width": 0.4427261692576186,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 1.0
+        }
+      ],
+      "rate_min_feasible": {
+        "manip_rate": 0.1025390625,
+        "manip_dur": 550,
+        "haz_step_manip_only": 13330,
+        "horizon": 649,
+        "xmeas_15_min": -27.965955217501357,
+        "xmeas_15_max": 51.75217948310916,
+        "feasible": true,
+        "bands": [
+          {
+            "spoof_dur": 550,
+            "feasible": true,
+            "stripper_level_rate_lo": -0.19773994874963877,
+            "stripper_level_rate_hi": -0.06915474538706987,
+            "stripper_level_band_width": 0.1285852033625689,
+            "hold_steps": 99,
+            "static_rate_lo": -0.19773994874963877,
+            "static_rate_hi": -0.06915474538706987,
+            "static_band_width": 0.1285852033625689,
+            "band_source": "stripper_level_static_same_duration"
+          }
+        ],
+        "anchor_setpoints_7": 50.0,
+        "alarm_threshold_abs": 40.0,
+        "measured_var": "xmeas_15",
+        "is_rate_min_feasible": true,
+        "bisect_rounds": 0,
+        "search_range": [
+          0.1025390625,
+          1.0
+        ]
+      }
+    },
+    {
+      "duration": 650,
+      "base_rate_lo": 0.0693359375,
+      "base_rate_hi": 1.0,
+      "samples": [
+        {
+          "manip_rate": 0.0693359375,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13431,
+          "horizon": 750,
+          "xmeas_15_min": -27.53480252449999,
+          "xmeas_15_max": 51.88382548572444,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.17056303088733887,
+              "stripper_level_rate_hi": -0.05783482669414483,
+              "stripper_level_band_width": 0.11272820419319404,
+              "hold_steps": 100,
+              "static_rate_lo": -0.17056303088733887,
+              "static_rate_hi": -0.05783482669414483,
+              "static_band_width": 0.11272820419319404,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.0
+        },
+        {
+          "manip_rate": 0.17274305555555555,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13247,
+          "horizon": 566,
+          "xmeas_15_min": -28.798383743022946,
+          "xmeas_15_max": 51.708771158460124,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.24891640717762864,
+              "stripper_level_rate_hi": -0.0690362700053789,
+              "stripper_level_band_width": 0.17988013717224974,
+              "hold_steps": -84,
+              "static_rate_lo": -0.24891640717762864,
+              "static_rate_hi": -0.0690362700053789,
+              "static_band_width": 0.17988013717224974,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.1111111111111111
+        },
+        {
+          "manip_rate": 0.2761501736111111,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13201,
+          "horizon": 520,
+          "xmeas_15_min": -28.263147138510003,
+          "xmeas_15_max": 51.644832775811125,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.30203786244972014,
+              "stripper_level_rate_hi": -0.07386707941797299,
+              "stripper_level_band_width": 0.22817078303174715,
+              "hold_steps": -130,
+              "static_rate_lo": -0.30203786244972014,
+              "static_rate_hi": -0.07386707941797299,
+              "static_band_width": 0.22817078303174715,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.2222222222222222
+        },
+        {
+          "manip_rate": 0.37955729166666663,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13179,
+          "horizon": 498,
+          "xmeas_15_min": -27.97389136986829,
+          "xmeas_15_max": 51.580894392822884,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.3594323969052158,
+              "stripper_level_rate_hi": -0.07697617986084394,
+              "stripper_level_band_width": 0.28245621704437185,
+              "hold_steps": -152,
+              "static_rate_lo": -0.3594323969052158,
+              "static_rate_hi": -0.07697617986084394,
+              "static_band_width": 0.28245621704437185,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.3333333333333333
+        },
+        {
+          "manip_rate": 0.4829644097222222,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13167,
+          "horizon": 486,
+          "xmeas_15_min": -28.88973368423071,
+          "xmeas_15_max": 51.51695600949385,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.404253214044978,
+              "stripper_level_rate_hi": -0.08035068943022873,
+              "stripper_level_band_width": 0.3239025246147493,
+              "hold_steps": -164,
+              "static_rate_lo": -0.404253214044978,
+              "static_rate_hi": -0.08035068943022873,
+              "static_band_width": 0.3239025246147493,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.4444444444444444
+        },
+        {
+          "manip_rate": 0.5863715277777778,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13159,
+          "horizon": 478,
+          "xmeas_15_min": -28.950875652493824,
+          "xmeas_15_max": 51.453017625822504,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.44099977410535796,
+              "stripper_level_rate_hi": -0.08200184347893436,
+              "stripper_level_band_width": 0.3589979306264236,
+              "hold_steps": -172,
+              "static_rate_lo": -0.44099977410535796,
+              "static_rate_hi": -0.08200184347893436,
+              "static_band_width": 0.3589979306264236,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.5555555555555556
+        },
+        {
+          "manip_rate": 0.6897786458333333,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13153,
+          "horizon": 472,
+          "xmeas_15_min": -28.33455220231793,
+          "xmeas_15_max": 51.389079241807174,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.46992835796496185,
+              "stripper_level_rate_hi": -0.08156287702620836,
+              "stripper_level_band_width": 0.3883654809387535,
+              "hold_steps": -178,
+              "static_rate_lo": -0.46992835796496185,
+              "static_rate_hi": -0.08156287702620836,
+              "static_band_width": 0.3883654809387535,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.6666666666666666
+        },
+        {
+          "manip_rate": 0.793185763888889,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13149,
+          "horizon": 468,
+          "xmeas_15_min": -28.53249641366235,
+          "xmeas_15_max": 51.32514085744621,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.5032635677165622,
+              "stripper_level_rate_hi": -0.08268776054433981,
+              "stripper_level_band_width": 0.4205758071722224,
+              "hold_steps": -182,
+              "static_rate_lo": -0.5032635677165622,
+              "static_rate_hi": -0.08268776054433981,
+              "static_band_width": 0.4205758071722224,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.7777777777777778
+        },
+        {
+          "manip_rate": 0.8965928819444444,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13146,
+          "horizon": 465,
+          "xmeas_15_min": -28.63750662547588,
+          "xmeas_15_max": 51.261202472738155,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.5095860629545733,
+              "stripper_level_rate_hi": -0.08379131799139032,
+              "stripper_level_band_width": 0.425794744963183,
+              "hold_steps": -185,
+              "static_rate_lo": -0.5095860629545733,
+              "static_rate_hi": -0.08379131799139032,
+              "static_band_width": 0.425794744963183,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.8888888888888888
+        },
+        {
+          "manip_rate": 1.0,
+          "manip_dur": 650,
+          "haz_step_manip_only": 13143,
+          "horizon": 462,
+          "xmeas_15_min": -28.9912188197842,
+          "xmeas_15_max": 51.19726408768128,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 650,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.5276743584074752,
+              "stripper_level_rate_hi": -0.08494818914985665,
+              "stripper_level_band_width": 0.4427261692576186,
+              "hold_steps": -188,
+              "static_rate_lo": -0.5276743584074752,
+              "static_rate_hi": -0.08494818914985665,
+              "static_band_width": 0.4427261692576186,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 1.0
+        }
+      ],
+      "rate_min_feasible": {
+        "manip_rate": 0.0693359375,
+        "manip_dur": 650,
+        "haz_step_manip_only": 13431,
+        "horizon": 750,
+        "xmeas_15_min": -27.53480252449999,
+        "xmeas_15_max": 51.88382548572444,
+        "feasible": true,
+        "bands": [
+          {
+            "spoof_dur": 650,
+            "feasible": true,
+            "stripper_level_rate_lo": -0.17056303088733887,
+            "stripper_level_rate_hi": -0.05783482669414483,
+            "stripper_level_band_width": 0.11272820419319404,
+            "hold_steps": 100,
+            "static_rate_lo": -0.17056303088733887,
+            "static_rate_hi": -0.05783482669414483,
+            "static_band_width": 0.11272820419319404,
+            "band_source": "stripper_level_static_same_duration"
+          }
+        ],
+        "anchor_setpoints_7": 50.0,
+        "alarm_threshold_abs": 40.0,
+        "measured_var": "xmeas_15",
+        "is_rate_min_feasible": true,
+        "bisect_rounds": 0,
+        "search_range": [
+          0.0693359375,
+          1.0
+        ]
+      }
+    },
+    {
+      "duration": 750,
+      "base_rate_lo": 0.0498046875,
+      "base_rate_hi": 1.0,
+      "samples": [
+        {
+          "manip_rate": 0.0498046875,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13529,
+          "horizon": 848,
+          "xmeas_15_min": -28.898547090091455,
+          "xmeas_15_max": 52.070380436740486,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.13812100635654775,
+              "stripper_level_rate_hi": -0.05193397475312611,
+              "stripper_level_band_width": 0.08618703160342164,
+              "hold_steps": 98,
+              "static_rate_lo": -0.13812100635654775,
+              "static_rate_hi": -0.05193397475312611,
+              "static_band_width": 0.08618703160342164,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.0
+        },
+        {
+          "manip_rate": 0.15538194444444442,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13261,
+          "horizon": 580,
+          "xmeas_15_min": -29.265176254738552,
+          "xmeas_15_max": 51.71950582917607,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.23942323577938626,
+              "stripper_level_rate_hi": -0.06828726305171921,
+              "stripper_level_band_width": 0.17113597272766706,
+              "hold_steps": -170,
+              "static_rate_lo": -0.23942323577938626,
+              "static_rate_hi": -0.06828726305171921,
+              "static_band_width": 0.17113597272766706,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.1111111111111111
+        },
+        {
+          "manip_rate": 0.26095920138888884,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13205,
+          "horizon": 524,
+          "xmeas_15_min": -27.51300358166687,
+          "xmeas_15_max": 51.65422561273772,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.2984000130750395,
+              "stripper_level_rate_hi": -0.07197355006791648,
+              "stripper_level_band_width": 0.22642646300712302,
+              "hold_steps": -226,
+              "static_rate_lo": -0.2984000130750395,
+              "static_rate_hi": -0.07197355006791648,
+              "static_band_width": 0.22642646300712302,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.2222222222222222
+        },
+        {
+          "manip_rate": 0.3665364583333333,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13182,
+          "horizon": 501,
+          "xmeas_15_min": -28.032827702132963,
+          "xmeas_15_max": 51.58894539594609,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.3568639167820165,
+              "stripper_level_rate_hi": -0.0762180915874408,
+              "stripper_level_band_width": 0.2806458251945757,
+              "hold_steps": -249,
+              "static_rate_lo": -0.3568639167820165,
+              "static_rate_hi": -0.0762180915874408,
+              "static_band_width": 0.2806458251945757,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.3333333333333333
+        },
+        {
+          "manip_rate": 0.47211371527777773,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13168,
+          "horizon": 487,
+          "xmeas_15_min": -28.669968532809087,
+          "xmeas_15_max": 51.52366517879939,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.39351236147356833,
+              "stripper_level_rate_hi": -0.07989662920001878,
+              "stripper_level_band_width": 0.31361573227354955,
+              "hold_steps": -263,
+              "static_rate_lo": -0.39351236147356833,
+              "static_rate_hi": -0.07989662920001878,
+              "static_band_width": 0.31361573227354955,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.4444444444444444
+        },
+        {
+          "manip_rate": 0.5776909722222222,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13160,
+          "horizon": 479,
+          "xmeas_15_min": -28.832966001551902,
+          "xmeas_15_max": 51.45838496129601,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.44003461499873264,
+              "stripper_level_rate_hi": -0.08175361263484611,
+              "stripper_level_band_width": 0.35828100236388655,
+              "hold_steps": -271,
+              "static_rate_lo": -0.44003461499873264,
+              "static_rate_hi": -0.08175361263484611,
+              "static_band_width": 0.35828100236388655,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.5555555555555556
+        },
+        {
+          "manip_rate": 0.6832682291666666,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13154,
+          "horizon": 473,
+          "xmeas_15_min": -28.270578539082273,
+          "xmeas_15_max": 51.39310474343422,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.46937236886617173,
+              "stripper_level_rate_hi": -0.08142676284911121,
+              "stripper_level_band_width": 0.3879456060170605,
+              "hold_steps": -277,
+              "static_rate_lo": -0.46937236886617173,
+              "static_rate_hi": -0.08142676284911121,
+              "static_band_width": 0.3879456060170605,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.6666666666666666
+        },
+        {
+          "manip_rate": 0.7888454861111112,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13149,
+          "horizon": 468,
+          "xmeas_15_min": -28.500277640989438,
+          "xmeas_15_max": 51.327824525212336,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.5029606497988006,
+              "stripper_level_rate_hi": -0.08261862154718763,
+              "stripper_level_band_width": 0.420342028251613,
+              "hold_steps": -282,
+              "static_rate_lo": -0.5029606497988006,
+              "static_rate_hi": -0.08261862154718763,
+              "static_band_width": 0.420342028251613,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.7777777777777778
+        },
+        {
+          "manip_rate": 0.8944227430555555,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13146,
+          "horizon": 465,
+          "xmeas_15_min": -28.625168924047927,
+          "xmeas_15_max": 51.26254430662857,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.5094688374154912,
+              "stripper_level_rate_hi": -0.08376447915973376,
+              "stripper_level_band_width": 0.4257043582557575,
+              "hold_steps": -285,
+              "static_rate_lo": -0.5094688374154912,
+              "static_rate_hi": -0.08376447915973376,
+              "static_band_width": 0.4257043582557575,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.8888888888888888
+        },
+        {
+          "manip_rate": 1.0,
+          "manip_dur": 750,
+          "haz_step_manip_only": 13143,
+          "horizon": 462,
+          "xmeas_15_min": -28.9912188197842,
+          "xmeas_15_max": 51.19726408768128,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 750,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.5276743584074752,
+              "stripper_level_rate_hi": -0.08494818914985665,
+              "stripper_level_band_width": 0.4427261692576186,
+              "hold_steps": -288,
+              "static_rate_lo": -0.5276743584074752,
+              "static_rate_hi": -0.08494818914985665,
+              "static_band_width": 0.4427261692576186,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 1.0
+        }
+      ],
+      "rate_min_feasible": {
+        "manip_rate": 0.0498046875,
+        "manip_dur": 750,
+        "haz_step_manip_only": 13529,
+        "horizon": 848,
+        "xmeas_15_min": -28.898547090091455,
+        "xmeas_15_max": 52.070380436740486,
+        "feasible": true,
+        "bands": [
+          {
+            "spoof_dur": 750,
+            "feasible": true,
+            "stripper_level_rate_lo": -0.13812100635654775,
+            "stripper_level_rate_hi": -0.05193397475312611,
+            "stripper_level_band_width": 0.08618703160342164,
+            "hold_steps": 98,
+            "static_rate_lo": -0.13812100635654775,
+            "static_rate_hi": -0.05193397475312611,
+            "static_band_width": 0.08618703160342164,
+            "band_source": "stripper_level_static_same_duration"
+          }
+        ],
+        "anchor_setpoints_7": 50.0,
+        "alarm_threshold_abs": 40.0,
+        "measured_var": "xmeas_15",
+        "is_rate_min_feasible": true,
+        "bisect_rounds": 0,
+        "search_range": [
+          0.0498046875,
+          1.0
+        ]
+      }
+    },
+    {
+      "duration": 850,
+      "base_rate_lo": 0.037109375,
+      "base_rate_hi": 1.0,
+      "samples": [
+        {
+          "manip_rate": 0.037109375,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13624,
+          "horizon": 943,
+          "xmeas_15_min": -27.84293274460958,
+          "xmeas_15_max": 52.19164136479624,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.12184081844155453,
+              "stripper_level_rate_hi": -0.04457353680166029,
+              "stripper_level_band_width": 0.07726728163989424,
+              "hold_steps": 93,
+              "static_rate_lo": -0.12184081844155453,
+              "static_rate_hi": -0.04457353680166029,
+              "static_band_width": 0.07726728163989424,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.0
+        },
+        {
+          "manip_rate": 0.1440972222222222,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13271,
+          "horizon": 590,
+          "xmeas_15_min": -27.962855868422064,
+          "xmeas_15_max": 51.7264833651363,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.2269476614801623,
+              "stripper_level_rate_hi": -0.0646726675782318,
+              "stripper_level_band_width": 0.1622749939019305,
+              "hold_steps": -260,
+              "static_rate_lo": -0.2269476614801623,
+              "static_rate_hi": -0.0646726675782318,
+              "static_band_width": 0.1622749939019305,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.1111111111111111
+        },
+        {
+          "manip_rate": 0.2510850694444444,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13208,
+          "horizon": 527,
+          "xmeas_15_min": -28.57809314775913,
+          "xmeas_15_max": 51.66033095673608,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.2960352053309175,
+              "stripper_level_rate_hi": -0.07348208218620787,
+              "stripper_level_band_width": 0.2225531231447096,
+              "hold_steps": -323,
+              "static_rate_lo": -0.2960352053309175,
+              "static_rate_hi": -0.07348208218620787,
+              "static_band_width": 0.2225531231447096,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.2222222222222222
+        },
+        {
+          "manip_rate": 0.35807291666666663,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13183,
+          "horizon": 502,
+          "xmeas_15_min": -27.73723716664993,
+          "xmeas_15_max": 51.59417854797327,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.3551944127893987,
+              "stripper_level_rate_hi": -0.0756257257848696,
+              "stripper_level_band_width": 0.2795686870045291,
+              "hold_steps": -348,
+              "static_rate_lo": -0.3551944127893987,
+              "static_rate_hi": -0.0756257257848696,
+              "static_band_width": 0.2795686870045291,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.3333333333333333
+        },
+        {
+          "manip_rate": 0.46506076388888884,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13169,
+          "horizon": 488,
+          "xmeas_15_min": -28.70216036761296,
+          "xmeas_15_max": 51.528026138846016,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.39243734377021555,
+              "stripper_level_rate_hi": -0.07963407483047935,
+              "stripper_level_band_width": 0.3128032689397362,
+              "hold_steps": -362,
+              "static_rate_lo": -0.39243734377021555,
+              "static_rate_hi": -0.07963407483047935,
+              "static_band_width": 0.3128032689397362,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.4444444444444444
+        },
+        {
+          "manip_rate": 0.5720486111111112,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13160,
+          "horizon": 479,
+          "xmeas_15_min": -28.754431102419176,
+          "xmeas_15_max": 51.46187372935258,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.4201560916656535,
+              "stripper_level_rate_hi": -0.081588276005093,
+              "stripper_level_band_width": 0.3385678156605605,
+              "hold_steps": -371,
+              "static_rate_lo": -0.4201560916656535,
+              "static_rate_hi": -0.081588276005093,
+              "static_band_width": 0.3385678156605605,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.5555555555555556
+        },
+        {
+          "manip_rate": 0.6790364583333333,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13154,
+          "horizon": 473,
+          "xmeas_15_min": -28.228357227118003,
+          "xmeas_15_max": 51.3957213194911,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.4690049592538921,
+              "stripper_level_rate_hi": -0.08133693027046383,
+              "stripper_level_band_width": 0.3876680289834282,
+              "hold_steps": -377,
+              "static_rate_lo": -0.4690049592538921,
+              "static_rate_hi": -0.08133693027046383,
+              "static_band_width": 0.3876680289834282,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.6666666666666666
+        },
+        {
+          "manip_rate": 0.7860243055555556,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13149,
+          "horizon": 468,
+          "xmeas_15_min": -28.479335989208753,
+          "xmeas_15_max": 51.32956890925993,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.5027637531715584,
+              "stripper_level_rate_hi": -0.08257368238027629,
+              "stripper_level_band_width": 0.4201900707912821,
+              "hold_steps": -382,
+              "static_rate_lo": -0.5027637531715584,
+              "static_rate_hi": -0.08257368238027629,
+              "static_band_width": 0.4201900707912821,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.7777777777777778
+        },
+        {
+          "manip_rate": 0.8930121527777777,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13146,
+          "horizon": 465,
+          "xmeas_15_min": -28.617149491852167,
+          "xmeas_15_max": 51.263416498657236,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.5093926408179567,
+              "stripper_level_rate_hi": -0.08374703407296683,
+              "stripper_level_band_width": 0.42564560674498986,
+              "hold_steps": -385,
+              "static_rate_lo": -0.5093926408179567,
+              "static_rate_hi": -0.08374703407296683,
+              "static_band_width": 0.42564560674498986,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.8888888888888888
+        },
+        {
+          "manip_rate": 1.0,
+          "manip_dur": 850,
+          "haz_step_manip_only": 13143,
+          "horizon": 462,
+          "xmeas_15_min": -28.9912188197842,
+          "xmeas_15_max": 51.19726408768128,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 850,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.5276743584074752,
+              "stripper_level_rate_hi": -0.08494818914985665,
+              "stripper_level_band_width": 0.4427261692576186,
+              "hold_steps": -388,
+              "static_rate_lo": -0.5276743584074752,
+              "static_rate_hi": -0.08494818914985665,
+              "static_band_width": 0.4427261692576186,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 1.0
+        }
+      ],
+      "rate_min_feasible": {
+        "manip_rate": 0.037109375,
+        "manip_dur": 850,
+        "haz_step_manip_only": 13624,
+        "horizon": 943,
+        "xmeas_15_min": -27.84293274460958,
+        "xmeas_15_max": 52.19164136479624,
+        "feasible": true,
+        "bands": [
+          {
+            "spoof_dur": 850,
+            "feasible": true,
+            "stripper_level_rate_lo": -0.12184081844155453,
+            "stripper_level_rate_hi": -0.04457353680166029,
+            "stripper_level_band_width": 0.07726728163989424,
+            "hold_steps": 93,
+            "static_rate_lo": -0.12184081844155453,
+            "static_rate_hi": -0.04457353680166029,
+            "static_band_width": 0.07726728163989424,
+            "band_source": "stripper_level_static_same_duration"
+          }
+        ],
+        "anchor_setpoints_7": 50.0,
+        "alarm_threshold_abs": 40.0,
+        "measured_var": "xmeas_15",
+        "is_rate_min_feasible": true,
+        "bisect_rounds": 0,
+        "search_range": [
+          0.037109375,
+          1.0
+        ]
+      }
+    },
+    {
+      "duration": 950,
+      "base_rate_lo": 0.0283203125,
+      "base_rate_hi": 1.0,
+      "samples": [
+        {
+          "manip_rate": 0.0283203125,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13720,
+          "horizon": 1039,
+          "xmeas_15_min": -27.591602170120634,
+          "xmeas_15_max": 52.275591335067695,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.11366313114020045,
+              "stripper_level_rate_hi": -0.03961180418347802,
+              "stripper_level_band_width": 0.07405132695672242,
+              "hold_steps": 89,
+              "static_rate_lo": -0.11366313114020045,
+              "static_rate_hi": -0.03961180418347802,
+              "static_band_width": 0.07405132695672242,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.0
+        },
+        {
+          "manip_rate": 0.1362847222222222,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13280,
+          "horizon": 599,
+          "xmeas_15_min": -27.89463073906698,
+          "xmeas_15_max": 51.731313966952584,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.21871821886694623,
+              "stripper_level_rate_hi": -0.06379567464489391,
+              "stripper_level_band_width": 0.15492254422205232,
+              "hold_steps": -351,
+              "static_rate_lo": -0.21871821886694623,
+              "static_rate_hi": -0.06379567464489391,
+              "static_band_width": 0.15492254422205232,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.1111111111111111
+        },
+        {
+          "manip_rate": 0.24424913194444442,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13211,
+          "horizon": 530,
+          "xmeas_15_min": -28.089986952623384,
+          "xmeas_15_max": 51.664557733348595,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.29439798658655353,
+              "stripper_level_rate_hi": -0.07249687067735129,
+              "stripper_level_band_width": 0.22190111590920225,
+              "hold_steps": -420,
+              "static_rate_lo": -0.29439798658655353,
+              "static_rate_hi": -0.07249687067735129,
+              "static_band_width": 0.22190111590920225,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.2222222222222222
+        },
+        {
+          "manip_rate": 0.35221354166666663,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13184,
+          "horizon": 503,
+          "xmeas_15_min": -27.552132184815324,
+          "xmeas_15_max": 51.59780149937541,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.35403860605188664,
+              "stripper_level_rate_hi": -0.07519646464461273,
+              "stripper_level_band_width": 0.2788421414072739,
+              "hold_steps": -447,
+              "static_rate_lo": -0.35403860605188664,
+              "static_rate_hi": -0.07519646464461273,
+              "static_band_width": 0.2788421414072739,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.3333333333333333
+        },
+        {
+          "manip_rate": 0.46017795138888884,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13169,
+          "horizon": 488,
+          "xmeas_15_min": -28.597103338062823,
+          "xmeas_15_max": 51.531045265031196,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.3916748422012667,
+              "stripper_level_rate_hi": -0.07941790810300993,
+              "stripper_level_band_width": 0.3122569340982568,
+              "hold_steps": -462,
+              "static_rate_lo": -0.3916748422012667,
+              "static_rate_hi": -0.07941790810300993,
+              "static_band_width": 0.3122569340982568,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.4444444444444444
+        },
+        {
+          "manip_rate": 0.5681423611111112,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13160,
+          "horizon": 479,
+          "xmeas_15_min": -28.69921924113452,
+          "xmeas_15_max": 51.46428903031413,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.41972506614792626,
+              "stripper_level_rate_hi": -0.08147204050765162,
+              "stripper_level_band_width": 0.33825302564027465,
+              "hold_steps": -471,
+              "static_rate_lo": -0.41972506614792626,
+              "static_rate_hi": -0.08147204050765162,
+              "static_band_width": 0.33825302564027465,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.5555555555555556
+        },
+        {
+          "manip_rate": 0.6761067708333333,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13154,
+          "horizon": 473,
+          "xmeas_15_min": -28.198871896448352,
+          "xmeas_15_max": 51.397532795222446,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.4687481923179477,
+              "stripper_level_rate_hi": -0.0812741955243582,
+              "stripper_level_band_width": 0.38747399679358946,
+              "hold_steps": -477,
+              "static_rate_lo": -0.4687481923179477,
+              "static_rate_hi": -0.0812741955243582,
+              "static_band_width": 0.38747399679358946,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.6666666666666666
+        },
+        {
+          "manip_rate": 0.7840711805555556,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13150,
+          "horizon": 469,
+          "xmeas_15_min": -28.46483817641348,
+          "xmeas_15_max": 51.330776559754284,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.5026274401308357,
+              "stripper_level_rate_hi": -0.08254257119402034,
+              "stripper_level_band_width": 0.4200848689368154,
+              "hold_steps": -481,
+              "static_rate_lo": -0.5026274401308357,
+              "static_rate_hi": -0.08254257119402034,
+              "static_band_width": 0.4200848689368154,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.7777777777777778
+        },
+        {
+          "manip_rate": 0.8920355902777777,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13146,
+          "horizon": 465,
+          "xmeas_15_min": -28.611597611272387,
+          "xmeas_15_max": 51.26402032390784,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.5093398893286781,
+              "stripper_level_rate_hi": -0.08373495677616767,
+              "stripper_level_band_width": 0.4256049325525105,
+              "hold_steps": -485,
+              "static_rate_lo": -0.5093398893286781,
+              "static_rate_hi": -0.08373495677616767,
+              "static_band_width": 0.4256049325525105,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 0.8888888888888888
+        },
+        {
+          "manip_rate": 1.0,
+          "manip_dur": 950,
+          "haz_step_manip_only": 13143,
+          "horizon": 462,
+          "xmeas_15_min": -28.9912188197842,
+          "xmeas_15_max": 51.19726408768128,
+          "feasible": true,
+          "bands": [
+            {
+              "spoof_dur": 950,
+              "feasible": true,
+              "stripper_level_rate_lo": -0.5276743584074752,
+              "stripper_level_rate_hi": -0.08494818914985665,
+              "stripper_level_band_width": 0.4427261692576186,
+              "hold_steps": -488,
+              "static_rate_lo": -0.5276743584074752,
+              "static_rate_hi": -0.08494818914985665,
+              "static_band_width": 0.4427261692576186,
+              "band_source": "stripper_level_static_same_duration"
+            }
+          ],
+          "anchor_setpoints_7": 50.0,
+          "alarm_threshold_abs": 40.0,
+          "measured_var": "xmeas_15",
+          "sample_q": 1.0
+        }
+      ],
+      "rate_min_feasible": {
+        "manip_rate": 0.0283203125,
+        "manip_dur": 950,
+        "haz_step_manip_only": 13720,
+        "horizon": 1039,
+        "xmeas_15_min": -27.591602170120634,
+        "xmeas_15_max": 52.275591335067695,
+        "feasible": true,
+        "bands": [
+          {
+            "spoof_dur": 950,
+            "feasible": true,
+            "stripper_level_rate_lo": -0.11366313114020045,
+            "stripper_level_rate_hi": -0.03961180418347802,
+            "stripper_level_band_width": 0.07405132695672242,
+            "hold_steps": 89,
+            "static_rate_lo": -0.11366313114020045,
+            "static_rate_hi": -0.03961180418347802,
+            "static_band_width": 0.07405132695672242,
+            "band_source": "stripper_level_static_same_duration"
+          }
+        ],
+        "anchor_setpoints_7": 50.0,
+        "alarm_threshold_abs": 40.0,
+        "measured_var": "xmeas_15",
+        "is_rate_min_feasible": true,
+        "bisect_rounds": 0,
+        "search_range": [
+          0.0283203125,
+          1.0
+        ]
+      }
+    }
+  ]
+}
