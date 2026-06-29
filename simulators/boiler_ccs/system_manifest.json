@@ -1,0 +1,419 @@
+{
+  "system_id": "boiler_ccs",
+  "display_name": "boiler (Boiler CCS)",
+  "physical_process": {
+    "module": "simulators.boiler_ccs.physical_process",
+    "class_name": "PhysicalProcess",
+    "state_variables": [
+      "true_load",
+      "coal_flow",
+      "feedwater_flow",
+      "main_steam_flow",
+      "waterwall_temp",
+      "main_steam_pressure"
+    ],
+    "control_inputs": [
+      "fuel_command_0_applied",
+      "water_pump_speed_0_applied"
+    ],
+    "init_params": {
+      "Ts": 0.1
+    }
+  },
+  "controller": {
+    "module": "simulators.boiler_ccs.controller",
+    "class_name": "PLCController"
+  },
+  "simulation": {
+    "module": "simulators.boiler_ccs.simulation",
+    "class_name": "ClosedLoopSim"
+  },
+  "injection_points": [
+    {
+      "name": "simulation_fuel_command",
+      "phase": "controller_fuel_command",
+      "field": "fuel_command",
+      "default_value": 157.6,
+      "range": [
+        0.0,
+        400.0
+      ],
+      "rate": 5.0,
+      "layer": "actuator"
+    },
+    {
+      "name": "simulation_water_pump_speed",
+      "phase": "controller_water_pump",
+      "field": "water_pump_speed",
+      "default_value": 2500.0,
+      "range": [
+        2000.0,
+        3000.0
+      ],
+      "rate": 50.0,
+      "layer": "actuator"
+    },
+    {
+      "name": "simulation_load_output",
+      "phase": "controller_load_output",
+      "field": "load_output",
+      "default_value": 349.0,
+      "range": [
+        300.0,
+        400.0
+      ],
+      "rate": 5.0,
+      "layer": "setpoint"
+    },
+    {
+      "name": "simulation_loadgen_rate_output",
+      "phase": "controller_loadgen_rate_output",
+      "field": "loadgen_rate_output",
+      "default_value": 349.0,
+      "range": [
+        300.0,
+        400.0
+      ],
+      "rate": 20.0,
+      "layer": "controller_output"
+    },
+    {
+      "name": "simulation_steam_setpoint",
+      "phase": "controller_steam_hslim",
+      "field": "steam_setpoint",
+      "default_value": 23.74,
+      "range": [
+        18.0,
+        29.0
+      ],
+      "rate": 0.5,
+      "layer": "setpoint"
+    },
+    {
+      "name": "simulation_steam_hfop1_output",
+      "phase": "controller_steam_hfop1_output",
+      "field": "steam_hfop1_output",
+      "default_value": 23.7,
+      "range": [
+        18.0,
+        29.0
+      ],
+      "rate": 1.5,
+      "layer": "controller_output"
+    },
+    {
+      "name": "simulation_steam_hfop2_output",
+      "phase": "controller_steam_hfop2_output",
+      "field": "steam_hfop2_output",
+      "default_value": 23.7,
+      "range": [
+        18.0,
+        29.0
+      ],
+      "rate": 1.5,
+      "layer": "controller_output"
+    },
+    {
+      "name": "simulation_steam_hfop3_output",
+      "phase": "controller_steam_hfop3_output",
+      "field": "steam_hfop3_output",
+      "default_value": 23.7,
+      "range": [
+        18.0,
+        29.0
+      ],
+      "rate": 1.5,
+      "layer": "controller_output"
+    },
+    {
+      "name": "simulation_steam_hfop4_output",
+      "phase": "controller_steam_hfop4_output",
+      "field": "steam_hfop4_output",
+      "default_value": 23.7,
+      "range": [
+        18.0,
+        29.0
+      ],
+      "rate": 1.5,
+      "layer": "controller_output"
+    },
+    {
+      "name": "simulation_steam_rate_output",
+      "phase": "controller_steam_rate_output",
+      "field": "steam_rate_output",
+      "default_value": 23.7,
+      "range": [
+        18.0,
+        29.0
+      ],
+      "rate": 0.5,
+      "layer": "controller_output"
+    },
+    {
+      "name": "simulation_boiler_setpoint",
+      "phase": "controller_boiler_setpoint",
+      "field": "boiler_setpoint",
+      "default_value": 157.8,
+      "range": [
+        0.0,
+        250.0
+      ],
+      "rate": 5.0,
+      "layer": "setpoint"
+    },
+    {
+      "name": "simulation_boiler_pv_filtered",
+      "phase": "controller_boiler_pv_filtered",
+      "field": "boiler_pv_filtered",
+      "default_value": 23.7,
+      "range": [
+        18.0,
+        29.0
+      ],
+      "rate": 1.5,
+      "layer": "controller_output"
+    },
+    {
+      "name": "simulation_boiler_pid_output",
+      "phase": "controller_boiler_pid_output",
+      "field": "boiler_pid_output",
+      "default_value": 157.6,
+      "range": [
+        0.0,
+        250.0
+      ],
+      "rate": 5.0,
+      "layer": "controller_output"
+    },
+    {
+      "name": "simulation_fuel_rate_output",
+      "phase": "controller_fuel_rate_output",
+      "field": "fuel_rate_output",
+      "default_value": 157.6,
+      "range": [
+        0.0,
+        300.0
+      ],
+      "rate": 10.0,
+      "layer": "controller_output"
+    },
+    {
+      "name": "simulation_fuel_pid_output",
+      "phase": "controller_fuel_pid_output",
+      "field": "fuel_pid_output",
+      "default_value": 157.6,
+      "range": [
+        0.0,
+        300.0
+      ],
+      "rate": 2.0,
+      "layer": "controller_output"
+    },
+    {
+      "name": "simulation_fuel_filter_output",
+      "phase": "controller_fuel_filter_output",
+      "field": "fuel_filter_output",
+      "default_value": 157.6,
+      "range": [
+        0.0,
+        300.0
+      ],
+      "rate": 5.0,
+      "layer": "controller_output"
+    },
+    {
+      "name": "simulation_water_setpoint",
+      "phase": "controller_water_setpoint",
+      "field": "water_setpoint",
+      "default_value": 1065.7,
+      "range": [
+        800.0,
+        1300.0
+      ],
+      "rate": 20.0,
+      "layer": "setpoint"
+    },
+    {
+      "name": "simulation_waterk_filter_output",
+      "phase": "controller_waterk_filter_output",
+      "field": "waterk_filter_output",
+      "default_value": 1065.7,
+      "range": [
+        900.0,
+        1200.0
+      ],
+      "rate": 50.0,
+      "layer": "controller_output"
+    },
+    {
+      "name": "simulation_water_pid_output",
+      "phase": "controller_water_pid_output",
+      "field": "water_pid_output",
+      "default_value": 2500.0,
+      "range": [
+        0.0,
+        5000.0
+      ],
+      "rate": 50.0,
+      "layer": "controller_output"
+    },
+    {
+      "name": "simulation_water_rate_output",
+      "phase": "controller_water_rate_output",
+      "field": "water_rate_output",
+      "default_value": 2500.0,
+      "range": [
+        0.0,
+        5000.0
+      ],
+      "rate": 200.0,
+      "layer": "controller_output"
+    },
+    {
+      "name": "simulation_water_filter_output",
+      "phase": "controller_water_filter_output",
+      "field": "water_filter_output",
+      "default_value": 2500.0,
+      "range": [
+        0.0,
+        5000.0
+      ],
+      "rate": 150.0,
+      "layer": "controller_output"
+    }
+  ],
+  "control_edges": [
+    {
+      "x": "true_load",
+      "y": "load_output"
+    },
+    {
+      "x": "load_output",
+      "y": "steam_setpoint"
+    },
+    {
+      "x": "steam_setpoint",
+      "y": "boiler_setpoint"
+    },
+    {
+      "x": "main_steam_pressure",
+      "y": "boiler_setpoint"
+    },
+    {
+      "x": "boiler_setpoint",
+      "y": "fuel_command"
+    },
+    {
+      "x": "coal_flow",
+      "y": "fuel_command"
+    },
+    {
+      "x": "boiler_setpoint",
+      "y": "water_setpoint"
+    },
+    {
+      "x": "water_setpoint",
+      "y": "water_pump_speed"
+    },
+    {
+      "x": "feedwater_flow",
+      "y": "water_pump_speed"
+    },
+    {
+      "x": "fuel_command",
+      "y": "coal_flow"
+    },
+    {
+      "x": "water_pump_speed",
+      "y": "feedwater_flow"
+    },
+    {
+      "x": "coal_flow",
+      "y": "main_steam_flow"
+    },
+    {
+      "x": "feedwater_flow",
+      "y": "main_steam_flow"
+    },
+    {
+      "x": "coal_flow",
+      "y": "main_steam_pressure"
+    },
+    {
+      "x": "feedwater_flow",
+      "y": "main_steam_pressure"
+    },
+    {
+      "x": "main_steam_flow",
+      "y": "true_load"
+    },
+    {
+      "x": "coal_flow",
+      "y": "waterwall_temp"
+    },
+    {
+      "x": "feedwater_flow",
+      "y": "waterwall_temp"
+    }
+  ],
+  "hazard_rules": [
+    {
+      "id": "H-WATERWALL-001",
+      "var": "waterwall_temp",
+      "threshold": 475.0,
+      "direction": "upper",
+      "margin_col": "hazard_waterwall_margin"
+    },
+    {
+      "id": "H-PRESSURE-001",
+      "var": "main_steam_pressure",
+      "threshold": 28.3,
+      "direction": "upper",
+      "margin_col": "hazard_pressure_margin"
+    },
+    {
+      "id": "H-FEEDWATER-001",
+      "var": "feedwater_flow",
+      "threshold": 184.8,
+      "direction": "lower",
+      "margin_col": "hazard_feedwater_margin"
+    }
+  ],
+  "alarm_rules": [
+    {
+      "id": "A-BOILER-CUT",
+      "kind": "deviation",
+      "expr": "|steam_setpoint - main_steam_pressure| > BOILER_CUT_TH",
+      "var": "main_steam_pressure",
+      "setpoint_var": "steam_setpoint",
+      "threshold": 1.5,
+      "margin_col": "alarm_boiler_cut_margin"
+    },
+    {
+      "id": "A-FUEL-CUT",
+      "kind": "deviation",
+      "expr": "|coal_flow - fuel_command| > FUEL_CUT_TH",
+      "var": "coal_flow",
+      "setpoint_var": "fuel_command",
+      "threshold": 43.0,
+      "margin_col": "alarm_fuel_cut_margin"
+    },
+    {
+      "id": "A-WATER-CUT",
+      "kind": "deviation",
+      "expr": "|water_setpoint - feedwater_flow| > WATER_CUT_TH",
+      "var": "feedwater_flow",
+      "setpoint_var": "water_setpoint",
+      "threshold": 150.0,
+      "margin_col": "alarm_water_cut_margin"
+    }
+  ],
+  "nominal_state": {
+    "true_load": 349.0,
+    "coal_flow": 157.4,
+    "feedwater_flow": 1065.7,
+    "main_steam_flow": 1064.0,
+    "waterwall_temp": 425.0,
+    "main_steam_pressure": 23.7
+  }
+}
