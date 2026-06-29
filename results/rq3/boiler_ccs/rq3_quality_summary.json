@@ -1,0 +1,80 @@
+{
+  "overall": {
+    "boundary_tightness": {
+      "ci95_pct": [
+        97.77,
+        98.52
+      ],
+      "failure": 91,
+      "n": 5000,
+      "rate": 0.9818,
+      "rate_pct": 98.18,
+      "success": 4909
+    },
+    "masking_exclusion": {
+      "ci95_pct": [
+        96.04,
+        97.05
+      ],
+      "failure": 171,
+      "n": 5000,
+      "rate": 0.9658,
+      "rate_pct": 96.58,
+      "success": 4829
+    },
+    "region_validity": {
+      "ci95_pct": [
+        99.92,
+        100.0
+      ],
+      "failure": 0,
+      "n": 5000,
+      "rate": 1.0,
+      "rate_pct": 100.0,
+      "success": 5000
+    }
+  },
+  "platforms": [
+    {
+      "boundary_tightness": {
+        "ci95_pct": [
+          97.77,
+          98.52
+        ],
+        "failure": 91,
+        "n": 5000,
+        "rate": 0.9818,
+        "rate_pct": 98.18,
+        "success": 4909
+      },
+      "masking_exclusion": {
+        "ci95_pct": [
+          96.04,
+          97.05
+        ],
+        "failure": 171,
+        "n": 5000,
+        "rate": 0.9658,
+        "rate_pct": 96.58,
+        "success": 4829
+      },
+      "platform": "boiler_ccs",
+      "region_count": 134,
+      "region_validity": {
+        "ci95_pct": [
+          99.92,
+          100.0
+        ],
+        "failure": 0,
+        "n": 5000,
+        "rate": 1.0,
+        "rate_pct": 100.0,
+        "success": 5000
+      },
+      "source_stage3_regions": [
+        "results/stage3/boiler_ccs/fuel_command/coordinated_regions.json",
+        "results/stage3/boiler_ccs/water_pump_speed/coordinated_regions.json"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "rq": "RQ4",
+  "part": "partition_merge_sensitivity",
+  "final_version": "fuel_command_amp1x_tol1e5_n1000_offset3",
+  "platform": "boiler_ccs",
+  "hazard_driver": "fuel_command",
+  "stage3_tolerance": 1e-5,
+  "representative_samples": 10,
+  "sample_duration_mod": 50,
+  "mask_offset_fraction": 0.03,
+  "alarm_accuracy_samples_per_setting": 1000,
+  "primary_metric": "alarm_accuracy_rate",
+  "kept_files": {
+    "combined_csv": "results/rq4/part_b_masking_partition_sensitivity/partition_sensitivity.csv",
+    "fine_csv": "results/rq4/part_b_masking_partition_sensitivity/partition_sensitivity_fine_0p1_to_1p0.csv",
+    "fine_json": "results/rq4/part_b_masking_partition_sensitivity/partition_sensitivity_fine_0p1_to_1p0.json",
+    "config": "results/rq4/part_b_masking_partition_sensitivity/partition_sensitivity_config.json",
+    "representative_regions": "results/rq4/part_b_masking_partition_sensitivity/work/stage3_representative_regions/results/stage3/boiler_ccs/fuel_command/representative_regions.json"
+  },
+  "key_results": [
+    {
+      "merge_setting": "no_merge",
+      "region_count": 244,
+      "alarm_accuracy_rate": 0.997
+    },
+    {
+      "merge_setting": "factor_0.1",
+      "region_count": 94,
+      "alarm_accuracy_rate": 0.977
+    },
+    {
+      "merge_setting": "factor_0.2",
+      "region_count": 79,
+      "alarm_accuracy_rate": 0.974
+    },
+    {
+      "merge_setting": "factor_0.5",
+      "region_count": 64,
+      "alarm_accuracy_rate": 0.956
+    },
+    {
+      "merge_setting": "factor_1",
+      "region_count": 62,
+      "alarm_accuracy_rate": 0.927
+    },
+    {
+      "merge_setting": "factor_2",
+      "region_count": 61,
+      "alarm_accuracy_rate": 0.914
+    }
+  ],
+  "interpretation": "No-merge gives the highest alarm-boundary accuracy. Small merge thresholds reduce region count substantially with limited accuracy loss; larger thresholds further reduce cost only slightly but lose more alarm accuracy."
+}

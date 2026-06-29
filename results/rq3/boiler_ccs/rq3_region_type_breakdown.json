@@ -1,0 +1,42 @@
+{
+  "entries": [
+    {
+      "boundary_tightness": {
+        "ci95_pct": [
+          97.77,
+          98.52
+        ],
+        "failure": 91,
+        "n": 5000,
+        "rate": 0.9818,
+        "rate_pct": 98.18,
+        "success": 4909
+      },
+      "masking_exclusion": {
+        "ci95_pct": [
+          96.04,
+          97.05
+        ],
+        "failure": 171,
+        "n": 5000,
+        "rate": 0.9658,
+        "rate_pct": 96.58,
+        "success": 4829
+      },
+      "platform": "boiler_ccs",
+      "region_count_sampled": 72,
+      "region_type": "coordinated",
+      "region_validity": {
+        "ci95_pct": [
+          99.92,
+          100.0
+        ],
+        "failure": 0,
+        "n": 5000,
+        "rate": 1.0,
+        "rate_pct": 100.0,
+        "success": 5000
+      }
+    }
+  ]
+}

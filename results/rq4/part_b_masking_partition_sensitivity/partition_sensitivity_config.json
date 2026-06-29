@@ -1,0 +1,107 @@
+{
+  "boundary_sensitivity": {
+    "enabled": false,
+    "hazard_driver": "xmv_07",
+    "platform": "tennessee_eastman",
+    "reason": "TE xmv_07 is the RQ2 canonical base-only variable and isolates boundary search.",
+    "reference": {
+      "delta_T": 2,
+      "epsilon_K": 1e-05,
+      "setting_id": "reference"
+    },
+    "sweep": [
+      {
+        "delta_T": 10,
+        "epsilon_K": 0.0001,
+        "setting_id": "delta_T_10"
+      },
+      {
+        "delta_T": 5,
+        "epsilon_K": 0.0001,
+        "setting_id": "default"
+      },
+      {
+        "delta_T": 2,
+        "epsilon_K": 0.0001,
+        "setting_id": "delta_T_2"
+      },
+      {
+        "delta_T": 5,
+        "epsilon_K": 0.001,
+        "setting_id": "epsilon_K_1e-3"
+      },
+      {
+        "delta_T": 5,
+        "epsilon_K": 1e-05,
+        "setting_id": "epsilon_K_1e-5"
+      }
+    ]
+  },
+  "default_setting": {
+    "Delta_T": 5,
+    "delta_merge": "1.0 * Stage 3 original effective merge threshold",
+    "epsilon_K": 0.0001
+  },
+  "partition_sensitivity": {
+    "alarm_accuracy_samples_per_setting": 1000,
+    "enabled": true,
+    "factor_reference": "Stage 3 original effective merge threshold from representative regions",
+    "hazard_drivers": [
+      "fuel_command"
+    ],
+    "mask_offset_fraction": 0.03,
+    "merge_settings": [
+      {
+        "delta_merge_factor": null,
+        "merge_setting": "no_merge"
+      },
+      {
+        "delta_merge_factor": 0.1,
+        "merge_setting": "factor_0.1"
+      },
+      {
+        "delta_merge_factor": 0.2,
+        "merge_setting": "factor_0.2"
+      },
+      {
+        "delta_merge_factor": 0.3,
+        "merge_setting": "factor_0.3"
+      },
+      {
+        "delta_merge_factor": 0.4,
+        "merge_setting": "factor_0.4"
+      },
+      {
+        "delta_merge_factor": 0.5,
+        "merge_setting": "factor_0.5"
+      },
+      {
+        "delta_merge_factor": 0.6,
+        "merge_setting": "factor_0.6"
+      },
+      {
+        "delta_merge_factor": 0.7,
+        "merge_setting": "factor_0.7"
+      },
+      {
+        "delta_merge_factor": 0.8,
+        "merge_setting": "factor_0.8"
+      },
+      {
+        "delta_merge_factor": 0.9,
+        "merge_setting": "factor_0.9"
+      },
+      {
+        "delta_merge_factor": 1.0,
+        "merge_setting": "factor_1"
+      }
+    ],
+    "platform": "boiler_ccs",
+    "primary_metric": "alarm_accuracy_rate",
+    "ra_validity_samples_per_setting": 0,
+    "representative_root": "results\\rq4\\part_b_masking_partition_sensitivity\\work\\stage3_representative_regions",
+    "writes_original_stage3_artifacts": false
+  },
+  "rq": "RQ4",
+  "schema_version": 1
+}

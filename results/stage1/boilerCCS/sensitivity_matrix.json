@@ -1,0 +1,45 @@
+{
+  "cols": [
+    "waterwall_temp",
+    "main_steam_pressure",
+    "feedwater_flow"
+  ],
+  "duration": 10,
+  "hazard_columns": {
+    "H-FEEDWATER-001": {
+      "col": "feedwater_flow",
+      "kind": "state",
+      "var": "feedwater_flow"
+    },
+    "H-PRESSURE-001": {
+      "col": "main_steam_pressure",
+      "kind": "state",
+      "var": "main_steam_pressure"
+    },
+    "H-WATERWALL-001": {
+      "col": "waterwall_temp",
+      "kind": "state",
+      "var": "waterwall_temp"
+    }
+  },
+  "matrix": {
+    "fuel_command": {
+      "feedwater_flow": -1.7518507297775614,
+      "main_steam_pressure": 0.7792488161871297,
+      "waterwall_temp": 4.924337342955141
+    },
+    "water_pump_speed": {
+      "feedwater_flow": 7.063187460898593,
+      "main_steam_pressure": 0.10255669206473172,
+      "waterwall_temp": -0.021296984053600455
+    }
+  },
+  "platform": "boiler_ccs",
+  "rows": [
+    "fuel_command",
+    "water_pump_speed"
+  ],
+  "runtime_rule": "duration + 100",
+  "seed": 20260627,
+  "total_steps": 110
+}

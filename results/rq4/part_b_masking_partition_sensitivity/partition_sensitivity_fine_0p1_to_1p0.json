@@ -1,0 +1,665 @@
+{
+  "rows": [
+    {
+      "alarm_accuracy": {
+        "ci95_pct": [
+          99.12,
+          99.9
+        ],
+        "failure": 3,
+        "n": 1000,
+        "rate": 0.997,
+        "rate_pct": 99.7,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\no_merge\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 997,
+        "workers": 16
+      },
+      "alarm_accuracy_n": 1000,
+      "alarm_accuracy_rate": 0.997,
+      "delta_merge": null,
+      "delta_merge_factor": null,
+      "hazard_driver": "fuel_command",
+      "masking_exclusion": {
+        "ci95_pct": [
+          99.12,
+          99.9
+        ],
+        "failure": 3,
+        "n": 1000,
+        "rate": 0.997,
+        "rate_pct": 99.7,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\no_merge\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 997,
+        "workers": 16
+      },
+      "median_feasible_masking_width": 0.0022500000000000003,
+      "median_masking_width": 0.022454365849494926,
+      "merge_setting": "no_merge",
+      "original_delta_merge": 0.0026381548206011467,
+      "output_root": "results\\rq4\\part_b_partition_runs\\fuel_command\\no_merge",
+      "platform": "boiler_ccs",
+      "ra_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "ra_validity_n": null,
+      "ra_validity_rate": null,
+      "region_count": 244,
+      "region_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "retained_cell_ratio": 1.0,
+      "source": "representative_regions_no_merge",
+      "source_path": "results\\rq4\\part_b_masking_partition_sensitivity\\work\\stage3_representative_regions\\results\\stage3\\boiler_ccs\\fuel_command\\representative_regions.json",
+      "vulnerability_volume_proxy": 0.0
+    },
+    {
+      "alarm_accuracy": {
+        "ci95_pct": [
+          96.57,
+          98.46
+        ],
+        "failure": 23,
+        "n": 1000,
+        "rate": 0.977,
+        "rate_pct": 97.7,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.1\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 977,
+        "workers": 16
+      },
+      "alarm_accuracy_n": 1000,
+      "alarm_accuracy_rate": 0.977,
+      "delta_merge": 0.0002638154820601147,
+      "delta_merge_factor": 0.1,
+      "hazard_driver": "fuel_command",
+      "masking_exclusion": {
+        "ci95_pct": [
+          96.57,
+          98.46
+        ],
+        "failure": 23,
+        "n": 1000,
+        "rate": 0.977,
+        "rate_pct": 97.7,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.1\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 977,
+        "workers": 16
+      },
+      "median_feasible_masking_width": 0.0022500000000000003,
+      "median_masking_width": 0.01705904789765676,
+      "merge_setting": "factor_0.1",
+      "original_delta_merge": 0.0026381548206011467,
+      "output_root": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.1",
+      "platform": "boiler_ccs",
+      "ra_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "ra_validity_n": null,
+      "ra_validity_rate": null,
+      "region_count": 94,
+      "region_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "retained_cell_ratio": 0.38524590163934425,
+      "source": "representative_regions",
+      "source_path": "results\\rq4\\part_b_masking_partition_sensitivity\\work\\stage3_representative_regions\\results\\stage3\\boiler_ccs\\fuel_command\\representative_regions.json",
+      "vulnerability_volume_proxy": 0.07098503865123049
+    },
+    {
+      "alarm_accuracy": {
+        "ci95_pct": [
+          96.22,
+          98.22
+        ],
+        "failure": 26,
+        "n": 1000,
+        "rate": 0.974,
+        "rate_pct": 97.4,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.2\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 974,
+        "workers": 16
+      },
+      "alarm_accuracy_n": 1000,
+      "alarm_accuracy_rate": 0.974,
+      "delta_merge": 0.0005276309641202294,
+      "delta_merge_factor": 0.2,
+      "hazard_driver": "fuel_command",
+      "masking_exclusion": {
+        "ci95_pct": [
+          96.22,
+          98.22
+        ],
+        "failure": 26,
+        "n": 1000,
+        "rate": 0.974,
+        "rate_pct": 97.4,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.2\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 974,
+        "workers": 16
+      },
+      "median_feasible_masking_width": 0.0022500000000000003,
+      "median_masking_width": 0.024780848979949956,
+      "merge_setting": "factor_0.2",
+      "original_delta_merge": 0.0026381548206011467,
+      "output_root": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.2",
+      "platform": "boiler_ccs",
+      "ra_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "ra_validity_n": null,
+      "ra_validity_rate": null,
+      "region_count": 79,
+      "region_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "retained_cell_ratio": 0.3237704918032787,
+      "source": "representative_regions",
+      "source_path": "results\\rq4\\part_b_masking_partition_sensitivity\\work\\stage3_representative_regions\\results\\stage3\\boiler_ccs\\fuel_command\\representative_regions.json",
+      "vulnerability_volume_proxy": 0.2696355386116446
+    },
+    {
+      "alarm_accuracy": {
+        "ci95_pct": [
+          93.81,
+          96.45
+        ],
+        "failure": 47,
+        "n": 1000,
+        "rate": 0.953,
+        "rate_pct": 95.3,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.3\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 953,
+        "workers": 16
+      },
+      "alarm_accuracy_n": 1000,
+      "alarm_accuracy_rate": 0.953,
+      "delta_merge": 0.000791446446180344,
+      "delta_merge_factor": 0.3,
+      "hazard_driver": "fuel_command",
+      "masking_exclusion": {
+        "ci95_pct": [
+          93.81,
+          96.45
+        ],
+        "failure": 47,
+        "n": 1000,
+        "rate": 0.953,
+        "rate_pct": 95.3,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.3\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 953,
+        "workers": 16
+      },
+      "median_feasible_masking_width": 0.0022500000000000003,
+      "median_masking_width": 0.026821553548177092,
+      "merge_setting": "factor_0.3",
+      "original_delta_merge": 0.0026381548206011467,
+      "output_root": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.3",
+      "platform": "boiler_ccs",
+      "ra_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "ra_validity_n": null,
+      "ra_validity_rate": null,
+      "region_count": 68,
+      "region_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "retained_cell_ratio": 0.2786885245901639,
+      "source": "representative_regions",
+      "source_path": "results\\rq4\\part_b_masking_partition_sensitivity\\work\\stage3_representative_regions\\results\\stage3\\boiler_ccs\\fuel_command\\representative_regions.json",
+      "vulnerability_volume_proxy": 0.5404704247191997
+    },
+    {
+      "alarm_accuracy": {
+        "ci95_pct": [
+          94.14,
+          96.71
+        ],
+        "failure": 44,
+        "n": 1000,
+        "rate": 0.956,
+        "rate_pct": 95.6,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.4\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 956,
+        "workers": 16
+      },
+      "alarm_accuracy_n": 1000,
+      "alarm_accuracy_rate": 0.956,
+      "delta_merge": 0.0010552619282404587,
+      "delta_merge_factor": 0.4,
+      "hazard_driver": "fuel_command",
+      "masking_exclusion": {
+        "ci95_pct": [
+          94.14,
+          96.71
+        ],
+        "failure": 44,
+        "n": 1000,
+        "rate": 0.956,
+        "rate_pct": 95.6,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.4\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 956,
+        "workers": 16
+      },
+      "median_feasible_masking_width": 0.0022500000000000003,
+      "median_masking_width": 0.02738783094618056,
+      "merge_setting": "factor_0.4",
+      "original_delta_merge": 0.0026381548206011467,
+      "output_root": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.4",
+      "platform": "boiler_ccs",
+      "ra_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "ra_validity_n": null,
+      "ra_validity_rate": null,
+      "region_count": 64,
+      "region_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "retained_cell_ratio": 0.26229508196721313,
+      "source": "representative_regions",
+      "source_path": "results\\rq4\\part_b_masking_partition_sensitivity\\work\\stage3_representative_regions\\results\\stage3\\boiler_ccs\\fuel_command\\representative_regions.json",
+      "vulnerability_volume_proxy": 0.5817648432522043
+    },
+    {
+      "alarm_accuracy": {
+        "ci95_pct": [
+          94.14,
+          96.71
+        ],
+        "failure": 44,
+        "n": 1000,
+        "rate": 0.956,
+        "rate_pct": 95.6,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.5\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 956,
+        "workers": 16
+      },
+      "alarm_accuracy_n": 1000,
+      "alarm_accuracy_rate": 0.956,
+      "delta_merge": 0.0013190774103005733,
+      "delta_merge_factor": 0.5,
+      "hazard_driver": "fuel_command",
+      "masking_exclusion": {
+        "ci95_pct": [
+          94.14,
+          96.71
+        ],
+        "failure": 44,
+        "n": 1000,
+        "rate": 0.956,
+        "rate_pct": 95.6,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.5\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 956,
+        "workers": 16
+      },
+      "median_feasible_masking_width": 0.0022500000000000003,
+      "median_masking_width": 0.02738783094618056,
+      "merge_setting": "factor_0.5",
+      "original_delta_merge": 0.0026381548206011467,
+      "output_root": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.5",
+      "platform": "boiler_ccs",
+      "ra_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "ra_validity_n": null,
+      "ra_validity_rate": null,
+      "region_count": 64,
+      "region_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "retained_cell_ratio": 0.26229508196721313,
+      "source": "representative_regions",
+      "source_path": "results\\rq4\\part_b_masking_partition_sensitivity\\work\\stage3_representative_regions\\results\\stage3\\boiler_ccs\\fuel_command\\representative_regions.json",
+      "vulnerability_volume_proxy": 0.5817648432522043
+    },
+    {
+      "alarm_accuracy": {
+        "ci95_pct": [
+          90.92,
+          94.15
+        ],
+        "failure": 73,
+        "n": 1000,
+        "rate": 0.927,
+        "rate_pct": 92.7,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.6\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 927,
+        "workers": 16
+      },
+      "alarm_accuracy_n": 1000,
+      "alarm_accuracy_rate": 0.927,
+      "delta_merge": 0.001582892892360688,
+      "delta_merge_factor": 0.6,
+      "hazard_driver": "fuel_command",
+      "masking_exclusion": {
+        "ci95_pct": [
+          90.92,
+          94.15
+        ],
+        "failure": 73,
+        "n": 1000,
+        "rate": 0.927,
+        "rate_pct": 92.7,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.6\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 927,
+        "workers": 16
+      },
+      "median_feasible_masking_width": 0.0022500000000000003,
+      "median_masking_width": 0.027403089735243052,
+      "merge_setting": "factor_0.6",
+      "original_delta_merge": 0.0026381548206011467,
+      "output_root": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.6",
+      "platform": "boiler_ccs",
+      "ra_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "ra_validity_n": null,
+      "ra_validity_rate": null,
+      "region_count": 63,
+      "region_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "retained_cell_ratio": 0.2581967213114754,
+      "source": "representative_regions",
+      "source_path": "results\\rq4\\part_b_masking_partition_sensitivity\\work\\stage3_representative_regions\\results\\stage3\\boiler_ccs\\fuel_command\\representative_regions.json",
+      "vulnerability_volume_proxy": 0.5845038365306509
+    },
+    {
+      "alarm_accuracy": {
+        "ci95_pct": [
+          90.92,
+          94.15
+        ],
+        "failure": 73,
+        "n": 1000,
+        "rate": 0.927,
+        "rate_pct": 92.7,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.7\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 927,
+        "workers": 16
+      },
+      "alarm_accuracy_n": 1000,
+      "alarm_accuracy_rate": 0.927,
+      "delta_merge": 0.0018467083744208026,
+      "delta_merge_factor": 0.7,
+      "hazard_driver": "fuel_command",
+      "masking_exclusion": {
+        "ci95_pct": [
+          90.92,
+          94.15
+        ],
+        "failure": 73,
+        "n": 1000,
+        "rate": 0.927,
+        "rate_pct": 92.7,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.7\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 927,
+        "workers": 16
+      },
+      "median_feasible_masking_width": 0.0022500000000000003,
+      "median_masking_width": 0.027403089735243052,
+      "merge_setting": "factor_0.7",
+      "original_delta_merge": 0.0026381548206011467,
+      "output_root": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.7",
+      "platform": "boiler_ccs",
+      "ra_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "ra_validity_n": null,
+      "ra_validity_rate": null,
+      "region_count": 63,
+      "region_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "retained_cell_ratio": 0.2581967213114754,
+      "source": "representative_regions",
+      "source_path": "results\\rq4\\part_b_masking_partition_sensitivity\\work\\stage3_representative_regions\\results\\stage3\\boiler_ccs\\fuel_command\\representative_regions.json",
+      "vulnerability_volume_proxy": 0.5845038365306509
+    },
+    {
+      "alarm_accuracy": {
+        "ci95_pct": [
+          90.92,
+          94.15
+        ],
+        "failure": 73,
+        "n": 1000,
+        "rate": 0.927,
+        "rate_pct": 92.7,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.8\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 927,
+        "workers": 16
+      },
+      "alarm_accuracy_n": 1000,
+      "alarm_accuracy_rate": 0.927,
+      "delta_merge": 0.0021105238564809174,
+      "delta_merge_factor": 0.8,
+      "hazard_driver": "fuel_command",
+      "masking_exclusion": {
+        "ci95_pct": [
+          90.92,
+          94.15
+        ],
+        "failure": 73,
+        "n": 1000,
+        "rate": 0.927,
+        "rate_pct": 92.7,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.8\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 927,
+        "workers": 16
+      },
+      "median_feasible_masking_width": 0.0022500000000000003,
+      "median_masking_width": 0.027403089735243052,
+      "merge_setting": "factor_0.8",
+      "original_delta_merge": 0.0026381548206011467,
+      "output_root": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.8",
+      "platform": "boiler_ccs",
+      "ra_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "ra_validity_n": null,
+      "ra_validity_rate": null,
+      "region_count": 63,
+      "region_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "retained_cell_ratio": 0.2581967213114754,
+      "source": "representative_regions",
+      "source_path": "results\\rq4\\part_b_masking_partition_sensitivity\\work\\stage3_representative_regions\\results\\stage3\\boiler_ccs\\fuel_command\\representative_regions.json",
+      "vulnerability_volume_proxy": 0.5845038365306509
+    },
+    {
+      "alarm_accuracy": {
+        "ci95_pct": [
+          90.92,
+          94.15
+        ],
+        "failure": 73,
+        "n": 1000,
+        "rate": 0.927,
+        "rate_pct": 92.7,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.9\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 927,
+        "workers": 16
+      },
+      "alarm_accuracy_n": 1000,
+      "alarm_accuracy_rate": 0.927,
+      "delta_merge": 0.002374339338541032,
+      "delta_merge_factor": 0.9,
+      "hazard_driver": "fuel_command",
+      "masking_exclusion": {
+        "ci95_pct": [
+          90.92,
+          94.15
+        ],
+        "failure": 73,
+        "n": 1000,
+        "rate": 0.927,
+        "rate_pct": 92.7,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.9\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 927,
+        "workers": 16
+      },
+      "median_feasible_masking_width": 0.0022500000000000003,
+      "median_masking_width": 0.027403089735243052,
+      "merge_setting": "factor_0.9",
+      "original_delta_merge": 0.0026381548206011467,
+      "output_root": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_0.9",
+      "platform": "boiler_ccs",
+      "ra_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "ra_validity_n": null,
+      "ra_validity_rate": null,
+      "region_count": 63,
+      "region_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "retained_cell_ratio": 0.2581967213114754,
+      "source": "representative_regions",
+      "source_path": "results\\rq4\\part_b_masking_partition_sensitivity\\work\\stage3_representative_regions\\results\\stage3\\boiler_ccs\\fuel_command\\representative_regions.json",
+      "vulnerability_volume_proxy": 0.5845038365306509
+    },
+    {
+      "alarm_accuracy": {
+        "ci95_pct": [
+          90.92,
+          94.15
+        ],
+        "failure": 73,
+        "n": 1000,
+        "rate": 0.927,
+        "rate_pct": 92.7,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_1\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 927,
+        "workers": 16
+      },
+      "alarm_accuracy_n": 1000,
+      "alarm_accuracy_rate": 0.927,
+      "delta_merge": 0.0026381548206011467,
+      "delta_merge_factor": 1.0,
+      "hazard_driver": "fuel_command",
+      "masking_exclusion": {
+        "ci95_pct": [
+          90.92,
+          94.15
+        ],
+        "failure": 73,
+        "n": 1000,
+        "rate": 0.927,
+        "rate_pct": 92.7,
+        "seed": 460,
+        "source": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_1\\results\\stage3\\boiler_ccs\\fuel_command\\coordinated_regions.json",
+        "status": "artifact",
+        "success": 927,
+        "workers": 16
+      },
+      "median_feasible_masking_width": 0.0022500000000000003,
+      "median_masking_width": 0.0274200439453125,
+      "merge_setting": "factor_1",
+      "original_delta_merge": 0.0026381548206011467,
+      "output_root": "results\\rq4\\part_b_partition_runs\\fuel_command\\factor_1",
+      "platform": "boiler_ccs",
+      "ra_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "ra_validity_n": null,
+      "ra_validity_rate": null,
+      "region_count": 62,
+      "region_validity": {
+        "reason": "partition_validation_samples is 0",
+        "status": "skipped",
+        "value": null
+      },
+      "retained_cell_ratio": 0.2540983606557377,
+      "source": "representative_regions",
+      "source_path": "results\\rq4\\part_b_masking_partition_sensitivity\\work\\stage3_representative_regions\\results\\stage3\\boiler_ccs\\fuel_command\\representative_regions.json",
+      "vulnerability_volume_proxy": 0.5817228081548969
+    }
+  ],
+  "schema_version": 1
+}

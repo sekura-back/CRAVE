@@ -1,0 +1,81 @@
+{
+  "overall": {
+    "boundary_tightness": {
+      "ci95_pct": [
+        99.92,
+        100.0
+      ],
+      "failure": 0,
+      "n": 5000,
+      "rate": 1.0,
+      "rate_pct": 100.0,
+      "success": 5000
+    },
+    "masking_exclusion": {
+      "ci95_pct": [
+        98.8,
+        99.33
+      ],
+      "failure": 45,
+      "n": 5000,
+      "rate": 0.991,
+      "rate_pct": 99.1,
+      "success": 4955
+    },
+    "region_validity": {
+      "ci95_pct": [
+        99.92,
+        100.0
+      ],
+      "failure": 0,
+      "n": 5000,
+      "rate": 1.0,
+      "rate_pct": 100.0,
+      "success": 5000
+    }
+  },
+  "platforms": [
+    {
+      "boundary_tightness": {
+        "ci95_pct": [
+          99.92,
+          100.0
+        ],
+        "failure": 0,
+        "n": 5000,
+        "rate": 1.0,
+        "rate_pct": 100.0,
+        "success": 5000
+      },
+      "masking_exclusion": {
+        "ci95_pct": [
+          98.8,
+          99.33
+        ],
+        "failure": 45,
+        "n": 5000,
+        "rate": 0.991,
+        "rate_pct": 99.1,
+        "success": 4955
+      },
+      "platform": "TE",
+      "region_count": 146,
+      "region_validity": {
+        "ci95_pct": [
+          99.92,
+          100.0
+        ],
+        "failure": 0,
+        "n": 5000,
+        "rate": 1.0,
+        "rate_pct": 100.0,
+        "success": 5000
+      },
+      "source_stage3_regions": [
+        "results/stage3/TE/XMV_04/coordinated_regions.json",
+        "results/stage3/TE/XMV_07/coordinated_regions.json",
+        "results/stage3/TE/XMV_08/coordinated_regions.json"
+      ]
+    }
+  ]
+}

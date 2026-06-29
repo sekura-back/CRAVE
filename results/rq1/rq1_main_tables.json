@@ -1,0 +1,50 @@
+{
+  "writable_reduction": [
+    {
+      "Entries": "52/110/3/3",
+      "Pairs_all": 420,
+      "Pairs_all_search": "420->40",
+      "Pairs_search": 40,
+      "Platform": "Boiler CCS",
+      "Reduction": "10.5x",
+      "W": 21,
+      "W_rank": 2,
+      "W_rank_search": "2/2",
+      "W_rank_variables": [
+        "fuel_command",
+        "water_pump_speed"
+      ],
+      "W_search": 2,
+      "W_search_variables": [
+        "fuel_command",
+        "water_pump_speed"
+      ]
+    },
+    {
+      "Entries": "99/145/9/8",
+      "Pairs_all": 3906,
+      "Pairs_all_search": "3906->186",
+      "Pairs_search": 186,
+      "Platform": "TE",
+      "Reduction": "21.0x",
+      "W": 63,
+      "W_rank": 7,
+      "W_rank_search": "7/3",
+      "W_rank_variables": [
+        "xmv_01",
+        "xmv_04",
+        "xmv_05",
+        "xmv_07",
+        "xmv_08",
+        "xmv_10",
+        "xmv_12"
+      ],
+      "W_search": 3,
+      "W_search_variables": [
+        "xmv_04",
+        "xmv_07",
+        "xmv_08"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3450 @@
+{
+  "alarm_id": "A-BOILER-CUT",
+  "d_threshold": 0.0005276309641202294,
+  "delta_merge_factor": 0.2,
+  "dynamic_slope_tol": 1e-05,
+  "hazard_driver": "fuel_command",
+  "hazard_id": "H-PRESSURE-001",
+  "original_delta_merge": 0.0026381548206011467,
+  "platform": "boiler_ccs",
+  "regions": [
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 2.0731937514411074,
+      "driver_amp_range": [
+        2.0679144965277776,
+        2.0731937514411074
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        250,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.05403815375434029,
+        0.08766682942708336
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 207,
+      "mask_slope_range": [
+        0.05403815375434029,
+        0.08766682942708336
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 16,
+      "region_id": "R_001",
+      "runtime_steps": 1100,
+      "sample_q": 0.8888888888888888,
+      "slope_search_method": "dynamic",
+      "source_count": 16,
+      "source_driver_amp_range": [
+        0.20341796875,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.05403815375434029,
+        0.08766682942708336
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.9131510416666666,
+      "driver_amp_range": [
+        0.9131510416666666,
+        0.9131510416666666
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        350,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.035405476888020856,
+        0.06277804904513892
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 91,
+      "mask_slope_range": [
+        0.035405476888020856,
+        0.06277804904513892
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 14,
+      "region_id": "R_002",
+      "runtime_steps": 1100,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "dynamic",
+      "source_count": 14,
+      "source_driver_amp_range": [
+        0.21923828125,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.035405476888020856,
+        0.06277804904513892
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.1444552951388887,
+      "driver_amp_range": [
+        1.1444552951388887,
+        1.1444552951388887
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        350,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.04077996148003475,
+        0.06909179687500003
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 114,
+      "mask_slope_range": [
+        0.04077996148003475,
+        0.06909179687500003
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 14,
+      "region_id": "R_003",
+      "runtime_steps": 1100,
+      "sample_q": 0.4444444444444444,
+      "slope_search_method": "dynamic",
+      "source_count": 14,
+      "source_driver_amp_range": [
+        0.21923828125,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.04077996148003475,
+        0.06909179687500003
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.3757595486111112,
+      "driver_amp_range": [
+        1.3757595486111112,
+        1.3757595486111112
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        350,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.04423862033420142,
+        0.07454427083333337
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 138,
+      "mask_slope_range": [
+        0.04423862033420142,
+        0.07454427083333337
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 14,
+      "region_id": "R_004",
+      "runtime_steps": 1100,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "dynamic",
+      "source_count": 14,
+      "source_driver_amp_range": [
+        0.21923828125,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.04423862033420142,
+        0.07454427083333337
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.6070638020833332,
+      "driver_amp_range": [
+        1.6070638020833332,
+        1.6070638020833332
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        350,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.04840935601128475,
+        0.07937961154513891
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 161,
+      "mask_slope_range": [
+        0.04840935601128475,
+        0.07937961154513891
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 14,
+      "region_id": "R_005",
+      "runtime_steps": 1100,
+      "sample_q": 0.6666666666666666,
+      "slope_search_method": "dynamic",
+      "source_count": 14,
+      "source_driver_amp_range": [
+        0.21923828125,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.04840935601128475,
+        0.07937961154513891
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.8383680555555553,
+      "driver_amp_range": [
+        1.8383680555555553,
+        1.8383680555555553
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        350,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.05210537380642365,
+        0.08370632595486113
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 184,
+      "mask_slope_range": [
+        0.05210537380642365,
+        0.08370632595486113
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 14,
+      "region_id": "R_006",
+      "runtime_steps": 1100,
+      "sample_q": 0.7777777777777778,
+      "slope_search_method": "dynamic",
+      "source_count": 14,
+      "source_driver_amp_range": [
+        0.21923828125,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.05210537380642365,
+        0.08370632595486113
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.14384765625,
+      "driver_amp_range": [
+        0.13948567708333334,
+        0.14384765625
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        550,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.006586801433563234,
+        0.019518821001052858
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 14,
+      "mask_slope_range": [
+        0.006586801433563234,
+        0.019520039081573487
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 10,
+      "region_id": "R_007",
+      "runtime_steps": 1100,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "dynamic",
+      "source_count": 10,
+      "source_driver_amp_range": [
+        0.099609375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.006588129997253419,
+        0.019520039081573487
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.16897786458333333,
+      "driver_amp_range": [
+        0.1660698784722222,
+        0.16897786458333333
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        550,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.008144523525238038,
+        0.022372637748718262
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 17,
+      "mask_slope_range": [
+        0.008144523525238038,
+        0.0223538498878479
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 10,
+      "region_id": "R_008",
+      "runtime_steps": 1100,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "dynamic",
+      "source_count": 10,
+      "source_driver_amp_range": [
+        0.099609375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.008146910667419436,
+        0.0223538498878479
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.12824435763888892,
+      "driver_amp_range": [
+        0.1261935763888889,
+        0.12824435763888892
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        600,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.005479785919189454,
+        0.018058942317962647
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 13,
+      "mask_slope_range": [
+        0.005479785919189454,
+        0.018061259269714355
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 9,
+      "region_id": "R_009",
+      "runtime_steps": 1100,
+      "sample_q": 0.2222222222222222,
+      "slope_search_method": "dynamic",
+      "source_count": 9,
+      "source_driver_amp_range": [
+        0.099609375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.005484952330589293,
+        0.018061118364334106
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.1542426215277778,
+      "driver_amp_range": [
+        0.1527777777777778,
+        0.1542426215277778
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        600,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.007237651824951172,
+        0.020961188554763796
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 15,
+      "mask_slope_range": [
+        0.007236837148666382,
+        0.020960419972737628
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 9,
+      "region_id": "R_010",
+      "runtime_steps": 1100,
+      "sample_q": 0.4444444444444444,
+      "slope_search_method": "dynamic",
+      "source_count": 9,
+      "source_driver_amp_range": [
+        0.099609375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.007236837148666382,
+        0.020960419972737628
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.09962472915649415,
+      "driver_amp_range": [
+        0.099609375,
+        0.09962472915649415
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        650,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.003381724214553833,
+        0.015085305595397946
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 10,
+      "mask_slope_range": [
+        0.003380289554595948,
+        0.015086545705795287
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 8,
+      "region_id": "R_011",
+      "runtime_steps": 1100,
+      "sample_q": 0.0,
+      "slope_search_method": "dynamic",
+      "source_count": 8,
+      "source_driver_amp_range": [
+        0.099609375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.003383527517318725,
+        0.015082943201065065
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.11291512383355035,
+      "driver_amp_range": [
+        0.11290147569444445,
+        0.11291512383355035
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        650,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.004352467346191406,
+        0.0165814995765686
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 11,
+      "mask_slope_range": [
+        0.004352467346191406,
+        0.016585770606994628
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 8,
+      "region_id": "R_012",
+      "runtime_steps": 1100,
+      "sample_q": 0.1111111111111111,
+      "slope_search_method": "dynamic",
+      "source_count": 8,
+      "source_driver_amp_range": [
+        0.099609375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.004354755401611328,
+        0.01658322048187256
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.20845269097222222,
+      "driver_amp_range": [
+        0.20623914930555556,
+        0.2138454861111111
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        350,
+        600
+      ],
+      "extreme_slope_range": [
+        0.010949470520019534,
+        0.02658673095703125
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 21,
+      "mask_slope_range": [
+        0.010949470520019534,
+        0.026449091302023997
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 6,
+      "region_id": "R_013",
+      "runtime_steps": 700,
+      "sample_q": 0.7777777777777778,
+      "slope_search_method": "dynamic",
+      "source_count": 7,
+      "source_driver_amp_range": [
+        0.10224609375000002,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.0109534752368927,
+        0.026449091302023997
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.21923828125,
+      "driver_amp_range": [
+        0.21923828125,
+        0.21923828125
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        350,
+        600
+      ],
+      "extreme_slope_range": [
+        0.011268123984336856,
+        0.027712902069091792
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 22,
+      "mask_slope_range": [
+        0.011273658752441407,
+        0.02771536509195964
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 6,
+      "region_id": "R_014",
+      "runtime_steps": 700,
+      "sample_q": 1.0,
+      "slope_search_method": "dynamic",
+      "source_count": 12,
+      "source_driver_amp_range": [
+        0.10224609375000002,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.011273658752441407,
+        0.0277130126953125
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.18440755208333331,
+      "driver_amp_range": [
+        0.17936197916666669,
+        0.18440755208333331
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        500,
+        700
+      ],
+      "extreme_slope_range": [
+        0.009166343688964846,
+        0.023746904945373536
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 18,
+      "mask_slope_range": [
+        0.009166343688964846,
+        0.0237430419921875
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 5,
+      "region_id": "R_015",
+      "runtime_steps": 800,
+      "sample_q": 0.6666666666666666,
+      "slope_search_method": "dynamic",
+      "source_count": 5,
+      "source_driver_amp_range": [
+        0.099609375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.009166343688964846,
+        0.0237430419921875
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.17609592013888886,
+      "driver_amp_range": [
+        0.17609592013888886,
+        0.18148871527777777
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        350,
+        450
+      ],
+      "extreme_slope_range": [
+        0.008982040405273438,
+        0.023412464141845703
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 18,
+      "mask_slope_range": [
+        0.008977307677268983,
+        0.023413873314857482
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 3,
+      "region_id": "R_016",
+      "runtime_steps": 550,
+      "sample_q": 0.1111111111111111,
+      "slope_search_method": "dynamic",
+      "source_count": 4,
+      "source_driver_amp_range": [
+        0.1289081573486328,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.008977307677268983,
+        0.023413873314857482
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.18688151041666665,
+      "driver_amp_range": [
+        0.18688151041666665,
+        0.19227430555555555
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        350,
+        450
+      ],
+      "extreme_slope_range": [
+        0.009658836364746095,
+        0.02451343536376953
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 19,
+      "mask_slope_range": [
+        0.009654400944709778,
+        0.02451432943344116
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 3,
+      "region_id": "R_017",
+      "runtime_steps": 550,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "dynamic",
+      "source_count": 4,
+      "source_driver_amp_range": [
+        0.1289081573486328,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.009654400944709778,
+        0.02451432943344116
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.19410807291666665,
+      "driver_amp_range": [
+        0.1926574918958876,
+        0.19410807291666665
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        550,
+        650
+      ],
+      "extreme_slope_range": [
+        0.009764554500579834,
+        0.025167560577392577
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 19,
+      "mask_slope_range": [
+        0.009764554500579834,
+        0.025092683580186632
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 3,
+      "region_id": "R_018",
+      "runtime_steps": 750,
+      "sample_q": 0.7777777777777778,
+      "slope_search_method": "dynamic",
+      "source_count": 3,
+      "source_driver_amp_range": [
+        0.09962472915649415,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.00976804256439209,
+        0.025092683580186632
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.1489815182156033,
+      "driver_amp_range": [
+        0.1489815182156033,
+        0.14957682291666666
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        450,
+        500
+      ],
+      "extreme_slope_range": [
+        0.00694195556640625,
+        0.020558328342437746
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 15,
+      "mask_slope_range": [
+        0.00694195556640625,
+        0.020558328342437746
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 2,
+      "region_id": "R_019",
+      "runtime_steps": 600,
+      "sample_q": 0.2222222222222222,
+      "slope_search_method": "dynamic",
+      "source_count": 2,
+      "source_driver_amp_range": [
+        0.11474609375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.00694195556640625,
+        0.020553574562072754
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.15901819864908853,
+      "driver_amp_range": [
+        0.15901819864908853,
+        0.1611870659722222
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        450,
+        500
+      ],
+      "extreme_slope_range": [
+        0.007667808532714843,
+        0.021614875316619875
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 16,
+      "mask_slope_range": [
+        0.007667808532714843,
+        0.021616961956024174
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 2,
+      "region_id": "R_020",
+      "runtime_steps": 600,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "dynamic",
+      "source_count": 2,
+      "source_driver_amp_range": [
+        0.11474609375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.007667808532714843,
+        0.021616961956024174
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.17106119791666666,
+      "driver_amp_range": [
+        0.16905487908257377,
+        0.17106119791666666
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        400,
+        450
+      ],
+      "extreme_slope_range": [
+        0.008285905838012697,
+        0.02268630323410034
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 17,
+      "mask_slope_range": [
+        0.008285905838012697,
+        0.02268630323410034
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 2,
+      "region_id": "R_021",
+      "runtime_steps": 550,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "dynamic",
+      "source_count": 2,
+      "source_driver_amp_range": [
+        0.1289081573486328,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.008285905838012697,
+        0.022680349349975586
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.19766710069444443,
+      "driver_amp_range": [
+        0.19514973958333331,
+        0.2031792534722222
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        350,
+        400
+      ],
+      "extreme_slope_range": [
+        0.010318358898162842,
+        0.0253465895652771
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 20,
+      "mask_slope_range": [
+        0.010318358898162842,
+        0.0253465895652771
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 2,
+      "region_id": "R_022",
+      "runtime_steps": 500,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "dynamic",
+      "source_count": 4,
+      "source_driver_amp_range": [
+        0.14697265624999997,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.010318358898162842,
+        0.0253465895652771
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.19916492038302952,
+      "driver_amp_range": [
+        0.1960177951388889,
+        0.19916492038302952
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        450,
+        500
+      ],
+      "extreme_slope_range": [
+        0.010067028045654298,
+        0.02543882751464844
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 20,
+      "mask_slope_range": [
+        0.01006699800491333,
+        0.02543882751464844
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 2,
+      "region_id": "R_023",
+      "runtime_steps": 600,
+      "sample_q": 0.7777777777777778,
+      "slope_search_method": "dynamic",
+      "source_count": 2,
+      "source_driver_amp_range": [
+        0.11474609375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.01006699800491333,
+        0.02543882751464844
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.10224609375000002,
+      "driver_amp_range": [
+        0.10224609375000002,
+        0.10224609375000002
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        600,
+        600
+      ],
+      "extreme_slope_range": [
+        0.0037841453552246093,
+        0.015390388488769531
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 10,
+      "mask_slope_range": [
+        0.003779784440994262,
+        0.015390388488769531
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_024",
+      "runtime_steps": 700,
+      "sample_q": 0.0,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.10224609375000002,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.003779784440994262,
+        0.015384719371795653
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.11474609375,
+      "driver_amp_range": [
+        0.11474609375,
+        0.11474609375
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        500,
+        500
+      ],
+      "extreme_slope_range": [
+        0.007386833190917969,
+        0.016792282104492184
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 11,
+      "mask_slope_range": [
+        0.007386833190917969,
+        0.016792282104492184
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_025",
+      "runtime_steps": 600,
+      "sample_q": 0.0,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.11474609375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.007386833190917969,
+        0.016792282104492184
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.10615234375,
+      "driver_amp_range": [
+        0.10615234375,
+        0.10615234375
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        550,
+        550
+      ],
+      "extreme_slope_range": [
+        0.003977616930007936,
+        0.015827843952178955
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 11,
+      "mask_slope_range": [
+        0.003977172374725344,
+        0.015827843952178955
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_026",
+      "runtime_steps": 650,
+      "sample_q": 0.0,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.10615234375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.003977172374725344,
+        0.015827512741088866
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.11871744791666666,
+      "driver_amp_range": [
+        0.11871744791666666,
+        0.11871744791666666
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        550,
+        550
+      ],
+      "extreme_slope_range": [
+        0.004958981847763062,
+        0.01723223752975464
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 12,
+      "mask_slope_range": [
+        0.004958981847763062,
+        0.01723223752975464
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_027",
+      "runtime_steps": 650,
+      "sample_q": 0.1111111111111111,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.10615234375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.004959204196929933,
+        0.017230911254882814
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.11524522569444445,
+      "driver_amp_range": [
+        0.11524522569444445,
+        0.11524522569444445
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        600,
+        600
+      ],
+      "extreme_slope_range": [
+        0.0045230712890625,
+        0.016849109649658203
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 12,
+      "mask_slope_range": [
+        0.0045230712890625,
+        0.016849355697631834
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_028",
+      "runtime_steps": 700,
+      "sample_q": 0.1111111111111111,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.10224609375000002,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.004527255296707153,
+        0.016849355697631834
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.1289081573486328,
+      "driver_amp_range": [
+        0.1289081573486328,
+        0.1289081573486328
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        450,
+        450
+      ],
+      "extreme_slope_range": [
+        0.007846625900268555,
+        0.01836338920593262
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 13,
+      "mask_slope_range": [
+        0.007846625900268555,
+        0.0183673095703125
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_029",
+      "runtime_steps": 550,
+      "sample_q": 0.0,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.1289081573486328,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.00785322666168213,
+        0.0183673095703125
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.12635633680555555,
+      "driver_amp_range": [
+        0.12635633680555555,
+        0.12635633680555555
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        500,
+        500
+      ],
+      "extreme_slope_range": [
+        0.005732200622558594,
+        0.01807435607910156
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 13,
+      "mask_slope_range": [
+        0.005732200622558594,
+        0.01807435607910156
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_030",
+      "runtime_steps": 600,
+      "sample_q": 0.1111111111111111,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.11474609375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.005732200622558594,
+        0.01807435607910156
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.13128255208333334,
+      "driver_amp_range": [
+        0.13128255208333334,
+        0.13128255208333334
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        550,
+        550
+      ],
+      "extreme_slope_range": [
+        0.005706688451766968,
+        0.018621690750122072
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 13,
+      "mask_slope_range": [
+        0.005706688451766968,
+        0.018626844882965087
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_031",
+      "runtime_steps": 650,
+      "sample_q": 0.2222222222222222,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.10615234375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.00570741891860962,
+        0.018626844882965087
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.13894483778211805,
+      "driver_amp_range": [
+        0.13894483778211805,
+        0.13894483778211805
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        450,
+        450
+      ],
+      "extreme_slope_range": [
+        0.0067207881927490234,
+        0.019457138538360598
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 14,
+      "mask_slope_range": [
+        0.006718962192535401,
+        0.01946044206619263
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_032",
+      "runtime_steps": 550,
+      "sample_q": 0.1111111111111111,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.1289081573486328,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.006718962192535401,
+        0.01946044206619263
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.1379665798611111,
+      "driver_amp_range": [
+        0.1379665798611111,
+        0.1379665798611111
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        500,
+        500
+      ],
+      "extreme_slope_range": [
+        0.006208297729492187,
+        0.01936388397216797
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 14,
+      "mask_slope_range": [
+        0.006208297729492187,
+        0.01936388397216797
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_033",
+      "runtime_steps": 600,
+      "sample_q": 0.2222222222222222,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.11474609375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.006208297729492187,
+        0.01936388397216797
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.14697265624999997,
+      "driver_amp_range": [
+        0.14697265624999997,
+        0.14697265624999997
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        400,
+        400
+      ],
+      "extreme_slope_range": [
+        0.008262363910675051,
+        0.020336429119110107
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 15,
+      "mask_slope_range": [
+        0.008262363910675051,
+        0.020336429119110107
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_034",
+      "runtime_steps": 500,
+      "sample_q": 0.0,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.14697265624999997,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.008262363910675051,
+        0.020336429119110107
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.15500217013888887,
+      "driver_amp_range": [
+        0.15500217013888887,
+        0.16303168402777776
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        400,
+        400
+      ],
+      "extreme_slope_range": [
+        0.007783678054809571,
+        0.02118874931335449
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 16,
+      "mask_slope_range": [
+        0.007783678054809571,
+        0.02118874931335449
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_035",
+      "runtime_steps": 500,
+      "sample_q": 0.1111111111111111,
+      "slope_search_method": "dynamic",
+      "source_count": 2,
+      "source_driver_amp_range": [
+        0.14697265624999997,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.007783678054809571,
+        0.02118874931335449
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.15641276041666669,
+      "driver_amp_range": [
+        0.15641276041666669,
+        0.15641276041666669
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        550,
+        550
+      ],
+      "extreme_slope_range": [
+        0.00737345108985901,
+        0.021340835762023926
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 16,
+      "mask_slope_range": [
+        0.007367520332336426,
+        0.021344063282012937
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_036",
+      "runtime_steps": 650,
+      "sample_q": 0.4444444444444444,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.10615234375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.007367520332336426,
+        0.021344063282012937
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.17070312499999998,
+      "driver_amp_range": [
+        0.17070312499999998,
+        0.17070312499999998
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        350,
+        350
+      ],
+      "extreme_slope_range": [
+        0.008879734039306642,
+        0.022858283996582032
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 17,
+      "mask_slope_range": [
+        0.008879734039306642,
+        0.022859952449798583
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_037",
+      "runtime_steps": 450,
+      "sample_q": 0.0,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.17070312499999998,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.008882829546928405,
+        0.022859952449798583
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.1727973090277778,
+      "driver_amp_range": [
+        0.1727973090277778,
+        0.1727973090277778
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        500,
+        500
+      ],
+      "extreme_slope_range": [
+        0.008409271240234377,
+        0.023075935363769534
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001",
+        "H-WATERWALL-001"
+      ],
+      "k_int": 17,
+      "mask_slope_range": [
+        0.008409271240234377,
+        0.023075935363769534
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_038",
+      "runtime_steps": 600,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.11474609375,
+        0.21923828125
+      ],
+      "stable_slope_range": [
+        0.008409271240234377,
+        0.023075935363769534
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.20341796875,
+      "driver_amp_range": [
+        0.20341796875,
+        0.20341796875
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        300,
+        300
+      ],
+      "extreme_slope_range": [
+        0.010339310979843138,
+        0.026179943084716797
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 20,
+      "mask_slope_range": [
+        0.010339310979843138,
+        0.026180314540863038
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_039",
+      "runtime_steps": 400,
+      "sample_q": 0.0,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.20341796875,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.010342988967895508,
+        0.026180314540863038
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.2509312629699707,
+      "driver_amp_range": [
+        0.2509312629699707,
+        0.2509312629699707
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        250,
+        250
+      ],
+      "extreme_slope_range": [
+        0.013018156290054326,
+        0.03069454574584961
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 25,
+      "mask_slope_range": [
+        0.013018156290054326,
+        0.03069454574584961
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_040",
+      "runtime_steps": 350,
+      "sample_q": 0.0,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.2509312629699707,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.013022474884986882,
+        0.030692861199378967
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.31884765625,
+      "driver_amp_range": [
+        0.31884765625,
+        0.31884765625
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        200,
+        200
+      ],
+      "extreme_slope_range": [
+        0.016395639538764956,
+        0.036496572971343996
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 32,
+      "mask_slope_range": [
+        0.016395639538764956,
+        0.036496572971343996
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_041",
+      "runtime_steps": 300,
+      "sample_q": 0.0,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.31884765625,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.016395639538764956,
+        0.036496572971343996
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.39669570922851566,
+      "driver_amp_range": [
+        0.39669570922851566,
+        0.39669570922851566
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        150,
+        150
+      ],
+      "extreme_slope_range": [
+        0.020602434062957774,
+        0.04207988615036011
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 40,
+      "mask_slope_range": [
+        0.02060028386116028,
+        0.04208226084709167
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_042",
+      "runtime_steps": 250,
+      "sample_q": 0.0,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.39669570922851566,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.02060028386116028,
+        0.04208226084709167
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.4787140740288628,
+      "driver_amp_range": [
+        0.4787140740288628,
+        0.4787140740288628
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        250,
+        250
+      ],
+      "extreme_slope_range": [],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 48,
+      "mask_slope_range": [
+        0.023077446937561037,
+        0.0465042016506195
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_043",
+      "runtime_steps": 350,
+      "sample_q": 0.1111111111111111,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.2509312629699707,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.023077446937561037,
+        0.0465042016506195
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.5390842013888889,
+      "driver_amp_range": [
+        0.5390842013888889,
+        0.5390842013888889
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        200,
+        200
+      ],
+      "extreme_slope_range": [
+        0.025260421991348272,
+        0.0493266419172287
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 54,
+      "mask_slope_range": [
+        0.025260421991348272,
+        0.0493266419172287
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_044",
+      "runtime_steps": 300,
+      "sample_q": 0.1111111111111111,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.31884765625,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.025260421991348272,
+        0.0493266419172287
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.5575195312500001,
+      "driver_amp_range": [
+        0.5575195312500001,
+        0.5575195312500001
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        100,
+        100
+      ],
+      "extreme_slope_range": [
+        0.031016918849945063,
+        0.050143678426742555
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 56,
+      "mask_slope_range": [
+        0.031016918849945063,
+        0.050143678426742555
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_045",
+      "runtime_steps": 200,
+      "sample_q": 0.0,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.5575195312500001,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.031021118164062503,
+        0.05014243602752686
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.608282470703125,
+      "driver_amp_range": [
+        0.608282470703125,
+        0.608282470703125
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        150,
+        150
+      ],
+      "extreme_slope_range": [
+        0.02749292788505555,
+        0.052273776865005506
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 61,
+      "mask_slope_range": [
+        0.02749292788505555,
+        0.052273776865005506
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_046",
+      "runtime_steps": 250,
+      "sample_q": 0.1111111111111111,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.39669570922851566,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.027496405839920045,
+        0.05227325558662414
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.7064968850877549,
+      "driver_amp_range": [
+        0.7064968850877549,
+        0.7064968850877549
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        250,
+        250
+      ],
+      "extreme_slope_range": [
+        0.03025987413194447,
+        0.05601671006944447
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 71,
+      "mask_slope_range": [
+        0.03025987413194447,
+        0.05601671006944447
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_047",
+      "runtime_steps": 350,
+      "sample_q": 0.2222222222222222,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.2509312629699707,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.03025987413194447,
+        0.05601671006944447
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.7512369791666668,
+      "driver_amp_range": [
+        0.7512369791666668,
+        0.7512369791666668
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        100,
+        100
+      ],
+      "extreme_slope_range": [
+        0.03143202228546142,
+        0.057587369203567496
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 75,
+      "mask_slope_range": [
+        0.03142768120765687,
+        0.05759133100509645
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_048",
+      "runtime_steps": 200,
+      "sample_q": 0.1111111111111111,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.5575195312500001,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.03142768120765687,
+        0.05759133100509645
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.7593207465277778,
+      "driver_amp_range": [
+        0.7593207465277778,
+        0.7593207465277778
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        200,
+        200
+      ],
+      "extreme_slope_range": [
+        0.031938340928819475,
+        0.057861328125000035
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 76,
+      "mask_slope_range": [
+        0.031938340928819475,
+        0.057861328125000035
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_049",
+      "runtime_steps": 300,
+      "sample_q": 0.2222222222222222,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.31884765625,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.031938340928819475,
+        0.057861328125000035
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.8198692321777343,
+      "driver_amp_range": [
+        0.8198692321777343,
+        0.8198692321777343
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        150,
+        150
+      ],
+      "extreme_slope_range": [
+        0.03327772352430559,
+        0.05987548828125003
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 82,
+      "mask_slope_range": [
+        0.03327604166666667,
+        0.05987548828125003
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_050",
+      "runtime_steps": 250,
+      "sample_q": 0.2222222222222222,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.39669570922851566,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.03327604166666667,
+        0.059875376145044956
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.9026041666666667,
+      "driver_amp_range": [
+        0.9026041666666667,
+        0.9026041666666667
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        300,
+        300
+      ],
+      "extreme_slope_range": [
+        0.035422431098090304,
+        0.06246609157986113
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 90,
+      "mask_slope_range": [
+        0.035422431098090304,
+        0.06246609157986113
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_051",
+      "runtime_steps": 400,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.20341796875,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.035422431098090304,
+        0.06246609157986113
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.9342796961466471,
+      "driver_amp_range": [
+        0.9342796961466471,
+        0.9342796961466471
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        250,
+        250
+      ],
+      "extreme_slope_range": [
+        0.03599887424045141,
+        0.06340196397569446
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 93,
+      "mask_slope_range": [
+        0.03599887424045141,
+        0.06340196397569446
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_052",
+      "runtime_steps": 350,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.2509312629699707,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.03599887424045141,
+        0.06340196397569446
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.9449544270833334,
+      "driver_amp_range": [
+        0.9449544270833334,
+        0.9449544270833334
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        100,
+        100
+      ],
+      "extreme_slope_range": [
+        0.03594834766387939,
+        0.06370928311347962
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 94,
+      "mask_slope_range": [
+        0.03594834766387939,
+        0.0637105634212494
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_053",
+      "runtime_steps": 200,
+      "sample_q": 0.2222222222222222,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.5575195312500001,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.03594965791702272,
+        0.0637105634212494
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 0.9795572916666666,
+      "driver_amp_range": [
+        0.9795572916666666,
+        0.9795572916666666
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        200,
+        200
+      ],
+      "extreme_slope_range": [
+        0.037253485785590304,
+        0.06469048394097225
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 98,
+      "mask_slope_range": [
+        0.037253485785590304,
+        0.06469048394097225
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_054",
+      "runtime_steps": 300,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.31884765625,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.037253485785590304,
+        0.06469048394097225
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.0314559936523438,
+      "driver_amp_range": [
+        1.0314559936523438,
+        1.0314559936523438
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        150,
+        150
+      ],
+      "extreme_slope_range": [
+        0.03796556260850696,
+        0.06612141927083334
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 103,
+      "mask_slope_range": [
+        0.03796556260850696,
+        0.06612141927083334
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_055",
+      "runtime_steps": 250,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.39669570922851566,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.03796556260850696,
+        0.06612141927083334
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.138671875,
+      "driver_amp_range": [
+        1.138671875,
+        1.138671875
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        100,
+        100
+      ],
+      "extreme_slope_range": [
+        0.0404729751110077,
+        0.06894769353866578
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 114,
+      "mask_slope_range": [
+        0.04047163462638856,
+        0.06894769353866578
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_056",
+      "runtime_steps": 200,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.5575195312500001,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.04047163462638856,
+        0.06894567465782167
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.1356662326388887,
+      "driver_amp_range": [
+        1.1356662326388887,
+        1.1356662326388887
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        300,
+        300
+      ],
+      "extreme_slope_range": [
+        0.04031372070312503,
+        0.06886800130208338
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 114,
+      "mask_slope_range": [
+        0.04031372070312503,
+        0.06886800130208338
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_057",
+      "runtime_steps": 400,
+      "sample_q": 0.4444444444444444,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.20341796875,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.04031372070312503,
+        0.06886800130208338
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.162062507205539,
+      "driver_amp_range": [
+        1.162062507205539,
+        1.162062507205539
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        250,
+        250
+      ],
+      "extreme_slope_range": [
+        0.0407969156901042,
+        0.0695326063368056
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 116,
+      "mask_slope_range": [
+        0.0407969156901042,
+        0.0695326063368056
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_058",
+      "runtime_steps": 350,
+      "sample_q": 0.4444444444444444,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.2509312629699707,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.0407969156901042,
+        0.0695326063368056
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.1997938368055556,
+      "driver_amp_range": [
+        1.1997938368055556,
+        1.1997938368055556
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        200,
+        200
+      ],
+      "extreme_slope_range": [
+        0.041831122504340304,
+        0.07045491536458336
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 120,
+      "mask_slope_range": [
+        0.041831122504340304,
+        0.07045491536458336
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_059",
+      "runtime_steps": 300,
+      "sample_q": 0.4444444444444444,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.31884765625,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.041831122504340304,
+        0.07045491536458336
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.243042755126953,
+      "driver_amp_range": [
+        1.243042755126953,
+        1.243042755126953
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        150,
+        150
+      ],
+      "extreme_slope_range": [
+        0.042060004340277804,
+        0.07151963975694448
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 124,
+      "mask_slope_range": [
+        0.042060004340277804,
+        0.07151963975694448
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_060",
+      "runtime_steps": 250,
+      "sample_q": 0.4444444444444444,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.39669570922851566,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.042060004340277804,
+        0.07151963975694448
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.3323893229166668,
+      "driver_amp_range": [
+        1.3323893229166668,
+        1.3323893229166668
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        100,
+        100
+      ],
+      "extreme_slope_range": [
+        0.043287376403808586,
+        0.07357391257286072
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 133,
+      "mask_slope_range": [
+        0.043284387111663825,
+        0.0735751280784607
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_061",
+      "runtime_steps": 200,
+      "sample_q": 0.4444444444444444,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.5575195312500001,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.043284387111663825,
+        0.0735751280784607
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.368728298611111,
+      "driver_amp_range": [
+        1.368728298611111,
+        1.368728298611111
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        300,
+        300
+      ],
+      "extreme_slope_range": [
+        0.043882581922743094,
+        0.07439507378472227
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 137,
+      "mask_slope_range": [
+        0.043882581922743094,
+        0.07439507378472227
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_062",
+      "runtime_steps": 400,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.20341796875,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.043882581922743094,
+        0.07439507378472227
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.3898453182644315,
+      "driver_amp_range": [
+        1.3898453182644315,
+        1.3898453182644315
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        250,
+        250
+      ],
+      "extreme_slope_range": [
+        0.0449167887369792,
+        0.07484944661458338
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 139,
+      "mask_slope_range": [
+        0.0449167887369792,
+        0.07484944661458338
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_063",
+      "runtime_steps": 350,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.2509312629699707,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.0449167887369792,
+        0.07484944661458338
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.4200303819444444,
+      "driver_amp_range": [
+        1.4200303819444444,
+        1.4200303819444444
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        200,
+        200
+      ],
+      "extreme_slope_range": [
+        0.04514567057291669,
+        0.07550726996527782
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 142,
+      "mask_slope_range": [
+        0.04514567057291669,
+        0.07550726996527782
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_064",
+      "runtime_steps": 300,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.31884765625,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.04514567057291669,
+        0.07550726996527782
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.4546295166015624,
+      "driver_amp_range": [
+        1.4546295166015624,
+        1.4546295166015624
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        150,
+        150
+      ],
+      "extreme_slope_range": [
+        0.04551866319444447,
+        0.07625325520833337
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 145,
+      "mask_slope_range": [
+        0.04551866319444447,
+        0.07625325520833337
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_065",
+      "runtime_steps": 250,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.39669570922851566,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.04551866319444447,
+        0.07625325520833337
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.5261067708333331,
+      "driver_amp_range": [
+        1.5261067708333331,
+        1.5261067708333331
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        100,
+        100
+      ],
+      "extreme_slope_range": [
+        0.04754469129774308,
+        0.0777655707465278
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 153,
+      "mask_slope_range": [
+        0.04754469129774308,
+        0.0777655707465278
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_066",
+      "runtime_steps": 200,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.5575195312500001,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.04754469129774308,
+        0.0777655707465278
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.6017903645833331,
+      "driver_amp_range": [
+        1.6017903645833331,
+        1.6017903645833331
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        300,
+        300
+      ],
+      "extreme_slope_range": [
+        0.04817199707031253,
+        0.07927788628472227
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 160,
+      "mask_slope_range": [
+        0.04817199707031253,
+        0.07927788628472227
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_067",
+      "runtime_steps": 400,
+      "sample_q": 0.6666666666666666,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.20341796875,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.04817199707031253,
+        0.07927788628472227
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.6176281293233234,
+      "driver_amp_range": [
+        1.6176281293233234,
+        1.6176281293233234
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        250,
+        250
+      ],
+      "extreme_slope_range": [
+        0.04889255099826391,
+        0.07958984375000001
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 162,
+      "mask_slope_range": [
+        0.04889255099826391,
+        0.07958984375000001
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_068",
+      "runtime_steps": 350,
+      "sample_q": 0.6666666666666666,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.2509312629699707,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.04889255099826391,
+        0.07958984375000001
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.6402669270833332,
+      "driver_amp_range": [
+        1.6402669270833332,
+        1.6402669270833332
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        200,
+        200
+      ],
+      "extreme_slope_range": [
+        0.048400878906250035,
+        0.08003743489583337
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 164,
+      "mask_slope_range": [
+        0.048400878906250035,
+        0.08003743489583337
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_069",
+      "runtime_steps": 300,
+      "sample_q": 0.6666666666666666,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.31884765625,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.048400878906250035,
+        0.08003743489583337
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.6662162780761718,
+      "driver_amp_range": [
+        1.6662162780761718,
+        1.6662162780761718
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        150,
+        150
+      ],
+      "extreme_slope_range": [
+        0.04956224229600696,
+        0.08052571614583334
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 167,
+      "mask_slope_range": [
+        0.04956224229600696,
+        0.08052571614583334
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_070",
+      "runtime_steps": 250,
+      "sample_q": 0.6666666666666666,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.39669570922851566,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.04956224229600696,
+        0.08052571614583334
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.71982421875,
+      "driver_amp_range": [
+        1.71982421875,
+        1.71982421875
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        100,
+        100
+      ],
+      "extreme_slope_range": [
+        0.050359090169270856,
+        0.08154296875000001
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 172,
+      "mask_slope_range": [
+        0.050359090169270856,
+        0.08154296875000001
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_071",
+      "runtime_steps": 200,
+      "sample_q": 0.6666666666666666,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.5575195312500001,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.050359090169270856,
+        0.08154296875000001
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.8348524305555551,
+      "driver_amp_range": [
+        1.8348524305555551,
+        1.8348524305555551
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        300,
+        300
+      ],
+      "extreme_slope_range": [
+        0.05195278591579863,
+        0.08364529079861113
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 183,
+      "mask_slope_range": [
+        0.05195278591579863,
+        0.08364529079861113
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_072",
+      "runtime_steps": 400,
+      "sample_q": 0.7777777777777778,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.20341796875,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.05195278591579863,
+        0.08364529079861113
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.8454109403822154,
+      "driver_amp_range": [
+        1.8454109403822154,
+        1.8454109403822154
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        250,
+        250
+      ],
+      "extreme_slope_range": [
+        0.052402072482638916,
+        0.08383517795138892
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 185,
+      "mask_slope_range": [
+        0.052402072482638916,
+        0.08383517795138892
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_073",
+      "runtime_steps": 350,
+      "sample_q": 0.7777777777777778,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.2509312629699707,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.052402072482638916,
+        0.08383517795138892
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.860503472222222,
+      "driver_amp_range": [
+        1.860503472222222,
+        1.860503472222222
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        200,
+        200
+      ],
+      "extreme_slope_range": [
+        0.05123223198784725,
+        0.08410644531250003
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 186,
+      "mask_slope_range": [
+        0.05123223198784725,
+        0.08410644531250003
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_074",
+      "runtime_steps": 300,
+      "sample_q": 0.7777777777777778,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.31884765625,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.05123223198784725,
+        0.08410644531250003
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.8778030395507812,
+      "driver_amp_range": [
+        1.8778030395507812,
+        1.8778030395507812
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        150,
+        150
+      ],
+      "extreme_slope_range": [
+        0.05196974012586808,
+        0.08441840277777782
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 188,
+      "mask_slope_range": [
+        0.05196974012586808,
+        0.08441840277777782
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_075",
+      "runtime_steps": 250,
+      "sample_q": 0.7777777777777778,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.39669570922851566,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.05196974012586808,
+        0.08441840277777782
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 1.9135416666666667,
+      "driver_amp_range": [
+        1.9135416666666667,
+        1.9135416666666667
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        100,
+        100
+      ],
+      "extreme_slope_range": [
+        0.05334303114149308,
+        0.0850355360243056
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 191,
+      "mask_slope_range": [
+        0.05334303114149308,
+        0.0850355360243056
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_076",
+      "runtime_steps": 200,
+      "sample_q": 0.7777777777777778,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.5575195312500001,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.05334303114149308,
+        0.0850355360243056
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 2.0807400173611112,
+      "driver_amp_range": [
+        2.0807400173611112,
+        2.0807400173611112
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        200,
+        200
+      ],
+      "extreme_slope_range": [
+        0.05433485243055558,
+        0.08787706163194448
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 208,
+      "mask_slope_range": [
+        0.05433485243055558,
+        0.08787706163194448
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_077",
+      "runtime_steps": 300,
+      "sample_q": 0.8888888888888888,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.31884765625,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.05433485243055558,
+        0.08787706163194448
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 2.08938980102539,
+      "driver_amp_range": [
+        2.08938980102539,
+        2.08938980102539
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        150,
+        150
+      ],
+      "extreme_slope_range": [
+        0.05467393663194446,
+        0.0880194769965278
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 209,
+      "mask_slope_range": [
+        0.05467393663194446,
+        0.0880194769965278
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_078",
+      "runtime_steps": 250,
+      "sample_q": 0.8888888888888888,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.39669570922851566,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.05467393663194446,
+        0.0880194769965278
+      ]
+    },
+    {
+      "alarm_id": "A-BOILER-CUT",
+      "bomega_mode": "coordinated",
+      "driver_amp": 2.107259114583333,
+      "driver_amp_range": [
+        2.107259114583333,
+        2.107259114583333
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        100,
+        100
+      ],
+      "extreme_slope_range": [
+        0.055394490559895856,
+        0.08830430772569446
+      ],
+      "hazard_driver": "fuel_command",
+      "hazard_id": "H-PRESSURE-001",
+      "hazard_ids": [
+        "H-PRESSURE-001"
+      ],
+      "k_int": 211,
+      "mask_slope_range": [
+        0.055394490559895856,
+        0.08830430772569446
+      ],
+      "masking_variable": "steam_setpoint",
+      "n_members": 1,
+      "region_id": "R_079",
+      "runtime_steps": 200,
+      "sample_q": 0.8888888888888888,
+      "slope_search_method": "dynamic",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.5575195312500001,
+        2.3009765625
+      ],
+      "stable_slope_range": [
+        0.055394490559895856,
+        0.08830430772569446
+      ]
+    }
+  ],
+  "representative_samples": 10,
+  "runtime_rule": "duration + 100",
+  "sample_duration_mod": 50,
+  "schema_version": 1,
+  "seed": 460,
+  "workers": 16
+}

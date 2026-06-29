@@ -1,0 +1,23 @@
+{
+  "boundary_abs_eps": 0.01,
+  "boundary_source": "stage2_lower",
+  "manifest_paths": {
+    "TE": "simulators/tennessee_eastman/system_manifest.json"
+  },
+  "mask_offset_fraction": 0.05,
+  "mask_sampling_mode": "boundary_accuracy",
+  "n_mask_per_platform": 5000,
+  "n_tight_per_platform": 5000,
+  "n_val_per_platform": 5000,
+  "runtime_rule": "duration + 100",
+  "sampling_policy": "uniform_by_region",
+  "seed": 460,
+  "source_stage3_regions": [
+    "results/stage3/TE/XMV_04/coordinated_regions.json",
+    "results/stage3/TE/XMV_07/coordinated_regions.json",
+    "results/stage3/TE/XMV_08/coordinated_regions.json"
+  ],
+  "stage2_paths": [],
+  "tie_breaking": "same_step_alarm_and_hazard_counts_as_reach_avoid",
+  "workers": 12
+}

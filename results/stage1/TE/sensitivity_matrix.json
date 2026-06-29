@@ -1,0 +1,195 @@
+{
+  "cols": [
+    "xmeas_07",
+    "xmeas_09",
+    "hazard_reactor_level_high_margin",
+    "hazard_reactor_level_low_margin",
+    "hazard_separator_level_high_margin",
+    "hazard_separator_level_low_margin",
+    "hazard_stripper_level_high_margin",
+    "hazard_stripper_level_low_margin"
+  ],
+  "duration": 10,
+  "hazard_columns": {
+    "H-TEP-REACTOR-LEVEL-HIGH": {
+      "col": "hazard_reactor_level_high_margin",
+      "kind": "margin",
+      "var": "xmeas_08"
+    },
+    "H-TEP-REACTOR-LEVEL-LOW": {
+      "col": "hazard_reactor_level_low_margin",
+      "kind": "margin",
+      "var": "xmeas_08"
+    },
+    "H-TEP-REACTOR-PRESSURE": {
+      "col": "xmeas_07",
+      "kind": "state",
+      "var": "xmeas_07"
+    },
+    "H-TEP-REACTOR-TEMP": {
+      "col": "xmeas_09",
+      "kind": "state",
+      "var": "xmeas_09"
+    },
+    "H-TEP-SEPARATOR-LEVEL-HIGH": {
+      "col": "hazard_separator_level_high_margin",
+      "kind": "margin",
+      "var": "xmeas_12"
+    },
+    "H-TEP-SEPARATOR-LEVEL-LOW": {
+      "col": "hazard_separator_level_low_margin",
+      "kind": "margin",
+      "var": "xmeas_12"
+    },
+    "H-TEP-STRIPPER-LEVEL-HIGH": {
+      "col": "hazard_stripper_level_high_margin",
+      "kind": "margin",
+      "var": "xmeas_15"
+    },
+    "H-TEP-STRIPPER-LEVEL-LOW": {
+      "col": "hazard_stripper_level_low_margin",
+      "kind": "margin",
+      "var": "xmeas_15"
+    }
+  },
+  "matrix": {
+    "xmv_01": {
+      "hazard_reactor_level_high_margin": -0.016036316816883556,
+      "hazard_reactor_level_low_margin": 0.016036316816883556,
+      "hazard_separator_level_high_margin": -0.0003827506981348705,
+      "hazard_separator_level_low_margin": 0.0003827506981348705,
+      "hazard_stripper_level_high_margin": -0.0001697843100911811,
+      "hazard_stripper_level_low_margin": 0.0001697843100911811,
+      "xmeas_07": 0.5161353151979711,
+      "xmeas_09": 0.11379262767263754
+    },
+    "xmv_02": {
+      "hazard_reactor_level_high_margin": -0.009017799150715433,
+      "hazard_reactor_level_low_margin": 0.009017799150715433,
+      "hazard_separator_level_high_margin": -0.001648651782964805,
+      "hazard_separator_level_low_margin": 0.001648651782964805,
+      "hazard_stripper_level_high_margin": -0.000244410470161327,
+      "hazard_stripper_level_low_margin": 0.000244410470161327,
+      "xmeas_07": 2.371001245061052,
+      "xmeas_09": 0.008889525200444837
+    },
+    "xmv_03": {
+      "hazard_reactor_level_high_margin": -3.9682984262157106e-05,
+      "hazard_reactor_level_low_margin": 3.9682984262157106e-05,
+      "hazard_separator_level_high_margin": -0.0008010712517831919,
+      "hazard_separator_level_low_margin": 0.0008010712517831919,
+      "hazard_stripper_level_high_margin": -0.00013109707204606025,
+      "hazard_stripper_level_low_margin": 0.00013109707204606025,
+      "xmeas_07": 0.9671078201236014,
+      "xmeas_09": 0.00433946632426796
+    },
+    "xmv_04": {
+      "hazard_reactor_level_high_margin": -0.0003110729959168168,
+      "hazard_reactor_level_low_margin": 0.0003110729959168168,
+      "hazard_separator_level_high_margin": -0.009413806313254725,
+      "hazard_separator_level_low_margin": 0.009413806313254725,
+      "hazard_stripper_level_high_margin": -0.0065133582749581365,
+      "hazard_stripper_level_low_margin": 0.0065133582749581365,
+      "xmeas_07": 12.962522226127021,
+      "xmeas_09": 0.036708596947889305
+    },
+    "xmv_05": {
+      "hazard_reactor_level_high_margin": -0.07304728829016938,
+      "hazard_reactor_level_low_margin": 0.07304728829016938,
+      "hazard_separator_level_high_margin": 0.042895881135316394,
+      "hazard_separator_level_low_margin": -0.042895881135316394,
+      "hazard_stripper_level_high_margin": 0.004081334577375806,
+      "hazard_stripper_level_low_margin": -0.004081334577375806,
+      "xmeas_07": 29.494089780570903,
+      "xmeas_09": -0.032647156299134394
+    },
+    "xmv_06": {
+      "hazard_reactor_level_high_margin": 0.0023465782476428387,
+      "hazard_reactor_level_low_margin": -0.0023465782476428387,
+      "hazard_separator_level_high_margin": -0.00024003174446640685,
+      "hazard_separator_level_low_margin": 0.00024003174446640685,
+      "hazard_stripper_level_high_margin": 5.397634748227631e-05,
+      "hazard_stripper_level_low_margin": -5.397634748227631e-05,
+      "xmeas_07": -1.6242245098301282,
+      "xmeas_09": -0.0027918735850107623
+    },
+    "xmv_07": {
+      "hazard_reactor_level_high_margin": -0.004033433802980824,
+      "hazard_reactor_level_low_margin": 0.004033433802980824,
+      "hazard_separator_level_high_margin": 0.11008487102635467,
+      "hazard_separator_level_low_margin": -0.11008487102635467,
+      "hazard_stripper_level_high_margin": -0.0670159710001359,
+      "hazard_stripper_level_low_margin": 0.0670159710001359,
+      "xmeas_07": 1.394150763669586,
+      "xmeas_09": 0.009749838964907553
+    },
+    "xmv_08": {
+      "hazard_reactor_level_high_margin": -0.014856243650719136,
+      "hazard_reactor_level_low_margin": 0.014856243650719136,
+      "hazard_separator_level_high_margin": 0.0073314503346502136,
+      "hazard_separator_level_low_margin": -0.0073314503346502136,
+      "hazard_stripper_level_high_margin": 0.14348223750060196,
+      "hazard_stripper_level_low_margin": -0.14348223750060196,
+      "xmeas_07": 11.962115941687898,
+      "xmeas_09": 0.05313337380549399
+    },
+    "xmv_09": {
+      "hazard_reactor_level_high_margin": -2.660119625375046e-05,
+      "hazard_reactor_level_low_margin": 2.660119625375046e-05,
+      "hazard_separator_level_high_margin": -6.794299653556379e-06,
+      "hazard_separator_level_low_margin": 6.794299653556379e-06,
+      "hazard_stripper_level_high_margin": -0.0005824801032581206,
+      "hazard_stripper_level_low_margin": 0.0005824801032581206,
+      "xmeas_07": 0.02061798386148439,
+      "xmeas_09": 0.00019593699290965105
+    },
+    "xmv_10": {
+      "hazard_reactor_level_high_margin": 0.07721633985878285,
+      "hazard_reactor_level_low_margin": -0.07721633985878285,
+      "hazard_separator_level_high_margin": 0.021039701578050796,
+      "hazard_separator_level_low_margin": -0.021039701578050796,
+      "hazard_stripper_level_high_margin": 0.002633053588548151,
+      "hazard_stripper_level_low_margin": -0.002633053588548151,
+      "xmeas_07": -1.1179449647975161,
+      "xmeas_09": -2.308422698771821
+    },
+    "xmv_11": {
+      "hazard_reactor_level_high_margin": 0.013037427203386187,
+      "hazard_reactor_level_low_margin": -0.013037427203386187,
+      "hazard_separator_level_high_margin": -0.006970269627634806,
+      "hazard_separator_level_low_margin": 0.006970269627634806,
+      "hazard_stripper_level_high_margin": 2.0750945495251472e-07,
+      "hazard_stripper_level_low_margin": -2.0750945495251472e-07,
+      "xmeas_07": -10.073982446784612,
+      "xmeas_09": -0.04053716194185597
+    },
+    "xmv_12": {
+      "hazard_reactor_level_high_margin": -0.005935437948021871,
+      "hazard_reactor_level_low_margin": 0.005935437948021871,
+      "hazard_separator_level_high_margin": 0.00012734628582133922,
+      "hazard_separator_level_low_margin": -0.00012734628582133922,
+      "hazard_stripper_level_high_margin": 0.000596229618870403,
+      "hazard_stripper_level_low_margin": -0.000596229618870403,
+      "xmeas_07": 0.6594051030506307,
+      "xmeas_09": 0.11329881716284262
+    }
+  },
+  "platform": "tennessee_eastman",
+  "rows": [
+    "xmv_01",
+    "xmv_02",
+    "xmv_03",
+    "xmv_04",
+    "xmv_05",
+    "xmv_06",
+    "xmv_07",
+    "xmv_08",
+    "xmv_09",
+    "xmv_10",
+    "xmv_11",
+    "xmv_12"
+  ],
+  "runtime_rule": "duration + 100",
+  "seed": 20260627,
+  "total_steps": 110
+}

@@ -1,0 +1,22 @@
+platform,writable_id,layer,controller,direction_tested,duration_domain,slope_domain,hazard_reached,target_hazard,first_hazard_time,pre_hazard_alarm_count,pre_hazard_alarm_ids,alarm_signature_stable,alarm_signature_count,first_alarm_time,best_replay_parameter,in_W_rank_top_k,in_W_hd,selected_for_region_search
+boiler_ccs,boiler_pid_output,controller_output,BoilerMasterController,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,boiler_pv_filtered,controller_output,BoilerMasterController,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,boiler_setpoint,setpoint,BoilerMasterController,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,fuel_command,actuator,FuelController,pos/neg,100..1000,0.25..1.0,yes,H-PRESSURE-001,84,1,A-BOILER-CUT,yes,1,47,"{""amp"": 1.0, ""direction"": ""pos"", ""duration"": 100}",yes,yes,yes
+boiler_ccs,fuel_filter_output,controller_output,FuelController,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,fuel_pid_output,controller_output,FuelController,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,fuel_rate_output,controller_output,FuelController,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,load_output,setpoint,LoadInstructionGenerator,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,loadgen_rate_output,controller_output,LoadInstructionGenerator,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,steam_hfop1_output,controller_output,MainSteamPressureController,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,steam_hfop2_output,controller_output,MainSteamPressureController,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,steam_hfop3_output,controller_output,MainSteamPressureController,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,steam_hfop4_output,controller_output,MainSteamPressureController,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,steam_rate_output,controller_output,MainSteamPressureController,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,steam_setpoint,setpoint,MainSteamPressureController,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,water_filter_output,controller_output,FeedwaterController,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,water_pid_output,controller_output,FeedwaterController,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,water_pump_speed,actuator,FeedwaterController,pos/neg,100..1000,0.25..1.0,yes,H-PRESSURE-001,126,1,A-BOILER-CUT,yes,1,58,"{""amp"": 1.0, ""direction"": ""pos"", ""duration"": 300}",yes,yes,yes
+boiler_ccs,water_rate_output,controller_output,FeedwaterController,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,water_setpoint,setpoint,WaterK,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no
+boiler_ccs,waterk_filter_output,controller_output,WaterK,pos/neg,100..1000,0.25..1.0,no,,,,,,,,,no,no,no

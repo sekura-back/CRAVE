@@ -1,0 +1,34 @@
+{
+  "fuel_command": {
+    "added_duration_support": [],
+    "added_duration_support_count": 0,
+    "base_area": 1923.6410260884522,
+    "base_duration_count": 181,
+    "extension_area": 61.487759516035474,
+    "extension_duration_count": 181,
+    "first_extension_duration": 100,
+    "gain_over_base": 0.031964258758332476,
+    "last_extension_duration": 1000,
+    "min_extreme_amp": 0.022260951809585094,
+    "missing_amp_fields": 0,
+    "points": 321,
+    "probe_count": 151052,
+    "raw_extension_area_before_subtracting_base": 134.4746132872163
+  },
+  "water_pump_speed": {
+    "added_duration_support": [],
+    "added_duration_support_count": 0,
+    "base_area": 3356.5737541416706,
+    "base_duration_count": 181,
+    "extension_area": 80.44140647729344,
+    "extension_duration_count": 181,
+    "first_extension_duration": 100,
+    "gain_over_base": 0.02396533261872674,
+    "last_extension_duration": 1000,
+    "min_extreme_amp": 0.07853934222514705,
+    "missing_amp_fields": 0,
+    "points": 362,
+    "probe_count": 225860,
+    "raw_extension_area_before_subtracting_base": 3383.401879368964
+  }
+}

@@ -1,0 +1,534 @@
+{
+  "alarm_id": "A-TEP-ACFEED-TRACK",
+  "d_threshold": 6.526983672473967e-05,
+  "delta_merge_factor": 0.2,
+  "dynamic_slope_tol": 1e-05,
+  "hazard_driver": "XMV_04",
+  "hazard_id": "H-TEP-REACTOR-PRESSURE",
+  "original_delta_merge": 0.0003263491836236983,
+  "platform": "TE",
+  "regions": [
+    {
+      "alarm_id": "A-TEP-ACFEED-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.033099365234375,
+      "driver_amp_range": [
+        0.033099365234375,
+        0.033099365234375
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        950,
+        950
+      ],
+      "extreme_slope_range": [
+        0.0035977561387829614,
+        0.006496887565682287
+      ],
+      "hazard_driver": "xmv_04",
+      "hazard_id": "H-TEP-REACTOR-PRESSURE",
+      "hazard_ids": [
+        "H-TEP-REACTOR-PRESSURE"
+      ],
+      "k_int": 3,
+      "mask_slope_range": [
+        0.0035977561387829614,
+        0.006496887565682287
+      ],
+      "masking_variable": "ac_feed_sp",
+      "n_members": 1,
+      "region_id": "R_001",
+      "runtime_steps": 1050,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.033099365234375,
+        1.0
+      ],
+      "stable_slope_range": [
+        0.0035977561387829614,
+        0.006496887565682287
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-ACFEED-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.0306640625,
+      "driver_amp_range": [
+        0.0306640625,
+        0.0306640625
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        1000,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.00331907233679539,
+        0.006029045998508489
+      ],
+      "hazard_driver": "xmv_04",
+      "hazard_id": "H-TEP-REACTOR-PRESSURE",
+      "hazard_ids": [
+        "H-TEP-REACTOR-PRESSURE"
+      ],
+      "k_int": 3,
+      "mask_slope_range": [
+        0.00331907233679539,
+        0.006029045998508489
+      ],
+      "masking_variable": "ac_feed_sp",
+      "n_members": 1,
+      "region_id": "R_002",
+      "runtime_steps": 1100,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.0306640625,
+        1.0
+      ],
+      "stable_slope_range": [
+        0.00331907233679539,
+        0.006029045998508489
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-ACFEED-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.04365234375,
+      "driver_amp_range": [
+        0.04365234375,
+        0.04365234375
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        800,
+        800
+      ],
+      "extreme_slope_range": [
+        0.0049843120212726515,
+        0.008312984119270169
+      ],
+      "hazard_driver": "xmv_04",
+      "hazard_id": "H-TEP-REACTOR-PRESSURE",
+      "hazard_ids": [
+        "H-TEP-REACTOR-PRESSURE"
+      ],
+      "k_int": 4,
+      "mask_slope_range": [
+        0.0049843120212726515,
+        0.008312984119270169
+      ],
+      "masking_variable": "ac_feed_sp",
+      "n_members": 1,
+      "region_id": "R_003",
+      "runtime_steps": 900,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.04365234375,
+        1.0
+      ],
+      "stable_slope_range": [
+        0.0049843120212726515,
+        0.008312984119270169
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-ACFEED-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.03973388671875,
+      "driver_amp_range": [
+        0.03973388671875,
+        0.03973388671875
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        850,
+        850
+      ],
+      "extreme_slope_range": [
+        0.00448462537082426,
+        0.007682936945300708
+      ],
+      "hazard_driver": "xmv_04",
+      "hazard_id": "H-TEP-REACTOR-PRESSURE",
+      "hazard_ids": [
+        "H-TEP-REACTOR-PRESSURE"
+      ],
+      "k_int": 4,
+      "mask_slope_range": [
+        0.00448462537082426,
+        0.007682936945300708
+      ],
+      "masking_variable": "ac_feed_sp",
+      "n_members": 1,
+      "region_id": "R_004",
+      "runtime_steps": 950,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.03973388671875,
+        1.0
+      ],
+      "stable_slope_range": [
+        0.00448462537082426,
+        0.007682936945300708
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-ACFEED-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.03623046875,
+      "driver_amp_range": [
+        0.03623046875,
+        0.03623046875
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        900,
+        900
+      ],
+      "extreme_slope_range": [
+        0.004017524251053326,
+        0.007055611599234778
+      ],
+      "hazard_driver": "xmv_04",
+      "hazard_id": "H-TEP-REACTOR-PRESSURE",
+      "hazard_ids": [
+        "H-TEP-REACTOR-PRESSURE"
+      ],
+      "k_int": 4,
+      "mask_slope_range": [
+        0.004017524251053326,
+        0.007055611599234778
+      ],
+      "masking_variable": "ac_feed_sp",
+      "n_members": 1,
+      "region_id": "R_005",
+      "runtime_steps": 1000,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.03623046875,
+        1.0
+      ],
+      "stable_slope_range": [
+        0.004017524251053326,
+        0.007055611599234778
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-ACFEED-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.054003906250000004,
+      "driver_amp_range": [
+        0.054003906250000004,
+        0.054003906250000004
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        700,
+        700
+      ],
+      "extreme_slope_range": [
+        0.006283048373000244,
+        0.010190456947901645
+      ],
+      "hazard_driver": "xmv_04",
+      "hazard_id": "H-TEP-REACTOR-PRESSURE",
+      "hazard_ids": [
+        "H-TEP-REACTOR-PRESSURE"
+      ],
+      "k_int": 5,
+      "mask_slope_range": [
+        0.006283048373000244,
+        0.010190456947901645
+      ],
+      "masking_variable": "ac_feed_sp",
+      "n_members": 1,
+      "region_id": "R_006",
+      "runtime_steps": 800,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.054003906250000004,
+        1.0
+      ],
+      "stable_slope_range": [
+        0.006283048373000244,
+        0.010190456947901645
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-ACFEED-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.04842376708984375,
+      "driver_amp_range": [
+        0.04842376708984375,
+        0.04842376708984375
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        750,
+        750
+      ],
+      "extreme_slope_range": [
+        0.005554612411657148,
+        0.00918745788071211
+      ],
+      "hazard_driver": "xmv_04",
+      "hazard_id": "H-TEP-REACTOR-PRESSURE",
+      "hazard_ids": [
+        "H-TEP-REACTOR-PRESSURE"
+      ],
+      "k_int": 5,
+      "mask_slope_range": [
+        0.005554612411657148,
+        0.00918745788071211
+      ],
+      "masking_variable": "ac_feed_sp",
+      "n_members": 1,
+      "region_id": "R_007",
+      "runtime_steps": 850,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.04842376708984375,
+        1.0
+      ],
+      "stable_slope_range": [
+        0.005554612411657148,
+        0.00918745788071211
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-ACFEED-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.06134033203125,
+      "driver_amp_range": [
+        0.06134033203125,
+        0.06134033203125
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        650,
+        650
+      ],
+      "extreme_slope_range": [
+        0.007167164867198576,
+        0.011347541760366672
+      ],
+      "hazard_driver": "xmv_04",
+      "hazard_id": "H-TEP-REACTOR-PRESSURE",
+      "hazard_ids": [
+        "H-TEP-REACTOR-PRESSURE"
+      ],
+      "k_int": 6,
+      "mask_slope_range": [
+        0.007167164867198576,
+        0.011347541760366672
+      ],
+      "masking_variable": "ac_feed_sp",
+      "n_members": 1,
+      "region_id": "R_008",
+      "runtime_steps": 750,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.06134033203125,
+        1.0
+      ],
+      "stable_slope_range": [
+        0.007167164867198576,
+        0.011347541760366672
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-ACFEED-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.07099609375000002,
+      "driver_amp_range": [
+        0.07099609375000002,
+        0.07099609375000002
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        600,
+        600
+      ],
+      "extreme_slope_range": [
+        0.008108524522659553,
+        0.012291239498283521
+      ],
+      "hazard_driver": "xmv_04",
+      "hazard_id": "H-TEP-REACTOR-PRESSURE",
+      "hazard_ids": [
+        "H-TEP-REACTOR-PRESSURE"
+      ],
+      "k_int": 7,
+      "mask_slope_range": [
+        0.008108524522659553,
+        0.012291239498283521
+      ],
+      "masking_variable": "ac_feed_sp",
+      "n_members": 1,
+      "region_id": "R_009",
+      "runtime_steps": 700,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.07099609375000002,
+        1.0
+      ],
+      "stable_slope_range": [
+        0.008108524522659553,
+        0.012291239498283521
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-ACFEED-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.0853271484375,
+      "driver_amp_range": [
+        0.0853271484375,
+        0.0853271484375
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        550,
+        550
+      ],
+      "extreme_slope_range": [
+        0.009731833854013567,
+        0.013410677427345306
+      ],
+      "hazard_driver": "xmv_04",
+      "hazard_id": "H-TEP-REACTOR-PRESSURE",
+      "hazard_ids": [
+        "H-TEP-REACTOR-PRESSURE"
+      ],
+      "k_int": 9,
+      "mask_slope_range": [
+        0.009731833854013567,
+        0.013410677427345306
+      ],
+      "masking_variable": "ac_feed_sp",
+      "n_members": 1,
+      "region_id": "R_010",
+      "runtime_steps": 650,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.0853271484375,
+        1.0
+      ],
+      "stable_slope_range": [
+        0.009731833854013567,
+        0.013410677427345306
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-ACFEED-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.10654296875000002,
+      "driver_amp_range": [
+        0.10654296875000002,
+        0.10654296875000002
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        500,
+        500
+      ],
+      "extreme_slope_range": [
+        0.012145015258502959,
+        0.014853650619219038
+      ],
+      "hazard_driver": "xmv_04",
+      "hazard_id": "H-TEP-REACTOR-PRESSURE",
+      "hazard_ids": [
+        "H-TEP-REACTOR-PRESSURE"
+      ],
+      "k_int": 11,
+      "mask_slope_range": [
+        0.012145015258502959,
+        0.014853650619219038
+      ],
+      "masking_variable": "ac_feed_sp",
+      "n_members": 1,
+      "region_id": "R_011",
+      "runtime_steps": 600,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.10654296875000002,
+        1.0
+      ],
+      "stable_slope_range": [
+        0.012145015258502959,
+        0.014853650619219038
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-ACFEED-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.1453857421875,
+      "driver_amp_range": [
+        0.1453857421875,
+        0.1453857421875
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        450,
+        450
+      ],
+      "extreme_slope_range": [
+        0.016289462785335336,
+        0.016507731981293648
+      ],
+      "hazard_driver": "xmv_04",
+      "hazard_id": "H-TEP-REACTOR-PRESSURE",
+      "hazard_ids": [
+        "H-TEP-REACTOR-PRESSURE"
+      ],
+      "k_int": 15,
+      "mask_slope_range": [
+        0.016289462785335336,
+        0.016507731981293648
+      ],
+      "masking_variable": "ac_feed_sp",
+      "n_members": 1,
+      "region_id": "R_012",
+      "runtime_steps": 550,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.1453857421875,
+        1.0
+      ],
+      "stable_slope_range": [
+        0.016289462785335336,
+        0.016507731981293648
+      ]
+    }
+  ],
+  "representative_samples": 10,
+  "runtime_rule": "duration + 100",
+  "sample_duration_mod": 50,
+  "schema_version": 1,
+  "seed": 460,
+  "workers": 16
+}

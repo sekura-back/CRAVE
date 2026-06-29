@@ -1,0 +1,42 @@
+{
+  "D_scope": "analysis-relevant semantic variables",
+  "G_scope": "dependencies among D nodes",
+  "H_granularity": "replay-oracle predicate granularity",
+  "P_granularity": "replay-oracle predicate granularity",
+  "W_scope": "threat-model writable attack entries",
+  "candidate_naming": {
+    "W_hd": "rank-top-k replay-confirmed hazard-driving variables with a stable non-empty pre-hazard alarm signature per target hazard",
+    "W_rank": "hazard_ranking.json candidate_variables",
+    "W_rank_top_k": "union of the top-k hazard-ranking variables per hazard",
+    "W_search": "rank-top-k replay-confirmed variables selected for downstream region search"
+  },
+  "platforms": [
+    "boiler_ccs",
+    "tennessee_eastman"
+  ],
+  "rq": "RQ1",
+  "schema_version": 1,
+  "seed": 20260627,
+  "stage1_root": "results\\stage1",
+  "w_scan": {
+    "alarm_silence_required": false,
+    "directions": [
+      "pos",
+      "neg"
+    ],
+    "duration_values": [
+      100,
+      300,
+      600,
+      1000
+    ],
+    "rank_top_k": 3,
+    "runtime_rule": "duration + 100",
+    "scan_rates": [
+      0.25,
+      0.5,
+      1.0
+    ],
+    "source": "retained_artifact"
+  }
+}

@@ -1,0 +1,4087 @@
+{
+  "boundaries": [
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 100,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 200,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 105,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 205,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 110,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 210,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 115,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 215,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 120,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 220,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 125,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 225,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 130,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 230,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 135,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 235,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 140,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 240,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 145,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 245,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 150,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 250,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 155,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 255,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 160,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 260,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 165,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 265,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 170,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 270,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 175,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 275,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 180,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 280,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 185,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 285,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 190,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 290,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 195,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 295,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 200,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 300,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 205,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 305,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 210,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 310,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 215,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 315,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 220,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 320,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 225,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 325,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 230,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 330,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 235,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 335,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 240,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 340,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 245,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 345,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": null,
+      "direction": "pos",
+      "duration": 250,
+      "first_hazard_ids": [],
+      "hazard_driver": "xmv_07",
+      "hazard_id": null,
+      "lower_target_amp": null,
+      "probe_count": 21,
+      "runtime_steps": 350,
+      "target_interval_count": 0,
+      "target_intervals": [],
+      "upper_target_amp": null
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 255,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.95283203125,
+      "probe_count": 30,
+      "runtime_steps": 355,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.95283203125
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 260,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.8307617187499999,
+      "probe_count": 30,
+      "runtime_steps": 360,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.8307617187499999
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 265,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.7362897872924804,
+      "probe_count": 16,
+      "runtime_steps": 365,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.7362897872924804
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 270,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.6615845036692917,
+      "probe_count": 15,
+      "runtime_steps": 370,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.6615845036692917
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 275,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.6002929687499999,
+      "probe_count": 30,
+      "runtime_steps": 375,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.6002929687499999
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 280,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.5489433290436863,
+      "probe_count": 14,
+      "runtime_steps": 380,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.5489433290436863
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 285,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.5048627853393555,
+      "probe_count": 15,
+      "runtime_steps": 385,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.5048627853393555
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 290,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.4678783031180502,
+      "probe_count": 14,
+      "runtime_steps": 390,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.4678783031180502
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 295,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.4362735139524376,
+      "probe_count": 14,
+      "runtime_steps": 395,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.4362735139524376
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 300,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.40849609375000007,
+      "probe_count": 30,
+      "runtime_steps": 400,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.40849609375000007
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 305,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.38403771067114867,
+      "probe_count": 13,
+      "runtime_steps": 405,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.38403771067114867
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 310,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.36211575250417816,
+      "probe_count": 14,
+      "runtime_steps": 410,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.36211575250417816
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 315,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.3423530288097617,
+      "probe_count": 14,
+      "runtime_steps": 415,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.3423530288097617
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 320,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.32461680719767283,
+      "probe_count": 13,
+      "runtime_steps": 420,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.32461680719767283
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 325,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.3087198974564672,
+      "probe_count": 15,
+      "runtime_steps": 425,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.3087198974564672
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 330,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.294285363913361,
+      "probe_count": 13,
+      "runtime_steps": 430,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.294285363913361
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 335,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.28104019268466807,
+      "probe_count": 14,
+      "runtime_steps": 435,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.28104019268466807
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 340,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.26868031496114575,
+      "probe_count": 13,
+      "runtime_steps": 440,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.26868031496114575
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 345,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.2572448182954088,
+      "probe_count": 12,
+      "runtime_steps": 445,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.2572448182954088
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 350,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.2468333959579468,
+      "probe_count": 16,
+      "runtime_steps": 450,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.2468333959579468
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 355,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.23724203534514282,
+      "probe_count": 12,
+      "runtime_steps": 455,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.23724203534514282
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 360,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.22850960254841085,
+      "probe_count": 13,
+      "runtime_steps": 460,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.22850960254841085
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 365,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.22046012363745665,
+      "probe_count": 12,
+      "runtime_steps": 465,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.22046012363745665
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 370,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.21293446898942342,
+      "probe_count": 12,
+      "runtime_steps": 470,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.21293446898942342
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 375,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.20586491462308915,
+      "probe_count": 14,
+      "runtime_steps": 475,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.20586491462308915
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 380,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.19928421182733375,
+      "probe_count": 11,
+      "runtime_steps": 480,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.19928421182733375
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 385,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.19310233950404837,
+      "probe_count": 13,
+      "runtime_steps": 485,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.19310233950404837
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 390,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.18722294343034368,
+      "probe_count": 12,
+      "runtime_steps": 490,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.18722294343034368
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 395,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.18172615228657274,
+      "probe_count": 11,
+      "runtime_steps": 495,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.18172615228657274
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 400,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.17656249999999998,
+      "probe_count": 30,
+      "runtime_steps": 500,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.17656249999999998
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 405,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.17163682301379593,
+      "probe_count": 11,
+      "runtime_steps": 505,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.17163682301379593
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 410,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.16700967190554364,
+      "probe_count": 12,
+      "runtime_steps": 510,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.16700967190554364
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 415,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.1625521377734003,
+      "probe_count": 11,
+      "runtime_steps": 515,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.1625521377734003
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 420,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.15831283708314314,
+      "probe_count": 11,
+      "runtime_steps": 520,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.15831283708314314
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 425,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.15433046370744707,
+      "probe_count": 13,
+      "runtime_steps": 525,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.15433046370744707
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 430,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.15082526409232744,
+      "probe_count": 11,
+      "runtime_steps": 530,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.15082526409232744
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 435,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.14763396295020356,
+      "probe_count": 12,
+      "runtime_steps": 535,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.14763396295020356
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 440,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.14457868447971123,
+      "probe_count": 11,
+      "runtime_steps": 540,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.14457868447971123
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 445,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.14166228230333217,
+      "probe_count": 10,
+      "runtime_steps": 545,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.14166228230333217
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 450,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.13874588012695313,
+      "probe_count": 14,
+      "runtime_steps": 550,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.13874588012695313
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 455,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.13600087013910525,
+      "probe_count": 10,
+      "runtime_steps": 555,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.13600087013910525
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 460,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.13325586015125737,
+      "probe_count": 12,
+      "runtime_steps": 560,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.13325586015125737
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 465,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.1306278979023773,
+      "probe_count": 11,
+      "runtime_steps": 565,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.1306278979023773
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 470,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.1281193884829918,
+      "probe_count": 10,
+      "runtime_steps": 570,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.1281193884829918
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 475,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.12561087906360627,
+      "probe_count": 12,
+      "runtime_steps": 575,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.12561087906360627
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 480,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.12316180973866722,
+      "probe_count": 10,
+      "runtime_steps": 580,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.12316180973866722
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 485,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.12086116885766388,
+      "probe_count": 10,
+      "runtime_steps": 585,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.12086116885766388
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 490,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.12011308950022795,
+      "probe_count": 8,
+      "runtime_steps": 590,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.12011308950022795
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 495,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.11982216975011398,
+      "probe_count": 7,
+      "runtime_steps": 595,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.11982216975011398
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 500,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.11953124999999999,
+      "probe_count": 30,
+      "runtime_steps": 600,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.11953124999999999
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 505,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.11193833641177661,
+      "probe_count": 11,
+      "runtime_steps": 605,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.11193833641177661
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 510,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.1099085476307664,
+      "probe_count": 12,
+      "runtime_steps": 610,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.1099085476307664
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 515,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.1078905791897341,
+      "probe_count": 10,
+      "runtime_steps": 615,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.1078905791897341
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 520,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.10590414150559296,
+      "probe_count": 10,
+      "runtime_steps": 620,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.10590414150559296
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 525,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.10403809398412703,
+      "probe_count": 12,
+      "runtime_steps": 625,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.10403809398412703
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 530,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.10211521038836507,
+      "probe_count": 10,
+      "runtime_steps": 630,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.10211521038836507
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 535,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.10030886519234627,
+      "probe_count": 11,
+      "runtime_steps": 635,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.10030886519234627
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 540,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09855215672214399,
+      "probe_count": 10,
+      "runtime_steps": 640,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09855215672214399
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 545,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.0968752986369509,
+      "probe_count": 10,
+      "runtime_steps": 645,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.0968752986369509
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 550,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.0951984405517578,
+      "probe_count": 13,
+      "runtime_steps": 650,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.0951984405517578
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 555,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09359519085846842,
+      "probe_count": 9,
+      "runtime_steps": 655,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09359519085846842
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 560,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09314628094434738,
+      "probe_count": 9,
+      "runtime_steps": 660,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09314628094434738
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 565,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09296869020909071,
+      "probe_count": 7,
+      "runtime_steps": 665,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09296869020909071
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 570,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09282069792971015,
+      "probe_count": 6,
+      "runtime_steps": 670,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09282069792971015
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 575,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09267270565032959,
+      "probe_count": 9,
+      "runtime_steps": 675,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09267270565032959
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 580,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.0925269901752472,
+      "probe_count": 6,
+      "runtime_steps": 680,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.0925269901752472
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 585,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.0923812747001648,
+      "probe_count": 7,
+      "runtime_steps": 685,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.0923812747001648
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 590,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.0922355592250824,
+      "probe_count": 6,
+      "runtime_steps": 690,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.0922355592250824
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 595,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09216270148754122,
+      "probe_count": 5,
+      "runtime_steps": 695,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09216270148754122
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 600,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09208984375000001,
+      "probe_count": 30,
+      "runtime_steps": 700,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09208984375000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 605,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09196017243375537,
+      "probe_count": 6,
+      "runtime_steps": 705,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09196017243375537
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 610,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09183050111751073,
+      "probe_count": 7,
+      "runtime_steps": 710,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09183050111751073
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 615,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09183050111751073,
+      "probe_count": 5,
+      "runtime_steps": 715,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09183050111751073
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 620,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09175269832776395,
+      "probe_count": 5,
+      "runtime_steps": 720,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09175269832776395
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 625,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09167489553801718,
+      "probe_count": 17,
+      "runtime_steps": 725,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09167489553801718
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 630,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.0916416193465466,
+      "probe_count": 17,
+      "runtime_steps": 730,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.0916416193465466
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 635,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09160834315507602,
+      "probe_count": 17,
+      "runtime_steps": 735,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09160834315507602
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 640,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09156817775209003,
+      "probe_count": 17,
+      "runtime_steps": 740,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09156817775209003
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 645,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09154393730380357,
+      "probe_count": 17,
+      "runtime_steps": 745,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09154393730380357
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 650,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.1176154136657715,
+      "probe_count": 16,
+      "runtime_steps": 750,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.1176154136657715
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 655,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09151641417253611,
+      "probe_count": 17,
+      "runtime_steps": 755,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09151641417253611
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 660,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09152257308151093,
+      "probe_count": 17,
+      "runtime_steps": 760,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09152257308151093
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 665,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09152767560804023,
+      "probe_count": 17,
+      "runtime_steps": 765,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09152767560804023
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 670,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09153022687130488,
+      "probe_count": 17,
+      "runtime_steps": 770,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09153022687130488
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 675,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09153277813456955,
+      "probe_count": 17,
+      "runtime_steps": 775,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09153277813456955
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 680,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09155033430858293,
+      "probe_count": 17,
+      "runtime_steps": 780,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09155033430858293
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 685,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.11768543213011073,
+      "probe_count": 16,
+      "runtime_steps": 785,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.11768543213011073
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 690,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09156084705997114,
+      "probe_count": 17,
+      "runtime_steps": 790,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09156084705997114
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 695,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.1177068675790014,
+      "probe_count": 16,
+      "runtime_steps": 795,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.1177068675790014
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 700,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 30,
+      "runtime_steps": 800,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 705,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 805,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 710,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 810,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 715,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 815,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 720,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 820,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 725,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 825,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 730,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 830,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 735,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 835,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 740,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 840,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 745,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 845,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 750,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 850,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 755,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 855,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 760,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 860,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 765,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 865,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 770,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 870,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 775,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 875,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 780,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 880,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 785,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 885,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 790,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 890,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 795,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 895,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 800,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 30,
+      "runtime_steps": 900,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 805,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 905,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 810,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 910,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 815,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 915,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 820,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 920,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 825,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 925,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 830,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 930,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 835,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 935,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 840,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 940,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 845,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 945,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 850,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 950,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 855,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 955,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 860,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 960,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 865,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 965,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 870,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 970,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 875,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 975,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 880,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 980,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 885,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 985,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 890,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 990,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 895,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 995,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 900,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 30,
+      "runtime_steps": 1000,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 905,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1005,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 910,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1010,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 915,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1015,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 920,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1020,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 925,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1025,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 930,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1030,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 935,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1035,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 940,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1040,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 945,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1045,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 950,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1050,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 955,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1055,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 960,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1060,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 965,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1065,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 970,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1070,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 975,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1075,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 980,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1080,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 985,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1085,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 990,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1090,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 995,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 17,
+      "runtime_steps": 1095,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    },
+    {
+      "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+      "direction": "pos",
+      "duration": 1000,
+      "first_hazard_ids": [
+        "H-TEP-SEPARATOR-LEVEL-LOW"
+      ],
+      "hazard_driver": "xmv_07",
+      "hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "lower_target_amp": 0.09062500000000001,
+      "probe_count": 30,
+      "runtime_steps": 1100,
+      "target_interval_count": 1,
+      "target_intervals": [
+        {
+          "alarm_id": "A-TEP-SEP-LEVEL-TRACK",
+          "first_hazard_id": "H-TEP-SEPARATOR-LEVEL-LOW",
+          "rate_hi": 1.0,
+          "rate_lo": 0.09062500000000001
+        }
+      ],
+      "upper_target_amp": 1.0
+    }
+  ],
+  "duration_layers": [
+    [
+      100,
+      200,
+      300,
+      400,
+      500,
+      600,
+      700,
+      800,
+      900,
+      1000
+    ],
+    [
+      150,
+      250,
+      350,
+      450,
+      550,
+      650,
+      750,
+      850,
+      950
+    ],
+    [
+      125,
+      175,
+      225,
+      275,
+      325,
+      375,
+      425,
+      475,
+      525,
+      575,
+      625,
+      675,
+      725,
+      775,
+      825,
+      875,
+      925,
+      975
+    ],
+    [
+      110,
+      135,
+      160,
+      185,
+      210,
+      235,
+      260,
+      285,
+      310,
+      335,
+      360,
+      385,
+      410,
+      435,
+      460,
+      485,
+      510,
+      535,
+      560,
+      585,
+      610,
+      635,
+      660,
+      685,
+      710,
+      735,
+      760,
+      785,
+      810,
+      835,
+      860,
+      885,
+      910,
+      935,
+      960,
+      985
+    ],
+    [
+      105,
+      115,
+      130,
+      140,
+      155,
+      165,
+      180,
+      190,
+      205,
+      215,
+      230,
+      240,
+      255,
+      265,
+      280,
+      290,
+      305,
+      315,
+      330,
+      340,
+      355,
+      365,
+      380,
+      390,
+      405,
+      415,
+      430,
+      440,
+      455,
+      465,
+      480,
+      490,
+      505,
+      515,
+      530,
+      540,
+      555,
+      565,
+      580,
+      590,
+      605,
+      615,
+      630,
+      640,
+      655,
+      665,
+      680,
+      690,
+      705,
+      715,
+      730,
+      740,
+      755,
+      765,
+      780,
+      790,
+      805,
+      815,
+      830,
+      840,
+      855,
+      865,
+      880,
+      890,
+      905,
+      915,
+      930,
+      940,
+      955,
+      965,
+      980,
+      990
+    ],
+    [
+      120,
+      145,
+      170,
+      195,
+      220,
+      245,
+      270,
+      295,
+      320,
+      345,
+      370,
+      395,
+      420,
+      445,
+      470,
+      495,
+      520,
+      545,
+      570,
+      595,
+      620,
+      645,
+      670,
+      695,
+      720,
+      745,
+      770,
+      795,
+      820,
+      845,
+      870,
+      895,
+      920,
+      945,
+      970,
+      995
+    ]
+  ],
+  "platform": "tennessee_eastman",
+  "summary": {
+    "probe_count": 2939
+  }
+}

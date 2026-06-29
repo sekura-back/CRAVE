@@ -1,0 +1,3458 @@
+{
+  "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+  "d_threshold": 0.006451972589298603,
+  "delta_merge_factor": 0.2,
+  "dynamic_slope_tol": 1e-05,
+  "hazard_driver": "XMV_08",
+  "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+  "original_delta_merge": 0.032259862946493016,
+  "platform": "TE",
+  "regions": [
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.5544736385345459,
+      "driver_amp_range": [
+        0.5524631076388888,
+        0.5544736385345459
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        450,
+        1000
+      ],
+      "extreme_slope_range": [
+        -0.4179372373931407,
+        -0.08574753115703825
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 55,
+      "mask_slope_range": [
+        -0.4179372373931407,
+        -0.08574753115703825
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 12,
+      "region_id": "R_001",
+      "runtime_steps": 1100,
+      "sample_q": 0.4444444444444444,
+      "slope_search_method": "static",
+      "source_count": 12,
+      "source_driver_amp_range": [
+        0.19443359375,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.4179372373931407,
+        -0.08574753115703825
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.6435789108276367,
+      "driver_amp_range": [
+        0.6419704861111111,
+        0.6435789108276367
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        450,
+        1000
+      ],
+      "extreme_slope_range": [
+        -0.45380525698936064,
+        -0.0848026828443127
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 64,
+      "mask_slope_range": [
+        -0.45380525698936064,
+        -0.0848026828443127
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 12,
+      "region_id": "R_002",
+      "runtime_steps": 1100,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "static",
+      "source_count": 12,
+      "source_driver_amp_range": [
+        0.19443359375,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.45380525698936064,
+        -0.0848026828443127
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.7326841831207275,
+      "driver_amp_range": [
+        0.7314778645833333,
+        0.7326841831207275
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        450,
+        1000
+      ],
+      "extreme_slope_range": [
+        -0.4753572463728705,
+        -0.0847509888866692
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 73,
+      "mask_slope_range": [
+        -0.4753572463728705,
+        -0.0847509888866692
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 12,
+      "region_id": "R_003",
+      "runtime_steps": 1100,
+      "sample_q": 0.6666666666666666,
+      "slope_search_method": "static",
+      "source_count": 12,
+      "source_driver_amp_range": [
+        0.19443359375,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.4753572463728705,
+        -0.0847509888866692
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.8217894554138184,
+      "driver_amp_range": [
+        0.8209852430555556,
+        0.8217894554138184
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        450,
+        1000
+      ],
+      "extreme_slope_range": [
+        -0.5051212766116819,
+        -0.08552136614048725
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 82,
+      "mask_slope_range": [
+        -0.5051212766116819,
+        -0.08552136614048725
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 12,
+      "region_id": "R_004",
+      "runtime_steps": 1100,
+      "sample_q": 0.7777777777777778,
+      "slope_search_method": "static",
+      "source_count": 12,
+      "source_driver_amp_range": [
+        0.19443359375,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.5051212766116819,
+        -0.08552136614048725
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.9108947277069092,
+      "driver_amp_range": [
+        0.9104926215277778,
+        0.9108947277069092
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        450,
+        1000
+      ],
+      "extreme_slope_range": [
+        -0.5145018392920452,
+        -0.08623116230244146
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 91,
+      "mask_slope_range": [
+        -0.5145018392920452,
+        -0.08623116230244146
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 12,
+      "region_id": "R_005",
+      "runtime_steps": 1100,
+      "sample_q": 0.8888888888888888,
+      "slope_search_method": "static",
+      "source_count": 12,
+      "source_driver_amp_range": [
+        0.19443359375,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.5145018392920452,
+        -0.08623116230244146
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 1.0,
+      "driver_amp_range": [
+        1.0,
+        1.0
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        450,
+        1000
+      ],
+      "extreme_slope_range": [
+        -0.5276743584074752,
+        -0.08684013100174655
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 100,
+      "mask_slope_range": [
+        -0.5276743584074752,
+        -0.08684013100174655
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 12,
+      "region_id": "R_006",
+      "runtime_steps": 1100,
+      "sample_q": 1.0,
+      "slope_search_method": "static",
+      "source_count": 12,
+      "source_driver_amp_range": [
+        0.19443359375,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.5276743584074752,
+        -0.08684013100174655
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -1.0,
+      "driver_amp_range": [
+        -1.0,
+        -1.0
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        500,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.08344977258757066,
+        0.4589471459159562
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -100,
+      "mask_slope_range": [
+        0.08344977258757066,
+        0.4589471459159562
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 11,
+      "region_id": "R_007",
+      "runtime_steps": 1100,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 11,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.0687255859375
+      ],
+      "stable_slope_range": [
+        0.08344977258757066,
+        0.4589471459159562
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.2839409722222222,
+      "driver_amp_range": [
+        0.2839409722222222,
+        0.2839626736111111
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        500,
+        1000
+      ],
+      "extreme_slope_range": [
+        -0.32832717013081253,
+        -0.07550258563394323
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 28,
+      "mask_slope_range": [
+        -0.32832717013081253,
+        -0.07550258563394323
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 11,
+      "region_id": "R_008",
+      "runtime_steps": 1100,
+      "sample_q": 0.1111111111111111,
+      "slope_search_method": "static",
+      "source_count": 11,
+      "source_driver_amp_range": [
+        0.19443359375,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.32832717013081253,
+        -0.07550258563394323
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.37344835069444443,
+      "driver_amp_range": [
+        0.37344835069444443,
+        0.3734673394097222
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        500,
+        1000
+      ],
+      "extreme_slope_range": [
+        -0.3582273497654898,
+        -0.07657103941577305
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 37,
+      "mask_slope_range": [
+        -0.3582273497654898,
+        -0.07657103941577305
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 11,
+      "region_id": "R_009",
+      "runtime_steps": 1100,
+      "sample_q": 0.2222222222222222,
+      "slope_search_method": "static",
+      "source_count": 11,
+      "source_driver_amp_range": [
+        0.19443359375,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.3582273497654898,
+        -0.07657103941577305
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.4629557291666666,
+      "driver_amp_range": [
+        0.4629557291666666,
+        0.4629720052083333
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        500,
+        1000
+      ],
+      "extreme_slope_range": [
+        -0.39210971405455525,
+        -0.07954190096629318
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 46,
+      "mask_slope_range": [
+        -0.39210971405455525,
+        -0.07954190096629318
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 11,
+      "region_id": "R_010",
+      "runtime_steps": 1100,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "static",
+      "source_count": 11,
+      "source_driver_amp_range": [
+        0.19443359375,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.39210971405455525,
+        -0.07954190096629318
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.1944580078125,
+      "driver_amp_range": [
+        0.19443359375,
+        0.1944580078125
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        550,
+        1000
+      ],
+      "extreme_slope_range": [
+        -0.26800872361542255,
+        -0.068625232987268
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 19,
+      "mask_slope_range": [
+        -0.26800872361542255,
+        -0.068625232987268
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 10,
+      "region_id": "R_011",
+      "runtime_steps": 1100,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 10,
+      "source_driver_amp_range": [
+        0.19443359375,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.26800872361542255,
+        -0.068625232987268
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.9017795138888889,
+      "driver_amp_range": [
+        -0.9017795138888889,
+        -0.8965250651041666
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        600,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.0795790860046431,
+        0.43563100673182176
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -90,
+      "mask_slope_range": [
+        0.0795790860046431,
+        0.43563100673182176
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 9,
+      "region_id": "R_012",
+      "runtime_steps": 1100,
+      "sample_q": 0.1111111111111111,
+      "slope_search_method": "static",
+      "source_count": 9,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.0687255859375
+      ],
+      "stable_slope_range": [
+        0.0795790860046431,
+        0.43563100673182176
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.6942708333333333,
+      "driver_amp_range": [
+        -0.6942708333333333,
+        -0.6895751953125
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        700,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.07698036202581636,
+        0.3994944605279609
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -69,
+      "mask_slope_range": [
+        0.07698036202581636,
+        0.3994944605279609
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 7,
+      "region_id": "R_013",
+      "runtime_steps": 1100,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "static",
+      "source_count": 7,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.0687255859375
+      ],
+      "stable_slope_range": [
+        0.07698036202581636,
+        0.3994944605279609
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.5923611111111111,
+      "driver_amp_range": [
+        -0.5923611111111111,
+        -0.5861002604166667
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        700,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.07631692155819633,
+        0.39229149907884353
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -59,
+      "mask_slope_range": [
+        0.07631692155819633,
+        0.39229149907884353
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 7,
+      "region_id": "R_014",
+      "runtime_steps": 1100,
+      "sample_q": 0.4444444444444444,
+      "slope_search_method": "static",
+      "source_count": 7,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.0687255859375
+      ],
+      "stable_slope_range": [
+        0.07631692155819633,
+        0.39229149907884353
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.7930501302083334,
+      "driver_amp_range": [
+        -0.7930555555555555,
+        -0.7930501302083334
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        750,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.0782362223285122,
+        0.4311784942742818
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -79,
+      "mask_slope_range": [
+        0.0782362223285122,
+        0.4311784942742818
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 6,
+      "region_id": "R_015",
+      "runtime_steps": 1100,
+      "sample_q": 0.2222222222222222,
+      "slope_search_method": "static",
+      "source_count": 6,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.0687255859375
+      ],
+      "stable_slope_range": [
+        0.0782362223285122,
+        0.4311784942742818
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.48262532552083337,
+      "driver_amp_range": [
+        -0.48263888888888884,
+        -0.48262532552083337
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        750,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.0758300745553437,
+        0.3676637207358683
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -48,
+      "mask_slope_range": [
+        0.0758300745553437,
+        0.3676637207358683
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 6,
+      "region_id": "R_016",
+      "runtime_steps": 1100,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "static",
+      "source_count": 6,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.0687255859375
+      ],
+      "stable_slope_range": [
+        0.0758300745553437,
+        0.3676637207358683
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.379150390625,
+      "driver_amp_range": [
+        -0.37916666666666665,
+        -0.379150390625
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        750,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.07320205354620037,
+        0.3342637905595969
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -38,
+      "mask_slope_range": [
+        0.07320205354620037,
+        0.3342637905595969
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 6,
+      "region_id": "R_017",
+      "runtime_steps": 1100,
+      "sample_q": 0.6666666666666666,
+      "slope_search_method": "static",
+      "source_count": 6,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.0687255859375
+      ],
+      "stable_slope_range": [
+        0.07320205354620037,
+        0.3342637905595969
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.27567545572916663,
+      "driver_amp_range": [
+        -0.27569444444444446,
+        -0.27567545572916663
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        750,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.07135246292945115,
+        0.2836801406552386
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -28,
+      "mask_slope_range": [
+        0.07135246292945115,
+        0.2836801406552386
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 6,
+      "region_id": "R_018",
+      "runtime_steps": 1100,
+      "sample_q": 0.7777777777777778,
+      "slope_search_method": "static",
+      "source_count": 6,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.0687255859375
+      ],
+      "stable_slope_range": [
+        0.07135246292945115,
+        0.2836801406552386
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.17220052083333337,
+      "driver_amp_range": [
+        -0.17222222222222217,
+        -0.17220052083333337
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        750,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.06578380579591014,
+        0.22405860376908732
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -17,
+      "mask_slope_range": [
+        0.06578380579591014,
+        0.22405860376908732
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 6,
+      "region_id": "R_019",
+      "runtime_steps": 1100,
+      "sample_q": 0.8888888888888888,
+      "slope_search_method": "static",
+      "source_count": 6,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.0687255859375
+      ],
+      "stable_slope_range": [
+        0.06578380579591014,
+        0.22405860376908732
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.0687255859375,
+      "driver_amp_range": [
+        -0.06875000000000009,
+        -0.0687255859375
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        750,
+        1000
+      ],
+      "extreme_slope_range": [
+        0.0545947195211573,
+        0.1385673008182198
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -7,
+      "mask_slope_range": [
+        0.0545947195211573,
+        0.1385673008182198
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 6,
+      "region_id": "R_020",
+      "runtime_steps": 1100,
+      "sample_q": 1.0,
+      "slope_search_method": "static",
+      "source_count": 6,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.0687255859375
+      ],
+      "stable_slope_range": [
+        0.0545947195211573,
+        0.1385673008182198
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.8035590277777778,
+      "driver_amp_range": [
+        -0.8035590277777778,
+        -0.7961805555555556
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        600,
+        700
+      ],
+      "extreme_slope_range": [
+        0.07838150307230961,
+        0.4313286589325372
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -80,
+      "mask_slope_range": [
+        0.07838150307230961,
+        0.4313286589325372
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 3,
+      "region_id": "R_021",
+      "runtime_steps": 800,
+      "sample_q": 0.2222222222222222,
+      "slope_search_method": "static",
+      "source_count": 3,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.08281250000000001
+      ],
+      "stable_slope_range": [
+        0.07838150307230961,
+        0.4313286589325372
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.9149305555555556,
+      "driver_amp_range": [
+        -0.9149305555555556,
+        -0.9062364366319444
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        500,
+        550
+      ],
+      "extreme_slope_range": [
+        0.08294715336108845,
+        0.43599382690916155
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -91,
+      "mask_slope_range": [
+        0.08294715336108845,
+        0.43599382690916155
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 2,
+      "region_id": "R_022",
+      "runtime_steps": 650,
+      "sample_q": 0.1111111111111111,
+      "slope_search_method": "static",
+      "source_count": 2,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.1561279296875
+      ],
+      "stable_slope_range": [
+        0.08294715336108845,
+        0.43599382690916155
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.39457194010416663,
+      "driver_amp_range": [
+        -0.39457194010416663,
+        -0.38854166666666656
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        650,
+        700
+      ],
+      "extreme_slope_range": [
+        0.07368605794503898,
+        0.3357779967975381
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -39,
+      "mask_slope_range": [
+        0.07368605794503898,
+        0.3357779967975381
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 2,
+      "region_id": "R_023",
+      "runtime_steps": 800,
+      "sample_q": 0.6666666666666666,
+      "slope_search_method": "static",
+      "source_count": 2,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.08281250000000001
+      ],
+      "stable_slope_range": [
+        0.07368605794503898,
+        0.3357779967975381
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.29366726345486116,
+      "driver_amp_range": [
+        -0.29366726345486116,
+        -0.2866319444444444
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        650,
+        700
+      ],
+      "extreme_slope_range": [
+        0.07195106194461279,
+        0.29182024950630925
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -29,
+      "mask_slope_range": [
+        0.07195106194461279,
+        0.29182024950630925
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 2,
+      "region_id": "R_024",
+      "runtime_steps": 800,
+      "sample_q": 0.7777777777777778,
+      "slope_search_method": "static",
+      "source_count": 2,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.08281250000000001
+      ],
+      "stable_slope_range": [
+        0.07195106194461279,
+        0.29182024950630925
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -1.0,
+      "driver_amp_range": [
+        -1.0,
+        -1.0
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        450,
+        450
+      ],
+      "extreme_slope_range": [
+        0.09274262031447163,
+        0.4589471459159562
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -100,
+      "mask_slope_range": [
+        0.09274262031447163,
+        0.4589471459159562
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_025",
+      "runtime_steps": 550,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.466796875
+      ],
+      "stable_slope_range": [
+        0.09274262031447163,
+        0.4589471459159562
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.9407552083333334,
+      "driver_amp_range": [
+        -0.9407552083333334,
+        -0.9407552083333334
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        450,
+        450
+      ],
+      "extreme_slope_range": [
+        0.0924902287065068,
+        0.4372325026676383
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -94,
+      "mask_slope_range": [
+        0.0924902287065068,
+        0.4372325026676383
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_026",
+      "runtime_steps": 550,
+      "sample_q": 0.1111111111111111,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.466796875
+      ],
+      "stable_slope_range": [
+        0.0924902287065068,
+        0.4372325026676383
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.8815104166666666,
+      "driver_amp_range": [
+        -0.8815104166666666,
+        -0.8815104166666666
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        450,
+        450
+      ],
+      "extreme_slope_range": [
+        0.09176081826046888,
+        0.4350487383034682
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -88,
+      "mask_slope_range": [
+        0.09176081826046888,
+        0.4350487383034682
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_027",
+      "runtime_steps": 550,
+      "sample_q": 0.2222222222222222,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.466796875
+      ],
+      "stable_slope_range": [
+        0.09176081826046888,
+        0.4350487383034682
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.8298611111111112,
+      "driver_amp_range": [
+        -0.8298611111111112,
+        -0.8298611111111112
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        500,
+        500
+      ],
+      "extreme_slope_range": [
+        0.08220975868951359,
+        0.4328880316020476
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -83,
+      "mask_slope_range": [
+        0.08220975868951359,
+        0.4328880316020476
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_028",
+      "runtime_steps": 600,
+      "sample_q": 0.2222222222222222,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.234375
+      ],
+      "stable_slope_range": [
+        0.08220975868951359,
+        0.4328880316020476
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.822265625,
+      "driver_amp_range": [
+        -0.822265625,
+        -0.822265625
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        450,
+        450
+      ],
+      "extreme_slope_range": [
+        0.09162892520069267,
+        0.43254774021205955
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -82,
+      "mask_slope_range": [
+        0.09162892520069267,
+        0.43254774021205955
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_029",
+      "runtime_steps": 550,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.466796875
+      ],
+      "stable_slope_range": [
+        0.09162892520069267,
+        0.43254774021205955
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.8124728732638888,
+      "driver_amp_range": [
+        -0.8124728732638888,
+        -0.8124728732638888
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        550,
+        550
+      ],
+      "extreme_slope_range": [
+        0.07850151513256959,
+        0.43209860162931685
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -81,
+      "mask_slope_range": [
+        0.07850151513256959,
+        0.43209860162931685
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_030",
+      "runtime_steps": 650,
+      "sample_q": 0.2222222222222222,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.1561279296875
+      ],
+      "stable_slope_range": [
+        0.07850151513256959,
+        0.43209860162931685
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.7630208333333334,
+      "driver_amp_range": [
+        -0.7630208333333334,
+        -0.7630208333333334
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        450,
+        450
+      ],
+      "extreme_slope_range": [
+        0.09201762561960443,
+        0.4296597901679711
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -76,
+      "mask_slope_range": [
+        0.09201762561960443,
+        0.4296597901679711
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_031",
+      "runtime_steps": 550,
+      "sample_q": 0.4444444444444444,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.466796875
+      ],
+      "stable_slope_range": [
+        0.09201762561960443,
+        0.4296597901679711
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.7447916666666667,
+      "driver_amp_range": [
+        -0.7447916666666667,
+        -0.7447916666666667
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        500,
+        500
+      ],
+      "extreme_slope_range": [
+        0.08250326657387229,
+        0.4025200371411045
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -74,
+      "mask_slope_range": [
+        0.08250326657387229,
+        0.4025200371411045
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_032",
+      "runtime_steps": 600,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.234375
+      ],
+      "stable_slope_range": [
+        0.08250326657387229,
+        0.4025200371411045
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.7187093098958333,
+      "driver_amp_range": [
+        -0.7187093098958333,
+        -0.7187093098958333
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        550,
+        550
+      ],
+      "extreme_slope_range": [
+        0.07740363921371657,
+        0.4011490552479648
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -72,
+      "mask_slope_range": [
+        0.07740363921371657,
+        0.4011490552479648
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_033",
+      "runtime_steps": 650,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.1561279296875
+      ],
+      "stable_slope_range": [
+        0.07740363921371657,
+        0.4011490552479648
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.7053385416666667,
+      "driver_amp_range": [
+        -0.7053385416666667,
+        -0.7053385416666667
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        600,
+        600
+      ],
+      "extreme_slope_range": [
+        0.07717538484856118,
+        0.4004054402658483
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -71,
+      "mask_slope_range": [
+        0.07717538484856118,
+        0.4004054402658483
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_034",
+      "runtime_steps": 700,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.11601562500000001
+      ],
+      "stable_slope_range": [
+        0.07717538484856118,
+        0.4004054402658483
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.7037760416666667,
+      "driver_amp_range": [
+        -0.7037760416666667,
+        -0.7037760416666667
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        450,
+        450
+      ],
+      "extreme_slope_range": [
+        0.09089394423704845,
+        0.40031666265070887
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -70,
+      "mask_slope_range": [
+        0.09089394423704845,
+        0.40031666265070887
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_035",
+      "runtime_steps": 550,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.466796875
+      ],
+      "stable_slope_range": [
+        0.09089394423704845,
+        0.40031666265070887
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.6972859700520833,
+      "driver_amp_range": [
+        -0.6972859700520833,
+        -0.6972859700520833
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        650,
+        650
+      ],
+      "extreme_slope_range": [
+        0.07703441355778542,
+        0.39994561716193233
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -70,
+      "mask_slope_range": [
+        0.07703441355778542,
+        0.39994561716193233
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_036",
+      "runtime_steps": 750,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.09185791015625
+      ],
+      "stable_slope_range": [
+        0.07703441355778542,
+        0.39994561716193233
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.6597222222222222,
+      "driver_amp_range": [
+        -0.6597222222222222,
+        -0.6597222222222222
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        500,
+        500
+      ],
+      "extreme_slope_range": [
+        0.08309106445254938,
+        0.39764850757308756
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -66,
+      "mask_slope_range": [
+        0.08309106445254938,
+        0.39764850757308756
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_037",
+      "runtime_steps": 600,
+      "sample_q": 0.4444444444444444,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.234375
+      ],
+      "stable_slope_range": [
+        0.08309106445254938,
+        0.39764850757308756
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.64453125,
+      "driver_amp_range": [
+        -0.64453125,
+        -0.64453125
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        450,
+        450
+      ],
+      "extreme_slope_range": [
+        0.09198026307705287,
+        0.39664171227436046
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -64,
+      "mask_slope_range": [
+        0.09198026307705287,
+        0.39664171227436046
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_038",
+      "runtime_steps": 550,
+      "sample_q": 0.6666666666666666,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.466796875
+      ],
+      "stable_slope_range": [
+        0.09198026307705287,
+        0.39664171227436046
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.6249457465277778,
+      "driver_amp_range": [
+        -0.6249457465277778,
+        -0.6249457465277778
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        550,
+        550
+      ],
+      "extreme_slope_range": [
+        0.07706884892936244,
+        0.39527519076057777
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -62,
+      "mask_slope_range": [
+        0.07706884892936244,
+        0.39527519076057777
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_039",
+      "runtime_steps": 650,
+      "sample_q": 0.4444444444444444,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.1561279296875
+      ],
+      "stable_slope_range": [
+        0.07706884892936244,
+        0.39527519076057777
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.6071180555555555,
+      "driver_amp_range": [
+        -0.6071180555555555,
+        -0.6071180555555555
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        600,
+        600
+      ],
+      "extreme_slope_range": [
+        0.07666712912460301,
+        0.39395203649061794
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -61,
+      "mask_slope_range": [
+        0.07666712912460301,
+        0.39395203649061794
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_040",
+      "runtime_steps": 700,
+      "sample_q": 0.4444444444444444,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.11601562500000001
+      ],
+      "stable_slope_range": [
+        0.07666712912460301,
+        0.39395203649061794
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.5963812934027778,
+      "driver_amp_range": [
+        -0.5963812934027778,
+        -0.5963812934027778
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        650,
+        650
+      ],
+      "extreme_slope_range": [
+        0.0764138513024636,
+        0.3931176134605559
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -60,
+      "mask_slope_range": [
+        0.0764138513024636,
+        0.3931176134605559
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_041",
+      "runtime_steps": 750,
+      "sample_q": 0.4444444444444444,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.09185791015625
+      ],
+      "stable_slope_range": [
+        0.0764138513024636,
+        0.3931176134605559
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.5852864583333333,
+      "driver_amp_range": [
+        -0.5852864583333333,
+        -0.5852864583333333
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        450,
+        450
+      ],
+      "extreme_slope_range": [
+        0.09096608577612736,
+        0.3922241329614639
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -59,
+      "mask_slope_range": [
+        0.09096608577612736,
+        0.3922241329614639
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_042",
+      "runtime_steps": 550,
+      "sample_q": 0.7777777777777778,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.466796875
+      ],
+      "stable_slope_range": [
+        0.09096608577612736,
+        0.3922241329614639
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.5746527777777778,
+      "driver_amp_range": [
+        -0.5746527777777778,
+        -0.5746527777777778
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        500,
+        500
+      ],
+      "extreme_slope_range": [
+        0.08172041989508473,
+        0.39133426363874085
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -57,
+      "mask_slope_range": [
+        0.08172041989508473,
+        0.39133426363874085
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_043",
+      "runtime_steps": 600,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.234375
+      ],
+      "stable_slope_range": [
+        0.08172041989508473,
+        0.39133426363874085
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.5260416666666667,
+      "driver_amp_range": [
+        -0.5260416666666667,
+        -0.5260416666666667
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        450,
+        450
+      ],
+      "extreme_slope_range": [
+        0.09300286198359775,
+        0.3742530093768312
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -53,
+      "mask_slope_range": [
+        0.09300286198359775,
+        0.3742530093768312
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_044",
+      "runtime_steps": 550,
+      "sample_q": 0.8888888888888888,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.466796875
+      ],
+      "stable_slope_range": [
+        0.09300286198359775,
+        0.3742530093768312
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.5311821831597222,
+      "driver_amp_range": [
+        -0.5311821831597222,
+        -0.5311821831597222
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        550,
+        550
+      ],
+      "extreme_slope_range": [
+        0.07734162261899509,
+        0.37473565122909563
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -53,
+      "mask_slope_range": [
+        0.07734162261899509,
+        0.37473565122909563
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_045",
+      "runtime_steps": 650,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.1561279296875
+      ],
+      "stable_slope_range": [
+        0.07734162261899509,
+        0.37473565122909563
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.5088975694444444,
+      "driver_amp_range": [
+        -0.5088975694444444,
+        -0.5088975694444444
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        600,
+        600
+      ],
+      "extreme_slope_range": [
+        0.07664993645529761,
+        0.37257222012724583
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -51,
+      "mask_slope_range": [
+        0.07664993645529761,
+        0.37257222012724583
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_046",
+      "runtime_steps": 700,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.11601562500000001
+      ],
+      "stable_slope_range": [
+        0.07664993645529761,
+        0.37257222012724583
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.4954766167534722,
+      "driver_amp_range": [
+        -0.4954766167534722,
+        -0.4954766167534722
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        650,
+        650
+      ],
+      "extreme_slope_range": [
+        0.07627642238634666,
+        0.369054112959253
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -50,
+      "mask_slope_range": [
+        0.07627642238634666,
+        0.369054112959253
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_047",
+      "runtime_steps": 750,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.09185791015625
+      ],
+      "stable_slope_range": [
+        0.07627642238634666,
+        0.369054112959253
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.48958333333333337,
+      "driver_amp_range": [
+        -0.48958333333333337,
+        -0.48958333333333337
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        500,
+        500
+      ],
+      "extreme_slope_range": [
+        0.08323984656058366,
+        0.36842629950501865
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -49,
+      "mask_slope_range": [
+        0.08323984656058366,
+        0.36842629950501865
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_048",
+      "runtime_steps": 600,
+      "sample_q": 0.6666666666666666,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.234375
+      ],
+      "stable_slope_range": [
+        0.08323984656058366,
+        0.36842629950501865
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.49045138888888884,
+      "driver_amp_range": [
+        -0.49045138888888884,
+        -0.49045138888888884
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        700,
+        700
+      ],
+      "extreme_slope_range": [
+        0.0761044276504802,
+        0.3685193222113606
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -49,
+      "mask_slope_range": [
+        0.0761044276504802,
+        0.3685193222113606
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_049",
+      "runtime_steps": 800,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.08281250000000001
+      ],
+      "stable_slope_range": [
+        0.0761044276504802,
+        0.3685193222113606
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.466796875,
+      "driver_amp_range": [
+        -0.466796875,
+        -0.466796875
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        450,
+        450
+      ],
+      "extreme_slope_range": [
+        0.09355050527722496,
+        0.35645301168922844
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -47,
+      "mask_slope_range": [
+        0.09355050527722496,
+        0.35645301168922844
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_050",
+      "runtime_steps": 550,
+      "sample_q": 1.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.466796875
+      ],
+      "stable_slope_range": [
+        0.09355050527722496,
+        0.35645301168922844
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.43741861979166663,
+      "driver_amp_range": [
+        -0.43741861979166663,
+        -0.43741861979166663
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        550,
+        550
+      ],
+      "extreme_slope_range": [
+        0.07546179365877746,
+        0.3528640464194386
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -44,
+      "mask_slope_range": [
+        0.07546179365877746,
+        0.3528640464194386
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_051",
+      "runtime_steps": 650,
+      "sample_q": 0.6666666666666666,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.1561279296875
+      ],
+      "stable_slope_range": [
+        0.07546179365877746,
+        0.3528640464194386
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.4106770833333333,
+      "driver_amp_range": [
+        -0.4106770833333333,
+        -0.4106770833333333
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        600,
+        600
+      ],
+      "extreme_slope_range": [
+        0.07423627920487731,
+        0.339074174687598
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -41,
+      "mask_slope_range": [
+        0.07423627920487731,
+        0.339074174687598
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_052",
+      "runtime_steps": 700,
+      "sample_q": 0.6666666666666666,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.11601562500000001
+      ],
+      "stable_slope_range": [
+        0.07423627920487731,
+        0.339074174687598
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.40451388888888884,
+      "driver_amp_range": [
+        -0.40451388888888884,
+        -0.40451388888888884
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        500,
+        500
+      ],
+      "extreme_slope_range": [
+        0.08253876460844345,
+        0.3381923795026027
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -40,
+      "mask_slope_range": [
+        0.08253876460844345,
+        0.3381923795026027
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_053",
+      "runtime_steps": 600,
+      "sample_q": 0.7777777777777778,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.234375
+      ],
+      "stable_slope_range": [
+        0.08253876460844345,
+        0.3381923795026027
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.34365505642361116,
+      "driver_amp_range": [
+        -0.34365505642361116,
+        -0.34365505642361116
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        550,
+        550
+      ],
+      "extreme_slope_range": [
+        0.07563060851451044,
+        0.3278149833095941
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -34,
+      "mask_slope_range": [
+        0.07563060851451044,
+        0.3278149833095941
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_054",
+      "runtime_steps": 650,
+      "sample_q": 0.7777777777777778,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.1561279296875
+      ],
+      "stable_slope_range": [
+        0.07563060851451044,
+        0.3278149833095941
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.3194444444444444,
+      "driver_amp_range": [
+        -0.3194444444444444,
+        -0.3194444444444444
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        500,
+        500
+      ],
+      "extreme_slope_range": [
+        0.08479653852891951,
+        0.29924871518235674
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -32,
+      "mask_slope_range": [
+        0.08479653852891951,
+        0.29924871518235674
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_055",
+      "runtime_steps": 600,
+      "sample_q": 0.8888888888888888,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.234375
+      ],
+      "stable_slope_range": [
+        0.08479653852891951,
+        0.29924871518235674
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.3124565972222222,
+      "driver_amp_range": [
+        -0.3124565972222222,
+        -0.3124565972222222
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        600,
+        600
+      ],
+      "extreme_slope_range": [
+        0.07355469451542387,
+        0.29777683528933135
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -31,
+      "mask_slope_range": [
+        0.07355469451542387,
+        0.29777683528933135
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_056",
+      "runtime_steps": 700,
+      "sample_q": 0.7777777777777778,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.11601562500000001
+      ],
+      "stable_slope_range": [
+        0.07355469451542387,
+        0.29777683528933135
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.24989149305555558,
+      "driver_amp_range": [
+        -0.24989149305555558,
+        -0.24989149305555558
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        550,
+        550
+      ],
+      "extreme_slope_range": [
+        0.07555951970381689,
+        0.2758572806190086
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -25,
+      "mask_slope_range": [
+        0.07555951970381689,
+        0.2758572806190086
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_057",
+      "runtime_steps": 650,
+      "sample_q": 0.8888888888888888,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.1561279296875
+      ],
+      "stable_slope_range": [
+        0.07555951970381689,
+        0.2758572806190086
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.234375,
+      "driver_amp_range": [
+        -0.234375,
+        -0.234375
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        500,
+        500
+      ],
+      "extreme_slope_range": [
+        0.08208016802729265,
+        0.2718293224101758
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -23,
+      "mask_slope_range": [
+        0.08208016802729265,
+        0.2718293224101758
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_058",
+      "runtime_steps": 600,
+      "sample_q": 1.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.234375
+      ],
+      "stable_slope_range": [
+        0.08208016802729265,
+        0.2718293224101758
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.21423611111111107,
+      "driver_amp_range": [
+        -0.21423611111111107,
+        -0.21423611111111107
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        600,
+        600
+      ],
+      "extreme_slope_range": [
+        0.069362614546233,
+        0.25293740478774357
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -21,
+      "mask_slope_range": [
+        0.069362614546233,
+        0.25293740478774357
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_059",
+      "runtime_steps": 700,
+      "sample_q": 0.8888888888888888,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.11601562500000001
+      ],
+      "stable_slope_range": [
+        0.069362614546233,
+        0.25293740478774357
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.19276258680555558,
+      "driver_amp_range": [
+        -0.19276258680555558,
+        -0.19276258680555558
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        650,
+        650
+      ],
+      "extreme_slope_range": [
+        0.06614683435686078,
+        0.23668441465853382
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -19,
+      "mask_slope_range": [
+        0.06614683435686078,
+        0.23668441465853382
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_060",
+      "runtime_steps": 750,
+      "sample_q": 0.8888888888888888,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.09185791015625
+      ],
+      "stable_slope_range": [
+        0.06614683435686078,
+        0.23668441465853382
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.18472222222222223,
+      "driver_amp_range": [
+        -0.18472222222222223,
+        -0.18472222222222223
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        700,
+        700
+      ],
+      "extreme_slope_range": [
+        0.06720087916239574,
+        0.23080205271339196
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -18,
+      "mask_slope_range": [
+        0.06720087916239574,
+        0.23080205271339196
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_061",
+      "runtime_steps": 800,
+      "sample_q": 0.8888888888888888,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.08281250000000001
+      ],
+      "stable_slope_range": [
+        0.06720087916239574,
+        0.23080205271339196
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.1561279296875,
+      "driver_amp_range": [
+        -0.1561279296875,
+        -0.1561279296875
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        550,
+        550
+      ],
+      "extreme_slope_range": [
+        0.07608709741364982,
+        0.21702237776799624
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -16,
+      "mask_slope_range": [
+        0.07608709741364982,
+        0.21702237776799624
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_062",
+      "runtime_steps": 650,
+      "sample_q": 1.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.1561279296875
+      ],
+      "stable_slope_range": [
+        0.07608709741364982,
+        0.21702237776799624
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.11601562499999996,
+      "driver_amp_range": [
+        -0.11601562499999996,
+        -0.11601562499999996
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        600,
+        600
+      ],
+      "extreme_slope_range": [
+        0.0671891448979652,
+        0.18918535636917339
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -12,
+      "mask_slope_range": [
+        0.0671891448979652,
+        0.18918535636917339
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_063",
+      "runtime_steps": 700,
+      "sample_q": 1.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.11601562500000001
+      ],
+      "stable_slope_range": [
+        0.0671891448979652,
+        0.18918535636917339
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.09185791015625,
+      "driver_amp_range": [
+        -0.09185791015625,
+        -0.09185791015625
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        650,
+        650
+      ],
+      "extreme_slope_range": [
+        0.06261510846859036,
+        0.16642006656355424
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -9,
+      "mask_slope_range": [
+        0.06261510846859036,
+        0.16642006656355424
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_064",
+      "runtime_steps": 750,
+      "sample_q": 1.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.09185791015625
+      ],
+      "stable_slope_range": [
+        0.06261510846859036,
+        0.16642006656355424
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": -0.08281249999999984,
+      "driver_amp_range": [
+        -0.08281249999999984,
+        -0.08281249999999984
+      ],
+      "driver_direction": "neg",
+      "driver_duration_range": [
+        700,
+        700
+      ],
+      "extreme_slope_range": [
+        0.05926570534640494,
+        0.15847059495908802
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-HIGH"
+      ],
+      "k_int": -8,
+      "mask_slope_range": [
+        0.05926570534640494,
+        0.15847059495908802
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_065",
+      "runtime_steps": 800,
+      "sample_q": 1.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        -1.0,
+        -0.08281250000000001
+      ],
+      "stable_slope_range": [
+        0.05926570534640494,
+        0.15847059495908802
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.19443359375,
+      "driver_amp_range": [
+        0.19443359375,
+        0.19443359375
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        500,
+        500
+      ],
+      "extreme_slope_range": [
+        -0.26800872361542255,
+        -0.07522046810738948
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 19,
+      "mask_slope_range": [
+        -0.26800872361542255,
+        -0.07522046810738948
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_066",
+      "runtime_steps": 600,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.19443359375,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.26800872361542255,
+        -0.07522046810738948
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.19805254936218264,
+      "driver_amp_range": [
+        0.19805254936218264,
+        0.19805254936218264
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        450,
+        450
+      ],
+      "extreme_slope_range": [
+        -0.26897290890388104,
+        -0.08457125412676567
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 20,
+      "mask_slope_range": [
+        -0.26897290890388104,
+        -0.08457125412676567
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_067",
+      "runtime_steps": 550,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.19805254936218264,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.26897290890388104,
+        -0.08457125412676567
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.2871578216552735,
+      "driver_amp_range": [
+        0.2871578216552735,
+        0.2871578216552735
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        450,
+        450
+      ],
+      "extreme_slope_range": [
+        -0.32902699687539727,
+        -0.0843163198292482
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 29,
+      "mask_slope_range": [
+        -0.32902699687539727,
+        -0.0843163198292482
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_068",
+      "runtime_steps": 550,
+      "sample_q": 0.1111111111111111,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.19805254936218264,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.32902699687539727,
+        -0.0843163198292482
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.366796875,
+      "driver_amp_range": [
+        0.366796875,
+        0.366796875
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        400,
+        400
+      ],
+      "extreme_slope_range": [
+        -0.35691528623650803,
+        -0.09411443010858975
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 37,
+      "mask_slope_range": [
+        -0.35691528623650803,
+        -0.09411443010858975
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_069",
+      "runtime_steps": 500,
+      "sample_q": 0.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.366796875,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.35691528623650803,
+        -0.09411443010858975
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.37626309394836427,
+      "driver_amp_range": [
+        0.37626309394836427,
+        0.37626309394836427
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        450,
+        450
+      ],
+      "extreme_slope_range": [
+        -0.3587825844280431,
+        -0.08433649263238581
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 38,
+      "mask_slope_range": [
+        -0.3587825844280431,
+        -0.08433649263238581
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_070",
+      "runtime_steps": 550,
+      "sample_q": 0.2222222222222222,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.19805254936218264,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.3587825844280431,
+        -0.08433649263238581
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.4371527777777778,
+      "driver_amp_range": [
+        0.4371527777777778,
+        0.4371527777777778
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        400,
+        400
+      ],
+      "extreme_slope_range": [
+        -0.3878718354133765,
+        -0.09835596847830268
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 44,
+      "mask_slope_range": [
+        -0.3878718354133765,
+        -0.09835596847830268
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_071",
+      "runtime_steps": 500,
+      "sample_q": 0.1111111111111111,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.366796875,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.3878718354133765,
+        -0.09835596847830268
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.46536836624145506,
+      "driver_amp_range": [
+        0.46536836624145506,
+        0.46536836624145506
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        450,
+        450
+      ],
+      "extreme_slope_range": [
+        -0.3924846192849191,
+        -0.08621086411408772
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 47,
+      "mask_slope_range": [
+        -0.3924846192849191,
+        -0.08621086411408772
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_072",
+      "runtime_steps": 550,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.19805254936218264,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.3924846192849191,
+        -0.08621086411408772
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.5075086805555555,
+      "driver_amp_range": [
+        0.5075086805555555,
+        0.5075086805555555
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        400,
+        400
+      ],
+      "extreme_slope_range": [
+        -0.41219845446426595,
+        -0.09456578662686968
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 51,
+      "mask_slope_range": [
+        -0.41219845446426595,
+        -0.09456578662686968
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_073",
+      "runtime_steps": 500,
+      "sample_q": 0.2222222222222222,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.366796875,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.41219845446426595,
+        -0.09456578662686968
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.5778645833333333,
+      "driver_amp_range": [
+        0.5778645833333333,
+        0.5778645833333333
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        400,
+        400
+      ],
+      "extreme_slope_range": [
+        -0.4400540709882278,
+        -0.0973316827181558
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 58,
+      "mask_slope_range": [
+        -0.4400540709882278,
+        -0.0973316827181558
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_074",
+      "runtime_steps": 500,
+      "sample_q": 0.3333333333333333,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.366796875,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.4400540709882278,
+        -0.0973316827181558
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.6482204861111112,
+      "driver_amp_range": [
+        0.6482204861111112,
+        0.6482204861111112
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        400,
+        400
+      ],
+      "extreme_slope_range": [
+        -0.45438868756206174,
+        -0.09555795290653198
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 65,
+      "mask_slope_range": [
+        -0.45438868756206174,
+        -0.09555795290653198
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_075",
+      "runtime_steps": 500,
+      "sample_q": 0.4444444444444444,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.366796875,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.45438868756206174,
+        -0.09555795290653198
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.718576388888889,
+      "driver_amp_range": [
+        0.718576388888889,
+        0.718576388888889
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        400,
+        400
+      ],
+      "extreme_slope_range": [
+        -0.4743622175214961,
+        -0.09506485356617955
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 72,
+      "mask_slope_range": [
+        -0.4743622175214961,
+        -0.09506485356617955
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_076",
+      "runtime_steps": 500,
+      "sample_q": 0.5555555555555556,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.366796875,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.4743622175214961,
+        -0.09506485356617955
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.7889322916666667,
+      "driver_amp_range": [
+        0.7889322916666667,
+        0.7889322916666667
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        400,
+        400
+      ],
+      "extreme_slope_range": [
+        -0.5029667081568033,
+        -0.09649353886310946
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 79,
+      "mask_slope_range": [
+        -0.5029667081568033,
+        -0.09649353886310946
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_077",
+      "runtime_steps": 500,
+      "sample_q": 0.6666666666666666,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.366796875,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.5029667081568033,
+        -0.09649353886310946
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.8592881944444445,
+      "driver_amp_range": [
+        0.8592881944444445,
+        0.8592881944444445
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        400,
+        400
+      ],
+      "extreme_slope_range": [
+        -0.5074824112577283,
+        -0.09628202633236602
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 86,
+      "mask_slope_range": [
+        -0.5074824112577283,
+        -0.09628202633236602
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_078",
+      "runtime_steps": 500,
+      "sample_q": 0.7777777777777778,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.366796875,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.5074824112577283,
+        -0.09628202633236602
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 0.9296440972222222,
+      "driver_amp_range": [
+        0.9296440972222222,
+        0.9296440972222222
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        400,
+        400
+      ],
+      "extreme_slope_range": [
+        -0.5242431638057317,
+        -0.09684672102755779
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 93,
+      "mask_slope_range": [
+        -0.5242431638057317,
+        -0.09684672102755779
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_079",
+      "runtime_steps": 500,
+      "sample_q": 0.8888888888888888,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.366796875,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.5242431638057317,
+        -0.09684672102755779
+      ]
+    },
+    {
+      "alarm_id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "bomega_mode": "static",
+      "driver_amp": 1.0,
+      "driver_amp_range": [
+        1.0,
+        1.0
+      ],
+      "driver_direction": "pos",
+      "driver_duration_range": [
+        400,
+        400
+      ],
+      "extreme_slope_range": [
+        -0.5276743584074752,
+        -0.09772235293178998
+      ],
+      "hazard_driver": "xmv_08",
+      "hazard_id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "hazard_ids": [
+        "H-TEP-STRIPPER-LEVEL-LOW"
+      ],
+      "k_int": 100,
+      "mask_slope_range": [
+        -0.5276743584074752,
+        -0.09772235293178998
+      ],
+      "masking_variable": "stripper_level_sp",
+      "n_members": 1,
+      "region_id": "R_080",
+      "runtime_steps": 500,
+      "sample_q": 1.0,
+      "slope_search_method": "static",
+      "source_count": 1,
+      "source_driver_amp_range": [
+        0.366796875,
+        1.0
+      ],
+      "stable_slope_range": [
+        -0.5276743584074752,
+        -0.09772235293178998
+      ]
+    }
+  ],
+  "representative_samples": 10,
+  "runtime_rule": "duration + 100",
+  "sample_duration_mod": 50,
+  "schema_version": 1,
+  "seed": 460,
+  "workers": 16
+}

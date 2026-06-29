@@ -1,0 +1,1001 @@
+{
+  "D": {
+    "attributes": [],
+    "variables": [
+      "BoilerMasterController.HSV.AV_0",
+      "BoilerMasterController.HSV.delta_err_0",
+      "BoilerMasterController.HSV.dk_0",
+      "BoilerMasterController.HSV.err_0",
+      "BoilerMasterController.boiler_cmd",
+      "BoilerMasterController.hfop1.av_0",
+      "BoilerMasterController.pv_filtered",
+      "FeedwaterController.hfop.av_0",
+      "FeedwaterController.pid.AV_0",
+      "FeedwaterController.pid.delta_err_0",
+      "FeedwaterController.pid.dk_0",
+      "FeedwaterController.pid.err_0",
+      "FeedwaterController.pid_out",
+      "FeedwaterController.pump_speed",
+      "FeedwaterController.rate.prev_output",
+      "FeedwaterController.rate_out",
+      "FuelController.fuel_cmd",
+      "FuelController.hfop1.av_0",
+      "FuelController.hsvpid.AV_0",
+      "FuelController.hsvpid.delta_err_0",
+      "FuelController.hsvpid.dk_0",
+      "FuelController.hsvpid.err_0",
+      "FuelController.pid_out",
+      "FuelController.rate.prev_output",
+      "FuelController.rate_out",
+      "LoadInstructionGenerator.out",
+      "LoadInstructionGenerator.rate_limiter.prev_output",
+      "MainSteamPressureController.h1",
+      "MainSteamPressureController.h2",
+      "MainSteamPressureController.h3",
+      "MainSteamPressureController.h4",
+      "MainSteamPressureController.hfop1.av_0",
+      "MainSteamPressureController.hfop2.av_0",
+      "MainSteamPressureController.hfop3.av_0",
+      "MainSteamPressureController.hfop4.av_0",
+      "MainSteamPressureController.hs",
+      "MainSteamPressureController.hslim",
+      "MainSteamPressureController.rate.prev_output",
+      "WaterK.hfop1.av_0",
+      "WaterK.hfop1.water_sp",
+      "WaterK.water_sp",
+      "boiler_setpoint",
+      "coal_flow",
+      "feedwater_flow",
+      "fuel_command",
+      "load_output",
+      "main_steam_pressure",
+      "steam_setpoint",
+      "true_load",
+      "water_pump_speed",
+      "water_setpoint",
+      "waterwall_temp"
+    ]
+  },
+  "G": {
+    "E": [
+      {
+        "kind": "main_control_dependency",
+        "x": "BoilerMasterController.HSV.AV_0",
+        "y": "BoilerMasterController.boiler_cmd"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "BoilerMasterController.HSV.delta_err_0",
+        "y": "BoilerMasterController.HSV.AV_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "BoilerMasterController.HSV.delta_err_0",
+        "y": "BoilerMasterController.HSV.dk_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "BoilerMasterController.HSV.err_0",
+        "y": "BoilerMasterController.HSV.AV_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "BoilerMasterController.HSV.err_0",
+        "y": "BoilerMasterController.HSV.delta_err_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "BoilerMasterController.HSV.err_0",
+        "y": "BoilerMasterController.HSV.dk_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "BoilerMasterController.boiler_cmd",
+        "y": "BoilerMasterController.HSV.AV_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "BoilerMasterController.hfop1.av_0",
+        "y": "BoilerMasterController.pv_filtered"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "BoilerMasterController.pv_filtered",
+        "y": "BoilerMasterController.HSV.AV_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "BoilerMasterController.pv_filtered",
+        "y": "BoilerMasterController.HSV.delta_err_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "BoilerMasterController.pv_filtered",
+        "y": "BoilerMasterController.HSV.dk_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "BoilerMasterController.pv_filtered",
+        "y": "BoilerMasterController.HSV.err_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "BoilerMasterController.pv_filtered",
+        "y": "BoilerMasterController.boiler_cmd"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "BoilerMasterController.pv_filtered",
+        "y": "BoilerMasterController.hfop1.av_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FeedwaterController.hfop.av_0",
+        "y": "FeedwaterController.pump_speed"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FeedwaterController.pid.AV_0",
+        "y": "FeedwaterController.pid_out"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FeedwaterController.pid.delta_err_0",
+        "y": "FeedwaterController.pid.AV_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FeedwaterController.pid.delta_err_0",
+        "y": "FeedwaterController.pid.dk_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FeedwaterController.pid.err_0",
+        "y": "FeedwaterController.pid.AV_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FeedwaterController.pid.err_0",
+        "y": "FeedwaterController.pid.delta_err_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FeedwaterController.pid.err_0",
+        "y": "FeedwaterController.pid.dk_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FeedwaterController.pid_out",
+        "y": "FeedwaterController.pid.AV_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FeedwaterController.pid_out",
+        "y": "FeedwaterController.rate.prev_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FeedwaterController.pid_out",
+        "y": "FeedwaterController.rate_out"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FeedwaterController.pump_speed",
+        "y": "FeedwaterController.hfop.av_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FeedwaterController.rate.prev_output",
+        "y": "FeedwaterController.rate_out"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FeedwaterController.rate_out",
+        "y": "FeedwaterController.hfop.av_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FeedwaterController.rate_out",
+        "y": "FeedwaterController.pump_speed"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FeedwaterController.rate_out",
+        "y": "FeedwaterController.rate.prev_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.fuel_cmd",
+        "y": "FuelController.hfop1.av_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.hfop1.av_0",
+        "y": "FuelController.fuel_cmd"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.hsvpid.AV_0",
+        "y": "FuelController.pid_out"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.hsvpid.delta_err_0",
+        "y": "FuelController.hsvpid.AV_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.hsvpid.delta_err_0",
+        "y": "FuelController.hsvpid.dk_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.hsvpid.err_0",
+        "y": "FuelController.hsvpid.AV_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.hsvpid.err_0",
+        "y": "FuelController.hsvpid.delta_err_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.hsvpid.err_0",
+        "y": "FuelController.hsvpid.dk_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.pid_out",
+        "y": "FuelController.fuel_cmd"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.pid_out",
+        "y": "FuelController.hfop1.av_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.pid_out",
+        "y": "FuelController.hsvpid.AV_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.rate.prev_output",
+        "y": "FuelController.rate_out"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.rate_out",
+        "y": "FuelController.hsvpid.AV_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.rate_out",
+        "y": "FuelController.hsvpid.delta_err_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.rate_out",
+        "y": "FuelController.hsvpid.dk_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.rate_out",
+        "y": "FuelController.hsvpid.err_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.rate_out",
+        "y": "FuelController.pid_out"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "FuelController.rate_out",
+        "y": "FuelController.rate.prev_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "LoadInstructionGenerator.out",
+        "y": "LoadInstructionGenerator.rate_limiter.prev_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "LoadInstructionGenerator.rate_limiter.prev_output",
+        "y": "LoadInstructionGenerator.out"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.h1",
+        "y": "MainSteamPressureController.h2"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.h1",
+        "y": "MainSteamPressureController.hfop1.av_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.h1",
+        "y": "MainSteamPressureController.hfop2.av_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.h2",
+        "y": "MainSteamPressureController.h3"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.h2",
+        "y": "MainSteamPressureController.hfop2.av_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.h2",
+        "y": "MainSteamPressureController.hfop3.av_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.h3",
+        "y": "MainSteamPressureController.h4"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.h3",
+        "y": "MainSteamPressureController.hfop3.av_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.h3",
+        "y": "MainSteamPressureController.hfop4.av_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.h4",
+        "y": "MainSteamPressureController.hfop4.av_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.h4",
+        "y": "MainSteamPressureController.hslim"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.h4",
+        "y": "MainSteamPressureController.rate.prev_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.hfop1.av_0",
+        "y": "MainSteamPressureController.h1"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.hfop2.av_0",
+        "y": "MainSteamPressureController.h2"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.hfop3.av_0",
+        "y": "MainSteamPressureController.h3"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.hfop4.av_0",
+        "y": "MainSteamPressureController.h4"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.hs",
+        "y": "MainSteamPressureController.h1"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.hs",
+        "y": "MainSteamPressureController.hfop1.av_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.hslim",
+        "y": "MainSteamPressureController.rate.prev_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "MainSteamPressureController.rate.prev_output",
+        "y": "MainSteamPressureController.hslim"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "WaterK.hfop1.av_0",
+        "y": "WaterK.hfop1.water_sp"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "WaterK.hfop1.water_sp",
+        "y": "WaterK.hfop1.av_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "WaterK.water_sp",
+        "y": "WaterK.hfop1.av_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "WaterK.water_sp",
+        "y": "WaterK.hfop1.water_sp"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "boiler_setpoint",
+        "y": "FuelController.rate.prev_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "boiler_setpoint",
+        "y": "FuelController.rate_out"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "boiler_setpoint",
+        "y": "WaterK.water_sp"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "boiler_setpoint",
+        "y": "fuel_command"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "boiler_setpoint",
+        "y": "water_setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "coal_flow",
+        "y": "FuelController.hsvpid.AV_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "coal_flow",
+        "y": "FuelController.hsvpid.delta_err_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "coal_flow",
+        "y": "FuelController.hsvpid.dk_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "coal_flow",
+        "y": "FuelController.hsvpid.err_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "coal_flow",
+        "y": "FuelController.pid_out"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "coal_flow",
+        "y": "fuel_command"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "feedwater_flow",
+        "y": "FeedwaterController.pid.AV_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "feedwater_flow",
+        "y": "FeedwaterController.pid.delta_err_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "feedwater_flow",
+        "y": "FeedwaterController.pid.dk_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "feedwater_flow",
+        "y": "FeedwaterController.pid.err_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "feedwater_flow",
+        "y": "FeedwaterController.pid_out"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "feedwater_flow",
+        "y": "water_pump_speed"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "load_output",
+        "y": "MainSteamPressureController.hs"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "load_output",
+        "y": "steam_setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "main_steam_pressure",
+        "y": "BoilerMasterController.hfop1.av_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "main_steam_pressure",
+        "y": "BoilerMasterController.pv_filtered"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "main_steam_pressure",
+        "y": "boiler_setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "steam_setpoint",
+        "y": "BoilerMasterController.HSV.AV_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "steam_setpoint",
+        "y": "BoilerMasterController.HSV.delta_err_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "steam_setpoint",
+        "y": "BoilerMasterController.HSV.dk_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "steam_setpoint",
+        "y": "BoilerMasterController.HSV.err_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "steam_setpoint",
+        "y": "BoilerMasterController.boiler_cmd"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "steam_setpoint",
+        "y": "boiler_setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "true_load",
+        "y": "LoadInstructionGenerator.out"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "true_load",
+        "y": "LoadInstructionGenerator.rate_limiter.prev_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "true_load",
+        "y": "load_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "water_setpoint",
+        "y": "FeedwaterController.pid.AV_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "water_setpoint",
+        "y": "FeedwaterController.pid.delta_err_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "water_setpoint",
+        "y": "FeedwaterController.pid.dk_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "water_setpoint",
+        "y": "FeedwaterController.pid.err_0"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "water_setpoint",
+        "y": "FeedwaterController.pid_out"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "water_setpoint",
+        "y": "water_pump_speed"
+      }
+    ]
+  },
+  "H": [
+    {
+      "component": "physical",
+      "direction": "upper",
+      "duration_s": 0.0,
+      "expr": "waterwall_temp > TRIP_WATERWALL",
+      "id": "H-WATERWALL-001",
+      "kind": "threshold",
+      "margin_col": "hazard_waterwall_margin",
+      "threshold": 475.0,
+      "var": "waterwall_temp"
+    },
+    {
+      "component": "physical",
+      "direction": "upper",
+      "duration_s": 0.0,
+      "expr": "main_steam_pressure > TRIP_PRESSURE",
+      "id": "H-PRESSURE-001",
+      "kind": "threshold",
+      "margin_col": "hazard_pressure_margin",
+      "threshold": 28.3,
+      "var": "main_steam_pressure"
+    },
+    {
+      "component": "physical",
+      "direction": "lower",
+      "duration_s": 0.0,
+      "expr": "feedwater_flow <= TRIP_FEEDWATER",
+      "id": "H-FEEDWATER-001",
+      "kind": "threshold",
+      "margin_col": "hazard_feedwater_margin",
+      "threshold": 184.8,
+      "var": "feedwater_flow"
+    }
+  ],
+  "P": [
+    {
+      "component": "boiler",
+      "duration_s": 0.0,
+      "expr": "|steam_setpoint - main_steam_pressure| > BOILER_CUT_TH",
+      "id": "A-BOILER-CUT",
+      "kind": "deviation",
+      "margin_col": "alarm_boiler_cut_margin",
+      "setpoint_var": "steam_setpoint",
+      "threshold": 1.5,
+      "var": "main_steam_pressure"
+    },
+    {
+      "component": "fuel",
+      "duration_s": 0.0,
+      "expr": "|coal_flow - fuel_command| > FUEL_CUT_TH",
+      "id": "A-FUEL-CUT",
+      "kind": "deviation",
+      "margin_col": "alarm_fuel_cut_margin",
+      "setpoint_var": "fuel_command",
+      "threshold": 43.0,
+      "var": "coal_flow"
+    },
+    {
+      "component": "feedwater",
+      "duration_s": 0.0,
+      "expr": "|water_setpoint - feedwater_flow| > WATER_CUT_TH",
+      "id": "A-WATER-CUT",
+      "kind": "deviation",
+      "margin_col": "alarm_water_cut_margin",
+      "setpoint_var": "water_setpoint",
+      "threshold": 150.0,
+      "var": "feedwater_flow"
+    }
+  ],
+  "W": [
+    {
+      "aliases": [
+        "simulation_boiler_pid_output"
+      ],
+      "canonical_name": "boiler_pid_output",
+      "controller": "BoilerMasterController",
+      "description": "锅炉主控PID输出（手操值）",
+      "layer": "controller_output",
+      "manifest_name": "simulation_boiler_pid_output",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "boiler_pid_output"
+    },
+    {
+      "aliases": [
+        "simulation_boiler_pv_filtered"
+      ],
+      "canonical_name": "boiler_pv_filtered",
+      "controller": "BoilerMasterController",
+      "description": "锅炉主控PV惯性滤波器输出（主蒸汽压力滤波值）",
+      "layer": "controller_output",
+      "manifest_name": "simulation_boiler_pv_filtered",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "boiler_pv_filtered"
+    },
+    {
+      "aliases": [
+        "simulation_boiler_setpoint"
+      ],
+      "canonical_name": "boiler_setpoint",
+      "controller": "BoilerMasterController",
+      "description": "锅炉主控PID最终输出",
+      "layer": "setpoint",
+      "manifest_name": "simulation_boiler_setpoint",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "boiler_setpoint"
+    },
+    {
+      "aliases": [
+        "simulation_fuel_command"
+      ],
+      "canonical_name": "fuel_command",
+      "controller": "FuelController",
+      "description": "给煤指令最终输出",
+      "layer": "actuator",
+      "manifest_name": "simulation_fuel_command",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "fuel_command"
+    },
+    {
+      "aliases": [
+        "simulation_fuel_filter_output"
+      ],
+      "canonical_name": "fuel_filter_output",
+      "controller": "FuelController",
+      "description": "燃料控制输出滤波器输出",
+      "layer": "controller_output",
+      "manifest_name": "simulation_fuel_filter_output",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "fuel_filter_output"
+    },
+    {
+      "aliases": [
+        "simulation_fuel_pid_output"
+      ],
+      "canonical_name": "fuel_pid_output",
+      "controller": "FuelController",
+      "description": "燃料PID输出（手操值）",
+      "layer": "controller_output",
+      "manifest_name": "simulation_fuel_pid_output",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "fuel_pid_output"
+    },
+    {
+      "aliases": [
+        "simulation_fuel_rate_output"
+      ],
+      "canonical_name": "fuel_rate_output",
+      "controller": "FuelController",
+      "description": "燃料控制速率限制器输出",
+      "layer": "controller_output",
+      "manifest_name": "simulation_fuel_rate_output",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "fuel_rate_output"
+    },
+    {
+      "aliases": [
+        "simulation_load_output"
+      ],
+      "canonical_name": "load_output",
+      "controller": "LoadInstructionGenerator",
+      "description": "负荷指令生成器最终输出",
+      "layer": "setpoint",
+      "manifest_name": "simulation_load_output",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "load_output"
+    },
+    {
+      "aliases": [
+        "simulation_loadgen_rate_output"
+      ],
+      "canonical_name": "loadgen_rate_output",
+      "controller": "LoadInstructionGenerator",
+      "description": "负荷指令速率限制器输出",
+      "layer": "controller_output",
+      "manifest_name": "simulation_loadgen_rate_output",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "loadgen_rate_output"
+    },
+    {
+      "aliases": [
+        "simulation_steam_hfop1_output"
+      ],
+      "canonical_name": "steam_hfop1_output",
+      "controller": "MainSteamPressureController",
+      "description": "压力设定值一阶惯性滤波器1输出",
+      "layer": "controller_output",
+      "manifest_name": "simulation_steam_hfop1_output",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "steam_hfop1_output"
+    },
+    {
+      "aliases": [
+        "simulation_steam_hfop2_output"
+      ],
+      "canonical_name": "steam_hfop2_output",
+      "controller": "MainSteamPressureController",
+      "description": "压力设定值一阶惯性滤波器2输出",
+      "layer": "controller_output",
+      "manifest_name": "simulation_steam_hfop2_output",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "steam_hfop2_output"
+    },
+    {
+      "aliases": [
+        "simulation_steam_hfop3_output"
+      ],
+      "canonical_name": "steam_hfop3_output",
+      "controller": "MainSteamPressureController",
+      "description": "压力设定值一阶惯性滤波器3输出",
+      "layer": "controller_output",
+      "manifest_name": "simulation_steam_hfop3_output",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "steam_hfop3_output"
+    },
+    {
+      "aliases": [
+        "simulation_steam_hfop4_output"
+      ],
+      "canonical_name": "steam_hfop4_output",
+      "controller": "MainSteamPressureController",
+      "description": "压力设定值一阶惯性滤波器4输出",
+      "layer": "controller_output",
+      "manifest_name": "simulation_steam_hfop4_output",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "steam_hfop4_output"
+    },
+    {
+      "aliases": [
+        "simulation_steam_rate_output"
+      ],
+      "canonical_name": "steam_rate_output",
+      "controller": "MainSteamPressureController",
+      "description": "压力设定值速率限制器输出",
+      "layer": "controller_output",
+      "manifest_name": "simulation_steam_rate_output",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "steam_rate_output"
+    },
+    {
+      "aliases": [
+        "simulation_steam_setpoint"
+      ],
+      "canonical_name": "steam_setpoint",
+      "controller": "MainSteamPressureController",
+      "description": "主蒸汽压力设定值（限速后最终输出）",
+      "layer": "setpoint",
+      "manifest_name": "simulation_steam_setpoint",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "steam_setpoint"
+    },
+    {
+      "aliases": [
+        "simulation_water_filter_output"
+      ],
+      "canonical_name": "water_filter_output",
+      "controller": "FeedwaterController",
+      "description": "给水泵输出滤波器输出",
+      "layer": "controller_output",
+      "manifest_name": "simulation_water_filter_output",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "water_filter_output"
+    },
+    {
+      "aliases": [
+        "simulation_water_pid_output"
+      ],
+      "canonical_name": "water_pid_output",
+      "controller": "FeedwaterController",
+      "description": "给水PID输出（手操值）",
+      "layer": "controller_output",
+      "manifest_name": "simulation_water_pid_output",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "water_pid_output"
+    },
+    {
+      "aliases": [
+        "simulation_water_pump_speed"
+      ],
+      "canonical_name": "water_pump_speed",
+      "controller": "FeedwaterController",
+      "description": "给水泵转速指令最终输出",
+      "layer": "actuator",
+      "manifest_name": "simulation_water_pump_speed",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "water_pump_speed"
+    },
+    {
+      "aliases": [
+        "simulation_water_rate_output"
+      ],
+      "canonical_name": "water_rate_output",
+      "controller": "FeedwaterController",
+      "description": "给水泵速率限制器输出",
+      "layer": "controller_output",
+      "manifest_name": "simulation_water_rate_output",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "water_rate_output"
+    },
+    {
+      "aliases": [
+        "simulation_water_setpoint"
+      ],
+      "canonical_name": "water_setpoint",
+      "controller": "WaterK",
+      "description": "给水流量设定值最终输出",
+      "layer": "setpoint",
+      "manifest_name": "simulation_water_setpoint",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "water_setpoint"
+    },
+    {
+      "aliases": [
+        "simulation_waterk_filter_output"
+      ],
+      "canonical_name": "waterk_filter_output",
+      "controller": "WaterK",
+      "description": "给水设定值惯性滤波器输出",
+      "layer": "controller_output",
+      "manifest_name": "simulation_waterk_filter_output",
+      "platform": "boiler_ccs",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "waterk_filter_output"
+    }
+  ],
+  "seed": 20260627
+}

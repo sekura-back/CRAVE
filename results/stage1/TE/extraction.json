@@ -1,0 +1,2038 @@
+{
+  "D": {
+    "attributes": [],
+    "variables": [
+      "DecentralizedController.ctrl1.err_old",
+      "DecentralizedController.ctrl1.setpoint",
+      "DecentralizedController.ctrl10.err_old",
+      "DecentralizedController.ctrl10.setpoint",
+      "DecentralizedController.ctrl11.err_old",
+      "DecentralizedController.ctrl11.setpoint",
+      "DecentralizedController.ctrl13.dxmv",
+      "DecentralizedController.ctrl13.err_old",
+      "DecentralizedController.ctrl13.setpoint",
+      "DecentralizedController.ctrl14.dxmv",
+      "DecentralizedController.ctrl14.err_old",
+      "DecentralizedController.ctrl14.setpoint",
+      "DecentralizedController.ctrl15.dxmv",
+      "DecentralizedController.ctrl15.err_old",
+      "DecentralizedController.ctrl15.setpoint",
+      "DecentralizedController.ctrl16.dxmv",
+      "DecentralizedController.ctrl16.err_old",
+      "DecentralizedController.ctrl16.setpoint",
+      "DecentralizedController.ctrl17.dxmv",
+      "DecentralizedController.ctrl17.err_old",
+      "DecentralizedController.ctrl17.setpoint",
+      "DecentralizedController.ctrl18.dxmv",
+      "DecentralizedController.ctrl18.err_old",
+      "DecentralizedController.ctrl18.setpoint",
+      "DecentralizedController.ctrl19.dxmv",
+      "DecentralizedController.ctrl19.err_old",
+      "DecentralizedController.ctrl19.setpoint",
+      "DecentralizedController.ctrl2.err_old",
+      "DecentralizedController.ctrl2.setpoint",
+      "DecentralizedController.ctrl20.dxmv",
+      "DecentralizedController.ctrl20.err_old",
+      "DecentralizedController.ctrl20.setpoint",
+      "DecentralizedController.ctrl3.err_old",
+      "DecentralizedController.ctrl3.setpoint",
+      "DecentralizedController.ctrl4.err_old",
+      "DecentralizedController.ctrl4.setpoint",
+      "DecentralizedController.ctrl5.err_old",
+      "DecentralizedController.ctrl5.setpoint",
+      "DecentralizedController.ctrl6.err_old",
+      "DecentralizedController.ctrl6.normal_output",
+      "DecentralizedController.ctrl6.setpoint",
+      "DecentralizedController.ctrl7.err_old",
+      "DecentralizedController.ctrl7.setpoint",
+      "DecentralizedController.ctrl8.err_old",
+      "DecentralizedController.ctrl8.setpoint",
+      "DecentralizedController.ctrl9.err_old",
+      "DecentralizedController.ctrl9.setpoint",
+      "DecentralizedController.high_output",
+      "DecentralizedController.low_output",
+      "DecentralizedController.normal_output",
+      "DecentralizedController.purge_flag",
+      "DecentralizedController.sep_pressure",
+      "a_feed_sp",
+      "ac_feed_sp",
+      "cw_temp_setpoint",
+      "d_feed_sp",
+      "e_feed_sp",
+      "purge_normal_ctrl_output",
+      "purge_override_high_output",
+      "purge_override_low_output",
+      "purge_rate_sp",
+      "reactor_level_sp",
+      "recycle_sp",
+      "separator_level_sp",
+      "steam_flow_setpoint",
+      "stripper_level_sp",
+      "stripper_temp_setpoint",
+      "xmeas_01",
+      "xmeas_02",
+      "xmeas_03",
+      "xmeas_04",
+      "xmeas_05",
+      "xmeas_07",
+      "xmeas_08",
+      "xmeas_09",
+      "xmeas_10",
+      "xmeas_12",
+      "xmeas_13",
+      "xmeas_15",
+      "xmeas_17",
+      "xmeas_18",
+      "xmeas_19",
+      "xmeas_21",
+      "xmeas_23",
+      "xmeas_26",
+      "xmeas_27",
+      "xmeas_30",
+      "xmeas_38",
+      "xmv_01",
+      "xmv_02",
+      "xmv_03",
+      "xmv_04",
+      "xmv_05",
+      "xmv_06",
+      "xmv_07",
+      "xmv_08",
+      "xmv_09",
+      "xmv_10",
+      "xmv_11"
+    ]
+  },
+  "G": {
+    "E": [
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl1.err_old",
+        "y": "xmv_01"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl1.setpoint",
+        "y": "DecentralizedController.ctrl1.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl1.setpoint",
+        "y": "xmv_01"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl10.err_old",
+        "y": "xmv_10"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl10.setpoint",
+        "y": "DecentralizedController.ctrl10.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl10.setpoint",
+        "y": "xmv_10"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl11.err_old",
+        "y": "xmv_11"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl11.setpoint",
+        "y": "DecentralizedController.ctrl11.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl11.setpoint",
+        "y": "xmv_11"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl13.dxmv",
+        "y": "a_feed_sp"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl13.err_old",
+        "y": "DecentralizedController.ctrl13.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl13.setpoint",
+        "y": "DecentralizedController.ctrl13.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl13.setpoint",
+        "y": "DecentralizedController.ctrl13.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl14.dxmv",
+        "y": "d_feed_sp"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl14.err_old",
+        "y": "DecentralizedController.ctrl14.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl14.setpoint",
+        "y": "DecentralizedController.ctrl14.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl14.setpoint",
+        "y": "DecentralizedController.ctrl14.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl15.dxmv",
+        "y": "e_feed_sp"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl15.err_old",
+        "y": "DecentralizedController.ctrl15.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl15.setpoint",
+        "y": "DecentralizedController.ctrl15.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl15.setpoint",
+        "y": "DecentralizedController.ctrl15.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl16.dxmv",
+        "y": "steam_flow_setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl16.err_old",
+        "y": "DecentralizedController.ctrl16.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl16.setpoint",
+        "y": "DecentralizedController.ctrl16.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl16.setpoint",
+        "y": "DecentralizedController.ctrl16.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl17.dxmv",
+        "y": "ac_feed_sp"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl17.err_old",
+        "y": "DecentralizedController.ctrl17.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl17.setpoint",
+        "y": "DecentralizedController.ctrl17.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl17.setpoint",
+        "y": "DecentralizedController.ctrl17.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl18.dxmv",
+        "y": "cw_temp_setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl18.err_old",
+        "y": "DecentralizedController.ctrl18.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl18.setpoint",
+        "y": "DecentralizedController.ctrl18.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl18.setpoint",
+        "y": "DecentralizedController.ctrl18.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl19.dxmv",
+        "y": "purge_rate_sp"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl19.err_old",
+        "y": "DecentralizedController.ctrl19.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl19.setpoint",
+        "y": "DecentralizedController.ctrl19.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl19.setpoint",
+        "y": "DecentralizedController.ctrl19.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl2.err_old",
+        "y": "xmv_02"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl2.setpoint",
+        "y": "DecentralizedController.ctrl2.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl2.setpoint",
+        "y": "xmv_02"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl20.dxmv",
+        "y": "stripper_temp_setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl20.err_old",
+        "y": "DecentralizedController.ctrl20.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl20.setpoint",
+        "y": "DecentralizedController.ctrl20.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl20.setpoint",
+        "y": "DecentralizedController.ctrl20.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl3.err_old",
+        "y": "xmv_03"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl3.setpoint",
+        "y": "DecentralizedController.ctrl3.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl3.setpoint",
+        "y": "xmv_03"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl4.err_old",
+        "y": "xmv_04"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl4.setpoint",
+        "y": "DecentralizedController.ctrl4.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl4.setpoint",
+        "y": "xmv_04"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl5.err_old",
+        "y": "xmv_05"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl5.setpoint",
+        "y": "DecentralizedController.ctrl5.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl5.setpoint",
+        "y": "xmv_05"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl6.err_old",
+        "y": "DecentralizedController.ctrl6.normal_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl6.err_old",
+        "y": "xmv_06"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl6.normal_output",
+        "y": "purge_normal_ctrl_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl6.setpoint",
+        "y": "DecentralizedController.ctrl6.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl6.setpoint",
+        "y": "DecentralizedController.ctrl6.normal_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl6.setpoint",
+        "y": "xmv_06"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl7.err_old",
+        "y": "xmv_07"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl7.setpoint",
+        "y": "DecentralizedController.ctrl7.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl7.setpoint",
+        "y": "xmv_07"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl8.err_old",
+        "y": "xmv_08"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl8.setpoint",
+        "y": "DecentralizedController.ctrl8.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl8.setpoint",
+        "y": "xmv_08"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl9.err_old",
+        "y": "xmv_09"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl9.setpoint",
+        "y": "DecentralizedController.ctrl9.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.ctrl9.setpoint",
+        "y": "xmv_09"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.high_output",
+        "y": "purge_override_high_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.high_output",
+        "y": "xmv_06"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.low_output",
+        "y": "purge_override_low_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.low_output",
+        "y": "xmv_06"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.normal_output",
+        "y": "purge_normal_ctrl_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.normal_output",
+        "y": "xmv_06"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.purge_flag",
+        "y": "DecentralizedController.ctrl6.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.purge_flag",
+        "y": "purge_normal_ctrl_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.purge_flag",
+        "y": "xmv_06"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.sep_pressure",
+        "y": "DecentralizedController.ctrl6.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.sep_pressure",
+        "y": "DecentralizedController.purge_flag"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.sep_pressure",
+        "y": "purge_normal_ctrl_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "DecentralizedController.sep_pressure",
+        "y": "xmv_06"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "a_feed_sp",
+        "y": "DecentralizedController.ctrl3.setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "a_feed_sp",
+        "y": "xmv_03"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "ac_feed_sp",
+        "y": "DecentralizedController.ctrl4.setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "ac_feed_sp",
+        "y": "xmv_04"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "cw_temp_setpoint",
+        "y": "DecentralizedController.ctrl10.setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "d_feed_sp",
+        "y": "DecentralizedController.ctrl1.setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "d_feed_sp",
+        "y": "xmv_01"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "e_feed_sp",
+        "y": "DecentralizedController.ctrl2.setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "e_feed_sp",
+        "y": "xmv_02"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "purge_rate_sp",
+        "y": "DecentralizedController.ctrl6.setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "steam_flow_setpoint",
+        "y": "DecentralizedController.ctrl9.setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "steam_flow_setpoint",
+        "y": "xmv_09"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "stripper_temp_setpoint",
+        "y": "DecentralizedController.ctrl16.setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_01",
+        "y": "DecentralizedController.ctrl3.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_01",
+        "y": "xmv_03"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_02",
+        "y": "DecentralizedController.ctrl1.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_02",
+        "y": "xmv_01"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_03",
+        "y": "DecentralizedController.ctrl2.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_03",
+        "y": "xmv_02"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_04",
+        "y": "DecentralizedController.ctrl4.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_04",
+        "y": "xmv_04"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_05",
+        "y": "DecentralizedController.ctrl5.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_05",
+        "y": "xmv_05"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_08",
+        "y": "DecentralizedController.ctrl17.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_08",
+        "y": "DecentralizedController.ctrl17.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_08",
+        "y": "ac_feed_sp"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_09",
+        "y": "DecentralizedController.ctrl18.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_09",
+        "y": "DecentralizedController.ctrl18.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_09",
+        "y": "cw_temp_setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_10",
+        "y": "DecentralizedController.ctrl6.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_10",
+        "y": "DecentralizedController.ctrl6.normal_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_10",
+        "y": "xmv_06"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_12",
+        "y": "DecentralizedController.ctrl7.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_12",
+        "y": "xmv_07"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_13",
+        "y": "DecentralizedController.sep_pressure"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_13",
+        "y": "xmv_06"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_15",
+        "y": "DecentralizedController.ctrl8.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_15",
+        "y": "xmv_08"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_17",
+        "y": "DecentralizedController.ctrl11.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_17",
+        "y": "xmv_11"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_18",
+        "y": "DecentralizedController.ctrl16.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_18",
+        "y": "DecentralizedController.ctrl16.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_18",
+        "y": "steam_flow_setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_19",
+        "y": "DecentralizedController.ctrl9.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_19",
+        "y": "xmv_09"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_21",
+        "y": "DecentralizedController.ctrl10.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_21",
+        "y": "xmv_10"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_23",
+        "y": "DecentralizedController.ctrl13.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_23",
+        "y": "DecentralizedController.ctrl13.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_23",
+        "y": "a_feed_sp"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_26",
+        "y": "DecentralizedController.ctrl14.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_26",
+        "y": "DecentralizedController.ctrl14.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_26",
+        "y": "d_feed_sp"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_27",
+        "y": "DecentralizedController.ctrl15.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_27",
+        "y": "DecentralizedController.ctrl15.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_27",
+        "y": "e_feed_sp"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_30",
+        "y": "DecentralizedController.ctrl19.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_30",
+        "y": "DecentralizedController.ctrl19.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_30",
+        "y": "purge_rate_sp"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_38",
+        "y": "DecentralizedController.ctrl20.dxmv"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_38",
+        "y": "DecentralizedController.ctrl20.err_old"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmeas_38",
+        "y": "stripper_temp_setpoint"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmv_06",
+        "y": "DecentralizedController.ctrl6.normal_output"
+      },
+      {
+        "kind": "main_control_dependency",
+        "x": "xmv_06",
+        "y": "DecentralizedController.normal_output"
+      }
+    ]
+  },
+  "H": [
+    {
+      "component": "physical",
+      "direction": "upper",
+      "duration_s": 0.0,
+      "expr": "xmeas_07 > 3000.0",
+      "id": "H-TEP-REACTOR-PRESSURE",
+      "kind": "threshold",
+      "margin_col": "hazard_reactor_pressure_margin",
+      "threshold": 3000.0,
+      "var": "xmeas_07"
+    },
+    {
+      "component": "physical",
+      "direction": "upper",
+      "duration_s": 0.0,
+      "expr": "xmeas_09 > 175.0",
+      "id": "H-TEP-REACTOR-TEMP",
+      "kind": "threshold",
+      "margin_col": "hazard_reactor_temp_margin",
+      "threshold": 175.0,
+      "var": "xmeas_09"
+    },
+    {
+      "component": "physical",
+      "direction": "upper",
+      "duration_s": 0.0,
+      "expr": "xmeas_08 > 24.0",
+      "id": "H-TEP-REACTOR-LEVEL-HIGH",
+      "jacobian_col": "hazard_reactor_level_high_margin",
+      "jacobian_kind": "margin",
+      "kind": "threshold",
+      "margin_col": "hazard_reactor_level_high_margin",
+      "threshold": 24.0,
+      "var": "xmeas_08"
+    },
+    {
+      "component": "physical",
+      "direction": "lower",
+      "duration_s": 0.0,
+      "expr": "xmeas_08 < 2.0",
+      "id": "H-TEP-REACTOR-LEVEL-LOW",
+      "jacobian_col": "hazard_reactor_level_low_margin",
+      "jacobian_kind": "margin",
+      "kind": "threshold",
+      "margin_col": "hazard_reactor_level_low_margin",
+      "threshold": 2.0,
+      "var": "xmeas_08"
+    },
+    {
+      "component": "physical",
+      "direction": "upper",
+      "duration_s": 0.0,
+      "expr": "xmeas_12 > 12.0",
+      "id": "H-TEP-SEPARATOR-LEVEL-HIGH",
+      "jacobian_col": "hazard_separator_level_high_margin",
+      "jacobian_kind": "margin",
+      "kind": "threshold",
+      "margin_col": "hazard_separator_level_high_margin",
+      "threshold": 12.0,
+      "var": "xmeas_12"
+    },
+    {
+      "component": "physical",
+      "direction": "lower",
+      "duration_s": 0.0,
+      "expr": "xmeas_12 < 1.0",
+      "id": "H-TEP-SEPARATOR-LEVEL-LOW",
+      "jacobian_col": "hazard_separator_level_low_margin",
+      "jacobian_kind": "margin",
+      "kind": "threshold",
+      "margin_col": "hazard_separator_level_low_margin",
+      "threshold": 1.0,
+      "var": "xmeas_12"
+    },
+    {
+      "component": "physical",
+      "direction": "upper",
+      "duration_s": 0.0,
+      "expr": "xmeas_15 > 8.0",
+      "id": "H-TEP-STRIPPER-LEVEL-HIGH",
+      "jacobian_col": "hazard_stripper_level_high_margin",
+      "jacobian_kind": "margin",
+      "kind": "threshold",
+      "margin_col": "hazard_stripper_level_high_margin",
+      "threshold": 8.0,
+      "var": "xmeas_15"
+    },
+    {
+      "component": "physical",
+      "direction": "lower",
+      "duration_s": 0.0,
+      "expr": "xmeas_15 < 1.0",
+      "id": "H-TEP-STRIPPER-LEVEL-LOW",
+      "jacobian_col": "hazard_stripper_level_low_margin",
+      "jacobian_kind": "margin",
+      "kind": "threshold",
+      "margin_col": "hazard_stripper_level_low_margin",
+      "threshold": 1.0,
+      "var": "xmeas_15"
+    }
+  ],
+  "P": [
+    {
+      "component": "controller",
+      "duration_s": 0.0,
+      "expr": "|xmeas_02 - d_feed_sp| > 350.0",
+      "id": "A-TEP-DFEED-TRACK",
+      "kind": "deviation",
+      "margin_col": "alarm_d_feed_track_margin",
+      "setpoint_var": "d_feed_sp",
+      "threshold": 350.0,
+      "var": "xmeas_02"
+    },
+    {
+      "component": "controller",
+      "duration_s": 0.0,
+      "expr": "|xmeas_03 - e_feed_sp| > 350.0",
+      "id": "A-TEP-EFEED-TRACK",
+      "kind": "deviation",
+      "margin_col": "alarm_e_feed_track_margin",
+      "setpoint_var": "e_feed_sp",
+      "threshold": 350.0,
+      "var": "xmeas_03"
+    },
+    {
+      "component": "controller",
+      "duration_s": 0.0,
+      "expr": "|xmeas_01 - a_feed_sp| > 0.5",
+      "id": "A-TEP-AFEED-TRACK",
+      "kind": "deviation",
+      "margin_col": "alarm_a_feed_track_margin",
+      "setpoint_var": "a_feed_sp",
+      "threshold": 0.5,
+      "var": "xmeas_01"
+    },
+    {
+      "component": "controller",
+      "duration_s": 0.0,
+      "expr": "|xmeas_04 - ac_feed_sp| > 1.5",
+      "id": "A-TEP-ACFEED-TRACK",
+      "kind": "deviation",
+      "margin_col": "alarm_ac_feed_track_margin",
+      "setpoint_var": "ac_feed_sp",
+      "threshold": 1.5,
+      "var": "xmeas_04"
+    },
+    {
+      "component": "controller",
+      "duration_s": 0.0,
+      "expr": "|xmeas_05 - recycle_sp| > 1.4",
+      "id": "A-TEP-RECYCLE-FLOW-TRACK",
+      "kind": "deviation",
+      "margin_col": "alarm_recycle_flow_track_margin",
+      "setpoint_var": "recycle_sp",
+      "threshold": 1.4,
+      "var": "xmeas_05"
+    },
+    {
+      "component": "controller",
+      "duration_s": 0.0,
+      "expr": "|xmeas_12 - separator_level_sp| > 10.0",
+      "id": "A-TEP-SEP-LEVEL-TRACK",
+      "kind": "deviation",
+      "margin_col": "alarm_sep_level_track_margin",
+      "setpoint_var": "separator_level_sp",
+      "threshold": 10.0,
+      "var": "xmeas_12"
+    },
+    {
+      "component": "controller",
+      "duration_s": 0.0,
+      "expr": "|xmeas_15 - stripper_level_sp| > 40.0",
+      "id": "A-TEP-STRIPPER-LEVEL-TRACK",
+      "kind": "deviation",
+      "margin_col": "alarm_stripper_level_track_margin",
+      "setpoint_var": "stripper_level_sp",
+      "threshold": 40.0,
+      "var": "xmeas_15"
+    },
+    {
+      "component": "controller",
+      "duration_s": 0.0,
+      "expr": "|xmeas_08 - reactor_level_sp| > 14.5",
+      "id": "A-TEP-REACTOR-LEVEL-TRACK",
+      "kind": "deviation",
+      "margin_col": "alarm_reactor_level_track_margin",
+      "setpoint_var": "reactor_level_sp",
+      "threshold": 14.5,
+      "var": "xmeas_08"
+    },
+    {
+      "component": "controller",
+      "duration_s": 0.0,
+      "expr": "|xmeas_10 - purge_rate_sp| > 0.2",
+      "id": "A-TEP-PURGE-RATE-TRACK",
+      "kind": "deviation",
+      "margin_col": "alarm_purge_rate_track_margin",
+      "setpoint_var": "purge_rate_sp",
+      "threshold": 0.2,
+      "var": "xmeas_10"
+    }
+  ],
+  "W": [
+    {
+      "aliases": [
+        "sp_a_feed",
+        "simulation_sp_a_feed",
+        "setpoints_2"
+      ],
+      "canonical_name": "a_feed_sp",
+      "controller": "DecentralizedController(L13->L3)",
+      "description": "A feed flow setpoint; cascade target driven by reactor feed A composition loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_a_feed",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_2"
+    },
+    {
+      "aliases": [
+        "sp_ac_feed",
+        "simulation_sp_ac_feed",
+        "setpoints_3"
+      ],
+      "canonical_name": "ac_feed_sp",
+      "controller": "DecentralizedController(L17->L4)",
+      "description": "A+C feed flow setpoint; cascade target driven by reactor level loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_ac_feed",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_3"
+    },
+    {
+      "aliases": [
+        "simulation_ctrl13_primary_output"
+      ],
+      "canonical_name": "ctrl13_primary_output",
+      "controller": "DecentralizedController(L13)",
+      "description": "Primary PI block output of reactor feed A composition controller before scaling into A feed setpoint",
+      "layer": "controller_output",
+      "manifest_name": "simulation_ctrl13_primary_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "ctrl13_primary_output"
+    },
+    {
+      "aliases": [
+        "simulation_ctrl13_scaled_output"
+      ],
+      "canonical_name": "ctrl13_scaled_output",
+      "controller": "DecentralizedController(L13->L3)",
+      "description": "Scaled cascade output written into A feed setpoint channel",
+      "layer": "controller_output",
+      "manifest_name": "simulation_ctrl13_scaled_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "ctrl13_scaled_output"
+    },
+    {
+      "aliases": [
+        "simulation_ctrl14_primary_output"
+      ],
+      "canonical_name": "ctrl14_primary_output",
+      "controller": "DecentralizedController(L14)",
+      "description": "Primary PI block output of reactor feed D composition controller before scaling into D feed setpoint",
+      "layer": "controller_output",
+      "manifest_name": "simulation_ctrl14_primary_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "ctrl14_primary_output"
+    },
+    {
+      "aliases": [
+        "simulation_ctrl14_scaled_output"
+      ],
+      "canonical_name": "ctrl14_scaled_output",
+      "controller": "DecentralizedController(L14->L1)",
+      "description": "Scaled cascade output written into D feed setpoint channel",
+      "layer": "controller_output",
+      "manifest_name": "simulation_ctrl14_scaled_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "ctrl14_scaled_output"
+    },
+    {
+      "aliases": [
+        "simulation_ctrl15_primary_output"
+      ],
+      "canonical_name": "ctrl15_primary_output",
+      "controller": "DecentralizedController(L15)",
+      "description": "Primary PI block output of reactor feed E composition controller before scaling into E feed setpoint",
+      "layer": "controller_output",
+      "manifest_name": "simulation_ctrl15_primary_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "ctrl15_primary_output"
+    },
+    {
+      "aliases": [
+        "simulation_ctrl15_scaled_output"
+      ],
+      "canonical_name": "ctrl15_scaled_output",
+      "controller": "DecentralizedController(L15->L2)",
+      "description": "Scaled cascade output written into E feed setpoint channel",
+      "layer": "controller_output",
+      "manifest_name": "simulation_ctrl15_scaled_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "ctrl15_scaled_output"
+    },
+    {
+      "aliases": [
+        "simulation_ctrl16_primary_output"
+      ],
+      "canonical_name": "ctrl16_primary_output",
+      "controller": "DecentralizedController(L16)",
+      "description": "Primary PI block output of stripper temperature controller before scaling into steam-flow setpoint",
+      "layer": "controller_output",
+      "manifest_name": "simulation_ctrl16_primary_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "ctrl16_primary_output"
+    },
+    {
+      "aliases": [
+        "simulation_ctrl16_scaled_output"
+      ],
+      "canonical_name": "ctrl16_scaled_output",
+      "controller": "DecentralizedController(L16->L9)",
+      "description": "Scaled cascade output written into steam-flow setpoint channel",
+      "layer": "controller_output",
+      "manifest_name": "simulation_ctrl16_scaled_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "ctrl16_scaled_output"
+    },
+    {
+      "aliases": [
+        "simulation_ctrl17_primary_output"
+      ],
+      "canonical_name": "ctrl17_primary_output",
+      "controller": "DecentralizedController(L17)",
+      "description": "Primary PI block output of reactor level controller before scaling into A+C feed setpoint",
+      "layer": "controller_output",
+      "manifest_name": "simulation_ctrl17_primary_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "ctrl17_primary_output"
+    },
+    {
+      "aliases": [
+        "simulation_ctrl17_scaled_output"
+      ],
+      "canonical_name": "ctrl17_scaled_output",
+      "controller": "DecentralizedController(L17->L4)",
+      "description": "Scaled cascade output written into A+C feed setpoint channel",
+      "layer": "controller_output",
+      "manifest_name": "simulation_ctrl17_scaled_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "ctrl17_scaled_output"
+    },
+    {
+      "aliases": [
+        "simulation_ctrl18_primary_output"
+      ],
+      "canonical_name": "ctrl18_primary_output",
+      "controller": "DecentralizedController(L18)",
+      "description": "Primary PI block output of reactor temperature controller before scaling into cooling-water setpoint",
+      "layer": "controller_output",
+      "manifest_name": "simulation_ctrl18_primary_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "ctrl18_primary_output"
+    },
+    {
+      "aliases": [
+        "simulation_ctrl18_scaled_output"
+      ],
+      "canonical_name": "ctrl18_scaled_output",
+      "controller": "DecentralizedController(L18->L10)",
+      "description": "Scaled cascade output written into reactor cooling-water temperature setpoint channel",
+      "layer": "controller_output",
+      "manifest_name": "simulation_ctrl18_scaled_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "ctrl18_scaled_output"
+    },
+    {
+      "aliases": [
+        "simulation_ctrl19_primary_output"
+      ],
+      "canonical_name": "ctrl19_primary_output",
+      "controller": "DecentralizedController(L19)",
+      "description": "Primary PI block output of purge B composition controller before scaling into purge-rate setpoint",
+      "layer": "controller_output",
+      "manifest_name": "simulation_ctrl19_primary_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "ctrl19_primary_output"
+    },
+    {
+      "aliases": [
+        "simulation_ctrl19_scaled_output"
+      ],
+      "canonical_name": "ctrl19_scaled_output",
+      "controller": "DecentralizedController(L19->L6)",
+      "description": "Scaled cascade output written into purge-rate setpoint channel",
+      "layer": "controller_output",
+      "manifest_name": "simulation_ctrl19_scaled_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "ctrl19_scaled_output"
+    },
+    {
+      "aliases": [
+        "simulation_ctrl20_primary_output"
+      ],
+      "canonical_name": "ctrl20_primary_output",
+      "controller": "DecentralizedController(L20)",
+      "description": "Primary PI block output of product E composition controller before scaling into stripper-temperature setpoint",
+      "layer": "controller_output",
+      "manifest_name": "simulation_ctrl20_primary_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "ctrl20_primary_output"
+    },
+    {
+      "aliases": [
+        "simulation_ctrl20_scaled_output"
+      ],
+      "canonical_name": "ctrl20_scaled_output",
+      "controller": "DecentralizedController(L20->L16)",
+      "description": "Scaled cascade output written into stripper-temperature setpoint channel",
+      "layer": "controller_output",
+      "manifest_name": "simulation_ctrl20_scaled_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "ctrl20_scaled_output"
+    },
+    {
+      "aliases": [
+        "sp_reactor_cw_temp",
+        "simulation_sp_cw",
+        "setpoints_9"
+      ],
+      "canonical_name": "cw_temp_setpoint",
+      "controller": "DecentralizedController(L18->L10)",
+      "description": "Reactor cooling-water outlet temperature setpoint; cascade target driven by reactor temperature loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_cw",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_9"
+    },
+    {
+      "aliases": [
+        "sp_d_feed",
+        "simulation_sp_d_feed",
+        "setpoints_0"
+      ],
+      "canonical_name": "d_feed_sp",
+      "controller": "DecentralizedController(L14->L1)",
+      "description": "D feed flow setpoint; cascade target driven by reactor feed D composition loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_d_feed",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_0"
+    },
+    {
+      "aliases": [
+        "sp_e_feed",
+        "simulation_sp_e_feed",
+        "setpoints_1"
+      ],
+      "canonical_name": "e_feed_sp",
+      "controller": "DecentralizedController(L15->L2)",
+      "description": "E feed flow setpoint; cascade target driven by reactor feed E composition loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_e_feed",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_1"
+    },
+    {
+      "aliases": [
+        "sp_product_e_comp",
+        "simulation_sp_product_e_comp",
+        "setpoints_19"
+      ],
+      "canonical_name": "product_e_comp_sp",
+      "controller": "DecentralizedController(L20)",
+      "description": "Product E composition setpoint for slow cascade primary loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_product_e_comp",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_19"
+    },
+    {
+      "aliases": [
+        "sp_purge_b_comp",
+        "simulation_sp_purge_b_comp",
+        "setpoints_18"
+      ],
+      "canonical_name": "purge_b_comp_sp",
+      "controller": "DecentralizedController(L19)",
+      "description": "Purge B composition setpoint for cascade primary loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_purge_b_comp",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_18"
+    },
+    {
+      "aliases": [
+        "simulation_purge_normal_ctrl_output"
+      ],
+      "canonical_name": "purge_normal_ctrl_output",
+      "controller": "DecentralizedController(L6-normal)",
+      "description": "Normal purge PI control branch output before override arbitration",
+      "layer": "controller_output",
+      "manifest_name": "simulation_purge_normal_ctrl_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "purge_normal_ctrl_output"
+    },
+    {
+      "aliases": [
+        "simulation_purge_override_high_output"
+      ],
+      "canonical_name": "purge_override_high_output",
+      "controller": "DecentralizedController(L22-high)",
+      "description": "High-pressure override branch output forcing purge valve fully open",
+      "layer": "controller_output",
+      "manifest_name": "simulation_purge_override_high_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "purge_override_high_output"
+    },
+    {
+      "aliases": [
+        "simulation_purge_override_low_output"
+      ],
+      "canonical_name": "purge_override_low_output",
+      "controller": "DecentralizedController(L22-low)",
+      "description": "Low-pressure override branch output forcing purge valve fully closed",
+      "layer": "controller_output",
+      "manifest_name": "simulation_purge_override_low_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "purge_override_low_output"
+    },
+    {
+      "aliases": [
+        "sp_purge_rate",
+        "simulation_sp_purge",
+        "setpoints_5"
+      ],
+      "canonical_name": "purge_rate_sp",
+      "controller": "DecentralizedController(L19->L6)",
+      "description": "Purge rate setpoint; cascade target driven by purge B composition loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_purge",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_5"
+    },
+    {
+      "aliases": [
+        "sp_reactor_feed_a_comp",
+        "simulation_sp_reactor_feed_a_comp",
+        "setpoints_12"
+      ],
+      "canonical_name": "reactor_feed_a_comp_sp",
+      "controller": "DecentralizedController(L13)",
+      "description": "Reactor feed A composition setpoint for cascade primary loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_reactor_feed_a_comp",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_12"
+    },
+    {
+      "aliases": [
+        "sp_reactor_feed_d_comp",
+        "simulation_sp_reactor_feed_d_comp",
+        "setpoints_13"
+      ],
+      "canonical_name": "reactor_feed_d_comp_sp",
+      "controller": "DecentralizedController(L14)",
+      "description": "Reactor feed D composition setpoint for cascade primary loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_reactor_feed_d_comp",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_13"
+    },
+    {
+      "aliases": [
+        "sp_reactor_feed_e_comp",
+        "simulation_sp_reactor_feed_e_comp",
+        "setpoints_14"
+      ],
+      "canonical_name": "reactor_feed_e_comp_sp",
+      "controller": "DecentralizedController(L15)",
+      "description": "Reactor feed E composition setpoint for cascade primary loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_reactor_feed_e_comp",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_14"
+    },
+    {
+      "aliases": [
+        "sp_reactor_level",
+        "simulation_sp_reactor_level",
+        "setpoints_16"
+      ],
+      "canonical_name": "reactor_level_sp",
+      "controller": "DecentralizedController(L17)",
+      "description": "Reactor level setpoint for cascade primary loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_reactor_level",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_16"
+    },
+    {
+      "aliases": [
+        "sp_reactor_temp",
+        "simulation_sp_reactor_temp",
+        "setpoints_17"
+      ],
+      "canonical_name": "reactor_temp_setpoint",
+      "controller": "DecentralizedController(L18)",
+      "description": "Reactor temperature setpoint for cascade primary loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_reactor_temp",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_17"
+    },
+    {
+      "aliases": [
+        "sp_recycle_flow",
+        "simulation_sp_recycle_flow",
+        "setpoints_4"
+      ],
+      "canonical_name": "recycle_sp",
+      "controller": "DecentralizedController(L5)",
+      "description": "Recycle flow setpoint for direct recycle-flow loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_recycle_flow",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_4"
+    },
+    {
+      "aliases": [
+        "sp_separator_level",
+        "simulation_sp_separator_level",
+        "setpoints_6"
+      ],
+      "canonical_name": "separator_level_sp",
+      "controller": "DecentralizedController(L7)",
+      "description": "Separator level setpoint for direct separator-level loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_separator_level",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_6"
+    },
+    {
+      "aliases": [
+        "sp_separator_pressure",
+        "simulation_sp_separator_pressure",
+        "setpoints_11"
+      ],
+      "canonical_name": "separator_pressure_sp",
+      "controller": "DecentralizedController(L22)",
+      "description": "Separator pressure setpoint for purge override / backup pressure control",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_separator_pressure",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_11"
+    },
+    {
+      "aliases": [
+        "sp_steam_flow",
+        "simulation_sp_steam",
+        "setpoints_8"
+      ],
+      "canonical_name": "steam_flow_setpoint",
+      "controller": "DecentralizedController(L16->L9)",
+      "description": "Steam flow setpoint; cascade target driven by stripper temperature loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_steam",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_8"
+    },
+    {
+      "aliases": [
+        "sp_stripper_level",
+        "simulation_sp_stripper_level",
+        "setpoints_7"
+      ],
+      "canonical_name": "stripper_level_sp",
+      "controller": "DecentralizedController(L8)",
+      "description": "Stripper level setpoint for direct stripper-level loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_stripper_level",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_7"
+    },
+    {
+      "aliases": [
+        "sp_stripper_temp",
+        "simulation_sp_strip_temp",
+        "setpoints_15"
+      ],
+      "canonical_name": "stripper_temp_setpoint",
+      "controller": "DecentralizedController(L20->L16)",
+      "description": "Stripper temperature setpoint; slow cascade target driven by product E composition loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_strip_temp",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_15"
+    },
+    {
+      "aliases": [
+        "sp_stripper_underflow",
+        "simulation_sp_stripper_underflow",
+        "setpoints_10"
+      ],
+      "canonical_name": "stripper_underflow_sp",
+      "controller": "DecentralizedController(L11)",
+      "description": "Stripper underflow setpoint for direct stripper-underflow loop",
+      "layer": "setpoint",
+      "manifest_name": "simulation_sp_stripper_underflow",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "setpoints_10"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_01"
+      ],
+      "canonical_name": "xmv_01",
+      "controller": "DecentralizedController(L1)",
+      "description": "D Feed Flow valve final output",
+      "layer": "actuator",
+      "manifest_name": "simulation_xmv_01",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable",
+        "observable"
+      ],
+      "runtime_field": "xmv_01"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_01_ctrl_output"
+      ],
+      "canonical_name": "xmv_01_ctrl_output",
+      "controller": "DecentralizedController(L1)",
+      "description": "Controller block output for D Feed Flow valve before final actuator override",
+      "layer": "controller_output",
+      "manifest_name": "simulation_xmv_01_ctrl_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "xmv_01_ctrl_output"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_02"
+      ],
+      "canonical_name": "xmv_02",
+      "controller": "DecentralizedController(L2)",
+      "description": "E Feed Flow valve final output",
+      "layer": "actuator",
+      "manifest_name": "simulation_xmv_02",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable",
+        "observable"
+      ],
+      "runtime_field": "xmv_02"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_02_ctrl_output"
+      ],
+      "canonical_name": "xmv_02_ctrl_output",
+      "controller": "DecentralizedController(L2)",
+      "description": "Controller block output for E Feed Flow valve before final actuator override",
+      "layer": "controller_output",
+      "manifest_name": "simulation_xmv_02_ctrl_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "xmv_02_ctrl_output"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_03"
+      ],
+      "canonical_name": "xmv_03",
+      "controller": "DecentralizedController(L3)",
+      "description": "A Feed Flow valve final output",
+      "layer": "actuator",
+      "manifest_name": "simulation_xmv_03",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable",
+        "observable"
+      ],
+      "runtime_field": "xmv_03"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_03_ctrl_output"
+      ],
+      "canonical_name": "xmv_03_ctrl_output",
+      "controller": "DecentralizedController(L3)",
+      "description": "Controller block output for A Feed Flow valve before final actuator override",
+      "layer": "controller_output",
+      "manifest_name": "simulation_xmv_03_ctrl_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "xmv_03_ctrl_output"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_04"
+      ],
+      "canonical_name": "xmv_04",
+      "controller": "DecentralizedController(L4)",
+      "description": "A+C Feed Flow valve final output",
+      "layer": "actuator",
+      "manifest_name": "simulation_xmv_04",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable",
+        "observable"
+      ],
+      "runtime_field": "xmv_04"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_04_ctrl_output"
+      ],
+      "canonical_name": "xmv_04_ctrl_output",
+      "controller": "DecentralizedController(L4)",
+      "description": "Controller block output for A+C Feed Flow valve before final actuator override",
+      "layer": "controller_output",
+      "manifest_name": "simulation_xmv_04_ctrl_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "xmv_04_ctrl_output"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_05"
+      ],
+      "canonical_name": "xmv_05",
+      "controller": "DecentralizedController(L5)",
+      "description": "Compressor recycle valve final output",
+      "layer": "actuator",
+      "manifest_name": "simulation_xmv_05",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable",
+        "observable"
+      ],
+      "runtime_field": "xmv_05"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_05_ctrl_output"
+      ],
+      "canonical_name": "xmv_05_ctrl_output",
+      "controller": "DecentralizedController(L5)",
+      "description": "Controller block output for compressor recycle valve before final actuator override",
+      "layer": "controller_output",
+      "manifest_name": "simulation_xmv_05_ctrl_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "xmv_05_ctrl_output"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_06"
+      ],
+      "canonical_name": "xmv_06",
+      "controller": "DecentralizedController(L6/L22)",
+      "description": "Purge valve final output with separator-pressure override logic",
+      "layer": "actuator",
+      "manifest_name": "simulation_xmv_06",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable",
+        "observable"
+      ],
+      "runtime_field": "xmv_06"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_06_ctrl_output"
+      ],
+      "canonical_name": "xmv_06_ctrl_output",
+      "controller": "DecentralizedController(L6/L22)",
+      "description": "Controller block output for purge valve after purge-control logic and before final actuator override",
+      "layer": "controller_output",
+      "manifest_name": "simulation_xmv_06_ctrl_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "xmv_06_ctrl_output"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_07"
+      ],
+      "canonical_name": "xmv_07",
+      "controller": "DecentralizedController(L7)",
+      "description": "Separator pot liquid-flow valve final output",
+      "layer": "actuator",
+      "manifest_name": "simulation_xmv_07",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable",
+        "observable"
+      ],
+      "runtime_field": "xmv_07"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_07_ctrl_output"
+      ],
+      "canonical_name": "xmv_07_ctrl_output",
+      "controller": "DecentralizedController(L7)",
+      "description": "Controller block output for separator pot liquid-flow valve before final actuator override",
+      "layer": "controller_output",
+      "manifest_name": "simulation_xmv_07_ctrl_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "xmv_07_ctrl_output"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_08"
+      ],
+      "canonical_name": "xmv_08",
+      "controller": "DecentralizedController(L8)",
+      "description": "Stripper liquid-product valve final output",
+      "layer": "actuator",
+      "manifest_name": "simulation_xmv_08",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable",
+        "observable"
+      ],
+      "runtime_field": "xmv_08"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_08_ctrl_output"
+      ],
+      "canonical_name": "xmv_08_ctrl_output",
+      "controller": "DecentralizedController(L8)",
+      "description": "Controller block output for stripper liquid-product valve before final actuator override",
+      "layer": "controller_output",
+      "manifest_name": "simulation_xmv_08_ctrl_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "xmv_08_ctrl_output"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_09"
+      ],
+      "canonical_name": "xmv_09",
+      "controller": "DecentralizedController(L9)",
+      "description": "Stripper steam valve final output",
+      "layer": "actuator",
+      "manifest_name": "simulation_xmv_09",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable",
+        "observable"
+      ],
+      "runtime_field": "xmv_09"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_09_ctrl_output"
+      ],
+      "canonical_name": "xmv_09_ctrl_output",
+      "controller": "DecentralizedController(L9)",
+      "description": "Controller block output for stripper steam valve before final actuator override",
+      "layer": "controller_output",
+      "manifest_name": "simulation_xmv_09_ctrl_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "xmv_09_ctrl_output"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_10"
+      ],
+      "canonical_name": "xmv_10",
+      "controller": "DecentralizedController(L10)",
+      "description": "Reactor cooling-water valve final output",
+      "layer": "actuator",
+      "manifest_name": "simulation_xmv_10",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable",
+        "observable"
+      ],
+      "runtime_field": "xmv_10"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_10_ctrl_output"
+      ],
+      "canonical_name": "xmv_10_ctrl_output",
+      "controller": "DecentralizedController(L10)",
+      "description": "Controller block output for reactor cooling-water valve before final actuator override",
+      "layer": "controller_output",
+      "manifest_name": "simulation_xmv_10_ctrl_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "xmv_10_ctrl_output"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_11"
+      ],
+      "canonical_name": "xmv_11",
+      "controller": "DecentralizedController(L11)",
+      "description": "Condenser cooling-water valve final output",
+      "layer": "actuator",
+      "manifest_name": "simulation_xmv_11",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable",
+        "observable"
+      ],
+      "runtime_field": "xmv_11"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_11_ctrl_output"
+      ],
+      "canonical_name": "xmv_11_ctrl_output",
+      "controller": "DecentralizedController(L11)",
+      "description": "Controller block output for condenser cooling-water valve before final actuator override",
+      "layer": "controller_output",
+      "manifest_name": "simulation_xmv_11_ctrl_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "xmv_11_ctrl_output"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_12"
+      ],
+      "canonical_name": "xmv_12",
+      "controller": "DecentralizedController",
+      "description": "Agitator speed final output",
+      "layer": "actuator",
+      "manifest_name": "simulation_xmv_12",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable",
+        "observable"
+      ],
+      "runtime_field": "xmv_12"
+    },
+    {
+      "aliases": [
+        "simulation_xmv_12_ctrl_output"
+      ],
+      "canonical_name": "xmv_12_ctrl_output",
+      "controller": "DecentralizedController",
+      "description": "Controller block output for agitator speed before final actuator override",
+      "layer": "controller_output",
+      "manifest_name": "simulation_xmv_12_ctrl_output",
+      "platform": "tennessee_eastman",
+      "roles": [
+        "injectable"
+      ],
+      "runtime_field": "xmv_12_ctrl_output"
+    }
+  ],
+  "seed": 20260627
+}

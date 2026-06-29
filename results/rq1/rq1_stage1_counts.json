@@ -1,0 +1,58 @@
+{
+  "platforms": {
+    "boiler_ccs": {
+      "D": 52,
+      "G": 110,
+      "H": 3,
+      "P": 3,
+      "W": 21,
+      "W_by_layer": {
+        "actuator": 2,
+        "controller_output": 15,
+        "setpoint": 4
+      },
+      "W_rank": 2,
+      "candidate_variables": [
+        "fuel_command",
+        "water_pump_speed"
+      ],
+      "display_name": "Boiler CCS",
+      "seed": 20260627,
+      "sensitivity_matrix": {
+        "cols": 3,
+        "rows": 2
+      }
+    },
+    "tennessee_eastman": {
+      "D": 99,
+      "G": 145,
+      "H": 8,
+      "P": 9,
+      "W": 63,
+      "W_by_layer": {
+        "actuator": 12,
+        "controller_output": 31,
+        "setpoint": 20
+      },
+      "W_rank": 7,
+      "candidate_variables": [
+        "xmv_05",
+        "xmv_04",
+        "xmv_08",
+        "xmv_10",
+        "xmv_01",
+        "xmv_12",
+        "xmv_07"
+      ],
+      "display_name": "TE",
+      "seed": 20260627,
+      "sensitivity_matrix": {
+        "cols": 8,
+        "rows": 12
+      }
+    }
+  },
+  "rq": "RQ1",
+  "runtime_rule": "duration + 100",
+  "schema_version": 1
+}

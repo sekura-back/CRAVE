@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "runtime_rule": "duration + 100",
+  "seed": 460,
+  "representative_samples": 10,
+  "sample_duration_mod": 50,
+  "dynamic_slope_tol": 1e-05,
+  "delta_merge_factor": 0.2,
+  "rows": [
+    {
+      "platform": "boiler_ccs",
+      "hazard_driver": "fuel_command",
+      "region_count": 79,
+      "representative_region_count": 330,
+      "representative_nonempty_count": 244,
+      "d_threshold": 0.0005276309641202294,
+      "original_delta_merge": 0.0026381548206011467
+    },
+    {
+      "platform": "boiler_ccs",
+      "hazard_driver": "water_pump_speed",
+      "region_count": 74,
+      "representative_region_count": 380,
+      "representative_nonempty_count": 125,
+      "d_threshold": 0.0007591078016493058,
+      "original_delta_merge": 0.003795539008246529
+    },
+    {
+      "platform": "TE",
+      "hazard_driver": "XMV_04",
+      "region_count": 12,
+      "representative_region_count": 140,
+      "representative_nonempty_count": 12,
+      "d_threshold": 6.526983672473967e-05,
+      "original_delta_merge": 0.0003263491836236983
+    },
+    {
+      "platform": "TE",
+      "hazard_driver": "XMV_07",
+      "region_count": 57,
+      "representative_region_count": 160,
+      "representative_nonempty_count": 119,
+      "d_threshold": 0.0006260558688642915,
+      "original_delta_merge": 0.0031302793443214573
+    },
+    {
+      "platform": "TE",
+      "hazard_driver": "XMV_08",
+      "region_count": 80,
+      "representative_region_count": 250,
+      "representative_nonempty_count": 250,
+      "d_threshold": 0.006451972589298603,
+      "original_delta_merge": 0.032259862946493016
+    }
+  ]
+}
