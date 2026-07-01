@@ -1,0 +1,52 @@
+[
+  {
+    "Platform": "Boiler CCS",
+    "Analysis task": "Hazard-driving region search",
+    "Cases": 2,
+    "CPU (s)": "61.5 / 67.1",
+    "Wall (s)": "17.8 / 17.8",
+    "Mem (MB)": "1800.1",
+    "case_names": [
+      "fuel_command pos",
+      "water_pump_speed pos"
+    ]
+  },
+  {
+    "Platform": "Boiler CCS",
+    "Analysis task": "Alarm-masking domain",
+    "Cases": 2,
+    "CPU (s)": "165.7 / 238.3",
+    "Wall (s)": "12.3 / 16.9",
+    "Mem (MB)": "787.8",
+    "case_names": [
+      "fuel_command pos",
+      "water_pump_speed pos"
+    ]
+  },
+  {
+    "Platform": "TE",
+    "Analysis task": "Hazard-driving region search",
+    "Cases": 3,
+    "CPU (s)": "595.2 / 686.6",
+    "Wall (s)": "124.7 / 140.4",
+    "Mem (MB)": "1415.7",
+    "case_names": [
+      "xmv_07 pos",
+      "xmv_04 pos",
+      "xmv_08 pos"
+    ]
+  },
+  {
+    "Platform": "TE",
+    "Analysis task": "Alarm-masking domain",
+    "Cases": 3,
+    "CPU (s)": "119.4 / 149.6",
+    "Wall (s)": "9.3 / 11.2",
+    "Mem (MB)": "841.2",
+    "case_names": [
+      "xmv_07 pos",
+      "xmv_04 pos",
+      "xmv_08 pos"
+    ]
+  }
+]

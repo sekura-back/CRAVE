@@ -72,3 +72,13 @@ The final Part B result uses:
 - `partition_alarm_accuracy_samples = 1000`
 
 These are explicit reproduction parameters, not temporary debug knobs.
+
+## Resource-Cost Table
+
+The retained resource-cost measurements are stored in `resource_cost/`. Reprint
+the paper-facing Markdown table and refresh the grouped JSON/Markdown outputs
+with:
+
+```powershell
+python -m evaluation.rq4.resource_cost_table --root . --write
+```

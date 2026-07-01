@@ -1,0 +1,122 @@
+[
+  {
+    "label": "stage2_base_boiler_fuel_command_pos_w16",
+    "stage": "Stage 2 hazard-driving region search",
+    "platform": "Boiler CCS",
+    "case": "fuel_command pos (workers=16)",
+    "return_code": 0,
+    "wall_seconds": 17.843240800000785,
+    "cpu_seconds": 67.109375,
+    "peak_rss_mb": 912.30859375,
+    "peak_child_processes": 16,
+    "peak_processes": 17
+  },
+  {
+    "label": "stage2_base_te_xmv07_pos_w16",
+    "stage": "Stage 2 hazard-driving region search",
+    "platform": "TE",
+    "case": "xmv_07 pos (workers=16)",
+    "return_code": 0,
+    "wall_seconds": 140.4434911999997,
+    "cpu_seconds": 686.640625,
+    "peak_rss_mb": 1249.1953125,
+    "peak_child_processes": 16,
+    "peak_processes": 17
+  },
+  {
+    "label": "stage3_boiler_fuel_command_pos_w16",
+    "stage": "Stage 3 region construction",
+    "platform": "Boiler CCS",
+    "case": "fuel_command pos (workers=16)",
+    "return_code": 0,
+    "wall_seconds": 16.853707500000382,
+    "cpu_seconds": 238.265625,
+    "peak_rss_mb": 782.53515625,
+    "peak_child_processes": 16,
+    "peak_processes": 17
+  },
+  {
+    "label": "stage3_te_xmv07_pos_w16",
+    "stage": "Stage 3 region construction",
+    "platform": "TE",
+    "case": "xmv_07 pos (workers=16)",
+    "return_code": 0,
+    "wall_seconds": 8.182098899998891,
+    "cpu_seconds": 107.0625,
+    "peak_rss_mb": 826.21484375,
+    "peak_child_processes": 16,
+    "peak_processes": 17
+  },
+  {
+    "label": "stage2_base_boiler_water_pump_speed_pos_w16",
+    "stage": "Stage 2 hazard-driving region search",
+    "platform": "Boiler CCS",
+    "case": "water_pump_speed pos (workers=16)",
+    "return_code": 0,
+    "wall_seconds": 17.823532599999453,
+    "cpu_seconds": 55.890625,
+    "peak_rss_mb": 1800.09765625,
+    "peak_child_processes": 16,
+    "peak_processes": 17
+  },
+  {
+    "label": "stage2_base_te_xmv04_pos_w16",
+    "stage": "Stage 2 hazard-driving region search",
+    "platform": "TE",
+    "case": "xmv_04 pos (workers=16)",
+    "return_code": 0,
+    "wall_seconds": 113.49836890000006,
+    "cpu_seconds": 489.625,
+    "peak_rss_mb": 1351.94921875,
+    "peak_child_processes": 16,
+    "peak_processes": 17
+  },
+  {
+    "label": "stage2_base_te_xmv08_pos_w16",
+    "stage": "Stage 2 hazard-driving region search",
+    "platform": "TE",
+    "case": "xmv_08 pos (workers=16)",
+    "return_code": 0,
+    "wall_seconds": 120.26732770000126,
+    "cpu_seconds": 609.359375,
+    "peak_rss_mb": 1415.671875,
+    "peak_child_processes": 16,
+    "peak_processes": 17
+  },
+  {
+    "label": "stage3_boiler_water_pump_speed_pos_w16",
+    "stage": "Stage 3 region construction",
+    "platform": "Boiler CCS",
+    "case": "water_pump_speed pos (workers=16)",
+    "return_code": 0,
+    "wall_seconds": 7.647353899999871,
+    "cpu_seconds": 93.21875,
+    "peak_rss_mb": 787.82421875,
+    "peak_child_processes": 16,
+    "peak_processes": 17
+  },
+  {
+    "label": "stage3_te_xmv04_pos_w16",
+    "stage": "Stage 3 region construction",
+    "platform": "TE",
+    "case": "xmv_04 pos (workers=16)",
+    "return_code": 0,
+    "wall_seconds": 8.648384199997963,
+    "cpu_seconds": 101.59375,
+    "peak_rss_mb": 841.2265625,
+    "peak_child_processes": 16,
+    "peak_processes": 17
+  },
+  {
+    "label": "stage3_te_xmv08_pos_w16",
+    "stage": "Stage 3 region construction",
+    "platform": "TE",
+    "case": "xmv_08 pos (workers=16)",
+    "return_code": 0,
+    "wall_seconds": 11.209031200000027,
+    "cpu_seconds": 149.5625,
+    "peak_rss_mb": 836.1484375,
+    "peak_child_processes": 16,
+    "peak_processes": 17
+  }
+]
